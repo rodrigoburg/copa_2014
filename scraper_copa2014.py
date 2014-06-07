@@ -23,7 +23,8 @@ def partidasDia(dia):
         jogo = adicionaPartidas(p)
         if jogo:
             adicionaEventos(jogo)
-            adicionaJogadores(jogo)
+            jogadores = adicionaJogadores(jogo)
+            atualizaJogadoresInfo(jogadores)
 
 def adicionaPartidas(partida):  
     #separa os campos de cada partida e monta o resultado final
@@ -61,32 +62,128 @@ def adicionaPartidas(partida):
         return False
 
 def adicionaJogadores(partida):
-    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/oly_msoc_lineups_2012081111387.txt&timezone=ET&pad=y&callback=cb"
+    codigo = partida['codigo_partida']
+    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/oly_msoc_lineups_"+codigo+".txt&timezone=ET&pad=y&callback=cb"
     #codigo = partida['codigo_partida']
     #url = "http://hosted.stats.com/ifb2009/data.asp?file=en/oly_msoc_lineups_"+codigo+".txt"
     page = BeautifulSoup(urlopen(url).read())
     
+    #pega os valores brutos
     jogadores = str(page).split("=")
-    titulares = jogadores[2].split("&")[0]+jogadores[3].split("&")[0]
-    reservas = jogadores[4].split("&")[0]+jogadores[5].split("&")[0]
-    eventos = jogadores[6].split("&")[0]+jogadores[7].split("&")[0]
+    titulares_bruto = jogadores[2].split("&")[0]+jogadores[3].split("&")[0]
+    banco_bruto = jogadores[4].split("&")[0]+jogadores[5].split("&")[0]
+    eventos_bruto = jogadores[8].split("&")[0]+jogadores[9].split("&")[0]
     
-    print(reservas)
+    #cria lista com dicionários e campos organizados
+    resultado = []
+    for t in titulares_bruto.split("|"):
+        campos = t.split("~")
+        jogador = {}
+        jogador["codigo"] = campos[0]
+        jogador["partida"] = codigo
+        jogador["evento"] = "titular"
+        resultado.append(jogador)
+        
+    for t in banco_bruto.split("|"):
+        campos = t.split("~")
+        jogador = {}
+        jogador["codigo"] = campos[0]
+        jogador["partida"] = codigo
+        jogador["evento"] = "banco"
+        resultado.append(jogador)
     
+    for t in eventos_bruto.split("|"):
+        campos = t.split("~")
+        jogador = {}
+        jogador["partida"] = codigo
+        #se for sub, adiciona dois jogadores aos eventos
+        if campos[1] == "sub":
+            jogador["evento"] = "sub_entrou"
+            jogador["codigo"] = campos[3].split("*")[0].split("#")[1]
+            resultado.append(jogador)
+            jogador2 = {}
+            jogador2["partida"] = codigo
+            jogador2["evento"] = "sub_saiu"
+            jogador2["codigo"] = campos[3].split("*")[1].split("#")[1]
+            resultado.append(jogador2)
+            
+        else:
+            jogador["evento"] = campos[1]
+            jogador["codigo"] = campos[3].split("#")[1]
+            resultado.append(jogador)
+
+    #adiciona as novas infos no banco
+    client = MongoClient()
+    my_db = client["copa"]
+    my_collection = my_db["jogadores"]
+    
+    for r in resultado:
+    
+        my_collection.insert(r)
+    
+    retornar = [r["codigo"] for r in resultado]
+    return set(retornar)
+    
+def atualizaJogadoresInfo(jogadores):
+    client = MongoClient()
+    my_db = client["copa"]
+    my_collection = my_db["jogadores_info"]
+    
+    #não adiciona jogador se ele já estiver no sistema
+    jogadores_antigos = [j["codigo"] for j in list(my_collection.find())]
+    
+    for j in jogadores:
+        if j not in jogadores_antigos:
+            url = "http://hosted.stats.com/ifb2009/data.asp?file=en/oly_msoc_player_"+j+".txt&timezone=ET&pad=y&callback=cb"
+            page = BeautifulSoup(urlopen(url).read())
+            page = str(page).replace('cb({"data":"&amp;player;',"")
+            page = page.replace(';biography;=&amp;Endstr;=End"})',"")
+            campos = page.split("=")
+            jogador = {}
+            jogador["nome"] = campos[1].split("&")[0]
+            jogador["codigo"] = campos[2].split("&")[0]
+            jogador["codigo_time"] = campos[3].split("&")[0]        
+            jogador["camisa"] = campos[4].split("&")[0]
+            jogador["posicao"] = campos[5].split("&")[0]    
+            jogador["time"] = campos[7].split("~")[0]
+            try: #se tiver cidade e país de nascimento
+                jogador["cidade_nascimento"] = campos[7].split("~")[2].split(",")[0].strip()
+                jogador["pais_nascimento"] = campos[7].split("~")[2].split(",")[1].strip()
+            except IndexError: #se não, deixa a cidade como indefinido
+                jogador["cidade_nascimento"] = "indefinido"
+                jogador["pais_nascimento"] = campos[7].split("~")[2].split(",")[0].strip()
+            jogador["altura"] = campos[7].split("~")[3].split(" ")[0]
+            jogador["peso"] = campos[7].split("~")[4].split(" ")[0]
+            try: #se tiver data de nascimento
+                jogador["ano_nascimento"] = campos[7].split("~")[5].split(",")[1].strip().split("&")[0]
+            except IndexError: #se não tiver
+                jogador["ano_nascimento"] = "indefinido"
+            try:
+                infos_bruto = campos[11].split("~")
+                infos = [inf.split("^")[0] for inf in infos_bruto]
+                jogador["gols"] = infos[1]
+                jogador["assistencias"] = infos[2]
+                jogador["chutes_total"] = infos[3]
+                jogador["passes"] = infos[5]
+                jogador["intercepcoes"] = infos[6]
+                jogador["bloqueios"] = infos[7]
+                jogador["tomadas_de_bola"] = infos[8]
+                jogador["faltas_cometidas"] = infos[11]
+                jogador["faltas_recebidas"] = infos[12]
+                jogador["cruzamentos"] = infos[13]
+                jogador["impedimentos"] = infos[14]
+            except IndexError: 
+                pass
+                            
+
+            my_collection.insert(jogador)            
+
 def infoTime():
     url = "http://hosted.stats.com/ifb2009/data.asp?file=en/braz_team_7265.txt&timezone=ET&pad=y&callback=cb"
     page = BeautifulSoup(urlopen(url).read())
     campos = page.getText().split(";")
     for c in campos:
         print(c)
-
-def guardaURLs():
-    tecnicos = "http://hosted.stats.com/ifb2009/data.asp?file=en/braz_coaches.txt&timezone=ET&pad=y&callback=cb"
-    escalacao_por_partida = "http://hosted.stats.com/ifb2009/data.asp?file=en/braz_formatn_2014053110801.txt&timezone=ET&pad=y&callback=cb"
-    escalacao_completa_gols_cartoes = "http://hosted.stats.com/ifb2009/data.asp?file=en/braz_lineups_2014053110801.txt&timezone=ET&pad=y&callback=cb"
-    gols_publico_juiz = "http://hosted.stats.com/ifb2009/data.asp?file=en/braz_score_2014053110801.txt&timezone=ET&pad=y&callback=cb"
-    timeline = "http://hosted.stats.com/ifb2009/data.asp?file=en/oly_msoc_timeline_2012081111387.txt&timezone=ET&pad=y&callback=cb"
-    chutes_gols_posicao = "http://hosted.stats.com/ifb2009/data.asp?file=en/oly_msoc_shotchrt_2012081111387.txt&timezone=ET&pad=y&callback=cb"
     
 def atualizaPartidas():
     datas = ['20120726','20120729','20120801','20120804','20120807','20120810','20120811']
@@ -228,7 +325,47 @@ def calculaFaltas(eventos):
     #junta todos os arquivos em um só e exporta para csv
     resultado = concat([faltas_por_time,faltas_por_quadrante,faltas_por_intervalo], axis=1)
     resultado.to_csv("calcula_faltas.csv")
+
+def calculaJogador(eventos):
+    #calcula partidas titulares dos jogadores
+    titulares = eventos[eventos.evento == "titular"]
+    titular = pivot_table(titulares, values='evento', rows="codigo", aggfunc="count")
     
+    #calcula partidas banco dos jogadores
+    bancos = eventos[eventos.evento == "banco"]
+    banco = pivot_table(bancos, values='evento', rows="codigo", aggfunc="count")
+    
+    #calcula partidas que saiu dos jogadores
+    sairam = eventos[eventos.evento == "sub_saiu"]
+    saiu = pivot_table(sairam, values='evento', rows="codigo", aggfunc="count")
+    
+    #calcula partidas que entraram dos jogadores
+    entraram = eventos[eventos.evento == "sub_entrou"]
+    entrou = pivot_table(entraram, values='evento', rows="codigo", aggfunc="count")
+    
+    #calcula cartões amarelos jogadores
+    amarelos = eventos[eventos.evento == "ycard"]
+    amarelo = pivot_table(amarelos, values='evento', rows="codigo", aggfunc="count")
+    
+    #calcula cartões vermelhos jogadores
+    vermelhos = eventos[eventos.evento == "rcard"]
+    vermelho = pivot_table(vermelhos, values='evento', rows="codigo", aggfunc="count")
+    
+    resultado=concat([titular,banco,saiu,entrou,amarelo,vermelho], axis=1)
+    resultado = resultado.fillna(0)
+    resultado.columns = ["titular","banco","saiu","entrou","amarelo","vermelho"]
+    
+    #adiciona infos do jogador que está no banco de dados
+    jogadores_antigos = consultaBase("jogadores_info")
+    jogadores_antigos = jogadores_antigos.set_index("codigo")
+    
+    resultado = resultado.join(jogadores_antigos,how="left")
+    del resultado["_id"]
+
+    
+    resultado.to_csv("calcula_jogador.csv")
+    
+
 def achaQuadrante(local,lado):
     #se o local for válido
     if local:
@@ -302,8 +439,10 @@ def desenhaExcel():
 #desenhaExcel()
 #limpaBase("partidas")
 #limpaBase("eventos")
-#print(consultaBase("partidas"))
-#eventos = print(consultaBase("eventos"))
-#calculaFaltas(consultaBase("eventos"))
+#limpaBase("jogadores")
+#limpaBase("jogadores_info")
 #atualizaPartidas()
-adicionaJogadores("ble")
+#print(consultaBase("jogadores_info"))
+#calculaFaltas(consultaBase("eventos"))
+calculaJogador(consultaBase("jogadores"))
+
