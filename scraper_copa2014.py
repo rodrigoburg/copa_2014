@@ -161,21 +161,30 @@ def atualizaJogadoresInfo(jogadores):
             try:
                 infos_bruto = campos[11].split("~")
                 infos = [inf.split("^")[0] for inf in infos_bruto]
-                jogador["gols"] = infos[1]
-                jogador["assistencias"] = infos[2]
-                jogador["chutes_total"] = infos[3]
-                jogador["passes"] = infos[5]
-                jogador["intercepcoes"] = infos[6]
-                jogador["bloqueios"] = infos[7]
-                jogador["tomadas_de_bola"] = infos[8]
-                jogador["faltas_cometidas"] = infos[11]
-                jogador["faltas_recebidas"] = infos[12]
-                jogador["cruzamentos"] = infos[13]
-                jogador["impedimentos"] = infos[14]
+                if jogador["posicao"] != "Goalkeeper": #não for goleiro
+                    jogador["gols"] = infos[1]
+                    jogador["assistencias"] = infos[2]
+                    jogador["chutes_total"] = infos[3]
+                    jogador["passes"] = infos[5]
+                    jogador["intercepcoes"] = infos[6]
+                    jogador["bloqueios"] = infos[7]
+                    jogador["tomadas_de_bola"] = infos[8]
+                    jogador["faltas_cometidas"] = infos[11]
+                    jogador["faltas_recebidas"] = infos[12]
+                    jogador["cruzamentos"] = infos[13]
+                    jogador["impedimentos"] = infos[14]
+                else: #se for goleiro
+                    jogador["gols_tomados"] = infos[0]
+                    jogador["chutes_enfrentados"] = infos[1]
+                    jogador["chutes_a_gol_enfrentados"] = infos[2]
+                    jogador["salvadas"] = infos[3]
+                    jogador["penaltis_enfrentados"] = infos[4]
+                    jogador["penaltis_pegos"] = infos[5]
+                    jogador["jogos_sem_levar_gol"] = infos[6]                
+                
             except IndexError: 
                 pass
                             
-
             my_collection.insert(jogador)            
 
 def infoTime():
@@ -437,11 +446,11 @@ def desenhaExcel():
 
 
 #desenhaExcel()
-#limpaBase("partidas")
-#limpaBase("eventos")
-#limpaBase("jogadores")
-#limpaBase("jogadores_info")
-#atualizaPartidas()
+limpaBase("partidas")
+limpaBase("eventos")
+limpaBase("jogadores")
+limpaBase("jogadores_info")
+atualizaPartidas()
 #print(consultaBase("jogadores_info"))
 #calculaFaltas(consultaBase("eventos"))
 calculaJogador(consultaBase("jogadores"))
