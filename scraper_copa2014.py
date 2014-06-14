@@ -9,7 +9,7 @@ from re import match
 from datetime import date, datetime, timedelta as td
 
 def partidasDia(dia):
-    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_frnd_results_"+dia+".txt"
+    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_results_"+dia+".txt"
     page = BeautifulSoup(urlopen(url).read())
     
     #se houver partida
@@ -28,7 +28,7 @@ def partidasDia(dia):
                 adicionaEventos(jogo)
                 jogadores = adicionaJogadores(jogo)
                 if jogadores: #se houver info
-                    atualizaJogadoresInfo(jogadores)
+                    atualizaJogadoresInfo(jogadores,jogo)
 
 
 def adicionaPartidas(partida):  
@@ -68,10 +68,11 @@ def adicionaPartidas(partida):
 
 def adicionaJogadores(partida):
     codigo = partida['codigo_partida']
-    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_frnd_lineups_"+codigo+".txt&timezone=ET&pad=y&callback=cb"
+    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_lineups_"+codigo+".txt&timezone=ET&pad=y&callback=cb"
     #codigo = partida['codigo_partida']
-    #url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_frnd_lineups_"+codigo+".txt"
+    #url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_lineups_"+codigo+".txt"
     page = BeautifulSoup(urlopen(url).read())
+
     #se houver info
     try:
         #pega os valores brutos
@@ -122,9 +123,8 @@ def adicionaJogadores(partida):
         client = MongoClient()
         my_db = client["copa"]
         my_collection = my_db["jogadores"]
-    
+
         for r in resultado:
-    
             my_collection.insert(r)
     
         retornar = [r["codigo"] for r in resultado]
@@ -132,8 +132,8 @@ def adicionaJogadores(partida):
     except IndexError: #se não houver info
         return False
 
-    
-def atualizaJogadoresInfo(jogadores):
+
+def atualizaJogadoresInfo(jogadores,partida):
     client = MongoClient()
     my_db = client["copa"]
     my_collection = my_db["jogadores_info"]
@@ -141,9 +141,11 @@ def atualizaJogadoresInfo(jogadores):
     #não adiciona jogador se ele já estiver no sistema
     jogadores_antigos = [j["codigo"] for j in list(my_collection.find())]
     
+    total_jogadores = []
     for j in jogadores:
         if j not in jogadores_antigos:
-            url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_frnd_player_"+j+".txt&timezone=ET&pad=y&callback=cb"
+            #primeira página de stats
+            url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_player_"+j+".txt"
             page = BeautifulSoup(urlopen(url).read())
             #se houver jogador
             try:
@@ -153,59 +155,85 @@ def atualizaJogadoresInfo(jogadores):
                 jogador = {}
                 jogador["nome"] = campos[1].split("&")[0]
                 jogador["codigo"] = campos[2].split("&")[0]
-                jogador["codigo_time"] = campos[3].split("&")[0]        
-                jogador["camisa"] = campos[4].split("&")[0]
-                jogador["posicao"] = campos[5].split("&")[0]    
-                jogador["time"] = campos[7].split("~")[0]
+                infos = campos[7].split("~")
+                jogador["time"] = infos[0]
+                jogador["posicao"] = infos[1]
                 try: #se tiver cidade e país de nascimento
-                    jogador["cidade_nascimento"] = campos[7].split("~")[2].split(",")[0].strip()
-                    jogador["pais_nascimento"] = campos[7].split("~")[2].split(",")[1].strip()
+                    jogador["cidade_nascimento"] = infos[2].split(",")[0].strip()
+                    jogador["pais_nascimento"] = infos[2].split(",")[1].strip()
                 except IndexError: #se não, deixa a cidade como indefinido
                     jogador["cidade_nascimento"] = "indefinido"
-                    jogador["pais_nascimento"] = campos[7].split("~")[2].split(",")[0].strip()
-                jogador["altura"] = campos[7].split("~")[3].split(" ")[0]
-                jogador["peso"] = campos[7].split("~")[4].split(" ")[0]
+                    jogador["pais_nascimento"] = infos[2].split(",")[0].strip()
+                jogador["altura"] = infos[3].split(" ")[0]
+                jogador["peso"] = infos[4].split(" ")[0]
                 try: #se tiver data de nascimento
-                    jogador["ano_nascimento"] = campos[7].split("~")[5].split(",")[1].strip().split("&")[0]
+                    jogador["ano_nascimento"] = infos[5].split(",")[1].strip().split("&")[0]
                 except IndexError: #se não tiver
                     jogador["ano_nascimento"] = "indefinido"
-                try:
-                    infos_bruto = campos[11].split("~")
-                    infos = [inf.split("^")[0] for inf in infos_bruto]
-                    if jogador["posicao"] != "Goalkeeper": #não for goleiro
-                        jogador["gols"] = infos[1]
-                        jogador["assistencias"] = infos[2]
-                        jogador["chutes_total"] = infos[3]
-                        jogador["passes"] = infos[5]
-                        jogador["intercepcoes"] = infos[6]
-                        jogador["bloqueios"] = infos[7]
-                        jogador["tomadas_de_bola"] = infos[8]
-                        jogador["faltas_cometidas"] = infos[11]
-                        jogador["faltas_recebidas"] = infos[12]
-                        jogador["cruzamentos"] = infos[13]
-                        jogador["impedimentos"] = infos[14]
-                    else: #se for goleiro
-                        jogador["gols_tomados"] = infos[0]
-                        jogador["chutes_enfrentados"] = infos[1]
-                        jogador["chutes_a_gol_enfrentados"] = infos[2]
-                        jogador["salvadas"] = infos[3]
-                        jogador["penaltis_enfrentados"] = infos[4]
-                        jogador["penaltis_pegos"] = infos[5]
-                        jogador["jogos_sem_levar_gol"] = infos[6]                
-                
-                except IndexError: 
-                    pass
-                            
-                my_collection.insert(jogador)            
-            
             except IndexError:
                 pass
+            total_jogadores.append(jogador)                        
+    
+    #segunda página de stats
+    url = "http://matchcast.estadao.stats.com/ifb2009/data.asp?file=pt/natl_wcup_plyrstat_"+partida["codigo_partida"]+".txt"
+    page = BeautifulSoup(urlopen(url).read())
+
+    campos = str(page).split("=")
+     #para não goleiro
+    infos_bruto = campos[5].split("|")
+    for j in infos_bruto:
+        try:
+            infos = j.split("~")
+            codigo = infos[1]
+            informacoes = [inf.split("^")[0] for inf in infos]
+            jogador = {}
+            jogador["gols"] = informacoes[5]
+            jogador["assistencias"] = informacoes[6]
+            jogador["chutes_total"] = informacoes[7]
+            jogador["chutes_certos"] = informacoes[8]
+            jogador["passes"] = informacoes[9]
+            jogador["roubadas"] = informacoes[10]
+            jogador["bloqueios"] = informacoes[11]
+            jogador["carrinhos"] = informacoes[12]
+            jogador["faltas_cometidas"] = informacoes[15]
+            jogador["faltas_sofridas"] = informacoes[16]
+            jogador["cruzamentos"] = informacoes[17]
+            jogador["impedimentos"] = informacoes[18]
+            
+            for t in total_jogadores:
+                if t["codigo"] == codigo:
+                    saida = dict(list(t.items()) + list(jogador.items()))
+                    my_collection.insert(saida)
+        except IndexError: 
+            pass    
+    
+    #agora os goleiros
+    infos_bruto = campos[7].split("|")
+    for j in infos_bruto:
+        try:
+            infos = j.split("~")
+            codigo = infos[1]
+            informacoes = [inf.split("^")[0] for inf in infos]
+            jogador = {}
+ #           jogador["defesa_menos_vazada"] = informacoes[0]
+ #           jogador["defesas"] = informacoes[1]
+ #           jogador["chutes_recebidos1"] = informacoes[2]
+ #           jogador["chutes_recebidos2"] = informacoes[3]
+ #           jogador["faltas_cometidas"] = informacoes[4]
+ #           jogador["faltas_sofridas"] = informacoes[5]
+            for t in total_jogadores:
+                if t["codigo"] == codigo:
+                    saida = dict(list(t.items()) + list(jogador.items()))
+                    my_collection.insert(saida)
+            
+        except IndexError: 
+            pass    
     
 def adicionaEventos(partida):
     codigo = partida['codigo_partida']
     time1 = partida['time1']
     time2 = partida['time2']
-    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_frnd_shotchrt_"+codigo+".txt"
+    url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_shotchrt_"+codigo+".txt"
     page = BeautifulSoup(urlopen(url).read())
     
     #se houver evento
@@ -325,7 +353,7 @@ def calculaGols(eventos):
     gols_por_intervalo = gols_por_intervalo.apply(lambda t: np.round(t,1))
     
     #junta todos os arquivos em um só e exporta para csv
-    resultado = concat([aproveitamento,aproveitamento_por_quadrante,gols_por_intervalo], axis=1)
+    resultado = concat([num_jogos,aproveitamento,aproveitamento_por_quadrante,gols_por_intervalo], axis=1)
     names = list(resultado.columns)
     names[0] = "jogos"
     resultado.columns = names
@@ -374,30 +402,35 @@ def calculaJogador(eventos):
     #calcula partidas titulares dos jogadores
     titulares = eventos[eventos.evento == "titular"]
     titular = pivot_table(titulares, values='evento', rows="codigo", aggfunc="count")
-    
+    titular = titular.to_frame("titular")
+
     #calcula partidas banco dos jogadores
     bancos = eventos[eventos.evento == "banco"]
     banco = pivot_table(bancos, values='evento', rows="codigo", aggfunc="count")
+    banco = banco.to_frame("banco")
     
     #calcula partidas que saiu dos jogadores
     sairam = eventos[eventos.evento == "sub_saiu"]
     saiu = pivot_table(sairam, values='evento', rows="codigo", aggfunc="count")
+    saiu = saiu.to_frame("saiu")
     
     #calcula partidas que entraram dos jogadores
     entraram = eventos[eventos.evento == "sub_entrou"]
     entrou = pivot_table(entraram, values='evento', rows="codigo", aggfunc="count")
+    entrou = entrou.to_frame("entrou")
     
     #calcula cartões amarelos jogadores
     amarelos = eventos[eventos.evento == "ycard"]
     amarelo = pivot_table(amarelos, values='evento', rows="codigo", aggfunc="count")
+    amarelo = amarelo.to_frame("amarelo")
     
     #calcula cartões vermelhos jogadores
     vermelhos = eventos[eventos.evento == "rcard"]
     vermelho = pivot_table(vermelhos, values='evento', rows="codigo", aggfunc="count")
+    vermelho = vermelho.to_frame("vermelho")
     
     resultado=concat([titular,banco,saiu,entrou,amarelo,vermelho], axis=1)
     resultado = resultado.fillna(0)
-    resultado.columns = ["titular","banco","saiu","entrou","amarelo","vermelho"]
     
     #adiciona infos do jogador que está no banco de dados
     jogadores_antigos = consultaBase("jogadores_info")
@@ -405,7 +438,6 @@ def calculaJogador(eventos):
     
     resultado = resultado.join(jogadores_antigos,how="left")
     del resultado["_id"]
-
     
     resultado.to_csv("calcula_jogador.csv")
     
@@ -480,8 +512,8 @@ def desenhaExcel():
         worksheet.write(s, soma[s])
 
 def atualizaPartidas():
-    data_inicio = datetime.strptime('01022013', "%d%m%Y").date()
-    data_fim = datetime.strptime('09062014', "%d%m%Y").date()
+    data_inicio = datetime.strptime('12062014', "%d%m%Y").date()
+    data_fim = datetime.strptime('13062014', "%d%m%Y").date()
     delta = data_fim - data_inicio
     datas = []
     for i in range(delta.days + 1):
@@ -504,8 +536,9 @@ def fazConsultas():
     
 
 #desenhaExcel()
-limpaBases()
+#limpaBases()
 atualizaPartidas()
-#fazConsultas()
-#print(consultaBase("jogadores_info"))
+fazConsultas()
+#teste = consultaBase("jogadores_info")
+#teste.to_csv("teste_copa.csv")
 
