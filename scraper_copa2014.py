@@ -138,9 +138,6 @@ def atualizaJogadoresInfo(jogadores,partida):
     my_db = client["copa"]
     my_collection = my_db["jogadores_info"]
     
-    #não adiciona jogador se ele já estiver no sistema
-    jogadores_antigos = [j["codigo"] for j in list(my_collection.find())]
-    
     total_jogadores = []
     for j in jogadores:
         #primeira página de stats
@@ -156,6 +153,7 @@ def atualizaJogadoresInfo(jogadores,partida):
             jogador["codigo"] = campos[2].split("&")[0]
             infos = campos[7].split("~")
             jogador["time"] = infos[0]
+            jogador["adversario"] = partida["time1"] if jogador["time"] == partida["time2"] else partida["time2"]
             jogador["posicao"] = infos[1]
             try: #se tiver cidade e país de nascimento
                 jogador["cidade_nascimento"] = infos[2].split(",")[0].strip()
@@ -443,7 +441,7 @@ def calculaJogador(eventos):
     
     #adiciona infos do jogador que está no banco de dados
     jogadores_antigos = consultaBase("jogadores_info")
-    
+    print(jogadores_antigos)
     #enche vazios e NAs com 0
     jogadores_antigos = jogadores_antigos.fillna(0)
     for coluna in jogadores_antigos:
