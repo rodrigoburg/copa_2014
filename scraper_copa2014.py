@@ -143,36 +143,35 @@ def atualizaJogadoresInfo(jogadores,partida):
     
     total_jogadores = []
     for j in jogadores:
-        if j not in jogadores_antigos:
-            #primeira página de stats
-            url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_player_"+j+".txt"
-            page = BeautifulSoup(urlopen(url).read())
-            #se houver jogador
-            try:
-                page = str(page).replace('cb({"data":"&amp;player;',"")
-                page = page.replace(';biography;=&amp;Endstr;=End"})',"")
-                campos = page.split("=")
-                jogador = {}
-                jogador["nome"] = campos[1].split("&")[0]
-                jogador["codigo"] = campos[2].split("&")[0]
-                infos = campos[7].split("~")
-                jogador["time"] = infos[0]
-                jogador["posicao"] = infos[1]
-                try: #se tiver cidade e país de nascimento
-                    jogador["cidade_nascimento"] = infos[2].split(",")[0].strip()
-                    jogador["pais_nascimento"] = infos[2].split(",")[1].strip()
-                except IndexError: #se não, deixa a cidade como indefinido
-                    jogador["cidade_nascimento"] = "indefinido"
-                    jogador["pais_nascimento"] = infos[2].split(",")[0].strip()
-                jogador["altura"] = infos[3].split(" ")[0]
-                jogador["peso"] = infos[4].split(" ")[0]
-                try: #se tiver data de nascimento
-                    jogador["ano_nascimento"] = infos[5].split(",")[1].strip().split("&")[0]
-                except IndexError: #se não tiver
-                    jogador["ano_nascimento"] = "indefinido"
-            except IndexError:
-                pass
-            total_jogadores.append(jogador)                        
+        #primeira página de stats
+        url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_player_"+j+".txt"
+        page = BeautifulSoup(urlopen(url).read())
+        #se houver jogador
+        try:
+            page = str(page).replace('cb({"data":"&amp;player;',"")
+            page = page.replace(';biography;=&amp;Endstr;=End"})',"")
+            campos = page.split("=")
+            jogador = {}
+            jogador["nome"] = campos[1].split("&")[0]
+            jogador["codigo"] = campos[2].split("&")[0]
+            infos = campos[7].split("~")
+            jogador["time"] = infos[0]
+            jogador["posicao"] = infos[1]
+            try: #se tiver cidade e país de nascimento
+                jogador["cidade_nascimento"] = infos[2].split(",")[0].strip()
+                jogador["pais_nascimento"] = infos[2].split(",")[1].strip()
+            except IndexError: #se não, deixa a cidade como indefinido
+                jogador["cidade_nascimento"] = "indefinido"
+                jogador["pais_nascimento"] = infos[2].split(",")[0].strip()
+            jogador["altura"] = infos[3].split(" ")[0]
+            jogador["peso"] = infos[4].split(" ")[0]
+            try: #se tiver data de nascimento
+                jogador["ano_nascimento"] = infos[5].split(",")[1].strip().split("&")[0]
+            except IndexError: #se não tiver
+                jogador["ano_nascimento"] = "indefinido"
+        except IndexError:
+            pass
+        total_jogadores.append(jogador)                        
     
     #segunda página de stats
     url = "http://matchcast.estadao.stats.com/ifb2009/data.asp?file=pt/natl_wcup_plyrstat_"+partida["codigo_partida"]+".txt"
@@ -279,7 +278,17 @@ def consultaBase(base):
     my_db = client["copa"]
     my_collection = my_db[base]
     items = list(my_collection.find())
-    return DataFrame(items)
+    #transforma tudo que possível em número
+    saida = []
+    for item in items:
+        jogador = {}
+        for k in item:
+            try:
+                jogador[k] = int(item[k])
+            except:
+                jogador[k] = item[k]
+        saida.append(jogador)
+    return DataFrame(saida)
     
     #exporta pro csv
     #keys = list(items[0].keys())
@@ -357,7 +366,7 @@ def calculaGols(eventos):
     names = list(resultado.columns)
     names[0] = "jogos"
     resultado.columns = names
-    resultado.to_csv("calcula_gols.csv")
+    resultado.to_csv("gols_stats.csv")
 
 def calculaFaltas(eventos):
     #calcula o numero de jogos
@@ -396,7 +405,7 @@ def calculaFaltas(eventos):
     names[0] = "jogos"
     names[1] = "faltas"
     resultado.columns = names
-    resultado.to_csv("calcula_faltas.csv")
+    resultado.to_csv("faltas_stats.csv")
 
 def calculaJogador(eventos):
     #calcula partidas titulares dos jogadores
@@ -434,13 +443,40 @@ def calculaJogador(eventos):
     
     #adiciona infos do jogador que está no banco de dados
     jogadores_antigos = consultaBase("jogadores_info")
+    
+    #enche vazios e NAs com 0
+    jogadores_antigos = jogadores_antigos.fillna(0)
+    for coluna in jogadores_antigos:
+        jogadores_antigos[coluna] = jogadores_antigos[coluna].apply(encheEspaco)
+    
+    #exporta o jogadores_antigos para um csv
+    del jogadores_antigos["_id"]
+    jogadores_antigos.to_csv("jogador_stats_cadajogo.csv",index=False)
+    
+    #faz a tabela dinâmica das infos antigas
+    antigos_dinamica = jogadores_antigos.groupby("codigo").sum()
+    del antigos_dinamica["ano_nascimento"]
+    del antigos_dinamica["peso"]
+    
+    #adiciona infos que retiramos (nome, ano nascimento e peso)
     jogadores_antigos = jogadores_antigos.set_index("codigo")
+    for coluna in jogadores_antigos:
+        if coluna not in ["nome","ano_nascimento","peso","time"]:
+            del jogadores_antigos[coluna]
     
-    resultado = resultado.join(jogadores_antigos,how="left")
-    del resultado["_id"]
-    
-    resultado.to_csv("calcula_jogador.csv")
-    
+    #junta as infos
+    final = jogadores_antigos.join(antigos_dinamica,how="right")
+
+    resultado = final.join(resultado,how="right")
+    resultado = resultado.drop_duplicates()
+
+    resultado.to_csv("jogador_stats_somado.csv")
+
+def encheEspaco(t):
+    if t == "":
+        return 0
+    else:
+        return t
 
 def achaQuadrante(local,lado):
     #se o local for válido
@@ -513,7 +549,7 @@ def desenhaExcel():
 
 def atualizaPartidas():
     data_inicio = datetime.strptime('12062014', "%d%m%Y").date()
-    data_fim = datetime.strptime('13062014', "%d%m%Y").date()
+    data_fim = datetime.strptime('17062014', "%d%m%Y").date()
     delta = data_fim - data_inicio
     datas = []
     for i in range(delta.days + 1):
@@ -536,9 +572,9 @@ def fazConsultas():
     
 
 #desenhaExcel()
-#limpaBases()
+limpaBases()
 atualizaPartidas()
 fazConsultas()
-#teste = consultaBase("jogadores_info")
+#calculaJogador(consultaBase("jogadores"))
 #teste.to_csv("teste_copa.csv")
 

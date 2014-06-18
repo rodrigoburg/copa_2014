@@ -26,6 +26,7 @@ def consultaData(data):
         codigo = find_between(l['href'],"match=","/")
         #se não tiver esse jogo na base:
         antigos = jogosAntigos()
+        print(antigos)
         if codigo not in antigos:
             url = "http://pt.fifa.com"+l['href']
             url = url.replace("index","statistics")
@@ -37,6 +38,10 @@ def consultaJogo(codigo):
 
 def scrape_pagina(url):
     print(url)
+    client = MongoClient()
+    my_db = client["copa"]
+    my_collection = my_db["jogos_fifa"]
+    
     #abre o link
     page = BeautifulSoup(urlopen(url).read())
     
@@ -249,9 +254,6 @@ def scrape_pagina(url):
                 jogo[j] = int(jogo[j])
         
         #adiciona jogo na base
-        client = MongoClient()
-        my_db = client["copa"]
-        my_collection = my_db["jogos_fifa"]
         my_collection.insert(jogo)
         print("Inserido na base: "+jogo["02time1"]+" x "+jogo["03time2"])
     
@@ -346,7 +348,13 @@ def consultaBase(base):
     final.columns = nomes_fim
     return final
 
-def calculaTime(base):
+def arrumaTime(row):
+    if row['time1'] != 0:
+        return row["time1"]
+    else:
+        return row["time2"]
+    
+def calculaTime():
     eventos = consultaBase("jogos_fifa")
 
     colunas = list(eventos.columns)
@@ -357,37 +365,63 @@ def calculaTime(base):
     colunas2 = [campo for campo in colunas if campo[-1] == "2"]
     eventos1 = eventos[colunas1]
     eventos2 = eventos[colunas2]
-    
-    #retira o nome do time do nome das colunas
-    colunas1.pop(0)
-    colunas2.pop(0)
-    
-    #calcula a tabela dinâmica e junta as duas
-    resultado1 = pivot_table(eventos1, values=colunas1, rows="time1", aggfunc="sum")
-    resultado2 = pivot_table(eventos2, values=colunas2, rows="time2", aggfunc="sum")
-    resultado = resultado1.append(resultado2)
-    
-    #acha o número de jogos
-    resultado1_jogos = pivot_table(eventos1, values="gols1", rows="time1", aggfunc="count")
-    resultado2_jogos = pivot_table(eventos2, values="gols2", rows="time2", aggfunc="count")
-    jogos = DataFrame(resultado1_jogos.append(resultado2_jogos))
-    jogos.columns = ["num_jogos"]
 
-    #tira NAs
+    #faz uma tabela só com uma das colunas - cada linha continua sendo um jogo
+    resultado = eventos1.append(eventos2)
     resultado = resultado.fillna(0)
     
-    #junta colunas
-    colunas = resultado.columns
-    novas_colunas = set([c[0:len(c)-1] for c in colunas])
-    for c in novas_colunas:
+    #arruma o nome do time
+    resultado["time"] = resultado.apply(arrumaTime,axis=1)
+    del resultado["time1"]
+    del resultado["time2"]    
+
+    #calcula a soma de todos os indicadores
+    colunas = [c[:-1] for c in colunas1] #tira o 1 dos nomes de coluna
+    colunas.pop(0) #tira o nome dos times
+    
+    for c in colunas:
         resultado[c] = resultado[c+"1"] + resultado[c+"2"]
         del resultado[c+"1"]
         del resultado[c+"2"]
+        
+    #agora com a tabela pronta (cada linha um time), calculamos as tabelas dinamicas
+    saida = resultado.groupby("time").sum()
 
-    #junta número de jogos
-    final = resultado.join(jogos)
+    #acha o número de jogos
+    conta_vezes = resultado.groupby("time").count()
+    jogos = conta_vezes[[1]]
+    jogos.columns = ["jogos"]
+    saida = saida.join(jogos)
+
+    return saida
+
+def calculaJogador():
+    eventos = consultaBase("jogadores_fifa")
+    del eventos["adversario"]
+    del eventos["velocidade_maxima"]
     
-    return final
+    #transforma tudo em inteiro
+    colunas = list(eventos.columns)
+    #retira os três nomes de texto
+    colunas.pop(0)
+    colunas.pop(0)
+    colunas.pop(0)
+    for c in colunas:
+        eventos[c] = eventos[c].apply(float)
+
+    resultado = eventos.groupby("nome").sum()
+    
+    #acha o numero de jogos
+    conta_vezes = eventos.groupby("nome").count()
+    jogos = conta_vezes[[1]]
+    jogos.columns = ["jogos"]
+    resultado = resultado.join(jogos)
+    
+    #adiciona o nome dos times
+    eventos = eventos.set_index("nome")
+    resultado = resultado.join(eventos["time"])
+
+    return resultado
 
 def limpaBase(base):
     client = MongoClient()
@@ -400,13 +434,15 @@ def limpaBases():
     limpaBase("jogadores_fifa")
 
 def fazCalculos():
-    consultaBase("jogadores_fifa").to_csv("jogadores.csv")
-    consultaBase("jogos_fifa").to_csv("jogos.csv")
-    calculaTime("jogos_fifa").to_csv("times.csv")
+    consultaBase("jogadores_fifa").to_csv("jogadores_fifa_cadajogo.csv")
+    consultaBase("jogos_fifa").to_csv("jogos_fifa.csv")
+    calculaTime().to_csv("times_fifa.csv")
+    calculaJogador().to_csv("jogadores_fifa_total.csv")
 
-limpaBases()
-consultaData("20140612")
-consultaData("20140613")
+#limpaBases()
+#consultaData("20140617")
+consultaJogo("300186499")
 fazCalculos()
+#print(consultaBase("jogos_fifa"))
 #consultaBase("jogos_fifa").to_csv("teste_fifa.csv",index=False)
 #consultaBase("jogadores_fifa").to_csv("teste_fifa.csv")
