@@ -26,7 +26,6 @@ def consultaData(data):
         codigo = find_between(l['href'],"match=","/")
         #se não tiver esse jogo na base:
         antigos = jogosAntigos()
-        print(antigos)
         if codigo not in antigos:
             url = "http://pt.fifa.com"+l['href']
             url = url.replace("index","statistics")
@@ -155,8 +154,12 @@ def scrape_pagina(url):
     
         #carrinhos
         pai = page.find("tr",{"data-codeid":"3000111"})
-        jogo["42carrinho1"] = pai.findChild("td",{"data-statref":"home"}).getText()
-        jogo["43carrinho2"] = pai.findChild("td",{"data-statref":"away"}).getText()
+        try: 
+            jogo["42carrinho1"] = pai.findChild("td",{"data-statref":"home"}).getText()
+            jogo["43carrinho2"] = pai.findChild("td",{"data-statref":"away"}).getText()
+        except:
+            jogo["42carrinho1"] = 0
+            jogo["43carrinho2"] = 0
     
         #faltas cometidas
         pai = page.find("div",{"class":"chart-container-donut-doubleside","data-exception":"disciplinary"})
@@ -353,10 +356,20 @@ def arrumaTime(row):
         return row["time1"]
     else:
         return row["time2"]
-    
+
 def calculaTime():
     eventos = consultaBase("jogos_fifa")
+    
+    #arruma vitórias, empates e derrotas
+    eventos["vitorias1"] = eventos.apply(lambda row:1 if row["gols1"] > row["gols2"] else 0,axis=1)
+    eventos["vitorias2"] = eventos.apply(lambda row:1 if row["gols2"] > row["gols1"] else 0,axis=1)
 
+    eventos["empates1"] = eventos.apply(lambda row:1 if row["gols1"] == row["gols2"] else 0,axis=1)
+    eventos["empates2"] = eventos.apply(lambda row:1 if row["gols1"] == row["gols2"] else 0,axis=1)
+    
+    eventos["derrotas1"] = eventos.apply(lambda row:1 if row["gols1"] < row["gols2"] else 0,axis=1)
+    eventos["derrotas2"] = eventos.apply(lambda row:1 if row["gols2"] < row["gols1"] else 0,axis=1)
+    
     colunas = list(eventos.columns)
     #retira o código do jogo
     colunas.pop(0) 
@@ -440,8 +453,19 @@ def fazCalculos():
     calculaJogador().to_csv("jogadores_fifa_total.csv")
 
 #limpaBases()
+#consultaData("20140612")
+#consultaData("20140613")
+#consultaData("20140614")
+#consultaData("20140615")
+#consultaData("20140616")
 #consultaData("20140617")
-consultaJogo("300186499")
+#consultaData("20140618")
+#consultaData("20140619")
+#consultaData("20140620")
+#consultaData("20140621")
+#consultaData("20140622")
+#consultaData("20140623")
+consultaJogo("300186472")
 fazCalculos()
 #print(consultaBase("jogos_fifa"))
 #consultaBase("jogos_fifa").to_csv("teste_fifa.csv",index=False)
