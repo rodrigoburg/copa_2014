@@ -1318,6 +1318,7 @@ Chile,1.87,1982,0,0,0,0,0,Madrid,346084,0,0,0,0,0,Pepe Reina,Spain,0,92,Goalkeep
 Spain,1.83,1981,0,0,0,0,0,Angol,374546,0,0,0,0,0,Johnny Herrera,Chile,0,81,Goalkeeper,0,Chile
 Greece,1.85,1983,0,0,0,0,0,Yono,395310,0,0,0,0,0,Eiji Kawashima,Japan,0,82,Goalkeeper,0,Japan
 Greece,1.87,1989,0,0,0,0,0,Tokyo,395122,0,0,0,0,0,Shuichi Gonda,Japan,0,85,Goalkeeper,0,Japan
+Ghana,1.83,1982,0,0,0,0,0,Lisbon,495352,0,0,0,0,0,Beto,Portugal,0,81,Goalkeeper,0,Portugal
 England,1.75,1989,0,0,1,0,0,Liberia,583761,2,2,3,0,0,Cristian Gamboa,Costa Rica,24,67,Defender,9,Costa Rica
 England,1.84,1989,0,0,2,0,0,Masaya,596442,0,2,0,0,0,Óscar Duarte,Nicaragua,41,85,Defender,7,Costa Rica
 England,1.92,1988,0,0,1,0,0,San Jose,390272,0,1,0,0,1,Giancarlo González,Costa Rica,22,83,Defender,14,Costa Rica
@@ -1944,3 +1945,84 @@ Mexico,1.91,1984,0,0,0,0,0,Zadar,481245,0,0,0,0,0,Danijel Subašić,Yugoslavia,0
 Mexico,1.91,1993,0,0,0,0,0,Zagreb,608491,0,0,0,0,0,Oliver Zelenika,Croatia,0,82,Goalkeeper,0,Croatia
 Croatia,1.78,1981,0,0,0,0,0,Guadalajara,368221,0,0,0,0,0,José de Jesús Corona,Mexico,0,82,Goalkeeper,0,Mexico
 Croatia,1.88,1982,0,0,0,0,0,Guadalajara,371511,0,0,0,0,0,Alfredo Talavera,Mexico,0,86,Goalkeeper,0,Mexico
+Germany,1.82,1987,0,2,0,0,0,Munich,408161,2,0,2,0,0,Fabian Johnson,West Germany,19,74,Defender,2,United States
+Germany,1.95,1988,0,2,0,0,0,Dallas,490205,0,1,1,0,0,Omar González,United States,31,95,Defender,6,United States
+Germany,1.82,1987,0,0,0,0,0,Overland Park,490210,0,0,0,0,0,Matt Besler,United States,26,77,Defender,5,United States
+Germany,1.70,1982,0,3,0,0,1,Fort Wayne,274790,0,2,0,0,0,DaMarcus Beasley,United States,31,66,Defender,4,United States
+Germany,1.84,1981,0,0,1,0,0,Frankfurt am Main,345448,0,2,3,0,0,Jermaine Jones,West Germany,21,78,Midfielder,2,United States
+Germany,1.81,1982,0,1,1,0,0,Crofton,274879,0,4,1,0,0,Kyle Beckerman,United States,38,75,Midfielder,7,United States
+Germany,1.77,1986,0,2,1,0,1,Longwood,490225,0,0,1,0,0,Graham Zusi,United States,21,73,Midfielder,2,United States
+Germany,1.85,1987,0,0,1,0,0,Princeton,275241,1,3,1,0,0,Michael Bradley,United States,41,86,Midfielder,1,United States
+Germany,1.80,1981,0,0,0,0,0,St. Charles,275001,0,1,0,0,1,Brad Davis,United States,14,75,Midfielder,2,United States
+Germany,1.85,1983,0,0,1,0,1,Nacogdoches,275213,0,1,0,0,1,Clint Dempsey,United States,16,85,Forward,1,United States
+Germany,1.78,1987,0,1,0,1,1,Miami,537545,0,1,0,0,0,Alejandro Bedoya,United States,2,73,Midfielder,2,United States
+Germany,1.75,1993,0,0,1,0,0,Seattle,723625,1,0,0,0,0,DeAndre Yedlin,United States,3,68,Defender,0,United States
+Germany,1.82,1983,0,0,0,0,0,Livermore,322579,0,0,0,0,0,Chris Wondolowski,United States,0,75,Forward,0,United States
+Germany,1.90,1985,0,0,0,0,0,Attleboro,439571,0,0,0,0,0,Geoff Cameron,United States,0,84,Defender,0,United States
+Germany,1.86,1990,0,0,0,0,0,Frankfurt am Main,483865,0,0,0,0,0,Timmy Chandler,West Germany,0,83,Defender,0,United States
+Germany,1.82,1990,0,0,0,0,0,Oslo,517263,0,0,0,0,0,Mix Diskerud,Norway,0,71,Midfielder,0,United States
+Germany,1.82,1990,0,0,0,0,0,Reykjavik,599865,0,0,0,0,0,Aron Johannsson,Iceland,0,75,Forward,0,United States
+Germany,1.93,1993,0,0,0,0,0,Berlin,604284,0,0,0,0,0,John Brooks,Germany,0,78,Defender,0,United States
+Germany,1.72,1995,0,0,0,0,0,Tampa,787674,0,0,0,0,0,Julian Green,United States,0,60,Midfielder,0,United States
+United States,1.92,1988,0,1,0,0,0,Berlin,376673,9,1,0,0,0,Jerome Boateng,West Germany,46,90,Defender,3,Germany
+United States,1.98,1984,0,0,0,0,0,Hannover,345605,0,0,0,0,0,Per Mertesacker,West Germany,108,90,Defender,12,Germany
+United States,1.92,1988,0,0,1,0,0,Bensberg,351086,0,1,0,0,0,Mats Hummels,West Germany,53,90,Defender,10,Germany
+United States,1.87,1988,0,2,0,2,2,Haltern,378278,2,2,1,0,0,Benedikt Howedes,West Germany,43,80,Defender,8,Germany
+United States,1.70,1983,0,1,0,0,0,Munich,345573,1,1,2,0,0,Philipp Lahm,West Germany,113,66,Midfielder,7,Germany
+United States,1.83,1984,0,1,1,1,1,Kolbermoor,345535,2,2,5,0,0,Bastian Schweinsteiger,West Germany,72,79,Midfielder,4,Germany
+United States,1.80,1988,0,0,1,1,2,Gelsenkirchen,345762,1,1,1,0,1,Mesut Özil,West Germany,50,76,Midfielder,5,Germany
+United States,1.82,1990,0,0,0,2,2,Greifswald,397482,2,0,0,0,0,Toni Kroos,East Germany,76,78,Midfielder,1,Germany
+United States,1.80,1985,0,0,1,0,2,Gliwice,345608,2,0,1,0,1,Lukas Podolski,Poland,21,83,Forward,2,Germany
+United States,1.86,1989,0,0,0,2,2,Weilheim,461803,2,0,2,1,4,Thomas Müller,West Germany,24,75,Forward,1,Germany
+United States,1.76,1992,0,1,0,0,0,Memmingen,505351,0,0,1,0,0,Mario Götze,Germany,16,64,Forward,0,Germany
+United States,1.82,1978,0,0,0,0,1,Opole,345428,0,1,1,0,1,Miroslav Klose,Poland,6,84,Forward,1,Germany
+United States,1.84,1990,0,0,0,1,1,Ludwigshafen,504595,0,0,0,0,0,André Schurrle,Germany,1,63,Forward,0,Germany
+United States,1.89,1987,0,0,0,0,0,Stuttgart,345802,0,0,0,0,0,Sami Khedira,West Germany,0,85,Midfielder,0,Germany
+United States,1.86,1988,0,0,0,0,0,Dortmund,468085,0,0,0,0,0,Kevin Großkreutz,West Germany,0,72,Defender,0,Germany
+United States,1.84,1992,0,0,0,0,0,Bad Hersfeld,499547,0,0,0,0,0,Shkodran Mustafi,Germany,0,82,Defender,0,Germany
+United States,1.89,1991,0,0,0,0,0,Solingen,564033,0,0,0,0,0,Christoph Kramer,Germany,0,82,Midfielder,0,Germany
+United States,1.85,1993,0,0,0,0,0,Gladbeck,585825,0,0,0,0,0,Julian Draxler,Germany,0,74,Midfielder,0,Germany
+United States,1.87,1994,0,0,0,0,0,Freiburg,640301,0,0,0,0,0,Matthias Ginter,Germany,0,85,Defender,0,Germany
+United States,1.83,1992,0,0,0,0,0,Pirmasens,660536,0,0,0,0,0,Erik Durm,Germany,0,73,Defender,0,Germany
+Germany,1.87,1979,0,0,0,0,0,North Brunswick,274190,0,0,0,0,0,Tim Howard,United States,0,95,Goalkeeper,0,United States
+Germany,1.82,1979,0,0,0,0,0,Montclair,274846,0,0,0,0,0,Nick Rimando,United States,0,86,Goalkeeper,0,United States
+Germany,1.93,1984,0,0,0,0,0,Homer Glen,322494,0,0,0,0,0,Brad Guzan,United States,0,95,Goalkeeper,0,United States
+United States,1.88,1980,0,0,0,0,0,Diez,345366,0,0,0,0,0,Roman Weidenfeller,West Germany,0,85,Goalkeeper,0,Germany
+United States,1.87,1989,0,0,0,0,0,Cologne,375927,0,0,0,0,0,Ron-Robert Zieler,West Germany,0,83,Goalkeeper,0,Germany
+Ghana,1.72,1984,0,0,0,0,0,Lisbon,415581,5,0,1,0,0,Joao Pereira,Portugal,19,64,Defender,3,Portugal
+Ghana,1.86,1983,0,1,1,0,0,Maceio,349048,0,2,2,0,0,Pepe,Brazil,31,81,Defender,13,Portugal
+Ghana,1.87,1981,0,0,4,0,0,Povoa de Varzim,349050,0,3,1,0,0,Bruno Alves,Portugal,24,80,Defender,18,Portugal
+Ghana,1.81,1986,0,3,0,0,0,Coimbra,348978,9,0,2,0,0,Miguel Veloso,Portugal,30,78,Midfielder,10,Portugal
+Ghana,1.70,1986,0,1,2,0,1,Portimao,348981,0,4,2,0,0,Joao Joao Moutinho,Portugal,53,61,Midfielder,7,Portugal
+Ghana,1.85,1992,0,0,5,0,0,Luanda,565439,1,5,1,0,0,William,Angola,57,87,Midfielder,10,Portugal
+Ghana,1.80,1985,0,0,1,0,1,Lisbon,441986,1,2,0,0,0,Ruben Amorim,Portugal,32,78,Midfielder,6,Portugal
+Ghana,1.75,1986,0,0,1,2,5,Praia,348983,4,0,1,0,0,Nani,Cape Verde,34,66,Forward,8,Portugal
+Ghana,1.90,1987,0,0,0,0,1,Bissau,442081,1,2,1,0,0,Eder,Guinea-Bissau,9,81,Forward,3,Portugal
+Ghana,1.85,1985,0,0,1,7,9,Madeira,346135,1,1,5,1,0,Cristiano Ronaldo,Portugal,28,80,Forward,1,Portugal
+Ghana,1.70,1986,0,0,1,0,0,Guimaraes,349060,4,1,0,0,0,Vieirinha,Portugal,5,73,Forward,3,Portugal
+Ghana,1.80,1985,0,0,1,1,2,Almada,398659,3,1,0,0,0,Silvestre Varela,Portugal,6,79,Forward,0,Portugal
+Ghana,1.83,1981,0,0,0,0,0,Vila Nova de Gaia,348894,0,0,0,0,0,Ricardo Costa,Portugal,0,80,Defender,0,Portugal
+Ghana,1.79,1983,0,0,0,0,0,Aves,349054,0,0,0,0,0,Raul Meireles,Portugal,0,78,Midfielder,0,Portugal
+Ghana,1.86,1988,0,0,0,0,0,Povoa de Varzim,607949,0,0,0,0,0,Luis Neto,Portugal,0,71,Defender,0,Portugal
+Ghana,1.73,1993,0,0,0,0,0,Barreiro,748968,0,0,0,0,0,Rafa,Portugal,0,66,Forward,0,Portugal
+Portugal,1.68,1986,0,2,2,0,0,Kumasi,533440,6,3,2,0,0,Harrison Afful,Ghana,24,83,Defender,15,Ghana
+Portugal,1.85,1987,0,1,1,0,0,Accra,508854,0,1,1,0,0,John Boye,Ghana,12,72,Defender,4,Ghana
+Portugal,1.82,1990,0,0,0,0,1,Accra,545667,0,1,0,0,0,Jonathan Mensah,Ghana,27,83,Defender,13,Ghana
+Portugal,1.68,1988,1,0,1,0,1,Accra,446775,4,1,2,0,0,Kwadwo Asamoah,Ghana,29,78,Midfielder,7,Ghana
+Portugal,1.65,1992,0,0,1,1,3,Ada Foah,618262,7,2,0,0,0,Christian Atsu,Ghana,24,68,Midfielder,4,Ghana
+Portugal,1.89,1989,0,0,4,0,0,Accra,555210,0,3,0,0,0,Mohammed Rabiu,Ghana,23,70,Midfielder,8,Ghana
+Portugal,1.73,1990,0,0,0,0,1,Seikwa,533446,0,1,3,0,0,Emmanuel Agyemang-Badu,Ghana,27,79,Midfielder,4,Ghana
+Portugal,1.75,1989,0,0,0,0,0,Lille,397830,0,0,1,0,0,André Ayew,France,23,72,Midfielder,5,Ghana
+Portugal,1.72,1991,0,0,2,0,1,Tamale,583025,1,3,3,0,2,Majeed Waris,Ghana,13,70,Forward,3,Ghana
+Portugal,1.86,1985,0,0,1,4,9,Accra,346879,5,1,5,1,2,Asamoah Gyan,Ghana,13,77,Forward,2,Ghana
+Portugal,1.79,1992,0,0,1,0,0,Accra,561661,0,0,0,0,0,Afriyie Acquah,Ghana,9,70,Midfielder,1,Ghana
+Portugal,1.82,1991,0,0,0,1,1,Marseille,527802,1,0,1,0,0,Jordan Ayew,France,4,80,Forward,1,Ghana
+Portugal,1.71,1990,0,0,0,0,1,Tamale,476984,0,0,1,0,0,Mubarak Wakaso,Ghana,4,72,Midfielder,0,Ghana
+Portugal,1.80,1982,0,0,0,0,0,Accra,346104,0,0,0,0,0,Michael Essien,Ghana,0,85,Midfielder,0,Ghana
+Portugal,1.85,1987,0,0,0,0,0,Lambeth,441046,0,0,0,0,0,Albert Adomah,England,0,74,Midfielder,0,Ghana
+Portugal,1.79,1989,0,0,0,0,0,Sekondi-Takoradi,533452,0,0,0,0,0,Samuel Inkoom,Ghana,0,75,Defender,0,Ghana
+Portugal,1.72,1990,0,0,0,0,0,Accra,551863,0,0,0,0,0,Daniel Opare,Ghana,0,73,Defender,0,Ghana
+Portugal,1.82,1992,0,0,0,0,0,Cape Coast,723261,0,0,0,0,0,Rashid Sumaila,Ghana,0,80,Defender,0,Ghana
+Ghana,1.87,1982,0,0,0,0,0,Mirandela,349453,0,0,0,0,0,Eduardo,Portugal,0,84,Goalkeeper,0,Portugal
+Portugal,1.90,1987,0,0,0,0,0,Oslo,482076,0,0,0,0,0,Adam Kwarasey,Norway,0,84,Goalkeeper,0,Ghana
+Portugal,1.77,1984,0,0,0,0,0,Khumasi,545664,0,0,0,0,0,Stephen Adams,Ghana,0,78,Goalkeeper,0,Ghana

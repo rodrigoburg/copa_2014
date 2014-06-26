@@ -546,8 +546,8 @@ def desenhaExcel():
         worksheet.write(s, soma[s])
 
 def atualizaPartidas():
-    data_inicio = datetime.strptime('12062014', "%d%m%Y").date()
-    data_fim = datetime.strptime('23062014', "%d%m%Y").date()
+    data_inicio = datetime.strptime('26062014', "%d%m%Y").date()
+    data_fim = datetime.strptime('26062014', "%d%m%Y").date()
     delta = data_fim - data_inicio
     datas = []
     for i in range(delta.days + 1):
