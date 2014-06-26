@@ -4,7 +4,7 @@ var svg = null;
 function mudaRecorte() {
     //pega o valor
     recorte = jQuery("#recorte").val();
-    
+
     //deleta o svg
 	jQuery("#jogador").replaceWith('<div id="jogador"></div>');
 	desenhaGrafico(recorte);
@@ -12,7 +12,10 @@ function mudaRecorte() {
 
 function desenhaGrafico(recorte)    {
       var svg = dimple.newSvg("#jogador", 950, 520);
-      data = window.complete_data
+      data = window.complete_data;
+      data = data.filter(function(a){return a[recorte] > 0;});
+      data.sort(function(a,b){return b[recorte] - a[recorte];});
+      data = data.slice(0,20);
       var myChart = new dimple.chart(svg, data);
       myChart.setBounds(80, 30, 780, 405)
       myChart.addMeasureAxis("x", recorte);
@@ -23,7 +26,7 @@ function desenhaGrafico(recorte)    {
       y.addOrderRule(recorte,false)
       myChart = colore(myChart)
       myChart.draw();
-      
+
       arrumaNomes()
 }
 
@@ -54,18 +57,18 @@ function colore(chart) {
      chart.assignColor("Uruguai","#80CCFF");
      chart.assignColor("Colômbia","#94912F");
      chart.assignColor("Costa Rica","#99426D");
-     chart.assignColor("EUA","#294663");    
+     chart.assignColor("EUA","#294663");
      chart.assignColor("Grécia","#47B4C9");
      chart.assignColor("Austrália","#E3E8B0");
      chart.assignColor("Holanda","#CC4B18");
      chart.assignColor("Honduras","#D6FBFF");
      chart.assignColor("Argélia","#DAFFD6","#1E9E4F");
      chart.assignColor("Irã","#616E5F");
-      
+
      return chart
 }
 function inicializa() {
-    
+
     //checa se tem variavel na url
     //se tiver, coloca o recorte como ela e muda a option
     variaveis = getUrlVars()
@@ -82,7 +85,10 @@ function inicializa() {
     var svg = dimple.newSvg("#jogador", 950, 520);
     //carrega os dados e cria o gráfico
     d3.csv("jogador_stats_somado.csv", function (data) {
-        window.complete_data = data
+      window.complete_data = data;
+      data = data.filter(function(a){return a.gols > 0;});
+      data.sort(function(a,b){return b.gols - a.gols;});
+      data = data.slice(0,20);
       var myChart = new dimple.chart(svg, data);
       myChart.setBounds(80, 30, 780, 405)
       myChart.addMeasureAxis("x", recorte);
@@ -91,11 +97,11 @@ function inicializa() {
       y.title = ""
       series = myChart.addSeries("nome", dimple.plot.bar);
       y.addOrderRule(recorte,false)
-      
+
       //arruma as cores
       myChart = colore(myChart)
       myChart.draw();
-            
+
       arrumaNomes()
     });
 }
@@ -103,12 +109,12 @@ function inicializa() {
 function arrumaNomes() {
     //coloca bold no texto do Brasil
     jQuery("#jogador").find('text:contains("Brasil")').css({'font-weight':'bold'})
-    
+
     //arruma nome das seleções
     jQuery("#jogador").find('text:contains("Costa do Marfim")').text("C. Marfim");
     jQuery("#jogador").find('text:contains("Bósnia e Herzegovina")').text("Bósnia");
     jQuery("#jogador").find('text:contains("Coreia do Sul")').text("Coreia");
-    
+
     //achar ordem das seleções
     jogador = []
     nomes = jQuery("#jogador").find(".dimple-axis").find("text[x=-9]").each(
@@ -118,7 +124,7 @@ function arrumaNomes() {
             }
         }
     );
-    
+
     //coloca o número na frente de cada time
    for (var i = 0; i < jogador.length;i++) {
         jQuery("#jogador").find('text:contains("'+jogador[i]+'")').text((jogador.length - i) + " - " +jogador[i]);
