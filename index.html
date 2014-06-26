@@ -1,0 +1,39 @@
+<head>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    <script type="text/javascript" src ="estadao_dados.js"></script>
+</head>
+<body>
+    Veja a média de <select id="recorte" onchange="mudaRecorte()">
+        <option value="Gols">Gols</option>
+        <option value="Ataques">Ataques</option>
+        <option value="Desarmes">Desarmes</option>
+        <option value="Passes completados">Passes completados</option>
+        <option value="Posse de bola">Posse de bola</option>
+        <option value="Chutes certos">Chutes certos</option>
+        <option value="Chutes para fora">Chutes para fora</option>
+        <option value="Jogadas de bola parada">Jogadas de bola parada</option>
+        <option value="Cruzamentos">Cruzamentos</option>
+        <option value="Escanteios">Escanteios</option>
+        <option value="Impedimentos">Impedimentos</option>
+        <option value="Defesas">Defesas</option>
+        <option value="Bolas recuperadas">Bolas recuperadas</option>
+        <option value="Bolas perdidas">Bolas perdidas</option>
+        <option value="Faltas cometidas">Faltas cometidas</option>
+        <option value="Cartões amarelos">Cartões amarelos</option>
+        <option value="Cartões vermelhos">Cartões vermelhos</option>
+        <option value="Distância corrida com bola">Distância corrida com bola</option>
+        <option value="Distância corrida sem bola">Distância corrida sem bola</option>
+        <option value="Passes curtos">Passes curtos</option>
+        <option value="Passes médios">Passes médios</option>
+        <option value="Passes longos">Passes longos</option>
+        <option value="Porcentagem de passes completos">Porcentagem de passes completos</option>
+        <option value="Mordidas">Mordidas</option>
+    </select> por partida
+
+    
+<div id="selecoes">
+    <script>inicializa();</script>
+</div>
+</body>

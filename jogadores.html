@@ -1,0 +1,30 @@
+<head>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    <script type="text/javascript" src ="jogadores.js"></script>
+</head>
+<body>
+    Veja a média de <select id="recorte" onchange="mudaRecorte()">
+<option value=”gols“>Gols</option>
+<option value=”assistencias“>Assistências</option>
+<option value=”bloqueios“>Bloqueios</option>
+<option value=”carrinhos“>Carrinhos</option>
+<option value=”chutes_certos“>Chutes certos</option>
+<option value=”chutes_total“>Total de chutes</option>
+<option value=”cruzamentos“>Cruzamentos</option>
+<option value=”faltas_cometidas“>Faltas cometidas</option>
+<option value=”faltas_sofridas“>Faltas sofridas</option>
+<option value=”impedimentos“>Impedimentos</option>
+<option value=”passes“>Passes</option>
+<option value=”roubadas“>Roubadas</option>
+<option value=”amarelo“>Cartões Amarelos</option>
+<option value=”vermelho“>Cartões Vermelhos</option>
+<option value=”peso“>Peso</option>
+    </select> por partida
+
+    
+<div id="jogador">
+    <script>inicializa();</script>
+</div>
+</body>
