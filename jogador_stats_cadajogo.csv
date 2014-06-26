@@ -1,316 +1,482 @@
 adversario,altura,ano_nascimento,assistencias,bloqueios,carrinhos,chutes_certos,chutes_total,cidade_nascimento,codigo,cruzamentos,faltas_cometidas,faltas_sofridas,gols,impedimentos,nome,pais_nascimento,passes,peso,posicao,roubadas,time
-Russia,1.82,1989,0,0,0,0,0,Cheongju,618251,0,0,0,0,0,Hwang Seok-Ho,South Korea,8,80,Defender,0,Korea Republic
-Russia,1.78,1989,0,0,0,0,0,Gurye,540398,0,0,0,0,0,Bo-Kyung Kim,South Korea,5,73,Midfielder,0,Korea Republic
-Russia,1.77,1985,0,0,1,1,1,Incheon,461735,2,0,0,1,0,Keun-Ho Lee,South Korea,12,75,Forward,0,Korea Republic
-Russia,1.74,1987,0,0,0,0,0,Seoul,390097,0,0,0,0,0,Joo-Ho Park,South Korea,0,69,Defender,0,Korea Republic
-Russia,1.79,1985,0,0,0,0,0,Busan,461729,0,0,0,0,0,Chang-Soo Kim,South Korea,0,74,Defender,0,Korea Republic
-Russia,1.85,1981,0,0,0,0,0,Chilgok,481764,0,0,0,0,0,Tae-Hwi Kwak,South Korea,0,80,Defender,0,Korea Republic
-Russia,1.82,1985,0,0,0,0,0,Incheon,487107,0,0,0,0,0,Ha Dae-Sung,South Korea,0,73,Midfielder,0,Korea Republic
-Russia,1.96,1988,0,0,0,0,0,Gwacheon,537371,0,0,0,0,0,Shin-Wook Kim,South Korea,0,94,Forward,0,Korea Republic
-Russia,1.86,1991,0,0,0,0,0,Jeju,583329,0,0,0,0,0,Dong-Won Ji,South Korea,0,77,Midfielder,0,Korea Republic
-Russia,1.80,1989,0,0,0,0,0,Seongnam,618254,0,0,0,0,0,Park Jong-Woo,South Korea,0,74,Midfielder,0,Korea Republic
-Korea Republic,1.85,1986,0,0,0,0,0,Vidnoye,348949,0,0,0,0,0,Igor Akinfeev,USSR,0,71,Goalkeeper,0,Russia
-Korea Republic,1.92,1980,0,0,0,0,0,Shebekino,481280,0,0,0,0,0,Sergey Ryzhikov,USSR,0,92,Goalkeeper,0,Russia
-Korea Republic,1.86,1990,0,0,0,0,0,Vladimir,541993,0,0,0,0,0,Yury Lodygin,USSR,0,77,Goalkeeper,0,Russia
-Russia,1.99,1989,0,0,0,0,0,Seoul,583081,0,0,0,0,0,Bum-Young Lee,South Korea,0,90,Goalkeeper,0,Korea Republic
-Russia,1.87,1990,0,0,0,0,0,Ulsan,583084,0,0,0,0,0,Kim Seung-Gyu,South Korea,0,80,Goalkeeper,0,Korea Republic
-Brazil,1.76,1980,0,0,0,0,0,Ocotlan,347953,0,0,0,0,0,Carlos Salcido,Mexico,0,70,Defender,0,Mexico
-Brazil,1.73,1990,0,0,0,0,0,Lagos de Moreno,509598,0,0,0,0,0,Isaac Brizuela,Mexico,0,59,Midfielder,0,Mexico
-Brazil,1.76,1991,0,0,0,0,0,Ciudad Victoria,540218,0,0,0,0,0,Alan Pulido,Mexico,0,60,Forward,0,Mexico
-Brazil,1.76,1990,0,0,0,0,0,Ciudad Victoria,544125,0,0,0,0,0,Carlos Pena,Mexico,0,75,Midfielder,0,Mexico
-Brazil,1.89,1992,0,0,0,0,0,Mexico City,544254,0,0,0,0,0,Diego Reyes,Mexico,0,65,Defender,0,Mexico
-Brazil,1.75,1989,0,0,0,0,0,Sacramento,544563,0,0,0,0,0,Miguel Ángel Ponce,United States,0,77,Defender,0,Mexico
-Brazil,1.66,1990,0,0,0,0,0,Oaxaca,552821,0,0,0,0,0,Javier Aquino,Mexico,0,59,Midfielder,0,Mexico
-Mexico,1.78,1979,0,0,0,0,0,Rio de Janeiro,346589,0,0,0,0,0,Júlio César,Brazil,0,79,Goalkeeper,0,Brazil
-Mexico,1.95,1983,0,0,0,0,0,Santo Anastacio,359665,0,0,0,0,0,Victor,Brazil,0,84,Goalkeeper,0,Brazil
-Mexico,1.90,1983,0,0,0,0,0,Sao Vicente,442973,0,0,0,0,0,Jefferson,Brazil,0,93,Goalkeeper,0,Brazil
-Brazil,1.78,1981,0,0,0,0,0,Guadalajara,368221,0,0,0,0,0,José de Jesús Corona,Mexico,0,82,Goalkeeper,0,Mexico
-Brazil,1.88,1982,0,0,0,0,0,Guadalajara,371511,0,0,0,0,0,Alfredo Talavera,Mexico,0,86,Goalkeeper,0,Mexico
-Korea Republic,1.77,1984,1,0,4,2,2,Irkutsk,606860,4,1,0,0,0,Andrey Eshchenko,USSR,61,62,Defender,1,Russia
-Korea Republic,1.86,1979,0,1,2,1,1,Moscow,348910,0,1,1,0,0,Sergey Ignashevich,USSR,55,75,Defender,2,Russia
-Korea Republic,1.88,1982,0,1,0,0,1,Moscow,349032,1,0,0,0,0,Vasily Berezutskiy,USSR,58,83,Defender,3,Russia
-Korea Republic,1.82,1987,0,1,0,1,1,Moscow,514875,5,0,0,0,0,Dmitry Kombarov,USSR,38,73,Defender,3,Russia
-Korea Republic,1.82,1987,0,1,2,1,1,Millerovo,589004,1,3,2,0,0,Denis Glushakov,USSR,18,72,Midfielder,4,Russia
-Korea Republic,1.78,1984,0,0,0,0,1,Moscow,415208,7,0,2,0,0,Alexander Samedov,USSR,34,75,Forward,3,Russia
-Korea Republic,1.76,1986,0,0,1,1,1,Nakhodka,442366,1,1,2,0,0,Viktor Fayzulin,USSR,40,72,Midfielder,4,Russia
-Korea Republic,1.80,1983,0,1,0,0,1,Tambov,349037,1,0,0,0,0,Yury Zhirkov,USSR,18,75,Forward,2,Russia
-Korea Republic,1.76,1990,0,0,1,0,0,Nizhny Tagil,649698,1,1,0,0,0,Oleg Shatov,USSR,19,64,Midfielder,1,Russia
-Korea Republic,1.82,1991,0,0,1,1,3,Moscow,514873,1,6,0,0,0,Alexander Kokorin,USSR,18,79,Forward,1,Russia
-Korea Republic,1.76,1984,0,0,1,1,1,St. Petersburg,415166,0,0,0,0,0,Igor Denisov,USSR,18,70,Midfielder,0,Russia
-Korea Republic,1.78,1990,0,0,0,1,2,Beslan,481182,0,1,0,0,0,Alan Dzagoev,USSR,13,70,Midfielder,0,Russia
-Korea Republic,1.75,1982,0,0,0,1,1,Kingisepp,367842,0,1,0,1,0,Aleksandr Kerzhakov,USSR,2,76,Forward,0,Russia
-Korea Republic,1.78,1989,0,0,0,0,0,Kingisepp,415170,0,0,0,0,0,Alexey Ionov,USSR,0,68,Forward,0,Russia
-Korea Republic,1.79,1991,0,0,0,0,0,Moscow,482127,0,0,0,0,0,Georgy Shchennikov,USSR,0,69,Defender,0,Russia
-Korea Republic,1.84,1987,0,0,0,0,0,Ulan-Ude,514872,0,0,0,0,0,Vladimir Granat,USSR,0,78,Defender,0,Russia
-Korea Republic,1.84,1991,0,0,0,0,0,St. Petersburg,566706,0,0,0,0,0,Maksim Kanunnikov,USSR,0,77,Forward,0,Russia
-Korea Republic,1.85,1986,0,0,0,0,0,Petrozavodsk,589686,0,0,0,0,0,Aleksei Kozlov,USSR,0,78,Defender,0,Russia
-Korea Republic,1.83,1993,0,0,0,0,0,Kingisepp,589810,0,0,0,0,0,Pavel Mogilevets,Russia,0,70,Midfielder,0,Russia
-Korea Republic,1.91,1989,0,0,0,0,0,Moscow,709617,0,0,0,0,0,Andrey Semenov,USSR,0,86,Defender,0,Russia
-Russia,1.80,1986,0,0,1,0,0,Seoul,650483,0,0,0,0,0,Yong Lee,South Korea,44,74,Defender,4,Korea Republic
-Russia,1.87,1990,0,4,0,1,1,Jeonju,540414,0,0,3,0,0,Kim Young-Gwon,South Korea,57,74,Defender,7,Korea Republic
-Russia,1.88,1989,0,0,0,1,1,Jeju,583083,0,0,1,0,0,Jeong-Ho Hong,South Korea,36,77,Defender,2,Korea Republic
-Russia,1.82,1990,0,2,1,0,0,Suwon,583088,2,0,1,0,0,Suk-Young Yun,South Korea,36,74,Defender,4,Korea Republic
-Russia,1.86,1989,0,1,3,1,1,Gwanju,473962,2,1,3,0,0,Sung-Yueng Ki,South Korea,67,79,Midfielder,4,Korea Republic
-Russia,1.80,1988,0,1,0,0,1,Seoul,473961,1,0,0,0,0,Chung-Yong Lee,South Korea,24,69,Midfielder,0,Korea Republic
-Russia,1.83,1990,0,2,3,0,0,Seoul,540313,0,1,1,0,0,Kook-Young Han,South Korea,47,74,Midfielder,1,Korea Republic
-Russia,1.82,1989,0,0,3,1,2,Chungju,537368,0,2,3,0,0,Ja-Cheol Koo,South Korea,28,75,Forward,1,Korea Republic
-Russia,1.83,1985,0,1,1,0,0,Daegu,476950,0,2,0,0,0,Chu-Young Park,South Korea,14,70,Forward,1,Korea Republic
-Russia,1.83,1992,0,3,0,1,3,Chuncheon,568442,0,1,2,0,0,Heung-Min Son,South Korea,18,76,Midfielder,3,Korea Republic
-Bosnia-Herzegovina,1.74,1985,0,0,1,0,0,Buenos Aires,348661,0,0,3,0,0,Pablo Zabaleta,Argentina,38,74,Defender,7,Argentina
-Bosnia-Herzegovina,1.81,1980,0,1,1,0,0,Cordoba,368530,0,0,2,0,0,Hugo Campagnaro,Argentina,34,85,Defender,1,Argentina
-Bosnia-Herzegovina,1.90,1989,0,2,3,0,0,Tres Algarrobos,457756,0,1,2,0,0,Fede Fernández,Argentina,54,81,Defender,2,Argentina
-Bosnia-Herzegovina,1.86,1986,0,0,2,0,0,Rosario,348765,0,2,0,0,0,Ezequiel Garay,Argentina,57,85,Defender,6,Argentina
-Bosnia-Herzegovina,1.89,1990,0,0,2,1,1,La Plata,492564,2,2,0,0,0,Marcos Rojo,Argentina,27,82,Defender,2,Argentina
-Bosnia-Herzegovina,1.80,1981,0,0,1,0,1,Rosario,348535,0,0,0,0,0,Maxi Rodríguez,Argentina,27,74,Midfielder,1,Argentina
-Bosnia-Herzegovina,1.71,1984,0,2,1,1,1,San Lorenzo,346143,0,2,0,0,0,Javier Mascherano,Argentina,96,74,Midfielder,3,Argentina
-Bosnia-Herzegovina,1.78,1988,0,1,0,1,1,Rosario,359948,5,1,1,0,0,Ángel Di María,Argentina,53,70,Midfielder,2,Argentina
-Bosnia-Herzegovina,1.69,1987,0,0,1,1,3,Rosario,348767,3,1,1,1,0,Lionel Messi,Argentina,52,67,Forward,2,Argentina
-Bosnia-Herzegovina,1.72,1988,0,2,0,1,3,Quilmes,348656,1,1,4,0,0,Sergio Agüero,Argentina,9,69,Forward,0,Argentina
-Bosnia-Herzegovina,1.75,1986,0,0,0,0,0,Mercedes,347118,0,0,0,0,0,Lucas Biglia,Argentina,3,74,Midfielder,2,Argentina
-Bosnia-Herzegovina,1.78,1986,0,0,1,0,0,Ciudadela,374090,0,0,0,0,0,Fernando Gago,Argentina,43,72,Midfielder,0,Argentina
-Bosnia-Herzegovina,1.84,1987,1,1,0,0,1,Brest,356019,1,0,0,0,0,Gonzalo Higuaín,France,20,82,Forward,2,Argentina
-Bosnia-Herzegovina,1.84,1980,0,0,0,0,0,Justiniano Posse,345565,0,0,0,0,0,Martín Demichelis,Argentina,0,81,Defender,0,Argentina
-Bosnia-Herzegovina,1.77,1986,0,0,0,0,0,Mendoza,372417,0,0,0,0,0,Enzo Pérez,Argentina,0,77,Midfielder,0,Argentina
-Bosnia-Herzegovina,1.75,1982,0,0,0,0,0,Bahia Blanca,372953,0,0,0,0,0,Rodrigo Palacio,Argentina,0,70,Forward,0,Argentina
-Bosnia-Herzegovina,1.73,1985,0,0,0,0,0,Villa Gobernador Galvez,372986,0,0,0,0,0,Ezequiel Lavezzi,Argentina,0,75,Forward,0,Argentina
-Bosnia-Herzegovina,1.88,1984,0,0,0,0,0,Tres Sargentos,373592,0,0,0,0,0,José María Basanta,Argentina,0,78,Defender,0,Argentina
-Bosnia-Herzegovina,1.77,1986,0,0,0,0,0,Buenos Aires,375263,0,0,0,0,0,Augusto Fernández,Argentina,0,74,Midfielder,0,Argentina
-Bosnia-Herzegovina,1.88,1988,0,0,0,0,0,Buenos Aires,454635,0,0,0,0,0,Ricardo Álvarez,Argentina,0,84,Midfielder,0,Argentina
-Argentina,1.84,1984,0,1,1,0,0,Zagreb,504588,1,2,0,0,0,Mensur Mujdza,Yugoslavia,28,77,Midfielder,0,Bosnia-Herzegovina
-Argentina,1.85,1990,0,2,0,0,0,Zvornik,505388,4,0,0,0,0,Ermin Bicakcic,Yugoslavia,30,83,Defender,3,Bosnia-Herzegovina
-Argentina,1.83,1980,0,0,1,0,0,Dubrovnik,415209,0,2,0,0,0,Emir Spahic,Yugoslavia,39,77,Defender,12,Bosnia-Herzegovina
-Argentina,1.83,1993,0,0,3,0,0,Karlsruhe,644835,2,1,0,0,0,Sead Kolasinac,Germany,46,82,Defender,3,Bosnia-Herzegovina
-Argentina,1.77,1992,0,0,3,0,2,Berlin,568441,0,0,1,0,0,Muhamed Besic,Germany,54,78,Midfielder,7,Bosnia-Herzegovina
-Argentina,1.77,1991,0,0,0,3,4,Brugg,544471,2,2,2,0,0,Izet Hajrovic,Switzerland,11,71,Midfielder,2,Bosnia-Herzegovina
-Argentina,1.80,1990,0,0,2,2,2,Tuzla,401342,0,2,1,0,0,Miralem Pjanic,Yugoslavia,58,68,Midfielder,5,Bosnia-Herzegovina
-Argentina,1.80,1982,0,0,0,1,1,Munich,345568,2,0,3,0,0,Zvjezdan Misimovic,West Germany,27,80,Midfielder,1,Bosnia-Herzegovina
-Argentina,1.83,1986,1,0,2,2,2,Mostar,457028,2,2,0,0,2,Senad Lulic,Yugoslavia,26,75,Midfielder,4,Bosnia-Herzegovina
-Argentina,1.92,1986,0,0,0,0,1,Doboj,400160,0,2,2,0,1,Edin Dzeko,Yugoslavia,19,80,Forward,0,Bosnia-Herzegovina
-Argentina,1.89,1984,0,0,0,1,1,Vlasenica,345645,0,0,0,1,0,Vedad Ibisevic,Yugoslavia,7,82,Forward,1,Bosnia-Herzegovina
-Argentina,1.88,1985,0,1,0,0,1,Sarajevo,348218,0,0,0,0,0,Haris Medunjanin,Yugoslavia,23,83,Midfielder,1,Bosnia-Herzegovina
-Argentina,1.72,1990,0,0,0,2,2,Olovo,620075,2,1,0,0,0,Edin Visca,Yugoslavia,3,67,Forward,0,Bosnia-Herzegovina
-Argentina,1.84,1989,0,0,0,0,0,Velika Kladusa,401897,0,0,0,0,0,Anel Hadzic,Yugoslavia,0,73,Midfielder,0,Bosnia-Herzegovina
-Argentina,1.85,1985,0,0,0,0,0,Kotor Varos,418066,0,0,0,0,0,Senijad Ibricic,Yugoslavia,0,79,Midfielder,0,Bosnia-Herzegovina
-Argentina,1.82,1986,0,0,0,0,0,Tesanj,457509,0,0,0,0,0,Avdija Vrsajevic,Yugoslavia,0,75,Midfielder,0,Bosnia-Herzegovina
-Argentina,1.86,1992,0,0,0,0,0,Sarajevo,553391,0,0,0,0,0,Tino-Sven Susic,Yugoslavia,0,77,Midfielder,0,Bosnia-Herzegovina
-Argentina,1.86,1989,0,0,0,0,0,Banja Luka,561086,0,0,0,0,0,Ognjen Vranjes,Yugoslavia,0,74,Defender,0,Bosnia-Herzegovina
-Argentina,1.92,1988,0,0,0,0,0,Mostar,567405,0,0,0,0,0,Toni Sunjic,Yugoslavia,0,93,Defender,0,Bosnia-Herzegovina
-Bosnia-Herzegovina,1.92,1987,0,0,0,0,0,Bernardo de Irigoyen,373844,0,0,0,0,0,Sergio Romero,Argentina,0,88,Goalkeeper,0,Argentina
-Bosnia-Herzegovina,1.90,1981,0,0,0,0,0,Haedo,371264,0,0,0,0,0,Agustín Orión,Argentina,0,83,Goalkeeper,0,Argentina
-Bosnia-Herzegovina,1.94,1983,0,0,0,0,0,Buenos Aires,375130,0,0,0,0,0,Mariano Andújar,Argentina,0,88,Goalkeeper,0,Argentina
-Argentina,1.98,1986,0,0,0,0,0,Tupkovic,462632,0,0,0,0,0,Jasmin Fejzic,Yugoslavia,0,95,Goalkeeper,0,Bosnia-Herzegovina
-Argentina,1.90,1981,0,0,0,0,0,Breza,578835,0,0,0,0,0,Asmir Avdukic,Yugoslavia,0,86,Goalkeeper,0,Bosnia-Herzegovina
-Portugal,1.92,1988,0,3,1,0,0,Berlin,376673,1,2,2,0,0,Jerome Boateng,West Germany,37,90,Defender,6,Germany
-Portugal,1.98,1984,0,3,0,0,0,Hannover,345605,0,2,0,0,0,Per Mertesacker,West Germany,28,90,Defender,5,Germany
-Portugal,1.92,1988,0,1,4,1,1,Bensberg,351086,0,1,0,1,0,Mats Hummels,West Germany,47,90,Defender,8,Germany
-Portugal,1.87,1988,0,3,2,0,0,Haltern,378278,0,0,0,0,1,Benedikt Howedes,West Germany,38,80,Defender,8,Germany
-Portugal,1.89,1987,0,0,0,0,1,Stuttgart,345802,0,0,2,0,0,Sami Khedira,West Germany,41,85,Midfielder,5,Germany
-Portugal,1.70,1983,0,0,3,1,1,Munich,345573,1,0,2,0,0,Philipp Lahm,West Germany,59,66,Midfielder,11,Germany
-Portugal,1.80,1988,0,0,0,1,1,Gelsenkirchen,345762,1,0,1,0,0,Mesut Özil,West Germany,27,76,Midfielder,1,Germany
-Portugal,1.82,1990,2,2,0,1,1,Greifswald,397482,4,0,1,0,0,Toni Kroos,East Germany,64,78,Midfielder,6,Germany
-Portugal,1.76,1992,0,1,2,2,4,Memmingen,505351,2,1,2,0,0,Mario Götze,Germany,33,64,Forward,6,Germany
-Portugal,1.86,1989,0,0,1,3,4,Weilheim,461803,3,1,1,3,0,Thomas Müller,West Germany,21,75,Forward,3,Germany
-Portugal,1.84,1990,0,0,0,0,0,Ludwigshafen,504595,2,1,0,0,1,André Schurrle,Germany,7,63,Forward,1,Germany
-Portugal,1.80,1985,0,0,0,0,0,Gliwice,345608,0,0,0,0,0,Lukas Podolski,Poland,3,83,Forward,0,Germany
-Portugal,1.84,1992,0,1,0,0,0,Bad Hersfeld,499547,0,0,0,0,0,Shkodran Mustafi,Germany,11,82,Defender,1,Germany
-Portugal,1.82,1978,0,0,0,0,0,Opole,345428,0,0,0,0,0,Miroslav Klose,Poland,0,84,Forward,0,Germany
-Portugal,1.83,1984,0,0,0,0,0,Kolbermoor,345535,0,0,0,0,0,Bastian Schweinsteiger,West Germany,0,79,Midfielder,0,Germany
-Portugal,1.86,1988,0,0,0,0,0,Dortmund,468085,0,0,0,0,0,Kevin Großkreutz,West Germany,0,72,Defender,0,Germany
-Portugal,1.89,1991,0,0,0,0,0,Solingen,564033,0,0,0,0,0,Christoph Kramer,Germany,0,82,Midfielder,0,Germany
-Portugal,1.85,1993,0,0,0,0,0,Gladbeck,585825,0,0,0,0,0,Julian Draxler,Germany,0,74,Midfielder,0,Germany
-Portugal,1.87,1994,0,0,0,0,0,Freiburg,640301,0,0,0,0,0,Matthias Ginter,Germany,0,85,Defender,0,Germany
-Portugal,1.83,1992,0,0,0,0,0,Pirmasens,660536,0,0,0,0,0,Erik Durm,Germany,0,73,Defender,0,Germany
-Germany,1.72,1984,0,1,1,0,0,Lisbon,415581,3,2,0,0,0,Joao Pereira,Portugal,26,64,Defender,6,Portugal
-Germany,1.87,1981,0,2,1,0,0,Povoa de Varzim,349050,0,1,0,0,0,Bruno Alves,Portugal,43,80,Defender,8,Portugal
-Germany,1.86,1983,0,0,1,0,0,Maceio,349048,0,2,1,0,0,Pepe,Brazil,18,81,Defender,9,Portugal
-Germany,1.81,1988,0,1,1,0,0,Vila do Conde,392800,4,1,0,0,0,Fabio Coentrão,Portugal,31,70,Defender,4,Portugal
-Germany,1.70,1986,0,0,2,0,0,Portimao,348981,1,1,1,0,0,Joao Joao Moutinho,Portugal,41,61,Midfielder,5,Portugal
-Germany,1.81,1986,0,0,1,1,1,Coimbra,348978,0,0,0,0,0,Miguel Veloso,Portugal,23,78,Midfielder,7,Portugal
-Germany,1.79,1983,0,2,1,0,0,Aves,349054,0,2,0,0,0,Raul Meireles,Portugal,42,78,Midfielder,7,Portugal
-Germany,1.75,1986,0,1,3,2,3,Praia,348983,3,2,0,0,0,Nani,Cape Verde,31,66,Forward,1,Portugal
-Germany,1.93,1984,0,0,0,1,1,Figueira da Foz,345763,0,0,0,0,1,Hugo Almeida,Portugal,4,86,Forward,0,Portugal
-Germany,1.85,1985,0,0,1,5,7,Madeira,346135,2,0,2,0,0,Cristiano Ronaldo,Portugal,22,80,Forward,3,Portugal
-Germany,1.90,1987,0,0,0,0,2,Bissau,442081,2,0,3,0,0,Eder,Guinea-Bissau,19,81,Forward,0,Portugal
-Germany,1.83,1981,0,0,2,0,0,Vila Nova de Gaia,348894,0,0,1,0,0,Ricardo Costa,Portugal,21,80,Defender,6,Portugal
-Germany,1.85,1990,0,1,0,0,0,Lisbon,535678,0,0,0,0,0,André Almeida,Portugal,6,75,Defender,1,Portugal
-Germany,1.70,1986,0,0,0,0,0,Guimaraes,349060,0,0,0,0,0,Vieirinha,Portugal,0,73,Forward,0,Portugal
-Germany,1.82,1982,0,0,0,0,0,Vila do Conde,351268,0,0,0,0,0,Hélder Postiga,Portugal,0,76,Forward,0,Portugal
-Germany,1.80,1985,0,0,0,0,0,Almada,398659,0,0,0,0,0,Silvestre Varela,Portugal,0,79,Forward,0,Portugal
-Germany,1.80,1985,0,0,0,0,0,Lisbon,441986,0,0,0,0,0,Ruben Amorim,Portugal,0,78,Midfielder,0,Portugal
-Germany,1.85,1992,0,0,0,0,0,Luanda,565439,0,0,0,0,0,William,Angola,0,87,Midfielder,0,Portugal
-Germany,1.86,1988,0,0,0,0,0,Povoa de Varzim,607949,0,0,0,0,0,Luis Neto,Portugal,0,71,Defender,0,Portugal
-Germany,1.73,1993,0,0,0,0,0,Barreiro,748968,0,0,0,0,0,Rafa,Portugal,0,66,Forward,0,Portugal
-Portugal,1.93,1986,0,0,0,0,0,Gelsenkirchen-Buer,345666,0,0,0,0,0,Manuel Neuer,West Germany,0,92,Goalkeeper,0,Germany
-Portugal,1.88,1980,0,0,0,0,0,Diez,345366,0,0,0,0,0,Roman Weidenfeller,West Germany,0,85,Goalkeeper,0,Germany
-Portugal,1.87,1989,0,0,0,0,0,Cologne,375927,0,0,0,0,0,Ron-Robert Zieler,West Germany,0,83,Goalkeeper,0,Germany
-Germany,1.87,1982,0,0,0,0,0,Mirandela,349453,0,0,0,0,0,Eduardo,Portugal,0,84,Goalkeeper,0,Portugal
-Nigeria,1.86,1983,0,1,2,0,0,Ahvaz,481709,0,2,1,0,0,Pejman Montazeri,Iran,24,78,Defender,6,Iran
-Nigeria,1.85,1982,0,0,2,0,0,Bandar Anzali,473970,0,0,0,0,0,Jalal Hosseini,Iran,16,80,Defender,8,Iran
-Nigeria,1.85,1981,0,0,0,0,0,Tehran,360095,0,1,1,0,0,Amir Hossein Sadeghi,Iran,16,78,Defender,7,Iran
-Nigeria,1.80,1987,0,2,6,0,0,Karaj,493161,2,1,1,0,0,Mehrdad Pooladi,Iran,11,70,Defender,5,Iran
-Nigeria,1.78,1983,0,0,9,1,2,Tehran,346183,0,6,0,0,0,Andranik Timotian,Iran,18,73,Midfielder,7,Iran
-Nigeria,1.88,1980,0,2,0,0,0,Shahr-e-Rey,348756,0,0,1,0,0,Javad Nekounam,Iran,26,78,Midfielder,6,Iran
-Nigeria,1.77,1990,0,0,4,1,1,Kashan,473977,3,0,0,0,0,Ehsan Haji Safi,Iran,22,64,Midfielder,1,Iran
-Nigeria,1.75,1983,0,0,1,0,0,Tehran,493155,3,0,1,0,0,Khosro Heydari,Iran,12,61,Forward,2,Iran
-Nigeria,1.81,1987,0,0,2,1,4,Mashhad,351427,2,7,5,0,0,Reza Ghoochannejhad,Iran,12,76,Forward,1,Iran
-Nigeria,1.82,1986,0,1,1,0,0,Tehran,345653,1,1,3,0,1,Ashkan Dejagah,Iran,12,79,Forward,4,Iran
-Nigeria,1.85,1984,0,0,0,0,0,Shiraz,473978,1,0,0,0,0,Masoud Shojaei,Iran,0,73,Forward,0,Iran
-Nigeria,1.81,1993,0,0,2,0,0,Jirandeh,740234,1,0,0,0,0,Alireza Jahanbakhsh,Iran,2,78,Forward,1,Iran
-Nigeria,1.89,1982,0,0,0,0,0,Ahvaz,473975,0,0,0,0,0,Ahmad Alnameh,Iran,0,78,Defender,0,Iran
-Nigeria,1.80,1984,0,0,0,0,0,Shiraz,481672,0,0,0,0,0,Hashem Beikzadeh,Iran,0,78,Midfielder,0,Iran
-Nigeria,1.78,1987,0,0,0,0,0,San Jose,537093,0,0,0,0,0,Steven Beitashour,United States,0,77,Defender,0,Iran
-Nigeria,1.78,1983,0,0,0,0,0,Esfahan,539244,0,0,0,0,0,Ghasem Hadadifar,Iran,0,66,Midfielder,0,Iran
-Nigeria,1.82,1986,0,0,0,0,0,Bushehr,566432,0,0,0,0,0,Hossein Mahini,Iran,0,70,Defender,0,Iran
-Nigeria,1.79,1991,0,0,0,0,0,Sarpol-e Zahab,569580,0,0,0,0,0,Bakhtiar Rahmani,Iran,0,74,Midfielder,0,Iran
-Nigeria,1.85,1990,0,0,0,0,0,Ardabil,583648,0,0,0,0,0,Karim Ansarifard,Iran,0,65,Forward,0,Iran
-Nigeria,1.90,1989,0,0,0,0,0,Mashhad,826260,0,0,0,0,0,Reza Haghighi,Iran,0,80,Midfielder,0,Iran
-Iran,1.90,1988,0,0,0,0,0,Kaduna,392604,4,0,3,0,0,Efe Ambrose,Nigeria,55,70,Defender,6,Nigeria
-Iran,1.85,1993,0,0,0,0,0,Jos,604558,0,1,2,0,0,Kenneth Omeruo,Nigeria,55,71,Defender,9,Nigeria
-Iran,1.83,1990,0,0,0,0,0,Akure,656342,0,1,0,0,0,Godfrey Oboabona,Nigeria,24,85,Defender,4,Nigeria
-Iran,1.84,1990,0,2,3,0,0,Ilorin,656341,3,2,2,0,0,Juwon Oshaniwa,Nigeria,37,69,Defender,5,Nigeria
-Iran,1.68,1992,0,0,5,1,3,Lagos,655435,3,1,2,0,0,Ogenyi Onazi,Nigeria,83,73,Midfielder,16,Nigeria
-Iran,1.88,1987,0,0,4,1,1,Jos,330396,0,4,5,0,0,John Obi Mikel,Nigeria,64,86,Midfielder,7,Nigeria
-Iran,1.70,1992,0,0,0,0,0,Abuya,604572,3,0,2,0,0,Ramón Azeez,Nigeria,40,70,Midfielder,3,Nigeria
-Iran,1.76,1992,0,0,3,1,1,Bukuru,575271,6,2,0,0,0,Ahmed Musa,Nigeria,12,62,Forward,2,Nigeria
-Iran,1.82,1987,0,1,2,0,2,Otuocha,608424,3,1,0,0,0,Emmanuel Emenike,Nigeria,8,90,Forward,1,Nigeria
-Iran,1.77,1990,0,0,0,1,1,Lagos,416523,1,1,0,0,0,Victor Moses,Nigeria,7,73,Midfielder,0,Nigeria
-Iran,1.81,1981,0,0,0,0,0,Tashkent,347710,0,1,1,0,0,Peter Odemwingie,USSR,10,79,Forward,0,Nigeria
-Iran,1.88,1981,0,0,0,2,2,Zaria,345955,0,1,0,0,0,Shola Ameobi,Nigeria,5,95,Forward,1,Nigeria
-Iran,1.94,1990,0,0,0,0,0,Enugu,537661,0,0,0,0,0,Okechukwu Uchebo,Nigeria,0,85,Forward,0,Nigeria
-Iran,1.77,1991,0,0,0,0,0,Lagos,604564,0,0,0,0,0,Uche Nwofor,Nigeria,0,75,Forward,0,Nigeria
-Iran,1.95,1989,0,0,0,0,0,Lafia,656343,0,0,0,0,0,Azubuike Egwuekwe,Nigeria,0,91,Defender,0,Nigeria
-Iran,1.84,1990,0,0,0,0,0,Kaduna,656351,0,0,0,0,0,Ruben Gabriel,Nigeria,0,86,Midfielder,0,Nigeria
-Iran,1.68,1988,0,0,0,0,0,Aba,656358,0,0,0,0,0,Ejike Uzoenyi,Nigeria,0,62,Midfielder,0,Nigeria
-Iran,1.87,1991,0,0,0,0,0,indefinido,735697,0,0,0,0,0,Ebenezer Odunlami,Nigeria,0,70,Defender,0,Nigeria
-Iran,1.65,1992,0,0,0,0,0,Lagos,735699,0,0,0,0,0,Michael Babatunde,Nigeria,0,72,Forward,0,Nigeria
-Nigeria,1.93,1988,0,0,0,0,0,Tehran,493279,0,0,0,0,0,Alireza Haghighi,Iran,0,80,Goalkeeper,0,Iran
-Nigeria,1.93,1988,0,0,0,0,0,Giessen,505368,0,0,0,0,0,Daniel Davari,West Germany,0,85,Goalkeeper,0,Iran
-Nigeria,1.82,1980,0,0,0,0,0,Noshahr,590168,0,0,0,0,0,Rahman Ahmadi,Iran,0,77,Goalkeeper,0,Iran
-Iran,1.86,1984,0,0,0,0,0,Onitsha,367870,0,0,0,0,0,Austin Ejide,Nigeria,0,90,Goalkeeper,0,Nigeria
-Iran,1.87,1984,0,0,0,0,0,Abuja,622285,0,0,0,0,0,Chigozie Agbim,Nigeria,0,83,Goalkeeper,0,Nigeria
-United States,1.72,1990,0,1,1,0,0,Accra,551863,8,3,2,0,0,Daniel Opare,Ghana,54,73,Defender,10,Ghana
-United States,1.82,1990,0,1,3,0,1,Accra,545667,0,0,1,0,0,Jonathan Mensah,Ghana,48,83,Defender,9,Ghana
-United States,1.85,1987,0,0,0,0,2,Accra,508854,0,0,0,0,0,John Boye,Ghana,40,72,Defender,7,Ghana
-United States,1.68,1988,0,0,1,1,1,Accra,446775,3,0,1,0,0,Kwadwo Asamoah,Ghana,64,78,Midfielder,6,Ghana
-United States,1.79,1984,0,0,3,0,2,Konongo,346563,5,1,3,0,0,Sulley Muntari,Ghana,52,76,Midfielder,1,Ghana
-United States,1.89,1989,0,1,1,0,0,Accra,555210,0,1,0,0,0,Mohammed Rabiu,Ghana,30,70,Midfielder,8,Ghana
-United States,1.82,1991,0,0,1,1,1,Marseille,527802,3,2,0,0,0,Jordan Ayew,France,15,80,Forward,1,Ghana
-United States,1.65,1992,0,1,0,1,4,Ada Foah,618262,4,0,1,0,1,Christian Atsu,Ghana,35,68,Midfielder,0,Ghana
-United States,1.75,1989,0,0,1,2,2,Lille,397830,1,1,2,1,1,André Ayew,France,22,72,Midfielder,2,Ghana
-United States,1.86,1985,1,1,0,2,5,Accra,346879,1,1,2,0,1,Asamoah Gyan,Ghana,11,77,Forward,0,Ghana
-United States,1.85,1987,0,1,1,0,0,Lambeth,441046,1,0,0,0,0,Albert Adomah,England,7,74,Midfielder,1,Ghana
-United States,1.82,1987,0,1,0,0,2,Berlin,345691,0,0,0,0,2,Kevin-Prince Boateng,West Germany,12,86,Forward,0,Ghana
-United States,1.80,1982,0,0,1,1,1,Accra,346104,0,1,0,0,0,Michael Essien,Ghana,11,85,Midfielder,1,Ghana
-United States,1.71,1990,0,0,0,0,0,Tamale,476984,0,0,0,0,0,Mubarak Wakaso,Ghana,0,72,Midfielder,0,Ghana
-United States,1.68,1986,0,0,0,0,0,Kumasi,533440,0,0,0,0,0,Harrison Afful,Ghana,0,83,Defender,0,Ghana
-United States,1.73,1990,0,0,0,0,0,Seikwa,533446,0,0,0,0,0,Emmanuel Agyemang-Badu,Ghana,0,79,Midfielder,0,Ghana
-United States,1.79,1989,0,0,0,0,0,Sekondi-Takoradi,533452,0,0,0,0,0,Samuel Inkoom,Ghana,0,75,Defender,0,Ghana
-United States,1.79,1992,0,0,0,0,0,Accra,561661,0,0,0,0,0,Afriyie Acquah,Ghana,0,70,Midfielder,0,Ghana
-United States,1.72,1991,0,0,0,0,0,Tamale,583025,0,0,0,0,0,Majeed Waris,Ghana,0,70,Forward,0,Ghana
-United States,1.82,1992,0,0,0,0,0,Cape Coast,723261,0,0,0,0,0,Rashid Sumaila,Ghana,0,80,Defender,0,Ghana
-Ghana,1.82,1987,0,1,0,0,0,Munich,408161,1,1,1,0,0,Fabian Johnson,West Germany,23,74,Defender,1,United States
-Ghana,1.90,1985,0,1,0,0,0,Attleboro,439571,0,0,0,0,0,Geoff Cameron,United States,25,84,Defender,4,United States
-Ghana,1.82,1987,0,3,1,0,0,Overland Park,490210,0,0,1,0,0,Matt Besler,United States,14,77,Defender,3,United States
-Ghana,1.70,1982,0,1,1,0,0,Fort Wayne,274790,1,2,1,0,0,DaMarcus Beasley,United States,29,66,Defender,5,United States
-Ghana,1.81,1982,0,1,6,0,0,Crofton,274879,0,1,2,0,0,Kyle Beckerman,United States,23,75,Midfielder,1,United States
-Ghana,1.84,1981,1,3,4,1,1,Frankfurt am Main,345448,0,3,3,0,0,Jermaine Jones,West Germany,19,78,Midfielder,5,United States
-Ghana,1.85,1983,0,0,0,2,2,Nacogdoches,275213,0,0,1,1,1,Clint Dempsey,United States,17,85,Forward,1,United States
-Ghana,1.85,1987,0,0,0,0,0,Princeton,275241,1,2,0,0,0,Michael Bradley,United States,39,86,Midfielder,4,United States
-Ghana,1.78,1987,0,0,3,1,2,Miami,537545,2,3,0,0,0,Alejandro Bedoya,United States,11,73,Midfielder,3,United States
-Ghana,1.85,1989,0,0,0,1,1,Livingston,322699,0,0,0,0,0,Jozy Altidore,United States,3,72,Forward,0,United States
-Ghana,1.93,1993,0,2,0,1,1,Berlin,604284,0,0,1,1,0,John Brooks,Germany,12,78,Defender,2,United States
-Ghana,1.82,1990,0,0,0,1,1,Reykjavik,599865,0,0,0,0,0,Aron Johannsson,Iceland,9,75,Forward,0,United States
-Ghana,1.77,1986,1,0,0,0,0,Longwood,490225,0,0,0,0,0,Graham Zusi,United States,7,73,Midfielder,1,United States
-Ghana,1.80,1981,0,0,0,0,0,St. Charles,275001,0,0,0,0,0,Brad Davis,United States,0,75,Midfielder,0,United States
-Ghana,1.82,1983,0,0,0,0,0,Livermore,322579,0,0,0,0,0,Chris Wondolowski,United States,0,75,Forward,0,United States
-Ghana,1.86,1990,0,0,0,0,0,Frankfurt am Main,483865,0,0,0,0,0,Timmy Chandler,West Germany,0,83,Defender,0,United States
-Ghana,1.95,1988,0,0,0,0,0,Dallas,490205,0,0,0,0,0,Omar González,United States,0,95,Defender,0,United States
-Ghana,1.82,1990,0,0,0,0,0,Oslo,517263,0,0,0,0,0,Mix Diskerud,Norway,0,71,Midfielder,0,United States
-Ghana,1.75,1993,0,0,0,0,0,Seattle,723625,0,0,0,0,0,DeAndre Yedlin,United States,0,68,Defender,0,United States
-Ghana,1.72,1995,0,0,0,0,0,Tampa,787674,0,0,0,0,0,Julian Green,United States,0,60,Midfielder,0,United States
-United States,1.90,1987,0,0,0,0,0,Oslo,482076,0,0,0,0,0,Adam Kwarasey,Norway,0,84,Goalkeeper,0,Ghana
-United States,1.80,1985,0,0,0,0,0,Obuasi,533450,0,0,0,0,0,Fatau Dauda,Ghana,0,74,Goalkeeper,0,Ghana
-United States,1.77,1984,0,0,0,0,0,Khumasi,545664,0,0,0,0,0,Stephen Adams,Ghana,0,78,Goalkeeper,0,Ghana
-Ghana,1.82,1979,0,0,0,0,0,Montclair,274846,0,0,0,0,0,Nick Rimando,United States,0,86,Goalkeeper,0,United States
-Ghana,1.93,1984,0,0,0,0,0,Homer Glen,322494,0,0,0,0,0,Brad Guzan,United States,0,95,Goalkeeper,0,United States
-Algeria,1.86,1989,0,0,3,0,0,Wilrijk,482752,4,1,2,0,1,Toby Alderweireld,Belgium,42,80,Defender,13,Belgium
-Algeria,1.96,1978,0,0,1,1,2,Chimay,345514,0,1,1,0,0,Daniel Van Buyten,Belgium,83,95,Defender,27,Belgium
-Algeria,1.90,1986,0,0,0,0,0,Ukkel,345773,0,0,0,0,0,Vincent Kompany,Belgium,67,85,Defender,7,Belgium
-Algeria,1.89,1987,0,0,3,0,2,Sint-Niklaas,348329,2,3,1,0,0,Jan Vertonghen,Belgium,49,86,Defender,7,Belgium
-Algeria,1.83,1989,0,0,4,2,3,Liege,347225,0,2,5,0,0,Axel Witsel,Belgium,68,76,Midfielder,9,Belgium
-Algeria,1.85,1987,0,0,2,0,1,Wilrijk,348248,0,4,2,0,0,Moussa Dembele,Belgium,48,82,Midfielder,4,Belgium
-Algeria,1.87,1989,0,0,2,2,3,Liege,443052,0,2,0,0,0,Nacer Chadli,Belgium,27,80,Midfielder,0,Belgium
-Algeria,1.81,1991,1,0,1,1,1,Drongen,483710,4,1,0,0,0,Kevin De Bruyne,Belgium,37,68,Midfielder,6,Belgium
-Algeria,1.72,1991,1,0,0,0,0,La Louviere,397817,4,1,4,0,0,Eden Hazard,Belgium,31,56,Midfielder,3,Belgium
-Algeria,1.90,1993,0,0,2,0,0,Antwerp,499317,0,1,0,0,0,Romelu Lukaku,Belgium,10,100,Forward,0,Belgium
-Algeria,1.94,1987,0,0,0,2,2,Etterbeek,347213,0,1,0,1,2,Marouane Fellaini,Belgium,5,85,Midfielder,1,Belgium
-Algeria,1.64,1987,0,0,0,1,1,Leuven,443066,4,2,2,1,0,Dries Mertens,Belgium,7,61,Midfielder,3,Belgium
-Algeria,1.85,1995,0,0,1,1,1,Ostend,724860,1,1,0,0,0,Divock Origi,Belgium,1,75,Forward,0,Belgium
-Algeria,1.88,1985,0,0,0,0,0,Bruges,347082,0,0,0,0,0,Nicolas Lombaerts,Belgium,0,83,Defender,0,Belgium
-Algeria,1.85,1987,0,0,0,0,0,Likasi,347131,0,0,0,0,0,Anthony Vanden Borre,DR Congo,0,89,Defender,0,Belgium
-Algeria,1.73,1988,0,0,0,0,0,Mechelen,347218,0,0,0,0,0,Steven Defour,Belgium,0,70,Midfielder,0,Belgium
-Algeria,1.80,1985,0,0,0,0,0,Farciennes,347254,0,0,0,0,0,Laurent Ciman,Belgium,0,70,Defender,0,Belgium
-Algeria,1.79,1987,0,0,0,0,0,Liege,347734,0,0,0,0,0,Kevin Mirallas,Belgium,0,72,Forward,0,Belgium
-Algeria,1.78,1985,0,0,0,0,0,Kapellen,348168,0,0,0,0,0,Thomas Vermaelen,Belgium,0,75,Defender,0,Belgium
-Algeria,1.80,1995,0,0,0,0,0,Brussels,735764,0,0,0,0,0,Adnan Januzaj,Belgium,0,75,Midfielder,0,Belgium
-Belgium,1.82,1983,0,1,3,0,0,Dijon,459424,0,3,2,0,0,Mehdi Mostefa,France,13,82,Midfielder,4,Algeria
-Belgium,1.89,1982,0,1,1,0,0,Longvic,376672,0,0,2,0,0,Madjid Bouguerra,France,25,89,Defender,9,Algeria
-Belgium,1.87,1986,0,0,1,0,0,Algiers,520909,0,0,0,0,0,Rafik Halliche,Algeria,16,77,Defender,6,Algeria
-Belgium,1.84,1991,0,2,2,0,0,Saint-Priest-en-Jarez,575270,1,2,0,0,0,Faouzi Ghoulam,France,23,80,Defender,10,Algeria
-Belgium,1.79,1992,0,0,2,0,0,Castres,543904,1,3,4,0,0,Saphir Taider,France,18,73,Midfielder,7,Algeria
-Belgium,1.80,1985,0,0,2,0,1,Lyon,347810,0,1,1,0,0,Carl Medjani,France,11,77,Defender,3,Algeria
-Belgium,1.89,1994,0,1,3,0,0,Lille,797903,1,2,0,0,0,Nabil Bentaleb,France,21,68,Midfielder,4,Algeria
-Belgium,1.77,1989,0,0,1,1,1,Levallois-Perret,440563,1,0,3,1,0,Sofiane Feghouli,France,11,71,Forward,3,Algeria
-Belgium,1.79,1991,0,0,3,0,1,Sarcelles,605046,1,3,3,0,0,Riyad Mahrez,France,11,66,Forward,3,Algeria
-Belgium,1.77,1987,0,1,4,0,0,Chlef,619171,1,2,2,0,0,El Arabi Soudani,Algeria,5,75,Forward,2,Algeria
-Belgium,1.75,1984,0,0,0,0,0,Paris,374914,0,0,1,0,0,Mehdi Lacen,France,2,72,Midfielder,0,Algeria
-Belgium,1.83,1990,0,0,0,0,0,Marseille,698366,0,1,0,0,0,Nabil Ghilas,France,1,85,Forward,0,Algeria
-Belgium,1.88,1988,0,0,0,0,0,Algiers,657130,0,1,0,0,0,Islam Slimani,Algeria,6,79,Forward,0,Algeria
-Belgium,1.88,1984,0,0,0,0,0,Saint-Maurice,347681,0,0,0,0,0,Hassan Yebda,France,0,80,Midfielder,0,Algeria
-Belgium,1.71,1990,0,0,0,0,0,Paris,397897,0,0,0,0,0,Yacine Brahimi,France,0,68,Midfielder,0,Algeria
-Belgium,1.79,1984,0,0,0,0,0,Zighoud Youcef,402037,0,0,0,0,0,Djamel Mesbah,Algeria,0,74,Defender,0,Algeria
-Belgium,1.84,1991,0,0,0,0,0,Chalons-au-Champagne,558856,0,0,0,0,0,Aissa Mandi,France,0,78,Defender,0,Algeria
-Belgium,1.87,1988,0,0,0,0,0,Tolouse,577897,0,0,0,0,0,Liassine Cadamuro,France,0,81,Defender,0,Algeria
-Belgium,1.90,1989,0,0,0,0,0,Mekla,706676,0,0,0,0,0,Esseid Belkalem,Algeria,0,90,Defender,0,Algeria
-Belgium,1.68,1987,0,0,0,0,0,Setif,719156,0,0,0,0,0,Abdelmoumene Djabou,Algeria,0,66,Forward,0,Algeria
-Algeria,1.98,1992,0,0,0,0,0,Bree,496415,0,0,0,0,0,Thibaut Courtois,Belgium,0,91,Goalkeeper,0,Belgium
-Algeria,1.87,1985,0,0,0,0,0,Tielt,346988,0,0,0,0,0,Sammy Bossut,Belgium,0,74,Goalkeeper,0,Belgium
-Algeria,1.93,1988,0,0,0,0,0,Sint-Truiden,347350,0,0,0,0,0,Simon Mignolet,Belgium,0,87,Goalkeeper,0,Belgium
-Belgium,1.87,1985,0,0,0,0,0,Mila,536847,0,0,0,0,0,Mohamed Zemmamouche,Algeria,0,82,Goalkeeper,0,Algeria
-Belgium,1.82,1985,0,0,0,0,0,Roanne,706821,0,0,0,0,0,Cedric Si Mohamed,France,0,68,Goalkeeper,0,Algeria
-Mexico,1.75,1983,0,1,3,0,0,Juazeiro,348634,5,2,2,0,0,Dani Alves,Brazil,47,64,Defender,5,Brazil
-Mexico,1.82,1984,0,1,3,1,1,Rio de Janeiro,375843,0,1,1,0,0,Thiago Silva,Brazil,40,79,Defender,6,Brazil
-Mexico,1.89,1987,0,1,2,1,1,Sao Paulo,409128,0,2,0,0,0,David Luiz,Brazil,37,84,Defender,4,Brazil
-Mexico,1.74,1988,0,1,3,0,1,Rio de Janeiro,356026,4,1,0,0,0,Marcelo,Brazil,51,75,Defender,8,Brazil
-Mexico,1.81,1988,0,1,0,1,2,Sao Paulo,545294,0,2,0,0,0,Paulinho,Brazil,18,71,Midfielder,2,Brazil
-Mexico,1.81,1991,0,1,5,1,2,Americana,466295,1,0,1,0,0,Oscar,Brazil,34,66,Midfielder,4,Brazil
-Mexico,1.88,1987,0,1,4,0,1,Pindamonhangaba,410479,0,1,4,0,0,Luiz Gustavo,Brazil,33,80,Midfielder,8,Brazil
-Mexico,1.81,1987,0,0,2,0,0,Barra do Pirai,440827,1,2,1,0,0,Ramires,Brazil,10,73,Midfielder,1,Brazil
-Mexico,1.86,1983,0,1,0,2,2,Teofilo Otoni,347711,0,0,1,0,4,Fred,Brazil,6,90,Forward,0,Brazil
-Mexico,1.75,1992,0,0,1,2,3,Mogi das Cruzes,555042,6,1,5,0,0,Neymar,Brazil,26,65,Forward,3,Brazil
-Mexico,1.66,1992,0,0,0,0,0,Belo Horizonte,589316,3,1,1,0,0,Bernard,Brazil,11,52,Forward,0,Brazil
-Mexico,1.91,1987,0,0,0,0,1,Sao Paulo,409159,0,0,0,0,1,Jo,Brazil,2,78,Forward,0,Brazil
-Mexico,1.76,1988,0,0,0,0,0,Ribeirao Pires,388493,0,0,1,0,0,Willian,Brazil,3,70,Midfielder,1,Brazil
-Mexico,1.77,1981,0,0,0,0,0,Cachoeiro do Itapemirim,346567,0,0,0,0,0,Maxwell,Brazil,0,73,Defender,0,Brazil
-Mexico,1.86,1981,0,0,0,0,0,Novo Hamburgo,346587,0,0,0,0,0,Maicon,Brazil,0,77,Defender,0,Brazil
-Mexico,1.89,1983,0,0,0,0,0,Salvador de Bahia,347258,0,0,0,0,0,Dante,Brazil,0,87,Defender,0,Brazil
-Mexico,1.79,1985,0,0,0,0,0,Londrina,348958,0,0,0,0,0,Fernandinho,Brazil,0,67,Midfielder,0,Brazil
-Mexico,1.80,1985,0,0,0,0,0,Recife,359280,0,0,0,0,0,Hernanes,Brazil,0,76,Midfielder,0,Brazil
-Mexico,1.86,1986,0,0,0,0,0,Marechal Candido Rondon,456926,0,0,0,0,0,Henrique,Brazil,0,73,Defender,0,Brazil
-Mexico,1.79,1986,0,0,0,0,0,Campina Grande,471521,0,0,0,0,0,Hulk,Brazil,0,80,Forward,0,Brazil
-Brazil,1.78,1986,0,1,4,0,1,Concordia,375518,1,3,3,0,0,Paul Aguilar,Mexico,25,65,Defender,0,Mexico
-Brazil,1.91,1981,0,0,2,0,0,Mazatlan,368436,0,2,0,0,0,Francisco Rodríguez,Mexico,29,84,Defender,3,Mexico
-Brazil,1.84,1979,0,1,3,0,0,Zamora,348468,0,0,2,0,0,Rafael Márquez,Mexico,28,74,Defender,15,Mexico
-Brazil,1.82,1988,0,1,2,0,0,Culiacan,359565,1,0,0,0,0,Héctor Moreno,Mexico,23,80,Defender,3,Mexico
-Brazil,1.78,1988,0,1,2,0,2,Veracruz,375578,3,1,1,0,0,Miguel Layún,Mexico,24,64,Defender,7,Mexico
-Brazil,1.80,1990,0,0,3,0,2,Mexico City,492556,0,2,0,0,0,Héctor Herrera,Mexico,40,72,Midfielder,5,Mexico
-Brazil,1.64,1988,0,1,3,0,1,Celaya,685141,0,2,1,0,0,Jose Vazquez,Mexico,34,68,Midfielder,6,Mexico
-Brazil,1.67,1986,0,1,1,0,3,Guadalajara,373962,4,3,2,0,0,Andrés Guardado,Mexico,26,67,Defender,6,Mexico
-Brazil,1.79,1989,0,1,1,2,2,Monterrey,390080,1,1,1,0,0,Giovani Dos Santos,Mexico,23,71,Forward,3,Mexico
-Brazil,1.77,1984,0,0,3,0,0,Torreon,369575,0,3,0,0,0,Oribe Peralta,Mexico,13,68,Forward,2,Mexico
-Brazil,1.71,1989,0,0,0,0,0,Guadalajara,419772,0,1,0,0,0,Marco Fabián,Mexico,4,65,Midfielder,0,Mexico
-Brazil,1.75,1988,0,0,0,0,1,Guadalajara,375893,0,0,3,0,0,Javier Hernández,Mexico,1,62,Forward,0,Mexico
-Brazil,1.86,1991,0,0,0,1,1,Tepeji del Rio,618109,0,0,0,0,0,Raúl Jiménez,Mexico,1,76,Forward,0,Mexico
+Honduras,1.79,1989,0,0,0,3,4,San Lorenzo,537827,0,3,5,2,1,Enner Valencia,Ecuador,19,68,Forward,2,Ecuador
+Honduras,1.83,1985,0,0,0,0,0,Machala,510647,0,0,0,0,0,Gabriel Achilier,Ecuador,0,83,Defender,0,Ecuador
+Honduras,1.71,1995,0,0,0,0,0,Santo Domingo,688883,0,0,0,0,0,Carlos Gruezo,Ecuador,1,67,Midfielder,0,Ecuador
+Honduras,1.75,1979,0,0,0,0,0,Quito,347949,0,0,0,0,0,Edison Méndez,Ecuador,4,68,Midfielder,0,Ecuador
+Honduras,1.75,1983,0,0,0,0,0,Loja,372560,0,0,0,0,0,Luis Saritama,Ecuador,0,76,Midfielder,0,Ecuador
+Honduras,1.70,1982,0,0,0,0,0,Esmeraldas,374579,0,0,0,0,0,Óscar Bagüí,Ecuador,0,65,Defender,0,Ecuador
+Honduras,1.78,1987,0,0,0,0,0,Guayaquil,387218,0,0,0,0,0,Michael Arroyo,Ecuador,0,72,Midfielder,0,Ecuador
+Honduras,1.86,1988,0,0,0,0,0,Eloy Alfaro,387226,0,0,0,0,0,Jaime Ayoví,Ecuador,0,61,Forward,0,Ecuador
+Honduras,1.73,1989,0,0,0,0,0,La Troncal,510665,0,0,0,0,0,Joao Rojas,Ecuador,0,68,Forward,0,Ecuador
+Honduras,1.76,1990,0,0,0,0,0,Sucumbios,557536,0,0,0,0,0,Fidel Martínez,Ecuador,0,67,Midfielder,0,Ecuador
+Honduras,1.71,1991,0,0,0,0,0,Ambuqui,605529,0,0,0,0,0,Álex Ibarra,Ecuador,0,70,Midfielder,0,Ecuador
+Ecuador,1.78,1977,0,0,0,0,0,Comayagua,363537,0,0,0,0,0,Noel Valladares,Honduras,0,80,Goalkeeper,0,Honduras
+Ecuador,1.80,1981,0,0,0,0,0,San Ignacio,504478,0,0,0,0,0,Donis Escober,Honduras,0,75,Goalkeeper,0,Honduras
+Ecuador,1.82,1993,0,0,0,0,0,San Pedro Sula,826222,0,0,0,0,0,Luis López,Honduras,0,75,Goalkeeper,0,Honduras
+Honduras,1.87,1985,0,0,0,0,0,Guayaquil,554701,0,0,0,0,0,Máximo Banguera,Ecuador,0,84,Goalkeeper,0,Ecuador
+Switzerland,1.92,1993,1,0,0,0,0,Lagny-sur-Marne,588585,2,1,1,0,0,Paul Pogba,France,12,80,Midfielder,1,France
+Switzerland,1.75,1991,0,0,0,0,0,Macon,524262,0,0,1,0,0,Antoine Griezmann,France,5,68,Forward,0,France
+Switzerland,1.72,1984,0,0,0,0,0,Born at sea,347649,0,0,0,0,0,Rio Mavuba,Angola,0,74,Midfielder,0,France
+Switzerland,1.75,1983,0,0,0,0,0,Sens,347680,0,0,0,0,0,Bacary Sagna,France,0,72,Defender,0,France
+Switzerland,1.85,1987,0,0,0,0,0,Rillieux-la-Pape,347919,0,0,0,0,0,Loic Remy,France,0,82,Forward,0,France
+Switzerland,1.81,1989,0,0,0,0,0,Zellwiller,394208,0,0,0,0,0,Morgan Schneiderlin,France,0,75,Midfielder,0,France
+Switzerland,1.88,1991,0,0,0,0,0,Paris,479948,0,0,0,0,0,Eliaquim Mangala,France,0,81,Defender,0,France
+Switzerland,1.72,1990,0,0,0,0,0,Ajaccio,508852,0,0,0,0,0,Remy Cabella,France,0,66,Forward,0,France
+Switzerland,1.79,1993,0,0,0,0,0,Meaux,558151,0,0,0,0,0,Lucas Digne,France,0,74,Defender,0,France
+France,1.95,1983,0,0,0,0,0,Zurich,370693,0,0,0,0,0,Diego Benaglio,Switzerland,0,83,Goalkeeper,0,Switzerland
+France,1.83,1988,0,0,0,0,0,Morges,349443,0,0,0,0,0,Yann Sommer,Switzerland,0,79,Goalkeeper,0,Switzerland
+France,1.88,1990,0,0,0,0,0,Munsingen,457102,0,0,0,0,0,Roman Burki,Switzerland,0,83,Goalkeeper,0,Switzerland
+Switzerland,1.84,1979,0,0,0,0,0,Machecoul,347486,0,0,0,0,0,Mickael Landreau,France,0,85,Goalkeeper,0,France
+Switzerland,1.88,1986,0,0,0,0,0,Bayonne,350484,0,0,0,0,0,Stephane Ruffier,France,0,90,Goalkeeper,0,France
+Ecuador,1.86,1985,1,0,3,1,1,La Ceiba,596331,3,0,1,0,0,Brayan Beckeles,Honduras,16,80,Defender,3,Honduras
+Ecuador,1.87,1982,0,0,1,1,2,La Ceiba,457705,0,3,1,0,0,Victor Bernárdez,Honduras,16,86,Defender,2,Honduras
+Ecuador,1.84,1983,0,1,2,0,2,Jutiapa,358879,0,1,1,0,0,Maynor Figueroa,Honduras,36,82,Defender,5,Honduras
+Ecuador,1.77,1986,0,0,1,0,0,Tegucigalpa,363591,1,1,0,0,0,Emilio Izaguirre,Honduras,12,77,Midfielder,1,Honduras
+Ecuador,1.76,1986,0,0,6,0,1,Choloma,386041,0,0,2,0,0,Jorge Claros,Honduras,48,70,Midfielder,2,Honduras
+Ecuador,1.70,1990,0,0,1,0,0,Juticalpa,650765,1,0,1,0,0,Luis Garrido,Honduras,28,73,Midfielder,3,Honduras
+Ecuador,1.76,1984,0,0,0,1,1,Tegucigalpa,358947,1,1,3,0,0,Boniek García,Honduras,25,72,Midfielder,0,Honduras
+Ecuador,1.80,1986,0,0,2,2,3,Puerto Cortes,439302,1,2,0,0,0,Roger Espinoza,Honduras,34,73,Midfielder,1,Honduras
+Ecuador,1.87,1987,0,0,2,1,1,Santa Rosa de Aguan,544490,1,2,1,0,0,Jerry Bengtson,Honduras,11,75,Forward,0,Honduras
+Ecuador,1.90,1982,0,0,0,1,3,San Pedro Sula,491194,1,5,1,1,1,Carlo Costly,Honduras,11,85,Forward,0,Honduras
+Ecuador,1.75,1988,0,3,2,0,0,Tela,504480,0,0,3,0,0,Juan Carlos García,Honduras,22,76,Defender,1,Honduras
+Ecuador,1.73,1989,0,0,0,2,2,San Pedro Sula,461719,0,0,1,0,0,Mario Martínez,Honduras,11,70,Midfielder,0,Honduras
+Ecuador,1.56,1983,0,0,0,0,0,La Ceiba,500102,0,0,0,0,0,Marvin Chávez,Honduras,2,66,Midfielder,0,Honduras
+Ecuador,1.87,1984,0,0,0,0,0,Santa Fe,457707,0,0,0,0,0,Osman Chávez,Honduras,0,91,Defender,0,Honduras
+Ecuador,1.79,1986,0,0,0,0,0,San Manuel,504521,0,0,0,0,0,Edder Delgado,Honduras,0,70,Midfielder,0,Honduras
+Ecuador,1.81,1982,0,0,0,0,0,La Ceiba,526954,0,0,0,0,0,Jerry Palacios,Honduras,0,81,Midfielder,0,Honduras
+Ecuador,1.70,1993,0,0,0,0,0,Choluteca,542293,0,0,0,0,0,Andy Najar,Honduras,0,67,Midfielder,0,Honduras
+Ecuador,1.96,1985,0,0,0,0,0,Sulaco,724862,0,0,0,0,0,Juan Montes,Honduras,0,75,Defender,0,Honduras
+Ecuador,1.71,1987,0,0,0,0,0,Olanchito,736396,0,0,0,0,0,Rony Martínez,Honduras,0,75,Forward,0,Honduras
+Honduras,1.79,1987,1,1,2,0,0,Esmeraldas,490995,5,0,4,0,0,Juan Paredes,Ecuador,26,72,Defender,5,Ecuador
+Honduras,1.79,1981,0,0,0,0,0,Esmeraldas,363468,0,1,1,0,0,Jorge Guagua,Ecuador,21,75,Defender,4,Ecuador
+Honduras,1.89,1988,0,0,1,0,1,Esmeraldas,490600,0,1,0,0,0,Frickson Erazo,Ecuador,26,65,Defender,3,Ecuador
+Honduras,1.73,1979,1,1,0,0,1,Esmeraldas,363473,5,0,0,0,0,Walter Ayoví,Ecuador,48,68,Midfielder,5,Ecuador
+Honduras,1.80,1985,0,0,1,0,0,Nueva Loja,345938,3,5,0,0,0,Antonio Valencia,Ecuador,21,78,Midfielder,0,Ecuador
+Honduras,1.81,1985,0,1,4,1,1,Guayaquil,504629,2,4,0,0,0,Cristhian Noboa,Ecuador,34,75,Midfielder,7,Ecuador
+Honduras,1.83,1983,0,1,3,0,0,Pasaje,373114,0,0,0,0,0,Oswaldo Minda,Ecuador,38,78,Midfielder,9,Ecuador
+Honduras,1.70,1989,0,0,1,0,0,Babahoyo,505420,1,3,1,0,0,Jefferson Montero,Ecuador,29,64,Midfielder,4,Ecuador
+Honduras,1.83,1988,0,0,2,1,1,Guayaquil,402045,0,0,1,0,0,Felipe Caicedo,Ecuador,18,80,Forward,2,Ecuador
+Spain,1.68,1986,0,0,0,0,0,Santiago de Chile,387261,0,0,0,0,0,Fabián Orellana,Chile,0,69,Forward,0,Chile
+Spain,1.78,1984,0,0,0,0,0,Santiago,489253,0,0,0,0,0,Jean Beausejour,Chile,0,80,Midfielder,0,Chile
+Spain,1.80,1990,0,0,0,0,0,Stockholm,580876,0,0,0,0,0,Miiko Albornoz,Sweden,0,80,Defender,0,Chile
+Chile,1.85,1981,0,0,0,0,0,Mostoles,348438,0,0,0,0,0,Iker Casillas,Spain,0,84,Goalkeeper,0,Spain
+Spain,1.81,1988,0,0,0,0,0,Antofagasta,389706,0,0,0,0,0,Cristopher Toselli,Chile,0,76,Goalkeeper,0,Chile
+Croatia,1.90,1986,0,1,1,0,3,Yaounde,347769,3,0,1,0,0,Stephane Mbia,Cameroon,34,85,Midfielder,4,Cameroon
+Croatia,1.85,1985,0,0,1,0,0,Douala,395468,0,1,0,0,0,Aurelien Chedjou,Cameroon,17,77,Defender,3,Cameroon
+Croatia,1.85,1990,0,1,1,0,0,Yaounde,461806,0,0,0,0,0,Nicolas N'Koulou,Cameroon,30,77,Defender,3,Cameroon
+Croatia,1.78,1984,0,3,0,0,0,Arras,346150,4,1,0,0,0,Benoit Assou-Ekotto,France,30,70,Defender,4,Cameroon
+Croatia,1.83,1987,0,0,0,1,1,Douala,346175,1,1,1,0,0,Alex Song,Cameroon,20,74,Midfielder,0,Cameroon
+Croatia,1.94,1991,0,1,2,0,0,Bochum,496822,0,3,1,0,0,Joel Matip,Germany,24,88,Midfielder,2,Cameroon
+Croatia,1.80,1986,0,1,2,1,1,Kumba,474975,0,2,2,0,0,Eyong Enoh,Cameroon,23,70,Midfielder,3,Cameroon
+Croatia,1.90,1989,0,0,0,2,2,Hamburg,397547,1,0,0,0,0,Eric Maxim Choupo-Moting,West Germany,14,84,Forward,1,Cameroon
+Croatia,1.76,1992,0,0,2,2,5,Yaounde,546158,1,1,1,0,0,Vincent Aboubakar,Cameroon,15,82,Forward,0,Cameroon
+Croatia,1.78,1988,0,1,0,0,2,Douala,534471,1,1,3,0,0,Benjamin Moukandjo,Cameroon,19,74,Forward,1,Cameroon
+Croatia,1.83,1986,0,1,1,0,2,Yaounde,505342,0,1,0,0,0,Dany Nounkeu,Cameroon,13,80,Defender,0,Cameroon
+Croatia,1.80,1982,0,0,0,1,2,Bafoussam,348691,0,0,0,0,0,Pierre Webó,Cameroon,3,78,Forward,0,Cameroon
+Croatia,1.63,1992,0,0,2,0,0,Garoua,604618,2,0,0,0,0,Edgar Salli,Cameroon,7,64,Midfielder,1,Cameroon
+Croatia,1.70,1983,0,0,0,0,0,Yaounde,347594,0,0,0,0,0,Jean Makoun,Cameroon,0,65,Midfielder,0,Cameroon
+Croatia,1.72,1985,0,0,0,0,0,Yaounde,347756,0,0,0,0,0,Landry N'Guemo,Cameroon,0,70,Midfielder,0,Cameroon
+Croatia,1.81,1981,0,0,0,0,0,Nkon,348449,0,0,0,0,0,Samuel Eto'o,Cameroon,0,75,Forward,0,Cameroon
+Croatia,1.76,1984,0,0,0,0,0,Douala,370625,0,0,0,0,0,Henri Bedimo,Cameroon,0,80,Defender,0,Cameroon
+Croatia,1.70,1988,0,0,0,0,0,Neuilly Sur Seine,501420,0,0,0,0,0,Allan Nyom,France,0,81,Defender,0,Cameroon
+Croatia,1.77,1996,0,0,0,0,0,Douala,699302,0,0,0,0,0,Fabrice Olinga,Cameroon,0,66,Forward,0,Cameroon
+Croatia,1.75,1992,0,0,0,0,0,Mankwa,826586,0,0,0,0,0,Cedric Djeugoue,Cameroon,0,78,Defender,0,Cameroon
+Cameroon,1.82,1982,0,0,3,2,3,Metkovic,348951,2,1,1,0,0,Darijo Srna,Yugoslavia,35,72,Defender,2,Croatia
+Cameroon,1.92,1986,0,4,0,0,0,Derventa,398553,0,0,1,0,0,Vedran Corluka,Yugoslavia,38,84,Defender,3,Croatia
+Cameroon,1.88,1989,0,3,1,0,0,Zenica,466741,0,1,0,0,0,Dejan Lovren,Yugoslavia,37,84,Defender,2,Croatia
+Cameroon,1.72,1981,1,1,6,1,1,Nasice,348254,1,1,0,0,1,Danijel Pranjic,Yugoslavia,47,70,Defender,3,Croatia
+Cameroon,1.73,1985,0,1,2,1,1,Zadar,360063,2,1,2,0,0,Luka Modric,Yugoslavia,39,65,Midfielder,4,Croatia
+Cameroon,1.84,1988,0,0,2,1,2,Mohlin,349448,1,0,0,0,0,Ivan Rakitic,Switzerland,52,76,Midfielder,10,Croatia
+Cameroon,1.87,1989,1,0,0,2,3,Split,471072,6,0,4,1,0,Ivan Perisic,Yugoslavia,14,80,Midfielder,3,Croatia
+Cameroon,1.78,1987,0,0,3,1,2,Itabuna,360028,0,2,1,0,0,Sammir,Brazil,23,77,Midfielder,3,Croatia
+Cameroon,1.83,1979,0,0,5,2,3,Davor,351270,4,0,0,1,0,Ivica Olic,Yugoslavia,12,85,Forward,1,Croatia
+Cameroon,1.88,1986,0,0,1,2,4,Slavonski Brod,415334,0,2,2,2,2,Mario Mandzukic,Yugoslavia,15,84,Forward,2,Croatia
+Cameroon,1.85,1993,0,0,0,1,1,Split,738854,0,0,0,0,0,Ante Rebic,Croatia,3,80,Forward,0,Croatia
+Cameroon,1.81,1994,0,0,1,0,0,Linz,582489,0,1,0,0,0,Mateo Kovacic,Austria,11,75,Midfielder,1,Croatia
+Cameroon,1.77,1983,0,0,1,1,1,Rio de Janeiro,360044,0,0,0,0,1,Eduardo,Brazil,8,72,Forward,1,Croatia
+Cameroon,1.87,1985,0,0,0,0,0,Capljina,396687,0,0,0,0,0,Nikica Jelavic,Yugoslavia,0,84,Forward,0,Croatia
+Cameroon,1.91,1985,0,0,0,0,0,Sibenik,415336,0,0,0,0,0,Gordon Schildenfeld,Yugoslavia,0,90,Defender,0,Croatia
+Cameroon,1.84,1983,0,0,0,0,0,Bjelovar,415338,0,0,0,0,0,Ognjen Vukojevic,Yugoslavia,0,85,Midfielder,0,Croatia
+Cameroon,1.86,1989,0,0,0,0,0,Zagreb,466739,0,0,0,0,0,Milan Badelj,Yugoslavia,0,76,Midfielder,0,Croatia
+Cameroon,1.83,1992,0,0,0,0,0,Zara,541547,0,0,0,0,0,Šime Vrsaljko,Croatia,0,75,Defender,0,Croatia
+Cameroon,1.84,1989,0,0,0,0,0,Donji Miholjac,547151,0,0,0,0,0,Domagoj Vida,Yugoslavia,0,73,Defender,0,Croatia
+Cameroon,1.81,1992,0,0,0,0,0,Zagreb,612564,0,0,0,0,0,Marcelo Brozovic,Croatia,0,68,Midfielder,0,Croatia
+Croatia,1.85,1982,0,0,0,0,0,Bobigny,347466,0,0,0,0,0,Charles Itandje,France,0,83,Goalkeeper,0,Cameroon
+Croatia,1.78,1990,0,0,0,0,0,Yaounde,521485,0,0,0,0,0,Sammy N'Djock,Cameroon,0,85,Goalkeeper,0,Cameroon
+Croatia,1.78,1992,0,0,0,0,0,Douala,826585,0,0,0,0,0,Loic Feudjou,Cameroon,0,86,Goalkeeper,0,Cameroon
+Cameroon,1.91,1984,0,0,0,0,0,Zadar,481245,0,0,0,0,0,Danijel Subašić,Yugoslavia,0,84,Goalkeeper,0,Croatia
+Cameroon,1.91,1993,0,0,0,0,0,Zagreb,608491,0,0,0,0,0,Oliver Zelenika,Croatia,0,82,Goalkeeper,0,Croatia
+Ivory Coast,1.71,1985,0,2,0,0,0,Chigorodo,371070,0,0,2,0,0,Juan Zuniga,Colombia,31,72,Defender,9,Colombia
+Ivory Coast,1.87,1986,0,3,0,0,0,Padilla,346357,0,1,1,0,0,Cristian Zapata,Colombia,27,82,Defender,6,Colombia
+Ivory Coast,1.86,1976,0,2,2,0,1,Cali,347398,0,0,1,0,1,Mario Yepes,Colombia,26,83,Defender,10,Colombia
+Ivory Coast,1.74,1986,0,1,0,0,0,Tumaco,374302,2,1,1,0,1,Pablo Armero,Colombia,28,81,Defender,9,Colombia
+Ivory Coast,1.87,1985,0,0,3,0,0,Santa Fe de Bogota,487465,0,2,0,0,0,Abel Aguilar,Colombia,30,82,Midfielder,2,Colombia
+Ivory Coast,1.82,1986,0,1,3,1,1,Quibdo,395451,0,0,1,0,0,Carlos Sánchez,Colombia,28,82,Midfielder,7,Colombia
+Ivory Coast,1.78,1988,1,0,2,2,2,Necocli,490689,5,1,5,0,0,Juan Cuadrado,Colombia,24,66,Midfielder,1,Colombia
+Ivory Coast,1.80,1991,0,0,3,2,2,Cucuta,491720,4,3,0,1,0,James Rodríguez,Colombia,34,77,Midfielder,6,Colombia
+Ivory Coast,1.88,1990,0,0,2,0,0,Santiago de Cali,608422,1,1,0,0,0,Víctor Ibarbo,Colombia,9,78,Forward,1,Colombia
+Ivory Coast,1.80,1985,1,1,0,1,3,Barranquilla,516681,0,1,1,0,1,Teófilo Gutiérrez,Colombia,13,72,Forward,0,Colombia
+Ivory Coast,1.71,1992,0,0,0,0,0,Medellin,716865,0,1,0,0,0,Santiago Arias,Colombia,5,68,Defender,1,Colombia
+Ivory Coast,1.79,1988,0,0,1,0,0,Barranquilla,588006,0,0,0,0,0,Alexander Mejía,Colombia,0,78,Midfielder,1,Colombia
+Ivory Coast,1.68,1993,0,0,0,2,2,Medellin,648645,1,0,1,1,0,Juan Quintero,Colombia,9,64,Midfielder,2,Colombia
+Ivory Coast,1.87,1986,0,0,0,0,0,Puerto Boyaca,347380,0,0,0,0,0,Fredy Guarín,Colombia,0,77,Midfielder,0,Colombia
+Ivory Coast,1.84,1986,0,0,0,0,0,Santander de Quilichao,374316,0,0,0,0,0,Adrián Ramos,Colombia,0,74,Forward,0,Colombia
+Ivory Coast,1.86,1986,0,0,0,0,0,Quibdo,374514,0,0,0,0,0,Jackson Martínez,Colombia,0,85,Forward,0,Colombia
+Ivory Coast,1.88,1985,0,0,0,0,0,Cali,463178,0,0,0,0,0,Carlos Valdés,Colombia,0,77,Defender,0,Colombia
+Ivory Coast,1.80,1990,0,0,0,0,0,Bogota,554281,0,0,0,0,0,Carlos Carbonero,Colombia,0,77,Midfielder,0,Colombia
+Ivory Coast,1.81,1993,0,0,0,0,0,Bogota,727328,0,0,0,0,0,Éder Balanta,Colombia,0,78,Defender,0,Colombia
+Colombia,1.76,1992,0,1,4,3,3,Ouragahio,536032,8,0,2,0,0,Serge Aurier,Ivory Coast,32,75,Defender,5,Ivory Coast
+Colombia,1.83,1980,0,0,1,0,0,Abidjan,346161,0,1,0,0,0,Didier Zokora,Ivory Coast,49,70,Defender,12,Ivory Coast
+Colombia,1.90,1985,0,0,0,0,0,Ivry-sur-Seine,345298,0,0,1,0,0,Souleymane Bamba,France,38,89,Defender,8,Ivory Coast
+Colombia,1.66,1983,0,0,3,0,0,Abidjan,345644,5,1,0,0,0,Arthur Boka,Ivory Coast,28,67,Defender,6,Ivory Coast
+Colombia,1.79,1984,0,1,2,1,1,Facobly,458638,1,3,0,0,0,Serey Die,Ivory Coast,41,77,Midfielder,4,Ivory Coast
+Colombia,1.75,1986,0,2,4,1,2,Yamoussoukro,347134,0,3,2,0,0,Cheick Tioté,Ivory Coast,51,86,Midfielder,11,Ivory Coast
+Colombia,1.79,1987,0,0,0,1,1,Anyama,532928,1,0,1,1,2,Gervinho,Ivory Coast,28,68,Forward,5,Ivory Coast
+Colombia,1.89,1983,0,0,2,3,4,Sekoura Bouake,347384,5,1,1,0,0,Yaya Touré,Ivory Coast,43,90,Midfielder,7,Ivory Coast
+Colombia,1.77,1987,0,1,0,1,1,Abidjan,422411,4,2,2,0,0,Max Gradel,Ivory Coast,15,69,Midfielder,3,Ivory Coast
+Colombia,1.82,1988,0,1,1,0,0,Bingerville,464644,0,2,1,0,0,Wilfried Bony,Ivory Coast,9,88,Forward,1,Ivory Coast
+Colombia,1.85,1990,0,0,0,0,1,Oslo,573604,0,0,0,0,0,Mathis Bolly,Norway,5,77,Midfielder,0,Ivory Coast
+Colombia,1.80,1978,0,0,0,1,1,Abidjan,330398,0,1,1,0,0,Didier Drogba,Ivory Coast,2,91,Forward,1,Ivory Coast
+Colombia,1.75,1985,0,0,0,1,1,Oume,331043,0,0,0,0,0,Salomon Kalou,Ivory Coast,6,77,Forward,1,Ivory Coast
+Colombia,1.83,1981,0,0,0,0,0,Sokoura Bouake,346029,0,0,0,0,0,Kolo Touré,Ivory Coast,0,74,Defender,0,Ivory Coast
+Colombia,1.80,1989,0,0,0,0,0,Saint-Sebastien-sur-Loire,386314,0,0,0,0,0,Giovanni Sio,France,0,77,Forward,0,Ivory Coast
+Colombia,1.74,1984,0,0,0,0,0,Abidjan,409107,0,0,0,0,0,Didier Ya Konan,Ivory Coast,0,74,Midfielder,0,Ivory Coast
+Colombia,1.86,1986,0,0,0,0,0,Daloa,461699,0,0,0,0,0,Ousmane Diarrassouba,Ivory Coast,0,83,Defender,0,Ivory Coast
+Colombia,1.77,1986,0,0,0,0,0,Abidjan,462543,0,0,0,0,0,Constant Djakpa,Ivory Coast,0,71,Defender,0,Ivory Coast
+Colombia,1.80,1992,0,0,0,0,0,Abidjan,595794,0,0,0,0,0,Ismael Diomande,Ivory Coast,0,75,Midfielder,0,Ivory Coast
+Colombia,1.80,1992,0,0,0,0,0,Toulouse,638926,0,0,0,0,0,Jean-Daniel Akpa,France,0,70,Defender,0,Ivory Coast
+Ivory Coast,1.83,1988,0,0,0,0,0,Medellin,399085,0,0,0,0,0,David Ospina,Colombia,0,79,Goalkeeper,0,Colombia
+Ivory Coast,1.91,1971,0,0,0,0,0,Cali,348901,0,0,0,0,0,Faryd Mondragón,Colombia,0,94,Goalkeeper,0,Colombia
+Ivory Coast,1.85,1989,0,0,0,0,0,Bogota,555044,0,0,0,0,0,Camilo Vargas,Colombia,0,81,Goalkeeper,0,Colombia
+Colombia,1.90,1988,0,0,0,0,0,San Pedro,794286,0,0,0,0,0,Sylvain Gbohouo,Ivory Coast,0,82,Goalkeeper,0,Ivory Coast
+Colombia,1.93,1993,0,0,0,0,0,Abidjan,821845,0,0,0,0,0,Sayouba Mandé,Ivory Coast,0,89,Goalkeeper,0,Ivory Coast
+England,1.78,1987,0,0,4,0,0,Montevideo,387207,3,2,2,0,0,Martín Cáceres,Uruguay,25,77,Defender,7,Uruguay
+England,1.84,1995,0,0,5,0,0,Toledo,732955,0,2,1,0,0,José María Giménez,Uruguay,11,80,Defender,8,Uruguay
+England,1.85,1986,0,1,2,0,0,Rosario,359475,0,3,1,0,0,Diego Godín,Uruguay,6,78,Defender,2,Uruguay
+England,1.82,1985,0,2,7,0,0,Montevideo,540782,0,0,2,0,0,Álvaro Pereira,Uruguay,22,78,Midfielder,7,Uruguay
+England,1.75,1984,0,0,4,1,1,Montevideo,359240,1,1,1,0,0,Álvaro González,Uruguay,18,72,Midfielder,10,Uruguay
+England,1.68,1982,0,0,4,0,0,Paysandu,389856,0,1,1,0,0,Egidio Arévalo Ríos,Uruguay,18,68,Midfielder,11,Uruguay
+England,1.78,1985,0,1,4,0,1,Juan Lacaze,347602,0,2,2,0,0,Cristian Rodríguez,Uruguay,15,81,Midfielder,7,Uruguay
+England,1.73,1989,0,0,2,0,0,Paysandu,538125,0,1,0,0,0,Nicolás Lodeiro,Uruguay,19,69,Midfielder,0,Uruguay
+England,1.81,1987,0,0,3,5,6,Salto,348217,7,3,1,2,2,Luis Suárez,Uruguay,16,81,Forward,2,Uruguay
+England,1.88,1987,1,0,0,0,2,Salto,437146,2,1,0,0,1,Edinson Cavani,Uruguay,20,71,Forward,1,Uruguay
+England,1.96,1990,0,0,0,0,0,Montevideo,492381,0,0,0,0,0,Sebastián Coates,Uruguay,2,85,Defender,0,Uruguay
+England,1.77,1984,0,0,1,0,0,Montevideo,349157,0,1,0,0,0,Jorge Fucile,Uruguay,1,77,Defender,0,Uruguay
+England,1.86,1986,0,0,1,0,0,Tala,373570,1,0,0,0,0,Christian Stuani,Uruguay,5,76,Forward,0,Uruguay
+England,1.76,1980,0,0,0,0,0,Montevideo,347401,0,0,0,0,0,Diego Pérez,Uruguay,0,81,Midfielder,0,Uruguay
+England,1.81,1979,0,0,0,0,0,Montevideo,348451,0,0,0,0,0,Diego Forlán,Uruguay,0,75,Forward,0,Uruguay
+England,1.68,1984,0,0,0,0,0,Paysandu,373573,0,0,0,0,0,Walter Gargano,Uruguay,0,65,Midfielder,0,Uruguay
+England,1.86,1990,0,0,0,0,0,Canelones,490577,0,0,0,0,0,Abel Hernández,Uruguay,0,73,Forward,0,Uruguay
+England,1.83,1990,0,0,0,0,0,Fray Bentos,555407,0,0,0,0,0,Gastón Ramírez,Uruguay,0,77,Midfielder,0,Uruguay
+Uruguay,1.80,1984,1,0,0,0,0,Greenwich,346107,4,0,1,0,0,Glen Johnson,England,59,70,Defender,8,England
+Uruguay,1.91,1985,0,0,2,0,0,Sheffield,346244,0,1,3,0,0,Gary Cahill,England,40,71,Defender,28,England
+Uruguay,1.83,1982,0,0,1,0,1,Sale,346291,1,0,1,0,0,Phil Jagielka,England,43,83,Defender,9,England
+Uruguay,1.72,1984,0,0,1,0,0,Kirkby,346217,5,2,1,0,0,Leighton Baines,England,55,75,Defender,10,England
+Uruguay,1.85,1980,0,1,2,0,1,Whiston,345844,4,1,0,0,0,Steven Gerrard,England,42,83,Midfielder,14,England
+Uruguay,1.87,1990,0,0,1,1,1,Sunderland,479360,1,0,0,0,0,Jordan Henderson,England,54,67,Midfielder,13,England
+Uruguay,1.70,1994,0,0,2,0,0,Kingston,587714,2,3,1,0,0,Raheem Sterling,Jamaica,16,69,Midfielder,1,England
+Uruguay,1.76,1985,0,0,0,3,5,Croxteth,346065,1,2,4,1,0,Wayne Rooney,England,23,78,Forward,3,England
+Uruguay,1.84,1990,0,0,0,0,0,Manchester,447916,1,1,2,0,0,Danny Welbeck,England,18,73,Forward,4,England
+Uruguay,1.79,1989,0,0,0,4,5,Birmingham,376241,2,1,3,0,1,Daniel Sturridge,England,19,76,Forward,1,England
+Uruguay,1.79,1988,0,0,1,0,0,St Albans,408109,0,0,0,0,0,Adam Lallana,England,13,73,Midfielder,2,England
+Uruguay,1.85,1993,0,0,1,0,0,Liverpool,567304,0,0,0,0,0,Ross Barkley,England,11,76,Midfielder,1,England
+Uruguay,1.88,1982,0,0,0,0,0,Liverpool,422655,0,1,0,0,0,Rickie Lambert,England,0,77,Forward,1,England
+Uruguay,1.81,1978,0,0,0,0,0,Romford,330391,0,0,0,0,0,Frank Lampard,England,0,88,Midfielder,0,England
+Uruguay,1.75,1986,0,0,0,0,0,Leeds,346078,0,0,0,0,0,James Milner,England,0,70,Midfielder,0,England
+Uruguay,1.72,1992,0,0,0,0,0,Stevenage,466419,0,0,0,0,0,Jack Wilshere,England,0,65,Midfielder,0,England
+Uruguay,1.94,1989,0,0,0,0,0,Greenwich,492580,0,0,0,0,0,Chris Smalling,England,0,90,Defender,0,England
+Uruguay,1.85,1992,0,0,0,0,0,Preston,515121,0,0,0,0,0,Phil Jones,England,0,71,Defender,0,England
+Uruguay,1.84,1995,0,0,0,0,0,Kingston upon Tyme,619042,0,0,0,0,0,Luke Shaw,England,0,75,Defender,0,England
+England,1.90,1986,0,0,0,0,0,Buenos Aires,387348,0,0,0,0,0,Fernando Muslera,Argentina,0,77,Goalkeeper,0,Uruguay
+England,1.87,1983,0,0,0,0,0,Montevideo,359237,0,0,0,0,0,Martín Silva,Uruguay,0,80,Goalkeeper,0,Uruguay
+England,1.85,1982,0,0,0,0,0,Montevideo,491576,0,0,0,0,0,Rodrigo Munoz,Uruguay,0,77,Goalkeeper,0,Uruguay
+Uruguay,1.93,1983,0,0,0,0,0,Leamington,345815,0,0,0,0,0,Ben Foster,England,0,90,Goalkeeper,0,England
+Uruguay,2.01,1988,0,0,0,0,0,Hexham,353505,0,0,0,0,0,Fraser Forster,England,0,76,Goalkeeper,0,England
+Greece,1.76,1988,0,2,3,0,1,Kannami,390339,10,1,1,0,0,Atsuto Uchida,Japan,38,62,Defender,4,Japan
+Greece,1.89,1988,0,0,0,0,1,Nagasaki,394603,2,3,0,0,0,Yoshida Maya,Japan,64,78,Defender,9,Japan
+Greece,1.78,1983,0,2,1,0,0,Sendai,394780,0,3,0,0,0,Yasuyuki Konno,Japan,78,73,Defender,7,Japan
+Greece,1.70,1986,0,1,0,0,0,Ehime,395130,15,0,1,0,0,Yuto Nagatomo,Japan,52,68,Defender,8,Japan
+Greece,1.73,1990,0,0,1,1,1,Mie,492909,0,1,1,0,0,Yamaguchi Hotaru,Japan,88,72,Midfielder,5,Japan
+Greece,1.80,1984,0,0,1,0,0,Fujieda,364421,0,2,1,0,0,Makoto Hasebe,Japan,43,65,Midfielder,1,Japan
+Greece,1.74,1986,0,0,0,0,0,Takarazuka,394566,0,4,0,0,0,Shinji Okazaki,Japan,13,76,Forward,2,Japan
+Greece,1.82,1986,0,0,1,4,4,Osaka,394585,4,2,5,0,0,Keisuke Honda,Japan,62,76,Forward,2,Japan
+Greece,1.70,1982,0,0,3,2,4,Fukuoka,374178,1,4,5,0,0,Yoshito Okubo,Japan,21,73,Forward,1,Japan
+Greece,1.82,1990,0,0,0,2,3,Kagoshima,492865,0,3,2,0,1,Osako Yuya,Japan,11,73,Forward,0,Japan
+Greece,1.78,1980,0,0,1,2,2,Kagoshima,358760,3,0,0,0,0,Yasuhito Endo,Japan,53,75,Midfielder,2,Japan
+Greece,1.72,1989,0,1,1,0,0,Kobe,390340,0,0,1,0,0,Shinji Kagawa,Japan,22,63,Forward,3,Japan
+Greece,1.83,1987,0,0,0,0,0,Hiroshima,390345,0,0,0,0,0,Morishige Masato,Japan,0,76,Defender,0,Japan
+Greece,1.74,1986,0,0,0,0,0,Okayama,394651,0,0,0,0,0,Aoyama Toshihiro,Japan,0,73,Midfielder,0,Japan
+Greece,1.77,1990,0,0,0,0,0,Osaka,394835,0,0,0,0,0,Kakitani Yoichiro,Japan,0,68,Forward,0,Japan
+Greece,1.79,1985,0,0,0,0,0,Miyazaki,395125,0,0,0,0,0,Inoha Masahiko,Japan,0,74,Defender,0,Japan
+Greece,1.69,1990,0,0,0,0,0,Kanagawa,445387,0,0,0,0,0,Saito Manabu,Japan,0,68,Forward,0,Japan
+Greece,1.85,1990,0,0,0,0,0,Kashiwa,445416,0,0,0,0,0,Hiroki Sakai,Japan,0,70,Defender,0,Japan
+Greece,1.72,1989,0,0,0,0,0,Oita,445461,0,0,0,0,0,Hiroshi Kiyotake,Japan,0,63,Forward,0,Japan
+Greece,1.76,1991,0,0,0,0,0,New York,447020,0,0,0,0,0,Gotoku Sakai,United States,0,74,Defender,0,Japan
+Japan,1.85,1985,0,2,1,1,2,Xanthi,409126,0,2,1,0,0,Vasilis Torosidis,Greece,16,80,Defender,4,Greece
+Japan,1.86,1991,0,1,2,0,0,Naxos,490673,0,0,2,0,0,Konstantinos Manolas,Greece,8,79,Defender,8,Greece
+Japan,1.86,1988,0,0,0,0,0,Kalamata,349081,1,2,1,0,0,Sokratis Papastathopoulos,Greece,12,85,Defender,8,Greece
+Japan,1.84,1984,0,1,1,1,1,Aschaffenburg,408160,4,4,1,0,0,José Holebas,West Germany,18,79,Defender,8,Greece
+Japan,1.78,1986,0,4,0,0,0,Livadia,415506,3,0,1,0,0,Ioannis Maniatis,Greece,22,68,Midfielder,4,Greece
+Japan,1.83,1979,0,1,4,0,0,Patras,348947,0,4,0,0,0,Kostas Katsouranis,Greece,8,81,Midfielder,2,Greece
+Japan,1.84,1987,0,0,1,1,2,Tirana,349158,2,1,3,0,0,Panagiotis Koné,Albania,6,74,Midfielder,4,Greece
+Japan,1.64,1990,0,0,3,0,0,Drama,531608,1,1,0,0,0,Ioannis Fetfatzidis,Greece,10,64,Forward,0,Greece
+Japan,1.88,1988,0,0,0,1,1,Kavala,409124,1,0,0,0,0,Konstantinos Mitroglou,Greece,1,94,Forward,0,Greece
+Japan,1.92,1985,0,0,5,0,2,Heraklion,346109,1,3,7,0,0,Georgios Samaras,Greece,11,86,Forward,5,Greece
+Japan,1.76,1977,0,0,4,0,0,Pyrgos,353049,2,1,3,0,0,Giorgos Karagounis,Greece,12,74,Midfielder,3,Greece
+Japan,1.71,1981,0,0,0,0,0,Thessaloniki,349417,1,0,1,0,0,Dimitrios Salpingidis,Greece,1,74,Forward,1,Greece
+Japan,1.79,1980,0,0,0,1,1,Larissa,345322,0,0,0,0,3,Theofanis Gekas,Greece,8,72,Forward,3,Greece
+Japan,1.93,1981,0,0,0,0,0,Larissa,349077,0,0,0,0,0,Vangelis Moras,Greece,0,78,Defender,0,Greece
+Japan,1.84,1981,0,0,0,0,0,Albrechtice,349387,0,0,0,0,0,Loukas Vyntra,Czechoslovakia,0,76,Defender,0,Greece
+Japan,1.90,1985,0,0,0,0,0,Katerini,349396,0,0,0,0,0,Alexandros Tziolis,Greece,0,84,Midfielder,0,Greece
+Japan,1.82,1986,0,0,0,0,0,Thessaloniki,445051,0,0,0,0,0,Lazaros Christodoulopoulos,Greece,0,77,Midfielder,0,Greece
+Japan,1.83,1987,0,0,0,0,0,Athens,445324,0,0,0,0,0,Georgios Tzavelas,Greece,0,80,Defender,0,Greece
+Japan,1.94,1991,0,0,0,0,0,Nafplio,492491,0,0,0,0,0,Panagiotis Tachtsidis,Greece,0,86,Midfielder,0,Greece
+Japan,1.90,1989,0,0,0,0,0,Patras,541738,0,0,0,0,0,Andreas Samaris,Greece,0,80,Midfielder,0,Greece
+Greece,1.83,1986,0,0,0,0,0,Oita,395037,0,0,0,0,0,Shusaku Nishikawa,Japan,0,81,Goalkeeper,0,Japan
+Japan,1.90,1986,0,0,0,0,0,Volos,445071,0,0,0,0,0,Panagiotis Glykos,Greece,0,77,Goalkeeper,0,Greece
+Japan,1.96,1994,0,0,0,0,0,Athens,565008,0,0,0,0,0,Stefanos Kapino,Greece,0,81,Goalkeeper,0,Greece
+Costa Rica,1.80,1986,0,0,0,0,0,Sant Agata de Goti,373064,1,3,2,0,1,Ignazio Abate,Italy,30,73,Defender,7,Italy
+Costa Rica,1.86,1981,0,1,1,0,0,Fiesole,346590,0,0,1,0,0,Andrea Barzagli,Italy,75,79,Defender,12,Italy
+Costa Rica,1.92,1984,0,4,5,0,0,Pisa,373065,0,0,2,0,0,Giorgio Chiellini,Italy,66,76,Defender,20,Italy
+Costa Rica,1.82,1989,0,0,1,1,1,Legnano,353630,0,1,3,0,1,Matteo Darmian,Italy,38,70,Defender,4,Italy
+Costa Rica,1.77,1979,0,0,2,1,1,Brescia,346422,1,1,4,0,0,Andrea Pirlo,Italy,76,68,Midfielder,4,Italy
+Costa Rica,1.82,1983,0,0,2,0,0,Rome,346573,0,0,2,0,0,Daniele De Rossi,Italy,97,83,Midfielder,5,Italy
+Costa Rica,1.87,1982,0,1,0,0,1,Sao Bernardo,348502,0,0,1,0,0,Thiago Motta,Brazil,31,83,Midfielder,2,Italy
+Costa Rica,1.80,1987,0,1,0,1,1,Rome,402360,3,0,0,0,0,Antonio Candreva,Italy,9,72,Midfielder,1,Italy
+Costa Rica,1.79,1986,0,0,3,0,0,Turin,396430,0,1,4,0,1,Claudio Marchisio,Italy,23,76,Midfielder,7,Italy
+Costa Rica,1.89,1990,0,0,1,2,3,Palermo,435987,0,4,0,0,3,Mario Balotelli,Italy,10,88,Forward,1,Italy
+Costa Rica,1.75,1982,0,0,0,1,2,Bari,348402,1,0,3,0,1,Antonio Cassano,Italy,15,78,Forward,0,Italy
+Costa Rica,1.77,1987,0,0,0,0,0,Velletri,372472,1,0,0,0,2,Alessio Cerci,Italy,4,78,Forward,0,Italy
+Costa Rica,1.63,1991,0,0,0,0,1,Naples,537666,0,0,0,0,2,Lorenzo Insigne,Italy,13,59,Forward,3,Italy
+Costa Rica,1.87,1986,0,0,0,0,0,Longchamps,346195,0,0,0,0,0,Gabriel Paletta,Argentina,0,88,Defender,0,Italy
+Costa Rica,1.84,1984,0,0,0,0,0,Rome,346703,0,0,0,0,0,Alberto Aquilani,Italy,0,77,Midfielder,0,Italy
+Costa Rica,1.90,1987,0,0,0,0,0,Viterbo,375405,0,0,0,0,0,Leonardo Bonucci,Italy,0,82,Defender,0,Italy
+Costa Rica,1.84,1990,0,0,0,0,0,Torre Annunziata,489160,0,0,0,0,0,Ciro Immobile,Italy,0,78,Forward,0,Italy
+Costa Rica,1.86,1985,0,0,0,0,0,Gallarate,514025,0,0,0,0,0,Marco Parolo,Italy,0,82,Midfielder,0,Italy
+Costa Rica,1.68,1992,0,0,0,0,0,Pescara,558287,0,0,0,0,0,Marco Verratti,Italy,0,60,Midfielder,0,Italy
+Costa Rica,1.79,1992,0,0,0,0,0,Milan,615000,0,0,0,0,0,Mattia De Sciglio,Italy,0,74,Defender,0,Italy
+Italy,1.75,1989,0,0,3,0,0,Liberia,583761,0,1,1,0,0,Cristian Gamboa,Costa Rica,22,67,Defender,3,Costa Rica
+Italy,1.84,1989,0,2,3,0,1,Masaya,596442,1,1,1,0,0,Óscar Duarte,Nicaragua,25,85,Defender,4,Costa Rica
+Italy,1.92,1988,0,1,4,0,1,San Jose,390272,0,1,2,0,0,Giancarlo González,Costa Rica,20,83,Defender,13,Costa Rica
+Italy,1.80,1982,0,2,5,0,0,Santa Ana,322588,0,1,0,0,0,Michael Umana,Costa Rica,31,73,Defender,3,Costa Rica
+Italy,1.85,1983,1,4,6,0,0,San Jose,372583,3,2,3,0,0,Júnior Díaz,Costa Rica,34,76,Defender,6,Costa Rica
+Italy,1.87,1985,0,1,1,2,2,Alajuela,346902,1,5,0,1,0,Bryan Ruiz,Costa Rica,30,79,Forward,4,Costa Rica
+Italy,1.84,1988,0,0,0,1,2,San Jose,390305,1,0,0,0,0,Celso Borges,Costa Rica,38,82,Midfielder,9,Costa Rica
+Italy,1.79,1992,0,0,5,0,0,Limon,604444,1,2,0,0,0,Yeltsin Tejeda,Costa Rica,28,66,Midfielder,3,Costa Rica
+Italy,1.78,1984,0,0,1,2,2,San Jose,358846,0,6,2,0,1,Christian Bolanos,Costa Rica,35,67,Midfielder,3,Costa Rica
+Italy,1.78,1992,0,0,1,0,0,San Jose,604434,2,1,1,0,2,Joel Campbell,Costa Rica,12,69,Forward,2,Costa Rica
+Italy,1.70,1983,0,0,0,0,1,San Jose,358943,0,1,0,0,0,Randall Brenes,Costa Rica,4,72,Forward,1,Costa Rica
+Italy,1.79,1990,0,0,0,1,1,San Jose,583756,0,2,0,0,0,Marco Urena,Costa Rica,1,70,Forward,1,Costa Rica
+Italy,1.78,1987,0,0,2,0,0,Sarchi,390295,0,1,0,0,0,José Cubero,Costa Rica,6,70,Midfielder,1,Costa Rica
+Italy,1.89,1984,0,0,0,0,0,San Jose,358942,0,0,0,0,0,Roy Miller,Costa Rica,0,77,Defender,0,Costa Rica
+Italy,1.77,1983,0,0,0,0,0,San Jose,385942,0,0,0,0,0,Michael Barrantes,Costa Rica,0,71,Midfielder,0,Costa Rica
+Italy,1.85,1988,0,0,0,0,0,Puerto Viejo Limon,390270,0,0,0,0,0,Dave Myrie,Costa Rica,0,79,Defender,0,Costa Rica
+Italy,1.83,1985,0,0,0,0,0,Cartago,499531,0,0,0,0,0,Esteban Granados,Costa Rica,0,74,Midfielder,0,Costa Rica
+Italy,1.75,1983,0,0,0,0,0,Alajuela,596441,0,0,0,0,0,Johnny Acosta,Costa Rica,0,78,Defender,0,Costa Rica
+Italy,1.78,1991,0,0,0,0,0,San Jose,604437,0,0,0,0,0,Diego Calvo,Costa Rica,0,71,Midfielder,0,Costa Rica
+Italy,1.75,1990,0,0,0,0,0,Limon,660520,0,0,0,0,0,Waylon Francis,Costa Rica,0,73,Defender,0,Costa Rica
+Costa Rica,1.90,1978,0,0,0,0,0,Carrara,360304,0,0,0,0,0,Gianluigi Buffon,Italy,0,83,Goalkeeper,0,Italy
+Costa Rica,1.90,1987,0,0,0,0,0,Nuoro,346769,0,0,0,0,0,Salvatore Sirigu,Italy,0,80,Goalkeeper,0,Italy
+Costa Rica,1.88,1992,0,0,0,0,0,Latina,513642,0,0,0,0,0,Mattia Perin,Italy,0,74,Goalkeeper,0,Italy
+Italy,1.78,1982,0,0,0,0,0,Limon,375970,0,0,0,0,0,Patrick Pemberton,Costa Rica,0,80,Goalkeeper,0,Costa Rica
+Italy,1.81,1986,0,0,0,0,0,Costa Rica,499528,0,0,0,0,0,Daniel Cambronero,Costa Rica,0,71,Goalkeeper,0,Costa Rica
+France,1.80,1984,0,0,0,0,0,Adligenswil,347791,1,1,2,0,0,Stephan Lichtsteiner,Switzerland,41,77,Defender,3,Switzerland
+France,1.92,1987,0,2,1,0,0,Abidjan,346236,0,2,0,0,0,Johan Djourou,Ivory Coast,52,87,Defender,4,Switzerland
+France,1.83,1983,0,0,0,0,0,Schattenhalb,401315,0,0,1,0,0,Steve Von Bergen,Switzerland,2,79,Defender,0,Switzerland
+France,1.80,1992,0,0,0,1,1,Zurich,518541,1,1,1,0,0,Ricardo Rodríguez,Switzerland,56,72,Defender,8,Switzerland
+France,1.84,1985,0,0,1,0,0,Mitrovica,346358,0,0,0,0,0,Valon Behrami,Yugoslavia,13,78,Midfielder,3,Switzerland
+France,1.81,1984,1,1,0,1,2,Olten,402362,1,2,3,0,0,Gokhan Inler,Switzerland,63,80,Midfielder,10,Switzerland
+France,1.69,1991,0,0,2,2,4,Gnjilane,508003,4,2,2,0,0,Xherdan Shaqiri,Yugoslavia,35,72,Midfielder,3,Switzerland
+France,1.83,1992,0,0,0,2,4,Basel,552969,0,1,1,1,1,Granit Xhaka,Switzerland,34,82,Midfielder,0,Switzerland
+France,1.83,1991,0,0,0,1,2,Gostivar,457113,1,0,4,0,0,Admir Mehmedi,Yugoslavia,35,76,Forward,2,Switzerland
+France,1.87,1992,0,0,0,0,2,Sursee,538348,0,1,0,0,0,Haris Seferovic,Switzerland,15,83,Forward,0,Switzerland
+France,1.90,1985,0,1,0,0,0,Geneva,346122,0,0,0,0,0,Philippe Senderos,Switzerland,57,84,Defender,3,Switzerland
+France,1.79,1986,0,0,3,1,2,Tetovo,360062,0,2,1,1,0,Blerim Dzemaili,Yugoslavia,41,73,Midfielder,1,Switzerland
+France,1.82,1992,0,0,0,0,0,Freienbach,602354,0,0,0,0,0,Josip Drmic,Switzerland,2,70,Forward,0,Switzerland
+France,1.78,1985,0,0,0,0,0,St Gallen,345642,0,0,0,0,0,Tranquillo Barnetta,Switzerland,0,68,Midfielder,0,Switzerland
+France,1.83,1986,0,0,0,0,0,Nyon,346182,0,0,0,0,0,Reto Ziegler,Switzerland,0,80,Defender,0,Switzerland
+France,1.79,1986,0,0,0,0,0,Praia,395615,0,0,0,0,0,Gelson Fernandes,Cape Verde,0,70,Midfielder,0,Switzerland
+France,1.85,1991,0,0,0,0,0,Egnach,402305,0,0,0,0,0,Michael Lang,Switzerland,0,79,Defender,0,Switzerland
+France,1.79,1989,0,0,0,0,0,Kriens,402366,0,0,0,0,0,Valentin Stocker,Switzerland,0,73,Midfielder,0,Switzerland
+France,1.75,1989,0,0,0,0,0,Lugano,507387,0,0,0,0,0,Mario Gavranovic,Switzerland,0,74,Forward,0,Switzerland
+France,1.86,1991,0,0,0,0,0,Wil,660387,0,0,0,0,0,Fabian Schar,Switzerland,0,85,Defender,0,Switzerland
+Switzerland,1.78,1985,0,1,2,0,0,Fretin,347705,1,4,0,0,1,Mathieu Debuchy,France,27,78,Defender,6,France
+Switzerland,1.91,1993,0,0,0,0,0,Lille,572654,0,0,0,0,0,Raphael Varane,France,28,78,Defender,7,France
+Switzerland,1.86,1990,0,2,0,0,0,Paris,377035,0,0,0,0,0,Mamadou Sakho,France,30,74,Defender,2,France
+Switzerland,1.71,1981,0,0,0,0,1,Dakar,346097,0,0,0,0,0,Patrice Evra,Senegal,33,76,Defender,4,France
+Switzerland,1.75,1986,0,1,0,0,2,Tourcoing,347716,0,2,3,0,0,Yohan Cabaye,France,34,72,Midfielder,7,France
+Switzerland,1.67,1984,1,0,0,3,3,Bruges,347887,2,3,0,1,0,Mathieu Valbuena,France,28,58,Midfielder,4,France
+Switzerland,1.87,1989,0,0,1,1,1,Le Blanc-Mesnil,397904,3,2,0,1,0,Moussa Sissoko,France,24,88,Midfielder,1,France
+Switzerland,1.75,1987,0,1,1,3,3,Toulouse,347763,0,1,2,1,0,Blaise Matuidi,France,36,70,Midfielder,10,France
+Switzerland,1.85,1987,2,0,0,7,8,Lyon,347725,2,0,4,1,1,Karim Benzema,France,26,79,Forward,2,France
+Switzerland,1.92,1986,1,1,0,2,4,Chambery,440565,1,2,1,1,0,Olivier Giroud,France,14,88,Forward,0,France
+Switzerland,1.85,1985,0,1,0,0,0,Tulle,459434,0,1,0,0,0,Laurent Koscielny,France,7,75,Defender,0,France
+Argentina,1.88,1981,0,0,0,0,0,Zaria,345955,0,0,0,0,0,Shola Ameobi,Nigeria,0,95,Forward,0,Nigeria
+Argentina,1.70,1992,0,0,0,0,0,Abuya,604572,0,0,0,0,0,Ramón Azeez,Nigeria,0,70,Midfielder,0,Nigeria
+Argentina,1.83,1990,0,0,0,0,0,Akure,656342,0,0,0,0,0,Godfrey Oboabona,Nigeria,0,85,Defender,0,Nigeria
+Argentina,1.95,1989,0,0,0,0,0,Lafia,656343,0,0,0,0,0,Azubuike Egwuekwe,Nigeria,0,91,Defender,0,Nigeria
+Argentina,1.84,1990,0,0,0,0,0,Kaduna,656351,0,0,0,0,0,Ruben Gabriel,Nigeria,0,86,Midfielder,0,Nigeria
+Argentina,1.68,1988,0,0,0,0,0,Aba,656358,0,0,0,0,0,Ejike Uzoenyi,Nigeria,0,62,Midfielder,0,Nigeria
+Argentina,1.87,1991,0,0,0,0,0,indefinido,735697,0,0,0,0,0,Ebenezer Odunlami,Nigeria,0,70,Defender,0,Nigeria
+Nigeria,1.74,1985,0,2,0,0,0,Buenos Aires,348661,1,2,0,0,0,Pablo Zabaleta,Argentina,34,74,Defender,3,Argentina
+Nigeria,1.90,1989,0,1,0,1,1,Tres Algarrobos,457756,0,0,1,0,0,Fede Fernández,Argentina,41,81,Defender,4,Argentina
+Nigeria,1.86,1986,0,2,0,0,1,Rosario,348765,1,0,0,0,0,Ezequiel Garay,Argentina,46,85,Defender,4,Argentina
+Nigeria,1.89,1990,0,1,0,1,2,La Plata,492564,3,0,1,1,0,Marcos Rojo,Argentina,48,82,Defender,8,Argentina
+Nigeria,1.78,1986,0,0,0,0,0,Ciudadela,374090,0,0,1,0,0,Fernando Gago,Argentina,71,72,Midfielder,6,Argentina
+Nigeria,1.71,1984,0,0,0,1,1,San Lorenzo,346143,0,1,4,0,0,Javier Mascherano,Argentina,79,74,Midfielder,5,Argentina
+Nigeria,1.78,1988,0,0,0,4,5,Rosario,359948,5,0,1,0,0,Ángel Di María,Argentina,62,70,Midfielder,7,Argentina
+Nigeria,1.84,1987,0,1,0,1,2,Brest,356019,0,2,0,0,0,Gonzalo Higuaín,France,23,82,Forward,0,Argentina
+Nigeria,1.69,1987,0,0,0,3,4,Rosario,348767,2,0,3,2,1,Lionel Messi,Argentina,24,67,Forward,2,Argentina
+Nigeria,1.72,1988,0,0,0,1,1,Quilmes,348656,2,0,1,0,0,Sergio Agüero,Argentina,5,69,Forward,1,Argentina
+Nigeria,1.88,1988,0,0,0,0,0,Buenos Aires,454635,0,0,2,0,0,Ricardo Álvarez,Argentina,11,84,Midfielder,2,Argentina
+Nigeria,1.75,1986,0,0,0,0,0,Mercedes,347118,0,0,0,0,0,Lucas Biglia,Argentina,2,74,Midfielder,0,Argentina
+Nigeria,1.73,1985,0,0,0,1,1,Villa Gobernador Galvez,372986,2,1,3,0,0,Ezequiel Lavezzi,Argentina,21,75,Forward,2,Argentina
+Nigeria,1.84,1980,0,0,0,0,0,Justiniano Posse,345565,0,0,0,0,0,Martín Demichelis,Argentina,0,81,Defender,0,Argentina
+Nigeria,1.80,1981,0,0,0,0,0,Rosario,348535,0,0,0,0,0,Maxi Rodríguez,Argentina,0,74,Midfielder,0,Argentina
+Nigeria,1.81,1980,0,0,0,0,0,Cordoba,368530,0,0,0,0,0,Hugo Campagnaro,Argentina,0,85,Defender,0,Argentina
+Nigeria,1.77,1986,0,0,0,0,0,Mendoza,372417,0,0,0,0,0,Enzo Pérez,Argentina,0,77,Midfielder,0,Argentina
+Nigeria,1.75,1982,0,0,0,0,0,Bahia Blanca,372953,0,0,0,0,0,Rodrigo Palacio,Argentina,0,70,Forward,0,Argentina
+Nigeria,1.88,1984,0,0,0,0,0,Tres Sargentos,373592,0,0,0,0,0,José María Basanta,Argentina,0,78,Defender,0,Argentina
+Nigeria,1.77,1986,0,0,0,0,0,Buenos Aires,375263,0,0,0,0,0,Augusto Fernández,Argentina,0,74,Midfielder,0,Argentina
+Argentina,1.85,1982,0,0,0,0,0,Kaduna,367871,0,0,0,0,0,Vincent Enyeama,Nigeria,0,87,Goalkeeper,0,Nigeria
+Argentina,1.86,1984,0,0,0,0,0,Onitsha,367870,0,0,0,0,0,Austin Ejide,Nigeria,0,90,Goalkeeper,0,Nigeria
+Argentina,1.87,1984,0,0,0,0,0,Abuja,622285,0,0,0,0,0,Chigozie Agbim,Nigeria,0,83,Goalkeeper,0,Nigeria
+Nigeria,1.90,1981,0,0,0,0,0,Haedo,371264,0,0,0,0,0,Agustín Orión,Argentina,0,83,Goalkeeper,0,Argentina
+Nigeria,1.94,1983,0,0,0,0,0,Buenos Aires,375130,0,0,0,0,0,Mariano Andújar,Argentina,0,88,Goalkeeper,0,Argentina
+Iran,1.82,1986,0,0,2,1,2,Tesanj,457509,5,1,0,1,0,Avdija Vrsajevic,Yugoslavia,42,75,Midfielder,8,Bosnia-Herzegovina
+Iran,1.92,1988,0,0,1,0,0,Mostar,567405,0,1,1,0,0,Toni Sunjic,Yugoslavia,72,93,Defender,12,Bosnia-Herzegovina
+Iran,1.83,1980,0,1,1,0,0,Dubrovnik,415209,0,1,2,0,0,Emir Spahic,Yugoslavia,77,77,Defender,10,Bosnia-Herzegovina
+Iran,1.83,1993,0,1,3,1,1,Karlsruhe,644835,0,3,2,0,0,Sead Kolasinac,Germany,49,82,Defender,14,Bosnia-Herzegovina
+Iran,1.84,1989,0,0,1,0,0,Velika Kladusa,401897,1,1,0,0,0,Anel Hadzic,Yugoslavia,29,73,Midfielder,3,Bosnia-Herzegovina
+Iran,1.80,1990,1,0,0,2,3,Tuzla,401342,1,0,3,1,0,Miralem Pjanic,Yugoslavia,66,68,Midfielder,5,Bosnia-Herzegovina
+Iran,1.77,1992,0,1,7,0,0,Berlin,568441,0,7,1,0,0,Muhamed Besic,Germany,89,78,Midfielder,9,Bosnia-Herzegovina
+Iran,1.86,1992,1,0,2,1,1,Sarajevo,553391,0,2,1,0,0,Tino-Sven Susic,Yugoslavia,48,77,Midfielder,6,Bosnia-Herzegovina
+Iran,1.92,1986,0,1,1,4,4,Doboj,400160,1,3,2,1,1,Edin Dzeko,Yugoslavia,15,80,Forward,1,Bosnia-Herzegovina
+Iran,1.89,1984,0,0,0,0,1,Vlasenica,345645,0,0,1,0,0,Vedad Ibisevic,Yugoslavia,15,82,Forward,1,Bosnia-Herzegovina
+Iran,1.82,1984,1,0,0,0,0,Sepak Gornji,373972,1,0,1,0,0,Sejad Salihovic,Yugoslavia,7,79,Midfielder,0,Bosnia-Herzegovina
+Iran,1.72,1990,0,0,0,0,1,Olovo,620075,0,0,0,0,0,Edin Visca,Yugoslavia,2,67,Forward,0,Bosnia-Herzegovina
+Iran,1.86,1989,0,0,0,0,0,Banja Luka,561086,1,1,2,0,0,Ognjen Vranjes,Yugoslavia,13,74,Defender,3,Bosnia-Herzegovina
+Iran,1.80,1982,0,0,0,0,0,Munich,345568,0,0,0,0,0,Zvjezdan Misimovic,West Germany,0,80,Midfielder,0,Bosnia-Herzegovina
+Iran,1.88,1985,0,0,0,0,0,Sarajevo,348218,0,0,0,0,0,Haris Medunjanin,Yugoslavia,0,83,Midfielder,0,Bosnia-Herzegovina
+Iran,1.85,1985,0,0,0,0,0,Kotor Varos,418066,0,0,0,0,0,Senijad Ibricic,Yugoslavia,0,79,Midfielder,0,Bosnia-Herzegovina
+Iran,1.83,1986,0,0,0,0,0,Mostar,457028,0,0,0,0,0,Senad Lulic,Yugoslavia,0,75,Midfielder,0,Bosnia-Herzegovina
+Iran,1.84,1984,0,0,0,0,0,Zagreb,504588,0,0,0,0,0,Mensur Mujdza,Yugoslavia,0,77,Midfielder,0,Bosnia-Herzegovina
+Iran,1.85,1990,0,0,0,0,0,Zvornik,505388,0,0,0,0,0,Ermin Bicakcic,Yugoslavia,0,83,Defender,0,Bosnia-Herzegovina
+Iran,1.77,1991,0,0,0,0,0,Brugg,544471,0,0,0,0,0,Izet Hajrovic,Switzerland,0,71,Midfielder,0,Bosnia-Herzegovina
+Bosnia-Herzegovina,1.86,1983,0,0,1,0,0,Ahvaz,481709,2,1,1,0,0,Pejman Montazeri,Iran,46,78,Defender,11,Iran
+Bosnia-Herzegovina,1.85,1982,0,0,0,0,0,Bandar Anzali,473970,0,0,0,0,0,Jalal Hosseini,Iran,17,80,Defender,4,Iran
+Bosnia-Herzegovina,1.85,1981,0,0,1,0,0,Tehran,360095,0,1,0,0,0,Amir Hossein Sadeghi,Iran,28,78,Defender,8,Iran
+Bosnia-Herzegovina,1.80,1987,0,2,3,0,0,Karaj,493161,1,1,4,0,0,Mehrdad Pooladi,Iran,33,70,Defender,11,Iran
+Bosnia-Herzegovina,1.78,1983,0,0,0,0,0,Tehran,346183,2,4,2,0,0,Andranik Timotian,Iran,38,73,Midfielder,13,Iran
+Bosnia-Herzegovina,1.88,1980,1,0,1,0,0,Shahr-e-Rey,348756,1,1,1,0,0,Javad Nekounam,Iran,26,78,Midfielder,7,Iran
+Bosnia-Herzegovina,1.85,1984,0,1,0,0,1,Shiraz,473978,2,1,6,0,0,Masoud Shojaei,Iran,7,73,Forward,2,Iran
+Bosnia-Herzegovina,1.77,1990,0,0,1,2,2,Kashan,473977,2,0,0,0,0,Ehsan Haji Safi,Iran,12,64,Midfielder,2,Iran
+Bosnia-Herzegovina,1.82,1986,0,0,1,0,0,Tehran,345653,6,1,1,0,3,Ashkan Dejagah,Iran,14,79,Forward,2,Iran
+Bosnia-Herzegovina,1.81,1987,0,0,1,2,3,Mashhad,351427,0,5,3,1,3,Reza Ghoochannejhad,Iran,13,76,Forward,0,Iran
+Bosnia-Herzegovina,1.85,1990,0,0,0,0,0,Ardabil,583648,0,1,0,0,1,Karim Ansarifard,Iran,5,65,Forward,0,Iran
+Bosnia-Herzegovina,1.75,1983,0,0,0,0,0,Tehran,493155,6,1,0,0,1,Khosro Heydari,Iran,20,61,Forward,2,Iran
+Bosnia-Herzegovina,1.81,1993,0,0,1,1,1,Jirandeh,740234,0,0,1,0,0,Alireza Jahanbakhsh,Iran,8,78,Forward,1,Iran
+Bosnia-Herzegovina,1.89,1982,0,0,0,0,0,Ahvaz,473975,0,0,0,0,0,Ahmad Alnameh,Iran,0,78,Defender,0,Iran
+Bosnia-Herzegovina,1.80,1984,0,0,0,0,0,Shiraz,481672,0,0,0,0,0,Hashem Beikzadeh,Iran,0,78,Midfielder,0,Iran
+Bosnia-Herzegovina,1.78,1987,0,0,0,0,0,San Jose,537093,0,0,0,0,0,Steven Beitashour,United States,0,77,Defender,0,Iran
+Bosnia-Herzegovina,1.78,1983,0,0,0,0,0,Esfahan,539244,0,0,0,0,0,Ghasem Hadadifar,Iran,0,66,Midfielder,0,Iran
+Bosnia-Herzegovina,1.82,1986,0,0,0,0,0,Bushehr,566432,0,0,0,0,0,Hossein Mahini,Iran,0,70,Defender,0,Iran
+Bosnia-Herzegovina,1.79,1991,0,0,0,0,0,Sarpol-e Zahab,569580,0,0,0,0,0,Bakhtiar Rahmani,Iran,0,74,Midfielder,0,Iran
+Bosnia-Herzegovina,1.90,1989,0,0,0,0,0,Mashhad,826260,0,0,0,0,0,Reza Haghighi,Iran,0,80,Midfielder,0,Iran
+Iran,1.98,1987,0,0,0,0,0,Trebinje,389277,0,0,0,0,0,Asmir Begovic,Yugoslavia,0,83,Goalkeeper,0,Bosnia-Herzegovina
+Iran,1.98,1986,0,0,0,0,0,Tupkovic,462632,0,0,0,0,0,Jasmin Fejzic,Yugoslavia,0,95,Goalkeeper,0,Bosnia-Herzegovina
+Iran,1.90,1981,0,0,0,0,0,Breza,578835,0,0,0,0,0,Asmir Avdukic,Yugoslavia,0,86,Goalkeeper,0,Bosnia-Herzegovina
+Bosnia-Herzegovina,1.93,1988,0,0,0,0,0,Giessen,505368,0,0,0,0,0,Daniel Davari,West Germany,0,85,Goalkeeper,0,Iran
+Bosnia-Herzegovina,1.82,1980,0,0,0,0,0,Noshahr,590168,0,0,0,0,0,Rahman Ahmadi,Iran,0,77,Goalkeeper,0,Iran
+Switzerland,1.86,1985,0,0,1,0,2,La Ceiba,596331,3,1,0,0,0,Brayan Beckeles,Honduras,42,80,Defender,7,Honduras
+Switzerland,1.87,1982,0,0,1,0,0,La Ceiba,457705,0,1,1,0,0,Victor Bernárdez,Honduras,35,86,Defender,10,Honduras
+Switzerland,1.84,1983,0,3,2,1,2,Jutiapa,358879,0,4,3,0,0,Maynor Figueroa,Honduras,58,82,Defender,15,Honduras
+Switzerland,1.75,1988,0,0,2,0,1,Tela,504480,1,1,0,0,0,Juan Carlos García,Honduras,62,76,Defender,3,Honduras
+Switzerland,1.76,1984,0,0,1,0,0,Tegucigalpa,358947,3,0,2,0,0,Boniek García,Honduras,33,72,Midfielder,2,Honduras
+Switzerland,1.76,1986,0,0,1,1,1,Choloma,386041,1,1,1,0,0,Jorge Claros,Honduras,69,70,Midfielder,9,Honduras
+Switzerland,1.81,1984,0,0,1,0,1,La Ceiba,358890,0,0,5,0,0,Wilson Palacios,Honduras,80,71,Midfielder,10,Honduras
+Switzerland,1.80,1986,0,0,1,1,1,Puerto Cortes,439302,1,1,0,0,0,Roger Espinoza,Honduras,28,73,Midfielder,7,Honduras
+Switzerland,1.87,1987,0,0,3,2,3,Santa Rosa de Aguan,544490,1,4,1,0,0,Jerry Bengtson,Honduras,15,75,Forward,3,Honduras
+Switzerland,1.90,1982,0,0,0,0,0,San Pedro Sula,491194,1,0,1,0,0,Carlo Costly,Honduras,8,85,Forward,2,Honduras
+Switzerland,1.56,1983,0,0,2,0,0,La Ceiba,500102,3,3,2,0,0,Marvin Chávez,Honduras,20,66,Midfielder,4,Honduras
+Switzerland,1.70,1993,0,0,0,1,1,Choluteca,542293,0,0,1,0,0,Andy Najar,Honduras,10,67,Midfielder,0,Honduras
+Switzerland,1.81,1982,0,0,2,0,1,La Ceiba,526954,1,1,1,0,0,Jerry Palacios,Honduras,12,81,Midfielder,1,Honduras
+Switzerland,1.77,1986,0,0,0,0,0,Tegucigalpa,363591,0,0,0,0,0,Emilio Izaguirre,Honduras,0,77,Midfielder,0,Honduras
+Switzerland,1.87,1984,0,0,0,0,0,Santa Fe,457707,0,0,0,0,0,Osman Chávez,Honduras,0,91,Defender,0,Honduras
+Switzerland,1.73,1989,0,0,0,0,0,San Pedro Sula,461719,0,0,0,0,0,Mario Martínez,Honduras,0,70,Midfielder,0,Honduras
+Switzerland,1.79,1986,0,0,0,0,0,San Manuel,504521,0,0,0,0,0,Edder Delgado,Honduras,0,70,Midfielder,0,Honduras
+Switzerland,1.70,1990,0,0,0,0,0,Juticalpa,650765,0,0,0,0,0,Luis Garrido,Honduras,0,73,Midfielder,0,Honduras
+Switzerland,1.96,1985,0,0,0,0,0,Sulaco,724862,0,0,0,0,0,Juan Montes,Honduras,0,75,Defender,0,Honduras
+Switzerland,1.71,1987,0,0,0,0,0,Olanchito,736396,0,0,0,0,0,Rony Martínez,Honduras,0,75,Forward,0,Honduras
+Honduras,1.80,1984,1,2,2,0,0,Adligenswil,347791,1,1,3,0,0,Stephan Lichtsteiner,Switzerland,36,77,Defender,11,Switzerland
+Honduras,1.86,1991,0,1,0,0,0,Wil,660387,0,0,1,0,0,Fabian Schar,Switzerland,18,85,Defender,7,Switzerland
+Honduras,1.92,1987,0,1,2,0,0,Abidjan,346236,0,1,3,0,0,Johan Djourou,Ivory Coast,16,87,Defender,10,Switzerland
+Honduras,1.80,1992,0,0,1,0,0,Zurich,518541,0,1,0,0,1,Ricardo Rodríguez,Switzerland,24,72,Defender,10,Switzerland
+Honduras,1.84,1985,0,0,1,0,0,Mitrovica,346358,0,4,1,0,0,Valon Behrami,Yugoslavia,27,78,Midfielder,7,Switzerland
+Honduras,1.81,1984,0,0,0,1,2,Olten,402362,0,1,1,0,0,Gokhan Inler,Switzerland,44,80,Midfielder,6,Switzerland
+Honduras,1.69,1991,0,0,2,6,7,Gnjilane,508003,2,5,3,3,0,Xherdan Shaqiri,Yugoslavia,32,72,Midfielder,5,Switzerland
+Honduras,1.83,1992,0,0,0,2,3,Basel,552969,0,0,1,0,0,Granit Xhaka,Switzerland,23,82,Midfielder,3,Switzerland
+Honduras,1.83,1991,0,1,0,1,1,Gostivar,457113,0,1,1,0,1,Admir Mehmedi,Yugoslavia,26,76,Forward,6,Switzerland
+Honduras,1.82,1992,2,0,0,3,3,Freienbach,602354,4,1,2,0,0,Josip Drmic,Switzerland,12,70,Forward,4,Switzerland
+Honduras,1.85,1991,0,0,0,0,0,Egnach,402305,1,1,0,0,0,Michael Lang,Switzerland,4,79,Defender,0,Switzerland
+Honduras,1.79,1986,0,0,0,0,0,Tetovo,360062,0,1,0,0,0,Blerim Dzemaili,Yugoslavia,0,73,Midfielder,0,Switzerland
+Honduras,1.87,1992,0,0,0,0,0,Sursee,538348,0,1,0,0,0,Haris Seferovic,Switzerland,5,83,Forward,0,Switzerland
+Honduras,1.78,1985,0,0,0,0,0,St Gallen,345642,0,0,0,0,0,Tranquillo Barnetta,Switzerland,0,68,Midfielder,0,Switzerland
+Honduras,1.90,1985,0,0,0,0,0,Geneva,346122,0,0,0,0,0,Philippe Senderos,Switzerland,0,84,Defender,0,Switzerland
+Honduras,1.83,1986,0,0,0,0,0,Nyon,346182,0,0,0,0,0,Reto Ziegler,Switzerland,0,80,Defender,0,Switzerland
+Honduras,1.79,1986,0,0,0,0,0,Praia,395615,0,0,0,0,0,Gelson Fernandes,Cape Verde,0,70,Midfielder,0,Switzerland
+Honduras,1.83,1983,0,0,0,0,0,Schattenhalb,401315,0,0,0,0,0,Steve Von Bergen,Switzerland,0,79,Defender,0,Switzerland
+Honduras,1.79,1989,0,0,0,0,0,Kriens,402366,0,0,0,0,0,Valentin Stocker,Switzerland,0,73,Midfielder,0,Switzerland
+Honduras,1.75,1989,0,0,0,0,0,Lugano,507387,0,0,0,0,0,Mario Gavranovic,Switzerland,0,74,Forward,0,Switzerland
+Switzerland,1.78,1977,0,0,0,0,0,Comayagua,363537,0,0,0,0,0,Noel Valladares,Honduras,0,80,Goalkeeper,0,Honduras
+Switzerland,1.80,1981,0,0,0,0,0,San Ignacio,504478,0,0,0,0,0,Donis Escober,Honduras,0,75,Goalkeeper,0,Honduras
+Switzerland,1.82,1993,0,0,0,0,0,San Pedro Sula,826222,0,0,0,0,0,Luis López,Honduras,0,75,Goalkeeper,0,Honduras
+Honduras,1.83,1988,0,0,0,0,0,Morges,349443,0,0,0,0,0,Yann Sommer,Switzerland,0,79,Goalkeeper,0,Switzerland
+Honduras,1.88,1990,0,0,0,0,0,Munsingen,457102,0,0,0,0,0,Roman Burki,Switzerland,0,83,Goalkeeper,0,Switzerland
+France,1.79,1987,0,0,0,0,0,Esmeraldas,490995,1,1,1,0,0,Juan Paredes,Ecuador,30,72,Defender,4,Ecuador
+France,1.79,1981,0,2,0,0,0,Esmeraldas,363468,1,2,1,0,0,Jorge Guagua,Ecuador,24,75,Defender,5,Ecuador
+France,1.89,1988,0,2,2,0,0,Esmeraldas,490600,0,1,0,0,0,Frickson Erazo,Ecuador,24,65,Defender,6,Ecuador
+France,1.73,1979,0,1,1,1,1,Esmeraldas,363473,0,1,1,0,0,Walter Ayoví,Ecuador,28,68,Midfielder,6,Ecuador
+France,1.80,1985,0,1,0,1,1,Nueva Loja,345938,0,5,1,0,0,Antonio Valencia,Ecuador,20,78,Midfielder,2,Ecuador
+France,1.83,1983,0,2,0,0,0,Pasaje,373114,0,2,0,0,0,Oswaldo Minda,Ecuador,25,78,Midfielder,4,Ecuador
+France,1.81,1985,0,1,1,2,3,Guayaquil,504629,0,0,0,0,0,Cristhian Noboa,Ecuador,21,75,Midfielder,5,Ecuador
+France,1.70,1989,0,2,0,0,0,Babahoyo,505420,1,0,0,0,0,Jefferson Montero,Ecuador,6,64,Midfielder,3,Ecuador
+France,1.78,1987,0,2,1,0,2,Guayaquil,387218,2,2,0,0,0,Michael Arroyo,Ecuador,26,72,Midfielder,3,Ecuador
+France,1.79,1989,0,1,0,1,2,San Lorenzo,537827,1,1,1,0,1,Enner Valencia,Ecuador,5,68,Forward,0,Ecuador
+France,1.83,1985,0,0,0,0,0,Machala,510647,0,0,0,0,0,Gabriel Achilier,Ecuador,0,83,Defender,0,Ecuador
+France,1.83,1988,0,0,0,0,0,Guayaquil,402045,0,0,0,0,0,Felipe Caicedo,Ecuador,1,80,Forward,0,Ecuador
+France,1.71,1991,0,0,0,2,2,Ambuqui,605529,1,2,1,0,0,Álex Ibarra,Ecuador,4,70,Midfielder,1,Ecuador
+France,1.75,1979,0,0,0,0,0,Quito,347949,0,0,0,0,0,Edison Méndez,Ecuador,0,68,Midfielder,0,Ecuador
+France,1.75,1983,0,0,0,0,0,Loja,372560,0,0,0,0,0,Luis Saritama,Ecuador,0,76,Midfielder,0,Ecuador
+France,1.70,1982,0,0,0,0,0,Esmeraldas,374579,0,0,0,0,0,Óscar Bagüí,Ecuador,0,65,Defender,0,Ecuador
+France,1.86,1988,0,0,0,0,0,Eloy Alfaro,387226,0,0,0,0,0,Jaime Ayoví,Ecuador,0,61,Forward,0,Ecuador
+France,1.73,1989,0,0,0,0,0,La Troncal,510665,0,0,0,0,0,Joao Rojas,Ecuador,0,68,Forward,0,Ecuador
+France,1.76,1990,0,0,0,0,0,Sucumbios,557536,0,0,0,0,0,Fidel Martínez,Ecuador,0,67,Midfielder,0,Ecuador
+France,1.71,1995,0,0,0,0,0,Santo Domingo,688883,0,0,0,0,0,Carlos Gruezo,Ecuador,0,67,Midfielder,0,Ecuador
+Ecuador,1.75,1983,0,1,0,0,0,Sens,347680,6,0,1,0,0,Bacary Sagna,France,40,72,Defender,1,France
+Ecuador,1.85,1985,0,2,1,0,0,Tulle,459434,0,1,1,0,0,Laurent Koscielny,France,44,75,Defender,8,France
+Ecuador,1.86,1990,0,0,2,0,0,Paris,377035,0,0,1,0,0,Mamadou Sakho,France,50,74,Defender,9,France
+Ecuador,1.79,1993,0,1,3,0,0,Meaux,558151,6,1,4,0,0,Lucas Digne,France,56,74,Defender,11,France
+Ecuador,1.92,1993,0,0,1,4,7,Lagny-sur-Marne,588585,6,0,2,0,0,Paul Pogba,France,65,80,Midfielder,6,France
+Ecuador,1.81,1989,0,1,1,0,1,Zellwiller,394208,0,0,1,0,0,Morgan Schneiderlin,France,65,75,Midfielder,10,France
+Ecuador,1.75,1987,0,1,0,1,1,Toulouse,347763,3,0,1,0,0,Blaise Matuidi,France,47,70,Midfielder,5,France
+Ecuador,1.75,1991,0,3,0,1,2,Macon,524262,2,2,0,0,0,Antoine Griezmann,France,35,68,Forward,1,France
+Ecuador,1.85,1987,0,0,0,4,5,Lyon,347725,2,0,0,0,0,Karim Benzema,France,26,79,Forward,1,France
+Ecuador,1.87,1989,0,1,0,1,2,Le Blanc-Mesnil,397904,9,2,2,0,1,Moussa Sissoko,France,38,88,Midfielder,1,France
+Ecuador,1.92,1986,0,0,0,1,1,Chambery,440565,0,0,2,0,0,Olivier Giroud,France,7,88,Forward,0,France
+Ecuador,1.85,1987,0,0,0,1,1,Rillieux-la-Pape,347919,2,0,0,0,0,Loic Remy,France,5,82,Forward,0,France
+Ecuador,1.91,1993,0,1,0,0,0,Lille,572654,0,0,0,0,0,Raphael Varane,France,12,78,Defender,1,France
+Ecuador,1.71,1981,0,0,0,0,0,Dakar,346097,0,0,0,0,0,Patrice Evra,Senegal,0,76,Defender,0,France
+Ecuador,1.72,1984,0,0,0,0,0,Born at sea,347649,0,0,0,0,0,Rio Mavuba,Angola,0,74,Midfielder,0,France
+Ecuador,1.78,1985,0,0,0,0,0,Fretin,347705,0,0,0,0,0,Mathieu Debuchy,France,0,78,Defender,0,France
+Ecuador,1.67,1984,0,0,0,0,0,Bruges,347887,0,0,0,0,0,Mathieu Valbuena,France,0,58,Midfielder,0,France
+Ecuador,1.88,1991,0,0,0,0,0,Paris,479948,0,0,0,0,0,Eliaquim Mangala,France,0,81,Defender,0,France
+Ecuador,1.72,1990,0,0,0,0,0,Ajaccio,508852,0,0,0,0,0,Remy Cabella,France,0,66,Forward,0,France
+France,1.96,1987,0,0,0,0,0,Tachina,376188,0,0,0,0,0,Alexander Domínguez,Ecuador,0,80,Goalkeeper,0,Ecuador
+France,1.87,1985,0,0,0,0,0,Guayaquil,554701,0,0,0,0,0,Máximo Banguera,Ecuador,0,84,Goalkeeper,0,Ecuador
+France,1.88,1988,0,0,0,0,0,Esmeraldas,586284,0,0,0,0,0,Adrián Bone,Ecuador,0,76,Goalkeeper,0,Ecuador
+Ecuador,1.84,1979,0,0,0,0,0,Machecoul,347486,0,0,0,0,0,Mickael Landreau,France,0,85,Goalkeeper,0,France
+Ecuador,1.88,1986,0,0,0,0,0,Bayonne,350484,0,0,0,0,0,Stephane Ruffier,France,0,90,Goalkeeper,0,France
 Croatia,1.75,1983,0,0,2,1,2,Juazeiro,348634,5,0,0,0,0,Dani Alves,Brazil,70,64,Defender,12,Brazil
 Croatia,1.82,1984,0,1,1,0,0,Rio de Janeiro,375843,0,0,1,0,0,Thiago Silva,Brazil,66,79,Defender,7,Brazil
 Croatia,1.89,1987,0,1,1,1,2,Sao Paulo,409128,1,0,0,0,0,David Luiz,Brazil,50,84,Defender,8,Brazil
@@ -755,7 +921,319 @@ Honduras,1.88,1986,0,0,0,0,0,Bayonne,350484,0,0,0,0,0,Stephane Ruffier,France,0,
 France,1.78,1977,0,0,0,0,0,Comayagua,363537,0,0,0,0,0,Noel Valladares,Honduras,0,80,Goalkeeper,0,Honduras
 France,1.80,1981,0,0,0,0,0,San Ignacio,504478,0,0,0,0,0,Donis Escober,Honduras,0,75,Goalkeeper,0,Honduras
 France,1.82,1993,0,0,0,0,0,San Pedro Sula,826222,0,0,0,0,0,Luis López,Honduras,0,75,Goalkeeper,0,Honduras
+Bosnia-Herzegovina,1.74,1985,0,0,1,0,0,Buenos Aires,348661,0,0,3,0,0,Pablo Zabaleta,Argentina,38,74,Defender,7,Argentina
+Bosnia-Herzegovina,1.81,1980,0,1,1,0,0,Cordoba,368530,0,0,2,0,0,Hugo Campagnaro,Argentina,34,85,Defender,1,Argentina
+Bosnia-Herzegovina,1.90,1989,0,2,3,0,0,Tres Algarrobos,457756,0,1,2,0,0,Fede Fernández,Argentina,54,81,Defender,2,Argentina
+Bosnia-Herzegovina,1.86,1986,0,0,2,0,0,Rosario,348765,0,2,0,0,0,Ezequiel Garay,Argentina,57,85,Defender,6,Argentina
+Bosnia-Herzegovina,1.89,1990,0,0,2,1,1,La Plata,492564,2,2,0,0,0,Marcos Rojo,Argentina,27,82,Defender,2,Argentina
+Bosnia-Herzegovina,1.80,1981,0,0,1,0,1,Rosario,348535,0,0,0,0,0,Maxi Rodríguez,Argentina,27,74,Midfielder,1,Argentina
+Bosnia-Herzegovina,1.71,1984,0,2,1,1,1,San Lorenzo,346143,0,2,0,0,0,Javier Mascherano,Argentina,96,74,Midfielder,3,Argentina
+Bosnia-Herzegovina,1.78,1988,0,1,0,1,1,Rosario,359948,5,1,1,0,0,Ángel Di María,Argentina,53,70,Midfielder,2,Argentina
+Bosnia-Herzegovina,1.69,1987,0,0,1,1,3,Rosario,348767,3,1,1,1,0,Lionel Messi,Argentina,52,67,Forward,2,Argentina
+Bosnia-Herzegovina,1.72,1988,0,2,0,1,3,Quilmes,348656,1,1,4,0,0,Sergio Agüero,Argentina,9,69,Forward,0,Argentina
+Bosnia-Herzegovina,1.75,1986,0,0,0,0,0,Mercedes,347118,0,0,0,0,0,Lucas Biglia,Argentina,3,74,Midfielder,2,Argentina
+Bosnia-Herzegovina,1.78,1986,0,0,1,0,0,Ciudadela,374090,0,0,0,0,0,Fernando Gago,Argentina,43,72,Midfielder,0,Argentina
+Bosnia-Herzegovina,1.84,1987,1,1,0,0,1,Brest,356019,1,0,0,0,0,Gonzalo Higuaín,France,20,82,Forward,2,Argentina
+Bosnia-Herzegovina,1.84,1980,0,0,0,0,0,Justiniano Posse,345565,0,0,0,0,0,Martín Demichelis,Argentina,0,81,Defender,0,Argentina
+Bosnia-Herzegovina,1.77,1986,0,0,0,0,0,Mendoza,372417,0,0,0,0,0,Enzo Pérez,Argentina,0,77,Midfielder,0,Argentina
+Bosnia-Herzegovina,1.75,1982,0,0,0,0,0,Bahia Blanca,372953,0,0,0,0,0,Rodrigo Palacio,Argentina,0,70,Forward,0,Argentina
+Bosnia-Herzegovina,1.73,1985,0,0,0,0,0,Villa Gobernador Galvez,372986,0,0,0,0,0,Ezequiel Lavezzi,Argentina,0,75,Forward,0,Argentina
+Bosnia-Herzegovina,1.88,1984,0,0,0,0,0,Tres Sargentos,373592,0,0,0,0,0,José María Basanta,Argentina,0,78,Defender,0,Argentina
+Bosnia-Herzegovina,1.77,1986,0,0,0,0,0,Buenos Aires,375263,0,0,0,0,0,Augusto Fernández,Argentina,0,74,Midfielder,0,Argentina
+Bosnia-Herzegovina,1.88,1988,0,0,0,0,0,Buenos Aires,454635,0,0,0,0,0,Ricardo Álvarez,Argentina,0,84,Midfielder,0,Argentina
+Argentina,1.84,1984,0,1,1,0,0,Zagreb,504588,1,2,0,0,0,Mensur Mujdza,Yugoslavia,28,77,Midfielder,0,Bosnia-Herzegovina
+Argentina,1.85,1990,0,2,0,0,0,Zvornik,505388,4,0,0,0,0,Ermin Bicakcic,Yugoslavia,30,83,Defender,3,Bosnia-Herzegovina
+Argentina,1.83,1980,0,0,1,0,0,Dubrovnik,415209,0,2,0,0,0,Emir Spahic,Yugoslavia,39,77,Defender,12,Bosnia-Herzegovina
+Argentina,1.83,1993,0,0,3,0,0,Karlsruhe,644835,2,1,0,0,0,Sead Kolasinac,Germany,46,82,Defender,3,Bosnia-Herzegovina
+Argentina,1.77,1992,0,0,3,0,2,Berlin,568441,0,0,1,0,0,Muhamed Besic,Germany,54,78,Midfielder,7,Bosnia-Herzegovina
+Argentina,1.77,1991,0,0,0,3,4,Brugg,544471,2,2,2,0,0,Izet Hajrovic,Switzerland,11,71,Midfielder,2,Bosnia-Herzegovina
+Argentina,1.80,1990,0,0,2,2,2,Tuzla,401342,0,2,1,0,0,Miralem Pjanic,Yugoslavia,58,68,Midfielder,5,Bosnia-Herzegovina
+Argentina,1.80,1982,0,0,0,1,1,Munich,345568,2,0,3,0,0,Zvjezdan Misimovic,West Germany,27,80,Midfielder,1,Bosnia-Herzegovina
+Argentina,1.83,1986,1,0,2,2,2,Mostar,457028,2,2,0,0,2,Senad Lulic,Yugoslavia,26,75,Midfielder,4,Bosnia-Herzegovina
+Argentina,1.92,1986,0,0,0,0,1,Doboj,400160,0,2,2,0,1,Edin Dzeko,Yugoslavia,19,80,Forward,0,Bosnia-Herzegovina
+Argentina,1.89,1984,0,0,0,1,1,Vlasenica,345645,0,0,0,1,0,Vedad Ibisevic,Yugoslavia,7,82,Forward,1,Bosnia-Herzegovina
+Argentina,1.88,1985,0,1,0,0,1,Sarajevo,348218,0,0,0,0,0,Haris Medunjanin,Yugoslavia,23,83,Midfielder,1,Bosnia-Herzegovina
+Argentina,1.72,1990,0,0,0,2,2,Olovo,620075,2,1,0,0,0,Edin Visca,Yugoslavia,3,67,Forward,0,Bosnia-Herzegovina
+Argentina,1.84,1989,0,0,0,0,0,Velika Kladusa,401897,0,0,0,0,0,Anel Hadzic,Yugoslavia,0,73,Midfielder,0,Bosnia-Herzegovina
+Argentina,1.85,1985,0,0,0,0,0,Kotor Varos,418066,0,0,0,0,0,Senijad Ibricic,Yugoslavia,0,79,Midfielder,0,Bosnia-Herzegovina
+Argentina,1.82,1986,0,0,0,0,0,Tesanj,457509,0,0,0,0,0,Avdija Vrsajevic,Yugoslavia,0,75,Midfielder,0,Bosnia-Herzegovina
+Argentina,1.86,1992,0,0,0,0,0,Sarajevo,553391,0,0,0,0,0,Tino-Sven Susic,Yugoslavia,0,77,Midfielder,0,Bosnia-Herzegovina
+Argentina,1.86,1989,0,0,0,0,0,Banja Luka,561086,0,0,0,0,0,Ognjen Vranjes,Yugoslavia,0,74,Defender,0,Bosnia-Herzegovina
+Argentina,1.92,1988,0,0,0,0,0,Mostar,567405,0,0,0,0,0,Toni Sunjic,Yugoslavia,0,93,Defender,0,Bosnia-Herzegovina
+Bosnia-Herzegovina,1.92,1987,0,0,0,0,0,Bernardo de Irigoyen,373844,0,0,0,0,0,Sergio Romero,Argentina,0,88,Goalkeeper,0,Argentina
+Bosnia-Herzegovina,1.90,1981,0,0,0,0,0,Haedo,371264,0,0,0,0,0,Agustín Orión,Argentina,0,83,Goalkeeper,0,Argentina
+Bosnia-Herzegovina,1.94,1983,0,0,0,0,0,Buenos Aires,375130,0,0,0,0,0,Mariano Andújar,Argentina,0,88,Goalkeeper,0,Argentina
+Argentina,1.98,1986,0,0,0,0,0,Tupkovic,462632,0,0,0,0,0,Jasmin Fejzic,Yugoslavia,0,95,Goalkeeper,0,Bosnia-Herzegovina
+Argentina,1.90,1981,0,0,0,0,0,Breza,578835,0,0,0,0,0,Asmir Avdukic,Yugoslavia,0,86,Goalkeeper,0,Bosnia-Herzegovina
+Portugal,1.92,1988,0,3,1,0,0,Berlin,376673,1,2,2,0,0,Jerome Boateng,West Germany,37,90,Defender,6,Germany
+Portugal,1.98,1984,0,3,0,0,0,Hannover,345605,0,2,0,0,0,Per Mertesacker,West Germany,28,90,Defender,5,Germany
+Portugal,1.92,1988,0,1,4,1,1,Bensberg,351086,0,1,0,1,0,Mats Hummels,West Germany,47,90,Defender,8,Germany
+Portugal,1.87,1988,0,3,2,0,0,Haltern,378278,0,0,0,0,1,Benedikt Howedes,West Germany,38,80,Defender,8,Germany
+Portugal,1.89,1987,0,0,0,0,1,Stuttgart,345802,0,0,2,0,0,Sami Khedira,West Germany,41,85,Midfielder,5,Germany
+Portugal,1.70,1983,0,0,3,1,1,Munich,345573,1,0,2,0,0,Philipp Lahm,West Germany,59,66,Midfielder,11,Germany
+Portugal,1.80,1988,0,0,0,1,1,Gelsenkirchen,345762,1,0,1,0,0,Mesut Özil,West Germany,27,76,Midfielder,1,Germany
+Portugal,1.82,1990,2,2,0,1,1,Greifswald,397482,4,0,1,0,0,Toni Kroos,East Germany,64,78,Midfielder,6,Germany
+Portugal,1.76,1992,0,1,2,2,4,Memmingen,505351,2,1,2,0,0,Mario Götze,Germany,33,64,Forward,6,Germany
+Portugal,1.86,1989,0,0,1,3,4,Weilheim,461803,3,1,1,3,0,Thomas Müller,West Germany,21,75,Forward,3,Germany
+Portugal,1.84,1990,0,0,0,0,0,Ludwigshafen,504595,2,1,0,0,1,André Schurrle,Germany,7,63,Forward,1,Germany
+Portugal,1.80,1985,0,0,0,0,0,Gliwice,345608,0,0,0,0,0,Lukas Podolski,Poland,3,83,Forward,0,Germany
+Portugal,1.84,1992,0,1,0,0,0,Bad Hersfeld,499547,0,0,0,0,0,Shkodran Mustafi,Germany,11,82,Defender,1,Germany
+Portugal,1.82,1978,0,0,0,0,0,Opole,345428,0,0,0,0,0,Miroslav Klose,Poland,0,84,Forward,0,Germany
+Portugal,1.83,1984,0,0,0,0,0,Kolbermoor,345535,0,0,0,0,0,Bastian Schweinsteiger,West Germany,0,79,Midfielder,0,Germany
+Portugal,1.86,1988,0,0,0,0,0,Dortmund,468085,0,0,0,0,0,Kevin Großkreutz,West Germany,0,72,Defender,0,Germany
+Portugal,1.89,1991,0,0,0,0,0,Solingen,564033,0,0,0,0,0,Christoph Kramer,Germany,0,82,Midfielder,0,Germany
+Portugal,1.85,1993,0,0,0,0,0,Gladbeck,585825,0,0,0,0,0,Julian Draxler,Germany,0,74,Midfielder,0,Germany
+Portugal,1.87,1994,0,0,0,0,0,Freiburg,640301,0,0,0,0,0,Matthias Ginter,Germany,0,85,Defender,0,Germany
+Portugal,1.83,1992,0,0,0,0,0,Pirmasens,660536,0,0,0,0,0,Erik Durm,Germany,0,73,Defender,0,Germany
+Germany,1.72,1984,0,1,1,0,0,Lisbon,415581,3,2,0,0,0,Joao Pereira,Portugal,26,64,Defender,6,Portugal
+Germany,1.87,1981,0,2,1,0,0,Povoa de Varzim,349050,0,1,0,0,0,Bruno Alves,Portugal,43,80,Defender,8,Portugal
+Germany,1.86,1983,0,0,1,0,0,Maceio,349048,0,2,1,0,0,Pepe,Brazil,18,81,Defender,9,Portugal
+Germany,1.81,1988,0,1,1,0,0,Vila do Conde,392800,4,1,0,0,0,Fabio Coentrão,Portugal,31,70,Defender,4,Portugal
+Germany,1.70,1986,0,0,2,0,0,Portimao,348981,1,1,1,0,0,Joao Joao Moutinho,Portugal,41,61,Midfielder,5,Portugal
+Germany,1.81,1986,0,0,1,1,1,Coimbra,348978,0,0,0,0,0,Miguel Veloso,Portugal,23,78,Midfielder,7,Portugal
+Germany,1.79,1983,0,2,1,0,0,Aves,349054,0,2,0,0,0,Raul Meireles,Portugal,42,78,Midfielder,7,Portugal
+Germany,1.75,1986,0,1,3,2,3,Praia,348983,3,2,0,0,0,Nani,Cape Verde,31,66,Forward,1,Portugal
+Germany,1.93,1984,0,0,0,1,1,Figueira da Foz,345763,0,0,0,0,1,Hugo Almeida,Portugal,4,86,Forward,0,Portugal
+Germany,1.85,1985,0,0,1,5,7,Madeira,346135,2,0,2,0,0,Cristiano Ronaldo,Portugal,22,80,Forward,3,Portugal
+Germany,1.90,1987,0,0,0,0,2,Bissau,442081,2,0,3,0,0,Eder,Guinea-Bissau,19,81,Forward,0,Portugal
+Germany,1.83,1981,0,0,2,0,0,Vila Nova de Gaia,348894,0,0,1,0,0,Ricardo Costa,Portugal,21,80,Defender,6,Portugal
+Germany,1.85,1990,0,1,0,0,0,Lisbon,535678,0,0,0,0,0,André Almeida,Portugal,6,75,Defender,1,Portugal
+Germany,1.70,1986,0,0,0,0,0,Guimaraes,349060,0,0,0,0,0,Vieirinha,Portugal,0,73,Forward,0,Portugal
+Germany,1.82,1982,0,0,0,0,0,Vila do Conde,351268,0,0,0,0,0,Hélder Postiga,Portugal,0,76,Forward,0,Portugal
+Germany,1.80,1985,0,0,0,0,0,Almada,398659,0,0,0,0,0,Silvestre Varela,Portugal,0,79,Forward,0,Portugal
+Germany,1.80,1985,0,0,0,0,0,Lisbon,441986,0,0,0,0,0,Ruben Amorim,Portugal,0,78,Midfielder,0,Portugal
+Germany,1.85,1992,0,0,0,0,0,Luanda,565439,0,0,0,0,0,William,Angola,0,87,Midfielder,0,Portugal
+Germany,1.86,1988,0,0,0,0,0,Povoa de Varzim,607949,0,0,0,0,0,Luis Neto,Portugal,0,71,Defender,0,Portugal
+Germany,1.73,1993,0,0,0,0,0,Barreiro,748968,0,0,0,0,0,Rafa,Portugal,0,66,Forward,0,Portugal
+Portugal,1.93,1986,0,0,0,0,0,Gelsenkirchen-Buer,345666,0,0,0,0,0,Manuel Neuer,West Germany,0,92,Goalkeeper,0,Germany
+Portugal,1.88,1980,0,0,0,0,0,Diez,345366,0,0,0,0,0,Roman Weidenfeller,West Germany,0,85,Goalkeeper,0,Germany
+Portugal,1.87,1989,0,0,0,0,0,Cologne,375927,0,0,0,0,0,Ron-Robert Zieler,West Germany,0,83,Goalkeeper,0,Germany
+Germany,1.87,1982,0,0,0,0,0,Mirandela,349453,0,0,0,0,0,Eduardo,Portugal,0,84,Goalkeeper,0,Portugal
 Germany,1.83,1982,0,0,0,0,0,Lisbon,495352,0,0,0,0,0,Beto,Portugal,0,81,Goalkeeper,0,Portugal
+Nigeria,1.86,1983,0,1,2,0,0,Ahvaz,481709,0,2,1,0,0,Pejman Montazeri,Iran,24,78,Defender,6,Iran
+Nigeria,1.85,1982,0,0,2,0,0,Bandar Anzali,473970,0,0,0,0,0,Jalal Hosseini,Iran,16,80,Defender,8,Iran
+Nigeria,1.85,1981,0,0,0,0,0,Tehran,360095,0,1,1,0,0,Amir Hossein Sadeghi,Iran,16,78,Defender,7,Iran
+Nigeria,1.80,1987,0,2,6,0,0,Karaj,493161,2,1,1,0,0,Mehrdad Pooladi,Iran,11,70,Defender,5,Iran
+Nigeria,1.78,1983,0,0,9,1,2,Tehran,346183,0,6,0,0,0,Andranik Timotian,Iran,18,73,Midfielder,7,Iran
+Nigeria,1.88,1980,0,2,0,0,0,Shahr-e-Rey,348756,0,0,1,0,0,Javad Nekounam,Iran,26,78,Midfielder,6,Iran
+Nigeria,1.77,1990,0,0,4,1,1,Kashan,473977,3,0,0,0,0,Ehsan Haji Safi,Iran,22,64,Midfielder,1,Iran
+Nigeria,1.75,1983,0,0,1,0,0,Tehran,493155,3,0,1,0,0,Khosro Heydari,Iran,12,61,Forward,2,Iran
+Nigeria,1.81,1987,0,0,2,1,4,Mashhad,351427,2,7,5,0,0,Reza Ghoochannejhad,Iran,12,76,Forward,1,Iran
+Nigeria,1.82,1986,0,1,1,0,0,Tehran,345653,1,1,3,0,1,Ashkan Dejagah,Iran,12,79,Forward,4,Iran
+Nigeria,1.85,1984,0,0,0,0,0,Shiraz,473978,1,0,0,0,0,Masoud Shojaei,Iran,0,73,Forward,0,Iran
+Nigeria,1.81,1993,0,0,2,0,0,Jirandeh,740234,1,0,0,0,0,Alireza Jahanbakhsh,Iran,2,78,Forward,1,Iran
+Nigeria,1.89,1982,0,0,0,0,0,Ahvaz,473975,0,0,0,0,0,Ahmad Alnameh,Iran,0,78,Defender,0,Iran
+Nigeria,1.80,1984,0,0,0,0,0,Shiraz,481672,0,0,0,0,0,Hashem Beikzadeh,Iran,0,78,Midfielder,0,Iran
+Nigeria,1.78,1987,0,0,0,0,0,San Jose,537093,0,0,0,0,0,Steven Beitashour,United States,0,77,Defender,0,Iran
+Nigeria,1.78,1983,0,0,0,0,0,Esfahan,539244,0,0,0,0,0,Ghasem Hadadifar,Iran,0,66,Midfielder,0,Iran
+Nigeria,1.82,1986,0,0,0,0,0,Bushehr,566432,0,0,0,0,0,Hossein Mahini,Iran,0,70,Defender,0,Iran
+Nigeria,1.79,1991,0,0,0,0,0,Sarpol-e Zahab,569580,0,0,0,0,0,Bakhtiar Rahmani,Iran,0,74,Midfielder,0,Iran
+Nigeria,1.85,1990,0,0,0,0,0,Ardabil,583648,0,0,0,0,0,Karim Ansarifard,Iran,0,65,Forward,0,Iran
+Nigeria,1.90,1989,0,0,0,0,0,Mashhad,826260,0,0,0,0,0,Reza Haghighi,Iran,0,80,Midfielder,0,Iran
+Iran,1.90,1988,0,0,0,0,0,Kaduna,392604,4,0,3,0,0,Efe Ambrose,Nigeria,55,70,Defender,6,Nigeria
+Iran,1.85,1993,0,0,0,0,0,Jos,604558,0,1,2,0,0,Kenneth Omeruo,Nigeria,55,71,Defender,9,Nigeria
+Iran,1.83,1990,0,0,0,0,0,Akure,656342,0,1,0,0,0,Godfrey Oboabona,Nigeria,24,85,Defender,4,Nigeria
+Iran,1.84,1990,0,2,3,0,0,Ilorin,656341,3,2,2,0,0,Juwon Oshaniwa,Nigeria,37,69,Defender,5,Nigeria
+Iran,1.68,1992,0,0,5,1,3,Lagos,655435,3,1,2,0,0,Ogenyi Onazi,Nigeria,83,73,Midfielder,16,Nigeria
+Iran,1.88,1987,0,0,4,1,1,Jos,330396,0,4,5,0,0,John Obi Mikel,Nigeria,64,86,Midfielder,7,Nigeria
+Iran,1.70,1992,0,0,0,0,0,Abuya,604572,3,0,2,0,0,Ramón Azeez,Nigeria,40,70,Midfielder,3,Nigeria
+Iran,1.76,1992,0,0,3,1,1,Bukuru,575271,6,2,0,0,0,Ahmed Musa,Nigeria,12,62,Forward,2,Nigeria
+Iran,1.82,1987,0,1,2,0,2,Otuocha,608424,3,1,0,0,0,Emmanuel Emenike,Nigeria,8,90,Forward,1,Nigeria
+Iran,1.77,1990,0,0,0,1,1,Lagos,416523,1,1,0,0,0,Victor Moses,Nigeria,7,73,Midfielder,0,Nigeria
+Iran,1.81,1981,0,0,0,0,0,Tashkent,347710,0,1,1,0,0,Peter Odemwingie,USSR,10,79,Forward,0,Nigeria
+Iran,1.88,1981,0,0,0,2,2,Zaria,345955,0,1,0,0,0,Shola Ameobi,Nigeria,5,95,Forward,1,Nigeria
+Iran,1.94,1990,0,0,0,0,0,Enugu,537661,0,0,0,0,0,Okechukwu Uchebo,Nigeria,0,85,Forward,0,Nigeria
+Iran,1.77,1991,0,0,0,0,0,Lagos,604564,0,0,0,0,0,Uche Nwofor,Nigeria,0,75,Forward,0,Nigeria
+Iran,1.95,1989,0,0,0,0,0,Lafia,656343,0,0,0,0,0,Azubuike Egwuekwe,Nigeria,0,91,Defender,0,Nigeria
+Iran,1.84,1990,0,0,0,0,0,Kaduna,656351,0,0,0,0,0,Ruben Gabriel,Nigeria,0,86,Midfielder,0,Nigeria
+Iran,1.68,1988,0,0,0,0,0,Aba,656358,0,0,0,0,0,Ejike Uzoenyi,Nigeria,0,62,Midfielder,0,Nigeria
+Iran,1.87,1991,0,0,0,0,0,indefinido,735697,0,0,0,0,0,Ebenezer Odunlami,Nigeria,0,70,Defender,0,Nigeria
+Iran,1.65,1992,0,0,0,0,0,Lagos,735699,0,0,0,0,0,Michael Babatunde,Nigeria,0,72,Forward,0,Nigeria
+Nigeria,1.93,1988,0,0,0,0,0,Tehran,493279,0,0,0,0,0,Alireza Haghighi,Iran,0,80,Goalkeeper,0,Iran
+Nigeria,1.93,1988,0,0,0,0,0,Giessen,505368,0,0,0,0,0,Daniel Davari,West Germany,0,85,Goalkeeper,0,Iran
+Nigeria,1.82,1980,0,0,0,0,0,Noshahr,590168,0,0,0,0,0,Rahman Ahmadi,Iran,0,77,Goalkeeper,0,Iran
+Iran,1.86,1984,0,0,0,0,0,Onitsha,367870,0,0,0,0,0,Austin Ejide,Nigeria,0,90,Goalkeeper,0,Nigeria
+Iran,1.87,1984,0,0,0,0,0,Abuja,622285,0,0,0,0,0,Chigozie Agbim,Nigeria,0,83,Goalkeeper,0,Nigeria
+United States,1.72,1990,0,1,1,0,0,Accra,551863,8,3,2,0,0,Daniel Opare,Ghana,54,73,Defender,10,Ghana
+United States,1.82,1990,0,1,3,0,1,Accra,545667,0,0,1,0,0,Jonathan Mensah,Ghana,48,83,Defender,9,Ghana
+United States,1.85,1987,0,0,0,0,2,Accra,508854,0,0,0,0,0,John Boye,Ghana,40,72,Defender,7,Ghana
+United States,1.68,1988,0,0,1,1,1,Accra,446775,3,0,1,0,0,Kwadwo Asamoah,Ghana,64,78,Midfielder,6,Ghana
+United States,1.79,1984,0,0,3,0,2,Konongo,346563,5,1,3,0,0,Sulley Muntari,Ghana,52,76,Midfielder,1,Ghana
+United States,1.89,1989,0,1,1,0,0,Accra,555210,0,1,0,0,0,Mohammed Rabiu,Ghana,30,70,Midfielder,8,Ghana
+United States,1.82,1991,0,0,1,1,1,Marseille,527802,3,2,0,0,0,Jordan Ayew,France,15,80,Forward,1,Ghana
+United States,1.65,1992,0,1,0,1,4,Ada Foah,618262,4,0,1,0,1,Christian Atsu,Ghana,35,68,Midfielder,0,Ghana
+United States,1.75,1989,0,0,1,2,2,Lille,397830,1,1,2,1,1,André Ayew,France,22,72,Midfielder,2,Ghana
+United States,1.86,1985,1,1,0,2,5,Accra,346879,1,1,2,0,1,Asamoah Gyan,Ghana,11,77,Forward,0,Ghana
+United States,1.85,1987,0,1,1,0,0,Lambeth,441046,1,0,0,0,0,Albert Adomah,England,7,74,Midfielder,1,Ghana
+United States,1.82,1987,0,1,0,0,2,Berlin,345691,0,0,0,0,2,Kevin-Prince Boateng,West Germany,12,86,Forward,0,Ghana
+United States,1.80,1982,0,0,1,1,1,Accra,346104,0,1,0,0,0,Michael Essien,Ghana,11,85,Midfielder,1,Ghana
+United States,1.71,1990,0,0,0,0,0,Tamale,476984,0,0,0,0,0,Mubarak Wakaso,Ghana,0,72,Midfielder,0,Ghana
+United States,1.68,1986,0,0,0,0,0,Kumasi,533440,0,0,0,0,0,Harrison Afful,Ghana,0,83,Defender,0,Ghana
+United States,1.73,1990,0,0,0,0,0,Seikwa,533446,0,0,0,0,0,Emmanuel Agyemang-Badu,Ghana,0,79,Midfielder,0,Ghana
+United States,1.79,1989,0,0,0,0,0,Sekondi-Takoradi,533452,0,0,0,0,0,Samuel Inkoom,Ghana,0,75,Defender,0,Ghana
+United States,1.79,1992,0,0,0,0,0,Accra,561661,0,0,0,0,0,Afriyie Acquah,Ghana,0,70,Midfielder,0,Ghana
+United States,1.72,1991,0,0,0,0,0,Tamale,583025,0,0,0,0,0,Majeed Waris,Ghana,0,70,Forward,0,Ghana
+United States,1.82,1992,0,0,0,0,0,Cape Coast,723261,0,0,0,0,0,Rashid Sumaila,Ghana,0,80,Defender,0,Ghana
+Ghana,1.82,1987,0,1,0,0,0,Munich,408161,1,1,1,0,0,Fabian Johnson,West Germany,23,74,Defender,1,United States
+Ghana,1.90,1985,0,1,0,0,0,Attleboro,439571,0,0,0,0,0,Geoff Cameron,United States,25,84,Defender,4,United States
+Ghana,1.82,1987,0,3,1,0,0,Overland Park,490210,0,0,1,0,0,Matt Besler,United States,14,77,Defender,3,United States
+Ghana,1.70,1982,0,1,1,0,0,Fort Wayne,274790,1,2,1,0,0,DaMarcus Beasley,United States,29,66,Defender,5,United States
+Ghana,1.81,1982,0,1,6,0,0,Crofton,274879,0,1,2,0,0,Kyle Beckerman,United States,23,75,Midfielder,1,United States
+Ghana,1.84,1981,1,3,4,1,1,Frankfurt am Main,345448,0,3,3,0,0,Jermaine Jones,West Germany,19,78,Midfielder,5,United States
+Ghana,1.85,1983,0,0,0,2,2,Nacogdoches,275213,0,0,1,1,1,Clint Dempsey,United States,17,85,Forward,1,United States
+Ghana,1.85,1987,0,0,0,0,0,Princeton,275241,1,2,0,0,0,Michael Bradley,United States,39,86,Midfielder,4,United States
+Ghana,1.78,1987,0,0,3,1,2,Miami,537545,2,3,0,0,0,Alejandro Bedoya,United States,11,73,Midfielder,3,United States
+Ghana,1.85,1989,0,0,0,1,1,Livingston,322699,0,0,0,0,0,Jozy Altidore,United States,3,72,Forward,0,United States
+Ghana,1.93,1993,0,2,0,1,1,Berlin,604284,0,0,1,1,0,John Brooks,Germany,12,78,Defender,2,United States
+Ghana,1.82,1990,0,0,0,1,1,Reykjavik,599865,0,0,0,0,0,Aron Johannsson,Iceland,9,75,Forward,0,United States
+Ghana,1.77,1986,1,0,0,0,0,Longwood,490225,0,0,0,0,0,Graham Zusi,United States,7,73,Midfielder,1,United States
+Ghana,1.80,1981,0,0,0,0,0,St. Charles,275001,0,0,0,0,0,Brad Davis,United States,0,75,Midfielder,0,United States
+Ghana,1.82,1983,0,0,0,0,0,Livermore,322579,0,0,0,0,0,Chris Wondolowski,United States,0,75,Forward,0,United States
+Ghana,1.86,1990,0,0,0,0,0,Frankfurt am Main,483865,0,0,0,0,0,Timmy Chandler,West Germany,0,83,Defender,0,United States
+Ghana,1.95,1988,0,0,0,0,0,Dallas,490205,0,0,0,0,0,Omar González,United States,0,95,Defender,0,United States
+Ghana,1.82,1990,0,0,0,0,0,Oslo,517263,0,0,0,0,0,Mix Diskerud,Norway,0,71,Midfielder,0,United States
+Ghana,1.75,1993,0,0,0,0,0,Seattle,723625,0,0,0,0,0,DeAndre Yedlin,United States,0,68,Defender,0,United States
+Ghana,1.72,1995,0,0,0,0,0,Tampa,787674,0,0,0,0,0,Julian Green,United States,0,60,Midfielder,0,United States
+United States,1.90,1987,0,0,0,0,0,Oslo,482076,0,0,0,0,0,Adam Kwarasey,Norway,0,84,Goalkeeper,0,Ghana
+United States,1.80,1985,0,0,0,0,0,Obuasi,533450,0,0,0,0,0,Fatau Dauda,Ghana,0,74,Goalkeeper,0,Ghana
+United States,1.77,1984,0,0,0,0,0,Khumasi,545664,0,0,0,0,0,Stephen Adams,Ghana,0,78,Goalkeeper,0,Ghana
+Ghana,1.82,1979,0,0,0,0,0,Montclair,274846,0,0,0,0,0,Nick Rimando,United States,0,86,Goalkeeper,0,United States
+Ghana,1.93,1984,0,0,0,0,0,Homer Glen,322494,0,0,0,0,0,Brad Guzan,United States,0,95,Goalkeeper,0,United States
+Algeria,1.86,1989,0,0,3,0,0,Wilrijk,482752,4,1,2,0,1,Toby Alderweireld,Belgium,42,80,Defender,13,Belgium
+Algeria,1.96,1978,0,0,1,1,2,Chimay,345514,0,1,1,0,0,Daniel Van Buyten,Belgium,83,95,Defender,27,Belgium
+Algeria,1.90,1986,0,0,0,0,0,Ukkel,345773,0,0,0,0,0,Vincent Kompany,Belgium,67,85,Defender,7,Belgium
+Algeria,1.89,1987,0,0,3,0,2,Sint-Niklaas,348329,2,3,1,0,0,Jan Vertonghen,Belgium,49,86,Defender,7,Belgium
+Algeria,1.83,1989,0,0,4,2,3,Liege,347225,0,2,5,0,0,Axel Witsel,Belgium,68,76,Midfielder,9,Belgium
+Algeria,1.85,1987,0,0,2,0,1,Wilrijk,348248,0,4,2,0,0,Moussa Dembele,Belgium,48,82,Midfielder,4,Belgium
+Algeria,1.87,1989,0,0,2,2,3,Liege,443052,0,2,0,0,0,Nacer Chadli,Belgium,27,80,Midfielder,0,Belgium
+Algeria,1.81,1991,1,0,1,1,1,Drongen,483710,4,1,0,0,0,Kevin De Bruyne,Belgium,37,68,Midfielder,6,Belgium
+Algeria,1.72,1991,1,0,0,0,0,La Louviere,397817,4,1,4,0,0,Eden Hazard,Belgium,31,56,Midfielder,3,Belgium
+Algeria,1.90,1993,0,0,2,0,0,Antwerp,499317,0,1,0,0,0,Romelu Lukaku,Belgium,10,100,Forward,0,Belgium
+Algeria,1.94,1987,0,0,0,2,2,Etterbeek,347213,0,1,0,1,2,Marouane Fellaini,Belgium,5,85,Midfielder,1,Belgium
+Algeria,1.64,1987,0,0,0,1,1,Leuven,443066,4,2,2,1,0,Dries Mertens,Belgium,7,61,Midfielder,3,Belgium
+Algeria,1.85,1995,0,0,1,1,1,Ostend,724860,1,1,0,0,0,Divock Origi,Belgium,1,75,Forward,0,Belgium
+Algeria,1.88,1985,0,0,0,0,0,Bruges,347082,0,0,0,0,0,Nicolas Lombaerts,Belgium,0,83,Defender,0,Belgium
+Algeria,1.85,1987,0,0,0,0,0,Likasi,347131,0,0,0,0,0,Anthony Vanden Borre,DR Congo,0,89,Defender,0,Belgium
+Algeria,1.73,1988,0,0,0,0,0,Mechelen,347218,0,0,0,0,0,Steven Defour,Belgium,0,70,Midfielder,0,Belgium
+Algeria,1.80,1985,0,0,0,0,0,Farciennes,347254,0,0,0,0,0,Laurent Ciman,Belgium,0,70,Defender,0,Belgium
+Algeria,1.79,1987,0,0,0,0,0,Liege,347734,0,0,0,0,0,Kevin Mirallas,Belgium,0,72,Forward,0,Belgium
+Algeria,1.78,1985,0,0,0,0,0,Kapellen,348168,0,0,0,0,0,Thomas Vermaelen,Belgium,0,75,Defender,0,Belgium
+Algeria,1.80,1995,0,0,0,0,0,Brussels,735764,0,0,0,0,0,Adnan Januzaj,Belgium,0,75,Midfielder,0,Belgium
+Belgium,1.82,1983,0,1,3,0,0,Dijon,459424,0,3,2,0,0,Mehdi Mostefa,France,13,82,Midfielder,4,Algeria
+Belgium,1.89,1982,0,1,1,0,0,Longvic,376672,0,0,2,0,0,Madjid Bouguerra,France,25,89,Defender,9,Algeria
+Belgium,1.87,1986,0,0,1,0,0,Algiers,520909,0,0,0,0,0,Rafik Halliche,Algeria,16,77,Defender,6,Algeria
+Belgium,1.84,1991,0,2,2,0,0,Saint-Priest-en-Jarez,575270,1,2,0,0,0,Faouzi Ghoulam,France,23,80,Defender,10,Algeria
+Belgium,1.79,1992,0,0,2,0,0,Castres,543904,1,3,4,0,0,Saphir Taider,France,18,73,Midfielder,7,Algeria
+Belgium,1.80,1985,0,0,2,0,1,Lyon,347810,0,1,1,0,0,Carl Medjani,France,11,77,Defender,3,Algeria
+Belgium,1.89,1994,0,1,3,0,0,Lille,797903,1,2,0,0,0,Nabil Bentaleb,France,21,68,Midfielder,4,Algeria
+Belgium,1.77,1989,0,0,1,1,1,Levallois-Perret,440563,1,0,3,1,0,Sofiane Feghouli,France,11,71,Forward,3,Algeria
+Belgium,1.79,1991,0,0,3,0,1,Sarcelles,605046,1,3,3,0,0,Riyad Mahrez,France,11,66,Forward,3,Algeria
+Belgium,1.77,1987,0,1,4,0,0,Chlef,619171,1,2,2,0,0,El Arabi Soudani,Algeria,5,75,Forward,2,Algeria
+Belgium,1.75,1984,0,0,0,0,0,Paris,374914,0,0,1,0,0,Mehdi Lacen,France,2,72,Midfielder,0,Algeria
+Belgium,1.83,1990,0,0,0,0,0,Marseille,698366,0,1,0,0,0,Nabil Ghilas,France,1,85,Forward,0,Algeria
+Belgium,1.88,1988,0,0,0,0,0,Algiers,657130,0,1,0,0,0,Islam Slimani,Algeria,6,79,Forward,0,Algeria
+Belgium,1.88,1984,0,0,0,0,0,Saint-Maurice,347681,0,0,0,0,0,Hassan Yebda,France,0,80,Midfielder,0,Algeria
+Belgium,1.71,1990,0,0,0,0,0,Paris,397897,0,0,0,0,0,Yacine Brahimi,France,0,68,Midfielder,0,Algeria
+Belgium,1.79,1984,0,0,0,0,0,Zighoud Youcef,402037,0,0,0,0,0,Djamel Mesbah,Algeria,0,74,Defender,0,Algeria
+Belgium,1.84,1991,0,0,0,0,0,Chalons-au-Champagne,558856,0,0,0,0,0,Aissa Mandi,France,0,78,Defender,0,Algeria
+Belgium,1.87,1988,0,0,0,0,0,Tolouse,577897,0,0,0,0,0,Liassine Cadamuro,France,0,81,Defender,0,Algeria
+Belgium,1.90,1989,0,0,0,0,0,Mekla,706676,0,0,0,0,0,Esseid Belkalem,Algeria,0,90,Defender,0,Algeria
+Belgium,1.68,1987,0,0,0,0,0,Setif,719156,0,0,0,0,0,Abdelmoumene Djabou,Algeria,0,66,Forward,0,Algeria
+Algeria,1.98,1992,0,0,0,0,0,Bree,496415,0,0,0,0,0,Thibaut Courtois,Belgium,0,91,Goalkeeper,0,Belgium
+Algeria,1.87,1985,0,0,0,0,0,Tielt,346988,0,0,0,0,0,Sammy Bossut,Belgium,0,74,Goalkeeper,0,Belgium
+Algeria,1.93,1988,0,0,0,0,0,Sint-Truiden,347350,0,0,0,0,0,Simon Mignolet,Belgium,0,87,Goalkeeper,0,Belgium
+Belgium,1.87,1985,0,0,0,0,0,Mila,536847,0,0,0,0,0,Mohamed Zemmamouche,Algeria,0,82,Goalkeeper,0,Algeria
+Belgium,1.82,1985,0,0,0,0,0,Roanne,706821,0,0,0,0,0,Cedric Si Mohamed,France,0,68,Goalkeeper,0,Algeria
+Mexico,1.75,1983,0,1,3,0,0,Juazeiro,348634,5,2,2,0,0,Dani Alves,Brazil,47,64,Defender,5,Brazil
+Mexico,1.82,1984,0,1,3,1,1,Rio de Janeiro,375843,0,1,1,0,0,Thiago Silva,Brazil,40,79,Defender,6,Brazil
+Mexico,1.89,1987,0,1,2,1,1,Sao Paulo,409128,0,2,0,0,0,David Luiz,Brazil,37,84,Defender,4,Brazil
+Mexico,1.74,1988,0,1,3,0,1,Rio de Janeiro,356026,4,1,0,0,0,Marcelo,Brazil,51,75,Defender,8,Brazil
+Mexico,1.81,1988,0,1,0,1,2,Sao Paulo,545294,0,2,0,0,0,Paulinho,Brazil,18,71,Midfielder,2,Brazil
+Mexico,1.81,1991,0,1,5,1,2,Americana,466295,1,0,1,0,0,Oscar,Brazil,34,66,Midfielder,4,Brazil
+Mexico,1.88,1987,0,1,4,0,1,Pindamonhangaba,410479,0,1,4,0,0,Luiz Gustavo,Brazil,33,80,Midfielder,8,Brazil
+Mexico,1.81,1987,0,0,2,0,0,Barra do Pirai,440827,1,2,1,0,0,Ramires,Brazil,10,73,Midfielder,1,Brazil
+Mexico,1.86,1983,0,1,0,2,2,Teofilo Otoni,347711,0,0,1,0,4,Fred,Brazil,6,90,Forward,0,Brazil
+Mexico,1.75,1992,0,0,1,2,3,Mogi das Cruzes,555042,6,1,5,0,0,Neymar,Brazil,26,65,Forward,3,Brazil
+Mexico,1.66,1992,0,0,0,0,0,Belo Horizonte,589316,3,1,1,0,0,Bernard,Brazil,11,52,Forward,0,Brazil
+Mexico,1.91,1987,0,0,0,0,1,Sao Paulo,409159,0,0,0,0,1,Jo,Brazil,2,78,Forward,0,Brazil
+Mexico,1.76,1988,0,0,0,0,0,Ribeirao Pires,388493,0,0,1,0,0,Willian,Brazil,3,70,Midfielder,1,Brazil
+Mexico,1.77,1981,0,0,0,0,0,Cachoeiro do Itapemirim,346567,0,0,0,0,0,Maxwell,Brazil,0,73,Defender,0,Brazil
+Mexico,1.86,1981,0,0,0,0,0,Novo Hamburgo,346587,0,0,0,0,0,Maicon,Brazil,0,77,Defender,0,Brazil
+Mexico,1.89,1983,0,0,0,0,0,Salvador de Bahia,347258,0,0,0,0,0,Dante,Brazil,0,87,Defender,0,Brazil
+Mexico,1.79,1985,0,0,0,0,0,Londrina,348958,0,0,0,0,0,Fernandinho,Brazil,0,67,Midfielder,0,Brazil
+Mexico,1.80,1985,0,0,0,0,0,Recife,359280,0,0,0,0,0,Hernanes,Brazil,0,76,Midfielder,0,Brazil
+Mexico,1.86,1986,0,0,0,0,0,Marechal Candido Rondon,456926,0,0,0,0,0,Henrique,Brazil,0,73,Defender,0,Brazil
+Mexico,1.79,1986,0,0,0,0,0,Campina Grande,471521,0,0,0,0,0,Hulk,Brazil,0,80,Forward,0,Brazil
+Brazil,1.78,1986,0,1,4,0,1,Concordia,375518,1,3,3,0,0,Paul Aguilar,Mexico,25,65,Defender,0,Mexico
+Brazil,1.91,1981,0,0,2,0,0,Mazatlan,368436,0,2,0,0,0,Francisco Rodríguez,Mexico,29,84,Defender,3,Mexico
+Brazil,1.84,1979,0,1,3,0,0,Zamora,348468,0,0,2,0,0,Rafael Márquez,Mexico,28,74,Defender,15,Mexico
+Brazil,1.82,1988,0,1,2,0,0,Culiacan,359565,1,0,0,0,0,Héctor Moreno,Mexico,23,80,Defender,3,Mexico
+Brazil,1.78,1988,0,1,2,0,2,Veracruz,375578,3,1,1,0,0,Miguel Layún,Mexico,24,64,Defender,7,Mexico
+Brazil,1.80,1990,0,0,3,0,2,Mexico City,492556,0,2,0,0,0,Héctor Herrera,Mexico,40,72,Midfielder,5,Mexico
+Brazil,1.64,1988,0,1,3,0,1,Celaya,685141,0,2,1,0,0,Jose Vazquez,Mexico,34,68,Midfielder,6,Mexico
+Brazil,1.67,1986,0,1,1,0,3,Guadalajara,373962,4,3,2,0,0,Andrés Guardado,Mexico,26,67,Defender,6,Mexico
+Brazil,1.79,1989,0,1,1,2,2,Monterrey,390080,1,1,1,0,0,Giovani Dos Santos,Mexico,23,71,Forward,3,Mexico
+Brazil,1.77,1984,0,0,3,0,0,Torreon,369575,0,3,0,0,0,Oribe Peralta,Mexico,13,68,Forward,2,Mexico
+Brazil,1.71,1989,0,0,0,0,0,Guadalajara,419772,0,1,0,0,0,Marco Fabián,Mexico,4,65,Midfielder,0,Mexico
+Brazil,1.75,1988,0,0,0,0,1,Guadalajara,375893,0,0,3,0,0,Javier Hernández,Mexico,1,62,Forward,0,Mexico
+Brazil,1.86,1991,0,0,0,1,1,Tepeji del Rio,618109,0,0,0,0,0,Raúl Jiménez,Mexico,1,76,Forward,0,Mexico
+Brazil,1.76,1980,0,0,0,0,0,Ocotlan,347953,0,0,0,0,0,Carlos Salcido,Mexico,0,70,Defender,0,Mexico
+Brazil,1.73,1990,0,0,0,0,0,Lagos de Moreno,509598,0,0,0,0,0,Isaac Brizuela,Mexico,0,59,Midfielder,0,Mexico
+Brazil,1.76,1991,0,0,0,0,0,Ciudad Victoria,540218,0,0,0,0,0,Alan Pulido,Mexico,0,60,Forward,0,Mexico
+Brazil,1.76,1990,0,0,0,0,0,Ciudad Victoria,544125,0,0,0,0,0,Carlos Pena,Mexico,0,75,Midfielder,0,Mexico
+Brazil,1.89,1992,0,0,0,0,0,Mexico City,544254,0,0,0,0,0,Diego Reyes,Mexico,0,65,Defender,0,Mexico
+Brazil,1.75,1989,0,0,0,0,0,Sacramento,544563,0,0,0,0,0,Miguel Ángel Ponce,United States,0,77,Defender,0,Mexico
+Brazil,1.66,1990,0,0,0,0,0,Oaxaca,552821,0,0,0,0,0,Javier Aquino,Mexico,0,59,Midfielder,0,Mexico
+Mexico,1.78,1979,0,0,0,0,0,Rio de Janeiro,346589,0,0,0,0,0,Júlio César,Brazil,0,79,Goalkeeper,0,Brazil
+Mexico,1.95,1983,0,0,0,0,0,Santo Anastacio,359665,0,0,0,0,0,Victor,Brazil,0,84,Goalkeeper,0,Brazil
+Mexico,1.90,1983,0,0,0,0,0,Sao Vicente,442973,0,0,0,0,0,Jefferson,Brazil,0,93,Goalkeeper,0,Brazil
+Brazil,1.78,1981,0,0,0,0,0,Guadalajara,368221,0,0,0,0,0,José de Jesús Corona,Mexico,0,82,Goalkeeper,0,Mexico
+Brazil,1.88,1982,0,0,0,0,0,Guadalajara,371511,0,0,0,0,0,Alfredo Talavera,Mexico,0,86,Goalkeeper,0,Mexico
+Korea Republic,1.77,1984,1,0,4,2,2,Irkutsk,606860,4,1,0,0,0,Andrey Eshchenko,USSR,61,62,Defender,1,Russia
+Korea Republic,1.86,1979,0,1,2,1,1,Moscow,348910,0,1,1,0,0,Sergey Ignashevich,USSR,55,75,Defender,2,Russia
+Korea Republic,1.88,1982,0,1,0,0,1,Moscow,349032,1,0,0,0,0,Vasily Berezutskiy,USSR,58,83,Defender,3,Russia
+Korea Republic,1.82,1987,0,1,0,1,1,Moscow,514875,5,0,0,0,0,Dmitry Kombarov,USSR,38,73,Defender,3,Russia
+Korea Republic,1.82,1987,0,1,2,1,1,Millerovo,589004,1,3,2,0,0,Denis Glushakov,USSR,18,72,Midfielder,4,Russia
+Korea Republic,1.78,1984,0,0,0,0,1,Moscow,415208,7,0,2,0,0,Alexander Samedov,USSR,34,75,Forward,3,Russia
+Korea Republic,1.76,1986,0,0,1,1,1,Nakhodka,442366,1,1,2,0,0,Viktor Fayzulin,USSR,40,72,Midfielder,4,Russia
+Korea Republic,1.80,1983,0,1,0,0,1,Tambov,349037,1,0,0,0,0,Yury Zhirkov,USSR,18,75,Forward,2,Russia
+Korea Republic,1.76,1990,0,0,1,0,0,Nizhny Tagil,649698,1,1,0,0,0,Oleg Shatov,USSR,19,64,Midfielder,1,Russia
+Korea Republic,1.82,1991,0,0,1,1,3,Moscow,514873,1,6,0,0,0,Alexander Kokorin,USSR,18,79,Forward,1,Russia
+Korea Republic,1.76,1984,0,0,1,1,1,St. Petersburg,415166,0,0,0,0,0,Igor Denisov,USSR,18,70,Midfielder,0,Russia
+Korea Republic,1.78,1990,0,0,0,1,2,Beslan,481182,0,1,0,0,0,Alan Dzagoev,USSR,13,70,Midfielder,0,Russia
+Korea Republic,1.75,1982,0,0,0,1,1,Kingisepp,367842,0,1,0,1,0,Aleksandr Kerzhakov,USSR,2,76,Forward,0,Russia
+Korea Republic,1.78,1989,0,0,0,0,0,Kingisepp,415170,0,0,0,0,0,Alexey Ionov,USSR,0,68,Forward,0,Russia
+Korea Republic,1.79,1991,0,0,0,0,0,Moscow,482127,0,0,0,0,0,Georgy Shchennikov,USSR,0,69,Defender,0,Russia
+Korea Republic,1.84,1987,0,0,0,0,0,Ulan-Ude,514872,0,0,0,0,0,Vladimir Granat,USSR,0,78,Defender,0,Russia
+Korea Republic,1.84,1991,0,0,0,0,0,St. Petersburg,566706,0,0,0,0,0,Maksim Kanunnikov,USSR,0,77,Forward,0,Russia
+Korea Republic,1.85,1986,0,0,0,0,0,Petrozavodsk,589686,0,0,0,0,0,Aleksei Kozlov,USSR,0,78,Defender,0,Russia
+Korea Republic,1.83,1993,0,0,0,0,0,Kingisepp,589810,0,0,0,0,0,Pavel Mogilevets,Russia,0,70,Midfielder,0,Russia
+Korea Republic,1.91,1989,0,0,0,0,0,Moscow,709617,0,0,0,0,0,Andrey Semenov,USSR,0,86,Defender,0,Russia
+Russia,1.80,1986,0,0,1,0,0,Seoul,650483,0,0,0,0,0,Yong Lee,South Korea,44,74,Defender,4,Korea Republic
+Russia,1.87,1990,0,4,0,1,1,Jeonju,540414,0,0,3,0,0,Kim Young-Gwon,South Korea,57,74,Defender,7,Korea Republic
+Russia,1.88,1989,0,0,0,1,1,Jeju,583083,0,0,1,0,0,Jeong-Ho Hong,South Korea,36,77,Defender,2,Korea Republic
+Russia,1.82,1990,0,2,1,0,0,Suwon,583088,2,0,1,0,0,Suk-Young Yun,South Korea,36,74,Defender,4,Korea Republic
+Russia,1.86,1989,0,1,3,1,1,Gwanju,473962,2,1,3,0,0,Sung-Yueng Ki,South Korea,67,79,Midfielder,4,Korea Republic
+Russia,1.80,1988,0,1,0,0,1,Seoul,473961,1,0,0,0,0,Chung-Yong Lee,South Korea,24,69,Midfielder,0,Korea Republic
+Russia,1.83,1990,0,2,3,0,0,Seoul,540313,0,1,1,0,0,Kook-Young Han,South Korea,47,74,Midfielder,1,Korea Republic
+Russia,1.82,1989,0,0,3,1,2,Chungju,537368,0,2,3,0,0,Ja-Cheol Koo,South Korea,28,75,Forward,1,Korea Republic
+Russia,1.83,1985,0,1,1,0,0,Daegu,476950,0,2,0,0,0,Chu-Young Park,South Korea,14,70,Forward,1,Korea Republic
+Russia,1.83,1992,0,3,0,1,3,Chuncheon,568442,0,1,2,0,0,Heung-Min Son,South Korea,18,76,Midfielder,3,Korea Republic
+Russia,1.82,1989,0,0,0,0,0,Cheongju,618251,0,0,0,0,0,Hwang Seok-Ho,South Korea,8,80,Defender,0,Korea Republic
+Russia,1.78,1989,0,0,0,0,0,Gurye,540398,0,0,0,0,0,Bo-Kyung Kim,South Korea,5,73,Midfielder,0,Korea Republic
+Russia,1.77,1985,0,0,1,1,1,Incheon,461735,2,0,0,1,0,Keun-Ho Lee,South Korea,12,75,Forward,0,Korea Republic
+Russia,1.74,1987,0,0,0,0,0,Seoul,390097,0,0,0,0,0,Joo-Ho Park,South Korea,0,69,Defender,0,Korea Republic
+Russia,1.79,1985,0,0,0,0,0,Busan,461729,0,0,0,0,0,Chang-Soo Kim,South Korea,0,74,Defender,0,Korea Republic
+Russia,1.85,1981,0,0,0,0,0,Chilgok,481764,0,0,0,0,0,Tae-Hwi Kwak,South Korea,0,80,Defender,0,Korea Republic
+Russia,1.82,1985,0,0,0,0,0,Incheon,487107,0,0,0,0,0,Ha Dae-Sung,South Korea,0,73,Midfielder,0,Korea Republic
+Russia,1.96,1988,0,0,0,0,0,Gwacheon,537371,0,0,0,0,0,Shin-Wook Kim,South Korea,0,94,Forward,0,Korea Republic
+Russia,1.86,1991,0,0,0,0,0,Jeju,583329,0,0,0,0,0,Dong-Won Ji,South Korea,0,77,Midfielder,0,Korea Republic
+Russia,1.80,1989,0,0,0,0,0,Seongnam,618254,0,0,0,0,0,Park Jong-Woo,South Korea,0,74,Midfielder,0,Korea Republic
+Korea Republic,1.85,1986,0,0,0,0,0,Vidnoye,348949,0,0,0,0,0,Igor Akinfeev,USSR,0,71,Goalkeeper,0,Russia
+Korea Republic,1.92,1980,0,0,0,0,0,Shebekino,481280,0,0,0,0,0,Sergey Ryzhikov,USSR,0,92,Goalkeeper,0,Russia
+Korea Republic,1.86,1990,0,0,0,0,0,Vladimir,541993,0,0,0,0,0,Yury Lodygin,USSR,0,77,Goalkeeper,0,Russia
+Russia,1.99,1989,0,0,0,0,0,Seoul,583081,0,0,0,0,0,Bum-Young Lee,South Korea,0,90,Goalkeeper,0,Korea Republic
+Russia,1.87,1990,0,0,0,0,0,Ulsan,583084,0,0,0,0,0,Kim Seung-Gyu,South Korea,0,80,Goalkeeper,0,Korea Republic
 Netherlands,1.85,1989,1,0,2,0,0,Adelaide,406401,2,1,2,0,0,Ryan McGowan,Australia,45,75,Defender,5,Australia
 Netherlands,1.83,1984,0,2,0,0,0,Sydney,493555,0,2,0,0,0,Alex Wilkinson,Australia,47,85,Defender,8,Australia
 Netherlands,1.88,1988,0,0,0,1,1,Geelong,357416,0,3,3,0,0,Matthew Spiranovic,Australia,53,87,Defender,9,Australia
@@ -836,322 +1314,196 @@ Spain,1.85,1984,0,0,0,0,0,San Bernardo,345016,0,0,0,0,0,Mauricio Pinilla,Chile,0
 Spain,1.70,1985,0,0,0,0,0,Santiago,359808,0,0,0,0,0,Jose Fuenzalida,Chile,0,67,Midfielder,0,Chile
 Spain,1.79,1980,0,0,0,0,0,Santiago,372141,0,0,0,0,0,Esteban Paredes,Chile,0,78,Forward,0,Chile
 Spain,1.74,1983,0,0,0,0,0,Talagante,374561,0,0,0,0,0,Jose Rojas,Chile,0,77,Defender,0,Chile
-Spain,1.68,1986,0,0,0,0,0,Santiago de Chile,387261,0,0,0,0,0,Fabián Orellana,Chile,0,69,Forward,0,Chile
-Spain,1.78,1984,0,0,0,0,0,Santiago,489253,0,0,0,0,0,Jean Beausejour,Chile,0,80,Midfielder,0,Chile
-Spain,1.80,1990,0,0,0,0,0,Stockholm,580876,0,0,0,0,0,Miiko Albornoz,Sweden,0,80,Defender,0,Chile
-Chile,1.85,1981,0,0,0,0,0,Mostoles,348438,0,0,0,0,0,Iker Casillas,Spain,0,84,Goalkeeper,0,Spain
 Chile,1.87,1982,0,0,0,0,0,Madrid,346084,0,0,0,0,0,Pepe Reina,Spain,0,92,Goalkeeper,0,Spain
 Spain,1.83,1981,0,0,0,0,0,Angol,374546,0,0,0,0,0,Johnny Herrera,Chile,0,81,Goalkeeper,0,Chile
-Spain,1.81,1988,0,0,0,0,0,Antofagasta,389706,0,0,0,0,0,Cristopher Toselli,Chile,0,76,Goalkeeper,0,Chile
-Croatia,1.90,1986,0,1,1,0,3,Yaounde,347769,3,0,1,0,0,Stephane Mbia,Cameroon,34,85,Midfielder,4,Cameroon
-Croatia,1.85,1985,0,0,1,0,0,Douala,395468,0,1,0,0,0,Aurelien Chedjou,Cameroon,17,77,Defender,3,Cameroon
-Croatia,1.85,1990,0,1,1,0,0,Yaounde,461806,0,0,0,0,0,Nicolas N'Koulou,Cameroon,30,77,Defender,3,Cameroon
-Croatia,1.78,1984,0,3,0,0,0,Arras,346150,4,1,0,0,0,Benoit Assou-Ekotto,France,30,70,Defender,4,Cameroon
-Croatia,1.83,1987,0,0,0,1,1,Douala,346175,1,1,1,0,0,Alex Song,Cameroon,20,74,Midfielder,0,Cameroon
-Croatia,1.94,1991,0,1,2,0,0,Bochum,496822,0,3,1,0,0,Joel Matip,Germany,24,88,Midfielder,2,Cameroon
-Croatia,1.80,1986,0,1,2,1,1,Kumba,474975,0,2,2,0,0,Eyong Enoh,Cameroon,23,70,Midfielder,3,Cameroon
-Croatia,1.90,1989,0,0,0,2,2,Hamburg,397547,1,0,0,0,0,Eric Maxim Choupo-Moting,West Germany,14,84,Forward,1,Cameroon
-Croatia,1.76,1992,0,0,2,2,5,Yaounde,546158,1,1,1,0,0,Vincent Aboubakar,Cameroon,15,82,Forward,0,Cameroon
-Croatia,1.78,1988,0,1,0,0,2,Douala,534471,1,1,3,0,0,Benjamin Moukandjo,Cameroon,19,74,Forward,1,Cameroon
-Croatia,1.83,1986,0,1,1,0,2,Yaounde,505342,0,1,0,0,0,Dany Nounkeu,Cameroon,13,80,Defender,0,Cameroon
-Croatia,1.80,1982,0,0,0,1,2,Bafoussam,348691,0,0,0,0,0,Pierre Webó,Cameroon,3,78,Forward,0,Cameroon
-Croatia,1.63,1992,0,0,2,0,0,Garoua,604618,2,0,0,0,0,Edgar Salli,Cameroon,7,64,Midfielder,1,Cameroon
-Croatia,1.70,1983,0,0,0,0,0,Yaounde,347594,0,0,0,0,0,Jean Makoun,Cameroon,0,65,Midfielder,0,Cameroon
-Croatia,1.72,1985,0,0,0,0,0,Yaounde,347756,0,0,0,0,0,Landry N'Guemo,Cameroon,0,70,Midfielder,0,Cameroon
-Croatia,1.81,1981,0,0,0,0,0,Nkon,348449,0,0,0,0,0,Samuel Eto'o,Cameroon,0,75,Forward,0,Cameroon
-Croatia,1.76,1984,0,0,0,0,0,Douala,370625,0,0,0,0,0,Henri Bedimo,Cameroon,0,80,Defender,0,Cameroon
-Croatia,1.70,1988,0,0,0,0,0,Neuilly Sur Seine,501420,0,0,0,0,0,Allan Nyom,France,0,81,Defender,0,Cameroon
-Croatia,1.77,1996,0,0,0,0,0,Douala,699302,0,0,0,0,0,Fabrice Olinga,Cameroon,0,66,Forward,0,Cameroon
-Croatia,1.75,1992,0,0,0,0,0,Mankwa,826586,0,0,0,0,0,Cedric Djeugoue,Cameroon,0,78,Defender,0,Cameroon
-Cameroon,1.82,1982,0,0,3,2,3,Metkovic,348951,2,1,1,0,0,Darijo Srna,Yugoslavia,35,72,Defender,2,Croatia
-Cameroon,1.92,1986,0,4,0,0,0,Derventa,398553,0,0,1,0,0,Vedran Corluka,Yugoslavia,38,84,Defender,3,Croatia
-Cameroon,1.88,1989,0,3,1,0,0,Zenica,466741,0,1,0,0,0,Dejan Lovren,Yugoslavia,37,84,Defender,2,Croatia
-Cameroon,1.72,1981,1,1,6,1,1,Nasice,348254,1,1,0,0,1,Danijel Pranjic,Yugoslavia,47,70,Defender,3,Croatia
-Cameroon,1.73,1985,0,1,2,1,1,Zadar,360063,2,1,2,0,0,Luka Modric,Yugoslavia,39,65,Midfielder,4,Croatia
-Cameroon,1.84,1988,0,0,2,1,2,Mohlin,349448,1,0,0,0,0,Ivan Rakitic,Switzerland,52,76,Midfielder,10,Croatia
-Cameroon,1.87,1989,1,0,0,2,3,Split,471072,6,0,4,1,0,Ivan Perisic,Yugoslavia,14,80,Midfielder,3,Croatia
-Cameroon,1.78,1987,0,0,3,1,2,Itabuna,360028,0,2,1,0,0,Sammir,Brazil,23,77,Midfielder,3,Croatia
-Cameroon,1.83,1979,0,0,5,2,3,Davor,351270,4,0,0,1,0,Ivica Olic,Yugoslavia,12,85,Forward,1,Croatia
-Cameroon,1.88,1986,0,0,1,2,4,Slavonski Brod,415334,0,2,2,2,2,Mario Mandzukic,Yugoslavia,15,84,Forward,2,Croatia
-Cameroon,1.85,1993,0,0,0,1,1,Split,738854,0,0,0,0,0,Ante Rebic,Croatia,3,80,Forward,0,Croatia
-Cameroon,1.81,1994,0,0,1,0,0,Linz,582489,0,1,0,0,0,Mateo Kovacic,Austria,11,75,Midfielder,1,Croatia
-Cameroon,1.77,1983,0,0,1,1,1,Rio de Janeiro,360044,0,0,0,0,1,Eduardo,Brazil,8,72,Forward,1,Croatia
-Cameroon,1.87,1985,0,0,0,0,0,Capljina,396687,0,0,0,0,0,Nikica Jelavic,Yugoslavia,0,84,Forward,0,Croatia
-Cameroon,1.91,1985,0,0,0,0,0,Sibenik,415336,0,0,0,0,0,Gordon Schildenfeld,Yugoslavia,0,90,Defender,0,Croatia
-Cameroon,1.84,1983,0,0,0,0,0,Bjelovar,415338,0,0,0,0,0,Ognjen Vukojevic,Yugoslavia,0,85,Midfielder,0,Croatia
-Cameroon,1.86,1989,0,0,0,0,0,Zagreb,466739,0,0,0,0,0,Milan Badelj,Yugoslavia,0,76,Midfielder,0,Croatia
-Cameroon,1.83,1992,0,0,0,0,0,Zara,541547,0,0,0,0,0,Šime Vrsaljko,Croatia,0,75,Defender,0,Croatia
-Cameroon,1.84,1989,0,0,0,0,0,Donji Miholjac,547151,0,0,0,0,0,Domagoj Vida,Yugoslavia,0,73,Defender,0,Croatia
-Cameroon,1.81,1992,0,0,0,0,0,Zagreb,612564,0,0,0,0,0,Marcelo Brozovic,Croatia,0,68,Midfielder,0,Croatia
-Croatia,1.85,1982,0,0,0,0,0,Bobigny,347466,0,0,0,0,0,Charles Itandje,France,0,83,Goalkeeper,0,Cameroon
-Croatia,1.78,1990,0,0,0,0,0,Yaounde,521485,0,0,0,0,0,Sammy N'Djock,Cameroon,0,85,Goalkeeper,0,Cameroon
-Croatia,1.78,1992,0,0,0,0,0,Douala,826585,0,0,0,0,0,Loic Feudjou,Cameroon,0,86,Goalkeeper,0,Cameroon
-Cameroon,1.91,1984,0,0,0,0,0,Zadar,481245,0,0,0,0,0,Danijel Subašić,Yugoslavia,0,84,Goalkeeper,0,Croatia
-Cameroon,1.91,1993,0,0,0,0,0,Zagreb,608491,0,0,0,0,0,Oliver Zelenika,Croatia,0,82,Goalkeeper,0,Croatia
-Ivory Coast,1.71,1985,0,2,0,0,0,Chigorodo,371070,0,0,2,0,0,Juan Zuniga,Colombia,31,72,Defender,9,Colombia
-Ivory Coast,1.87,1986,0,3,0,0,0,Padilla,346357,0,1,1,0,0,Cristian Zapata,Colombia,27,82,Defender,6,Colombia
-Ivory Coast,1.86,1976,0,2,2,0,1,Cali,347398,0,0,1,0,1,Mario Yepes,Colombia,26,83,Defender,10,Colombia
-Ivory Coast,1.74,1986,0,1,0,0,0,Tumaco,374302,2,1,1,0,1,Pablo Armero,Colombia,28,81,Defender,9,Colombia
-Ivory Coast,1.87,1985,0,0,3,0,0,Santa Fe de Bogota,487465,0,2,0,0,0,Abel Aguilar,Colombia,30,82,Midfielder,2,Colombia
-Ivory Coast,1.82,1986,0,1,3,1,1,Quibdo,395451,0,0,1,0,0,Carlos Sánchez,Colombia,28,82,Midfielder,7,Colombia
-Ivory Coast,1.78,1988,1,0,2,2,2,Necocli,490689,5,1,5,0,0,Juan Cuadrado,Colombia,24,66,Midfielder,1,Colombia
-Ivory Coast,1.80,1991,0,0,3,2,2,Cucuta,491720,4,3,0,1,0,James Rodríguez,Colombia,34,77,Midfielder,6,Colombia
-Ivory Coast,1.88,1990,0,0,2,0,0,Santiago de Cali,608422,1,1,0,0,0,Víctor Ibarbo,Colombia,9,78,Forward,1,Colombia
-Ivory Coast,1.80,1985,1,1,0,1,3,Barranquilla,516681,0,1,1,0,1,Teófilo Gutiérrez,Colombia,13,72,Forward,0,Colombia
-Ivory Coast,1.71,1992,0,0,0,0,0,Medellin,716865,0,1,0,0,0,Santiago Arias,Colombia,5,68,Defender,1,Colombia
-Ivory Coast,1.79,1988,0,0,1,0,0,Barranquilla,588006,0,0,0,0,0,Alexander Mejía,Colombia,0,78,Midfielder,1,Colombia
-Ivory Coast,1.68,1993,0,0,0,2,2,Medellin,648645,1,0,1,1,0,Juan Quintero,Colombia,9,64,Midfielder,2,Colombia
-Ivory Coast,1.87,1986,0,0,0,0,0,Puerto Boyaca,347380,0,0,0,0,0,Fredy Guarín,Colombia,0,77,Midfielder,0,Colombia
-Ivory Coast,1.84,1986,0,0,0,0,0,Santander de Quilichao,374316,0,0,0,0,0,Adrián Ramos,Colombia,0,74,Forward,0,Colombia
-Ivory Coast,1.86,1986,0,0,0,0,0,Quibdo,374514,0,0,0,0,0,Jackson Martínez,Colombia,0,85,Forward,0,Colombia
-Ivory Coast,1.88,1985,0,0,0,0,0,Cali,463178,0,0,0,0,0,Carlos Valdés,Colombia,0,77,Defender,0,Colombia
-Ivory Coast,1.80,1990,0,0,0,0,0,Bogota,554281,0,0,0,0,0,Carlos Carbonero,Colombia,0,77,Midfielder,0,Colombia
-Ivory Coast,1.81,1993,0,0,0,0,0,Bogota,727328,0,0,0,0,0,Éder Balanta,Colombia,0,78,Defender,0,Colombia
-Colombia,1.76,1992,0,1,4,3,3,Ouragahio,536032,8,0,2,0,0,Serge Aurier,Ivory Coast,32,75,Defender,5,Ivory Coast
-Colombia,1.83,1980,0,0,1,0,0,Abidjan,346161,0,1,0,0,0,Didier Zokora,Ivory Coast,49,70,Defender,12,Ivory Coast
-Colombia,1.90,1985,0,0,0,0,0,Ivry-sur-Seine,345298,0,0,1,0,0,Souleymane Bamba,France,38,89,Defender,8,Ivory Coast
-Colombia,1.66,1983,0,0,3,0,0,Abidjan,345644,5,1,0,0,0,Arthur Boka,Ivory Coast,28,67,Defender,6,Ivory Coast
-Colombia,1.79,1984,0,1,2,1,1,Facobly,458638,1,3,0,0,0,Serey Die,Ivory Coast,41,77,Midfielder,4,Ivory Coast
-Colombia,1.75,1986,0,2,4,1,2,Yamoussoukro,347134,0,3,2,0,0,Cheick Tioté,Ivory Coast,51,86,Midfielder,11,Ivory Coast
-Colombia,1.79,1987,0,0,0,1,1,Anyama,532928,1,0,1,1,2,Gervinho,Ivory Coast,28,68,Forward,5,Ivory Coast
-Colombia,1.89,1983,0,0,2,3,4,Sekoura Bouake,347384,5,1,1,0,0,Yaya Touré,Ivory Coast,43,90,Midfielder,7,Ivory Coast
-Colombia,1.77,1987,0,1,0,1,1,Abidjan,422411,4,2,2,0,0,Max Gradel,Ivory Coast,15,69,Midfielder,3,Ivory Coast
-Colombia,1.82,1988,0,1,1,0,0,Bingerville,464644,0,2,1,0,0,Wilfried Bony,Ivory Coast,9,88,Forward,1,Ivory Coast
-Colombia,1.85,1990,0,0,0,0,1,Oslo,573604,0,0,0,0,0,Mathis Bolly,Norway,5,77,Midfielder,0,Ivory Coast
-Colombia,1.80,1978,0,0,0,1,1,Abidjan,330398,0,1,1,0,0,Didier Drogba,Ivory Coast,2,91,Forward,1,Ivory Coast
-Colombia,1.75,1985,0,0,0,1,1,Oume,331043,0,0,0,0,0,Salomon Kalou,Ivory Coast,6,77,Forward,1,Ivory Coast
-Colombia,1.83,1981,0,0,0,0,0,Sokoura Bouake,346029,0,0,0,0,0,Kolo Touré,Ivory Coast,0,74,Defender,0,Ivory Coast
-Colombia,1.80,1989,0,0,0,0,0,Saint-Sebastien-sur-Loire,386314,0,0,0,0,0,Giovanni Sio,France,0,77,Forward,0,Ivory Coast
-Colombia,1.74,1984,0,0,0,0,0,Abidjan,409107,0,0,0,0,0,Didier Ya Konan,Ivory Coast,0,74,Midfielder,0,Ivory Coast
-Colombia,1.86,1986,0,0,0,0,0,Daloa,461699,0,0,0,0,0,Ousmane Diarrassouba,Ivory Coast,0,83,Defender,0,Ivory Coast
-Colombia,1.77,1986,0,0,0,0,0,Abidjan,462543,0,0,0,0,0,Constant Djakpa,Ivory Coast,0,71,Defender,0,Ivory Coast
-Colombia,1.80,1992,0,0,0,0,0,Abidjan,595794,0,0,0,0,0,Ismael Diomande,Ivory Coast,0,75,Midfielder,0,Ivory Coast
-Colombia,1.80,1992,0,0,0,0,0,Toulouse,638926,0,0,0,0,0,Jean-Daniel Akpa,France,0,70,Defender,0,Ivory Coast
-Ivory Coast,1.83,1988,0,0,0,0,0,Medellin,399085,0,0,0,0,0,David Ospina,Colombia,0,79,Goalkeeper,0,Colombia
-Ivory Coast,1.91,1971,0,0,0,0,0,Cali,348901,0,0,0,0,0,Faryd Mondragón,Colombia,0,94,Goalkeeper,0,Colombia
-Ivory Coast,1.85,1989,0,0,0,0,0,Bogota,555044,0,0,0,0,0,Camilo Vargas,Colombia,0,81,Goalkeeper,0,Colombia
-Colombia,1.90,1988,0,0,0,0,0,San Pedro,794286,0,0,0,0,0,Sylvain Gbohouo,Ivory Coast,0,82,Goalkeeper,0,Ivory Coast
-Colombia,1.93,1993,0,0,0,0,0,Abidjan,821845,0,0,0,0,0,Sayouba Mandé,Ivory Coast,0,89,Goalkeeper,0,Ivory Coast
-England,1.78,1987,0,0,4,0,0,Montevideo,387207,3,2,2,0,0,Martín Cáceres,Uruguay,25,77,Defender,7,Uruguay
-England,1.84,1995,0,0,5,0,0,Toledo,732955,0,2,1,0,0,José María Giménez,Uruguay,11,80,Defender,8,Uruguay
-England,1.85,1986,0,1,2,0,0,Rosario,359475,0,3,1,0,0,Diego Godín,Uruguay,6,78,Defender,2,Uruguay
-England,1.82,1985,0,2,7,0,0,Montevideo,540782,0,0,2,0,0,Álvaro Pereira,Uruguay,22,78,Midfielder,7,Uruguay
-England,1.75,1984,0,0,4,1,1,Montevideo,359240,1,1,1,0,0,Álvaro González,Uruguay,18,72,Midfielder,10,Uruguay
-England,1.68,1982,0,0,4,0,0,Paysandu,389856,0,1,1,0,0,Egidio Arévalo Ríos,Uruguay,18,68,Midfielder,11,Uruguay
-England,1.78,1985,0,1,4,0,1,Juan Lacaze,347602,0,2,2,0,0,Cristian Rodríguez,Uruguay,15,81,Midfielder,7,Uruguay
-England,1.73,1989,0,0,2,0,0,Paysandu,538125,0,1,0,0,0,Nicolás Lodeiro,Uruguay,19,69,Midfielder,0,Uruguay
-England,1.81,1987,0,0,3,5,6,Salto,348217,7,3,1,2,2,Luis Suárez,Uruguay,16,81,Forward,2,Uruguay
-England,1.88,1987,1,0,0,0,2,Salto,437146,2,1,0,0,1,Edinson Cavani,Uruguay,20,71,Forward,1,Uruguay
-England,1.96,1990,0,0,0,0,0,Montevideo,492381,0,0,0,0,0,Sebastián Coates,Uruguay,2,85,Defender,0,Uruguay
-England,1.77,1984,0,0,1,0,0,Montevideo,349157,0,1,0,0,0,Jorge Fucile,Uruguay,1,77,Defender,0,Uruguay
-England,1.86,1986,0,0,1,0,0,Tala,373570,1,0,0,0,0,Christian Stuani,Uruguay,5,76,Forward,0,Uruguay
-England,1.76,1980,0,0,0,0,0,Montevideo,347401,0,0,0,0,0,Diego Pérez,Uruguay,0,81,Midfielder,0,Uruguay
-England,1.81,1979,0,0,0,0,0,Montevideo,348451,0,0,0,0,0,Diego Forlán,Uruguay,0,75,Forward,0,Uruguay
-England,1.68,1984,0,0,0,0,0,Paysandu,373573,0,0,0,0,0,Walter Gargano,Uruguay,0,65,Midfielder,0,Uruguay
-England,1.86,1990,0,0,0,0,0,Canelones,490577,0,0,0,0,0,Abel Hernández,Uruguay,0,73,Forward,0,Uruguay
-England,1.83,1990,0,0,0,0,0,Fray Bentos,555407,0,0,0,0,0,Gastón Ramírez,Uruguay,0,77,Midfielder,0,Uruguay
-Uruguay,1.80,1984,1,0,0,0,0,Greenwich,346107,4,0,1,0,0,Glen Johnson,England,59,70,Defender,8,England
-Uruguay,1.91,1985,0,0,2,0,0,Sheffield,346244,0,1,3,0,0,Gary Cahill,England,40,71,Defender,28,England
-Uruguay,1.83,1982,0,0,1,0,1,Sale,346291,1,0,1,0,0,Phil Jagielka,England,43,83,Defender,9,England
-Uruguay,1.72,1984,0,0,1,0,0,Kirkby,346217,5,2,1,0,0,Leighton Baines,England,55,75,Defender,10,England
-Uruguay,1.85,1980,0,1,2,0,1,Whiston,345844,4,1,0,0,0,Steven Gerrard,England,42,83,Midfielder,14,England
-Uruguay,1.87,1990,0,0,1,1,1,Sunderland,479360,1,0,0,0,0,Jordan Henderson,England,54,67,Midfielder,13,England
-Uruguay,1.70,1994,0,0,2,0,0,Kingston,587714,2,3,1,0,0,Raheem Sterling,Jamaica,16,69,Midfielder,1,England
-Uruguay,1.76,1985,0,0,0,3,5,Croxteth,346065,1,2,4,1,0,Wayne Rooney,England,23,78,Forward,3,England
-Uruguay,1.84,1990,0,0,0,0,0,Manchester,447916,1,1,2,0,0,Danny Welbeck,England,18,73,Forward,4,England
-Uruguay,1.79,1989,0,0,0,4,5,Birmingham,376241,2,1,3,0,1,Daniel Sturridge,England,19,76,Forward,1,England
-Uruguay,1.79,1988,0,0,1,0,0,St Albans,408109,0,0,0,0,0,Adam Lallana,England,13,73,Midfielder,2,England
-Uruguay,1.85,1993,0,0,1,0,0,Liverpool,567304,0,0,0,0,0,Ross Barkley,England,11,76,Midfielder,1,England
-Uruguay,1.88,1982,0,0,0,0,0,Liverpool,422655,0,1,0,0,0,Rickie Lambert,England,0,77,Forward,1,England
-Uruguay,1.81,1978,0,0,0,0,0,Romford,330391,0,0,0,0,0,Frank Lampard,England,0,88,Midfielder,0,England
-Uruguay,1.75,1986,0,0,0,0,0,Leeds,346078,0,0,0,0,0,James Milner,England,0,70,Midfielder,0,England
-Uruguay,1.72,1992,0,0,0,0,0,Stevenage,466419,0,0,0,0,0,Jack Wilshere,England,0,65,Midfielder,0,England
-Uruguay,1.94,1989,0,0,0,0,0,Greenwich,492580,0,0,0,0,0,Chris Smalling,England,0,90,Defender,0,England
-Uruguay,1.85,1992,0,0,0,0,0,Preston,515121,0,0,0,0,0,Phil Jones,England,0,71,Defender,0,England
-Uruguay,1.84,1995,0,0,0,0,0,Kingston upon Tyme,619042,0,0,0,0,0,Luke Shaw,England,0,75,Defender,0,England
-England,1.90,1986,0,0,0,0,0,Buenos Aires,387348,0,0,0,0,0,Fernando Muslera,Argentina,0,77,Goalkeeper,0,Uruguay
-England,1.87,1983,0,0,0,0,0,Montevideo,359237,0,0,0,0,0,Martín Silva,Uruguay,0,80,Goalkeeper,0,Uruguay
-England,1.85,1982,0,0,0,0,0,Montevideo,491576,0,0,0,0,0,Rodrigo Munoz,Uruguay,0,77,Goalkeeper,0,Uruguay
-Uruguay,1.93,1983,0,0,0,0,0,Leamington,345815,0,0,0,0,0,Ben Foster,England,0,90,Goalkeeper,0,England
-Uruguay,2.01,1988,0,0,0,0,0,Hexham,353505,0,0,0,0,0,Fraser Forster,England,0,76,Goalkeeper,0,England
-Greece,1.76,1988,0,2,3,0,1,Kannami,390339,10,1,1,0,0,Atsuto Uchida,Japan,38,62,Defender,4,Japan
-Greece,1.89,1988,0,0,0,0,1,Nagasaki,394603,2,3,0,0,0,Yoshida Maya,Japan,64,78,Defender,9,Japan
-Greece,1.78,1983,0,2,1,0,0,Sendai,394780,0,3,0,0,0,Yasuyuki Konno,Japan,78,73,Defender,7,Japan
-Greece,1.70,1986,0,1,0,0,0,Ehime,395130,15,0,1,0,0,Yuto Nagatomo,Japan,52,68,Defender,8,Japan
-Greece,1.73,1990,0,0,1,1,1,Mie,492909,0,1,1,0,0,Yamaguchi Hotaru,Japan,88,72,Midfielder,5,Japan
-Greece,1.80,1984,0,0,1,0,0,Fujieda,364421,0,2,1,0,0,Makoto Hasebe,Japan,43,65,Midfielder,1,Japan
-Greece,1.74,1986,0,0,0,0,0,Takarazuka,394566,0,4,0,0,0,Shinji Okazaki,Japan,13,76,Forward,2,Japan
-Greece,1.82,1986,0,0,1,4,4,Osaka,394585,4,2,5,0,0,Keisuke Honda,Japan,62,76,Forward,2,Japan
-Greece,1.70,1982,0,0,3,2,4,Fukuoka,374178,1,4,5,0,0,Yoshito Okubo,Japan,21,73,Forward,1,Japan
-Greece,1.82,1990,0,0,0,2,3,Kagoshima,492865,0,3,2,0,1,Osako Yuya,Japan,11,73,Forward,0,Japan
-Greece,1.78,1980,0,0,1,2,2,Kagoshima,358760,3,0,0,0,0,Yasuhito Endo,Japan,53,75,Midfielder,2,Japan
-Greece,1.72,1989,0,1,1,0,0,Kobe,390340,0,0,1,0,0,Shinji Kagawa,Japan,22,63,Forward,3,Japan
-Greece,1.83,1987,0,0,0,0,0,Hiroshima,390345,0,0,0,0,0,Morishige Masato,Japan,0,76,Defender,0,Japan
-Greece,1.74,1986,0,0,0,0,0,Okayama,394651,0,0,0,0,0,Aoyama Toshihiro,Japan,0,73,Midfielder,0,Japan
-Greece,1.77,1990,0,0,0,0,0,Osaka,394835,0,0,0,0,0,Kakitani Yoichiro,Japan,0,68,Forward,0,Japan
-Greece,1.79,1985,0,0,0,0,0,Miyazaki,395125,0,0,0,0,0,Inoha Masahiko,Japan,0,74,Defender,0,Japan
-Greece,1.69,1990,0,0,0,0,0,Kanagawa,445387,0,0,0,0,0,Saito Manabu,Japan,0,68,Forward,0,Japan
-Greece,1.85,1990,0,0,0,0,0,Kashiwa,445416,0,0,0,0,0,Hiroki Sakai,Japan,0,70,Defender,0,Japan
-Greece,1.72,1989,0,0,0,0,0,Oita,445461,0,0,0,0,0,Hiroshi Kiyotake,Japan,0,63,Forward,0,Japan
-Greece,1.76,1991,0,0,0,0,0,New York,447020,0,0,0,0,0,Gotoku Sakai,United States,0,74,Defender,0,Japan
-Japan,1.85,1985,0,2,1,1,2,Xanthi,409126,0,2,1,0,0,Vasilis Torosidis,Greece,16,80,Defender,4,Greece
-Japan,1.86,1991,0,1,2,0,0,Naxos,490673,0,0,2,0,0,Konstantinos Manolas,Greece,8,79,Defender,8,Greece
-Japan,1.86,1988,0,0,0,0,0,Kalamata,349081,1,2,1,0,0,Sokratis Papastathopoulos,Greece,12,85,Defender,8,Greece
-Japan,1.84,1984,0,1,1,1,1,Aschaffenburg,408160,4,4,1,0,0,José Holebas,West Germany,18,79,Defender,8,Greece
-Japan,1.78,1986,0,4,0,0,0,Livadia,415506,3,0,1,0,0,Ioannis Maniatis,Greece,22,68,Midfielder,4,Greece
-Japan,1.83,1979,0,1,4,0,0,Patras,348947,0,4,0,0,0,Kostas Katsouranis,Greece,8,81,Midfielder,2,Greece
-Japan,1.84,1987,0,0,1,1,2,Tirana,349158,2,1,3,0,0,Panagiotis Koné,Albania,6,74,Midfielder,4,Greece
-Japan,1.64,1990,0,0,3,0,0,Drama,531608,1,1,0,0,0,Ioannis Fetfatzidis,Greece,10,64,Forward,0,Greece
-Japan,1.88,1988,0,0,0,1,1,Kavala,409124,1,0,0,0,0,Konstantinos Mitroglou,Greece,1,94,Forward,0,Greece
-Japan,1.92,1985,0,0,5,0,2,Heraklion,346109,1,3,7,0,0,Georgios Samaras,Greece,11,86,Forward,5,Greece
-Japan,1.76,1977,0,0,4,0,0,Pyrgos,353049,2,1,3,0,0,Giorgos Karagounis,Greece,12,74,Midfielder,3,Greece
-Japan,1.71,1981,0,0,0,0,0,Thessaloniki,349417,1,0,1,0,0,Dimitrios Salpingidis,Greece,1,74,Forward,1,Greece
-Japan,1.79,1980,0,0,0,1,1,Larissa,345322,0,0,0,0,3,Theofanis Gekas,Greece,8,72,Forward,3,Greece
-Japan,1.93,1981,0,0,0,0,0,Larissa,349077,0,0,0,0,0,Vangelis Moras,Greece,0,78,Defender,0,Greece
-Japan,1.84,1981,0,0,0,0,0,Albrechtice,349387,0,0,0,0,0,Loukas Vyntra,Czechoslovakia,0,76,Defender,0,Greece
-Japan,1.90,1985,0,0,0,0,0,Katerini,349396,0,0,0,0,0,Alexandros Tziolis,Greece,0,84,Midfielder,0,Greece
-Japan,1.82,1986,0,0,0,0,0,Thessaloniki,445051,0,0,0,0,0,Lazaros Christodoulopoulos,Greece,0,77,Midfielder,0,Greece
-Japan,1.83,1987,0,0,0,0,0,Athens,445324,0,0,0,0,0,Georgios Tzavelas,Greece,0,80,Defender,0,Greece
-Japan,1.94,1991,0,0,0,0,0,Nafplio,492491,0,0,0,0,0,Panagiotis Tachtsidis,Greece,0,86,Midfielder,0,Greece
-Japan,1.90,1989,0,0,0,0,0,Patras,541738,0,0,0,0,0,Andreas Samaris,Greece,0,80,Midfielder,0,Greece
 Greece,1.85,1983,0,0,0,0,0,Yono,395310,0,0,0,0,0,Eiji Kawashima,Japan,0,82,Goalkeeper,0,Japan
-Greece,1.83,1986,0,0,0,0,0,Oita,395037,0,0,0,0,0,Shusaku Nishikawa,Japan,0,81,Goalkeeper,0,Japan
 Greece,1.87,1989,0,0,0,0,0,Tokyo,395122,0,0,0,0,0,Shuichi Gonda,Japan,0,85,Goalkeeper,0,Japan
-Japan,1.90,1986,0,0,0,0,0,Volos,445071,0,0,0,0,0,Panagiotis Glykos,Greece,0,77,Goalkeeper,0,Greece
-Japan,1.96,1994,0,0,0,0,0,Athens,565008,0,0,0,0,0,Stefanos Kapino,Greece,0,81,Goalkeeper,0,Greece
-Costa Rica,1.80,1986,0,0,0,0,0,Sant Agata de Goti,373064,1,3,2,0,1,Ignazio Abate,Italy,30,73,Defender,7,Italy
-Costa Rica,1.86,1981,0,1,1,0,0,Fiesole,346590,0,0,1,0,0,Andrea Barzagli,Italy,75,79,Defender,12,Italy
-Costa Rica,1.92,1984,0,4,5,0,0,Pisa,373065,0,0,2,0,0,Giorgio Chiellini,Italy,66,76,Defender,20,Italy
-Costa Rica,1.82,1989,0,0,1,1,1,Legnano,353630,0,1,3,0,1,Matteo Darmian,Italy,38,70,Defender,4,Italy
-Costa Rica,1.77,1979,0,0,2,1,1,Brescia,346422,1,1,4,0,0,Andrea Pirlo,Italy,76,68,Midfielder,4,Italy
-Costa Rica,1.82,1983,0,0,2,0,0,Rome,346573,0,0,2,0,0,Daniele De Rossi,Italy,97,83,Midfielder,5,Italy
-Costa Rica,1.87,1982,0,1,0,0,1,Sao Bernardo,348502,0,0,1,0,0,Thiago Motta,Brazil,31,83,Midfielder,2,Italy
-Costa Rica,1.80,1987,0,1,0,1,1,Rome,402360,3,0,0,0,0,Antonio Candreva,Italy,9,72,Midfielder,1,Italy
-Costa Rica,1.79,1986,0,0,3,0,0,Turin,396430,0,1,4,0,1,Claudio Marchisio,Italy,23,76,Midfielder,7,Italy
-Costa Rica,1.89,1990,0,0,1,2,3,Palermo,435987,0,4,0,0,3,Mario Balotelli,Italy,10,88,Forward,1,Italy
-Costa Rica,1.75,1982,0,0,0,1,2,Bari,348402,1,0,3,0,1,Antonio Cassano,Italy,15,78,Forward,0,Italy
-Costa Rica,1.77,1987,0,0,0,0,0,Velletri,372472,1,0,0,0,2,Alessio Cerci,Italy,4,78,Forward,0,Italy
-Costa Rica,1.63,1991,0,0,0,0,1,Naples,537666,0,0,0,0,2,Lorenzo Insigne,Italy,13,59,Forward,3,Italy
-Costa Rica,1.87,1986,0,0,0,0,0,Longchamps,346195,0,0,0,0,0,Gabriel Paletta,Argentina,0,88,Defender,0,Italy
-Costa Rica,1.84,1984,0,0,0,0,0,Rome,346703,0,0,0,0,0,Alberto Aquilani,Italy,0,77,Midfielder,0,Italy
-Costa Rica,1.90,1987,0,0,0,0,0,Viterbo,375405,0,0,0,0,0,Leonardo Bonucci,Italy,0,82,Defender,0,Italy
-Costa Rica,1.84,1990,0,0,0,0,0,Torre Annunziata,489160,0,0,0,0,0,Ciro Immobile,Italy,0,78,Forward,0,Italy
-Costa Rica,1.86,1985,0,0,0,0,0,Gallarate,514025,0,0,0,0,0,Marco Parolo,Italy,0,82,Midfielder,0,Italy
-Costa Rica,1.68,1992,0,0,0,0,0,Pescara,558287,0,0,0,0,0,Marco Verratti,Italy,0,60,Midfielder,0,Italy
-Costa Rica,1.79,1992,0,0,0,0,0,Milan,615000,0,0,0,0,0,Mattia De Sciglio,Italy,0,74,Defender,0,Italy
-Italy,1.75,1989,0,0,3,0,0,Liberia,583761,0,1,1,0,0,Cristian Gamboa,Costa Rica,22,67,Defender,3,Costa Rica
-Italy,1.84,1989,0,2,3,0,1,Masaya,596442,1,1,1,0,0,Óscar Duarte,Nicaragua,25,85,Defender,4,Costa Rica
-Italy,1.92,1988,0,1,4,0,1,San Jose,390272,0,1,2,0,0,Giancarlo González,Costa Rica,20,83,Defender,13,Costa Rica
-Italy,1.80,1982,0,2,5,0,0,Santa Ana,322588,0,1,0,0,0,Michael Umana,Costa Rica,31,73,Defender,3,Costa Rica
-Italy,1.85,1983,1,4,6,0,0,San Jose,372583,3,2,3,0,0,Júnior Díaz,Costa Rica,34,76,Defender,6,Costa Rica
-Italy,1.87,1985,0,1,1,2,2,Alajuela,346902,1,5,0,1,0,Bryan Ruiz,Costa Rica,30,79,Forward,4,Costa Rica
-Italy,1.84,1988,0,0,0,1,2,San Jose,390305,1,0,0,0,0,Celso Borges,Costa Rica,38,82,Midfielder,9,Costa Rica
-Italy,1.79,1992,0,0,5,0,0,Limon,604444,1,2,0,0,0,Yeltsin Tejeda,Costa Rica,28,66,Midfielder,3,Costa Rica
-Italy,1.78,1984,0,0,1,2,2,San Jose,358846,0,6,2,0,1,Christian Bolanos,Costa Rica,35,67,Midfielder,3,Costa Rica
-Italy,1.78,1992,0,0,1,0,0,San Jose,604434,2,1,1,0,2,Joel Campbell,Costa Rica,12,69,Forward,2,Costa Rica
-Italy,1.70,1983,0,0,0,0,1,San Jose,358943,0,1,0,0,0,Randall Brenes,Costa Rica,4,72,Forward,1,Costa Rica
-Italy,1.79,1990,0,0,0,1,1,San Jose,583756,0,2,0,0,0,Marco Urena,Costa Rica,1,70,Forward,1,Costa Rica
-Italy,1.78,1987,0,0,2,0,0,Sarchi,390295,0,1,0,0,0,José Cubero,Costa Rica,6,70,Midfielder,1,Costa Rica
-Italy,1.89,1984,0,0,0,0,0,San Jose,358942,0,0,0,0,0,Roy Miller,Costa Rica,0,77,Defender,0,Costa Rica
-Italy,1.77,1983,0,0,0,0,0,San Jose,385942,0,0,0,0,0,Michael Barrantes,Costa Rica,0,71,Midfielder,0,Costa Rica
-Italy,1.85,1988,0,0,0,0,0,Puerto Viejo Limon,390270,0,0,0,0,0,Dave Myrie,Costa Rica,0,79,Defender,0,Costa Rica
-Italy,1.83,1985,0,0,0,0,0,Cartago,499531,0,0,0,0,0,Esteban Granados,Costa Rica,0,74,Midfielder,0,Costa Rica
-Italy,1.75,1983,0,0,0,0,0,Alajuela,596441,0,0,0,0,0,Johnny Acosta,Costa Rica,0,78,Defender,0,Costa Rica
-Italy,1.78,1991,0,0,0,0,0,San Jose,604437,0,0,0,0,0,Diego Calvo,Costa Rica,0,71,Midfielder,0,Costa Rica
-Italy,1.75,1990,0,0,0,0,0,Limon,660520,0,0,0,0,0,Waylon Francis,Costa Rica,0,73,Defender,0,Costa Rica
-Costa Rica,1.90,1978,0,0,0,0,0,Carrara,360304,0,0,0,0,0,Gianluigi Buffon,Italy,0,83,Goalkeeper,0,Italy
-Costa Rica,1.90,1987,0,0,0,0,0,Nuoro,346769,0,0,0,0,0,Salvatore Sirigu,Italy,0,80,Goalkeeper,0,Italy
-Costa Rica,1.88,1992,0,0,0,0,0,Latina,513642,0,0,0,0,0,Mattia Perin,Italy,0,74,Goalkeeper,0,Italy
-Italy,1.78,1982,0,0,0,0,0,Limon,375970,0,0,0,0,0,Patrick Pemberton,Costa Rica,0,80,Goalkeeper,0,Costa Rica
-Italy,1.81,1986,0,0,0,0,0,Costa Rica,499528,0,0,0,0,0,Daniel Cambronero,Costa Rica,0,71,Goalkeeper,0,Costa Rica
-France,1.80,1984,0,0,0,0,0,Adligenswil,347791,1,1,2,0,0,Stephan Lichtsteiner,Switzerland,41,77,Defender,3,Switzerland
-France,1.92,1987,0,2,1,0,0,Abidjan,346236,0,2,0,0,0,Johan Djourou,Ivory Coast,52,87,Defender,4,Switzerland
-France,1.83,1983,0,0,0,0,0,Schattenhalb,401315,0,0,1,0,0,Steve Von Bergen,Switzerland,2,79,Defender,0,Switzerland
-France,1.80,1992,0,0,0,1,1,Zurich,518541,1,1,1,0,0,Ricardo Rodríguez,Switzerland,56,72,Defender,8,Switzerland
-France,1.84,1985,0,0,1,0,0,Mitrovica,346358,0,0,0,0,0,Valon Behrami,Yugoslavia,13,78,Midfielder,3,Switzerland
-France,1.81,1984,1,1,0,1,2,Olten,402362,1,2,3,0,0,Gokhan Inler,Switzerland,63,80,Midfielder,10,Switzerland
-France,1.69,1991,0,0,2,2,4,Gnjilane,508003,4,2,2,0,0,Xherdan Shaqiri,Yugoslavia,35,72,Midfielder,3,Switzerland
-France,1.83,1992,0,0,0,2,4,Basel,552969,0,1,1,1,1,Granit Xhaka,Switzerland,34,82,Midfielder,0,Switzerland
-France,1.83,1991,0,0,0,1,2,Gostivar,457113,1,0,4,0,0,Admir Mehmedi,Yugoslavia,35,76,Forward,2,Switzerland
-France,1.87,1992,0,0,0,0,2,Sursee,538348,0,1,0,0,0,Haris Seferovic,Switzerland,15,83,Forward,0,Switzerland
-France,1.90,1985,0,1,0,0,0,Geneva,346122,0,0,0,0,0,Philippe Senderos,Switzerland,57,84,Defender,3,Switzerland
-France,1.79,1986,0,0,3,1,2,Tetovo,360062,0,2,1,1,0,Blerim Dzemaili,Yugoslavia,41,73,Midfielder,1,Switzerland
-France,1.82,1992,0,0,0,0,0,Freienbach,602354,0,0,0,0,0,Josip Drmic,Switzerland,2,70,Forward,0,Switzerland
-France,1.78,1985,0,0,0,0,0,St Gallen,345642,0,0,0,0,0,Tranquillo Barnetta,Switzerland,0,68,Midfielder,0,Switzerland
-France,1.83,1986,0,0,0,0,0,Nyon,346182,0,0,0,0,0,Reto Ziegler,Switzerland,0,80,Defender,0,Switzerland
-France,1.79,1986,0,0,0,0,0,Praia,395615,0,0,0,0,0,Gelson Fernandes,Cape Verde,0,70,Midfielder,0,Switzerland
-France,1.85,1991,0,0,0,0,0,Egnach,402305,0,0,0,0,0,Michael Lang,Switzerland,0,79,Defender,0,Switzerland
-France,1.79,1989,0,0,0,0,0,Kriens,402366,0,0,0,0,0,Valentin Stocker,Switzerland,0,73,Midfielder,0,Switzerland
-France,1.75,1989,0,0,0,0,0,Lugano,507387,0,0,0,0,0,Mario Gavranovic,Switzerland,0,74,Forward,0,Switzerland
-France,1.86,1991,0,0,0,0,0,Wil,660387,0,0,0,0,0,Fabian Schar,Switzerland,0,85,Defender,0,Switzerland
-Switzerland,1.78,1985,0,1,2,0,0,Fretin,347705,1,4,0,0,1,Mathieu Debuchy,France,27,78,Defender,6,France
-Switzerland,1.91,1993,0,0,0,0,0,Lille,572654,0,0,0,0,0,Raphael Varane,France,28,78,Defender,7,France
-Switzerland,1.86,1990,0,2,0,0,0,Paris,377035,0,0,0,0,0,Mamadou Sakho,France,30,74,Defender,2,France
-Switzerland,1.71,1981,0,0,0,0,1,Dakar,346097,0,0,0,0,0,Patrice Evra,Senegal,33,76,Defender,4,France
-Switzerland,1.75,1986,0,1,0,0,2,Tourcoing,347716,0,2,3,0,0,Yohan Cabaye,France,34,72,Midfielder,7,France
-Switzerland,1.67,1984,1,0,0,3,3,Bruges,347887,2,3,0,1,0,Mathieu Valbuena,France,28,58,Midfielder,4,France
-Switzerland,1.87,1989,0,0,1,1,1,Le Blanc-Mesnil,397904,3,2,0,1,0,Moussa Sissoko,France,24,88,Midfielder,1,France
-Switzerland,1.75,1987,0,1,1,3,3,Toulouse,347763,0,1,2,1,0,Blaise Matuidi,France,36,70,Midfielder,10,France
-Switzerland,1.85,1987,2,0,0,7,8,Lyon,347725,2,0,4,1,1,Karim Benzema,France,26,79,Forward,2,France
-Switzerland,1.92,1986,1,1,0,2,4,Chambery,440565,1,2,1,1,0,Olivier Giroud,France,14,88,Forward,0,France
-Switzerland,1.85,1985,0,1,0,0,0,Tulle,459434,0,1,0,0,0,Laurent Koscielny,France,7,75,Defender,0,France
-Switzerland,1.92,1993,1,0,0,0,0,Lagny-sur-Marne,588585,2,1,1,0,0,Paul Pogba,France,12,80,Midfielder,1,France
-Switzerland,1.75,1991,0,0,0,0,0,Macon,524262,0,0,1,0,0,Antoine Griezmann,France,5,68,Forward,0,France
-Switzerland,1.72,1984,0,0,0,0,0,Born at sea,347649,0,0,0,0,0,Rio Mavuba,Angola,0,74,Midfielder,0,France
-Switzerland,1.75,1983,0,0,0,0,0,Sens,347680,0,0,0,0,0,Bacary Sagna,France,0,72,Defender,0,France
-Switzerland,1.85,1987,0,0,0,0,0,Rillieux-la-Pape,347919,0,0,0,0,0,Loic Remy,France,0,82,Forward,0,France
-Switzerland,1.81,1989,0,0,0,0,0,Zellwiller,394208,0,0,0,0,0,Morgan Schneiderlin,France,0,75,Midfielder,0,France
-Switzerland,1.88,1991,0,0,0,0,0,Paris,479948,0,0,0,0,0,Eliaquim Mangala,France,0,81,Defender,0,France
-Switzerland,1.72,1990,0,0,0,0,0,Ajaccio,508852,0,0,0,0,0,Remy Cabella,France,0,66,Forward,0,France
-Switzerland,1.79,1993,0,0,0,0,0,Meaux,558151,0,0,0,0,0,Lucas Digne,France,0,74,Defender,0,France
-France,1.95,1983,0,0,0,0,0,Zurich,370693,0,0,0,0,0,Diego Benaglio,Switzerland,0,83,Goalkeeper,0,Switzerland
-France,1.83,1988,0,0,0,0,0,Morges,349443,0,0,0,0,0,Yann Sommer,Switzerland,0,79,Goalkeeper,0,Switzerland
-France,1.88,1990,0,0,0,0,0,Munsingen,457102,0,0,0,0,0,Roman Burki,Switzerland,0,83,Goalkeeper,0,Switzerland
-Switzerland,1.84,1979,0,0,0,0,0,Machecoul,347486,0,0,0,0,0,Mickael Landreau,France,0,85,Goalkeeper,0,France
-Switzerland,1.88,1986,0,0,0,0,0,Bayonne,350484,0,0,0,0,0,Stephane Ruffier,France,0,90,Goalkeeper,0,France
-Ecuador,1.86,1985,1,0,3,1,1,La Ceiba,596331,3,0,1,0,0,Brayan Beckeles,Honduras,16,80,Defender,3,Honduras
-Ecuador,1.87,1982,0,0,1,1,2,La Ceiba,457705,0,3,1,0,0,Victor Bernárdez,Honduras,16,86,Defender,2,Honduras
-Ecuador,1.84,1983,0,1,2,0,2,Jutiapa,358879,0,1,1,0,0,Maynor Figueroa,Honduras,36,82,Defender,5,Honduras
-Ecuador,1.77,1986,0,0,1,0,0,Tegucigalpa,363591,1,1,0,0,0,Emilio Izaguirre,Honduras,12,77,Midfielder,1,Honduras
-Ecuador,1.76,1986,0,0,6,0,1,Choloma,386041,0,0,2,0,0,Jorge Claros,Honduras,48,70,Midfielder,2,Honduras
-Ecuador,1.70,1990,0,0,1,0,0,Juticalpa,650765,1,0,1,0,0,Luis Garrido,Honduras,28,73,Midfielder,3,Honduras
-Ecuador,1.76,1984,0,0,0,1,1,Tegucigalpa,358947,1,1,3,0,0,Boniek García,Honduras,25,72,Midfielder,0,Honduras
-Ecuador,1.80,1986,0,0,2,2,3,Puerto Cortes,439302,1,2,0,0,0,Roger Espinoza,Honduras,34,73,Midfielder,1,Honduras
-Ecuador,1.87,1987,0,0,2,1,1,Santa Rosa de Aguan,544490,1,2,1,0,0,Jerry Bengtson,Honduras,11,75,Forward,0,Honduras
-Ecuador,1.90,1982,0,0,0,1,3,San Pedro Sula,491194,1,5,1,1,1,Carlo Costly,Honduras,11,85,Forward,0,Honduras
-Ecuador,1.75,1988,0,3,2,0,0,Tela,504480,0,0,3,0,0,Juan Carlos García,Honduras,22,76,Defender,1,Honduras
-Ecuador,1.73,1989,0,0,0,2,2,San Pedro Sula,461719,0,0,1,0,0,Mario Martínez,Honduras,11,70,Midfielder,0,Honduras
-Ecuador,1.56,1983,0,0,0,0,0,La Ceiba,500102,0,0,0,0,0,Marvin Chávez,Honduras,2,66,Midfielder,0,Honduras
-Ecuador,1.87,1984,0,0,0,0,0,Santa Fe,457707,0,0,0,0,0,Osman Chávez,Honduras,0,91,Defender,0,Honduras
-Ecuador,1.79,1986,0,0,0,0,0,San Manuel,504521,0,0,0,0,0,Edder Delgado,Honduras,0,70,Midfielder,0,Honduras
-Ecuador,1.81,1982,0,0,0,0,0,La Ceiba,526954,0,0,0,0,0,Jerry Palacios,Honduras,0,81,Midfielder,0,Honduras
-Ecuador,1.70,1993,0,0,0,0,0,Choluteca,542293,0,0,0,0,0,Andy Najar,Honduras,0,67,Midfielder,0,Honduras
-Ecuador,1.96,1985,0,0,0,0,0,Sulaco,724862,0,0,0,0,0,Juan Montes,Honduras,0,75,Defender,0,Honduras
-Ecuador,1.71,1987,0,0,0,0,0,Olanchito,736396,0,0,0,0,0,Rony Martínez,Honduras,0,75,Forward,0,Honduras
-Honduras,1.79,1987,1,1,2,0,0,Esmeraldas,490995,5,0,4,0,0,Juan Paredes,Ecuador,26,72,Defender,5,Ecuador
-Honduras,1.79,1981,0,0,0,0,0,Esmeraldas,363468,0,1,1,0,0,Jorge Guagua,Ecuador,21,75,Defender,4,Ecuador
-Honduras,1.89,1988,0,0,1,0,1,Esmeraldas,490600,0,1,0,0,0,Frickson Erazo,Ecuador,26,65,Defender,3,Ecuador
-Honduras,1.73,1979,1,1,0,0,1,Esmeraldas,363473,5,0,0,0,0,Walter Ayoví,Ecuador,48,68,Midfielder,5,Ecuador
-Honduras,1.80,1985,0,0,1,0,0,Nueva Loja,345938,3,5,0,0,0,Antonio Valencia,Ecuador,21,78,Midfielder,0,Ecuador
-Honduras,1.81,1985,0,1,4,1,1,Guayaquil,504629,2,4,0,0,0,Cristhian Noboa,Ecuador,34,75,Midfielder,7,Ecuador
-Honduras,1.83,1983,0,1,3,0,0,Pasaje,373114,0,0,0,0,0,Oswaldo Minda,Ecuador,38,78,Midfielder,9,Ecuador
-Honduras,1.70,1989,0,0,1,0,0,Babahoyo,505420,1,3,1,0,0,Jefferson Montero,Ecuador,29,64,Midfielder,4,Ecuador
-Honduras,1.83,1988,0,0,2,1,1,Guayaquil,402045,0,0,1,0,0,Felipe Caicedo,Ecuador,18,80,Forward,2,Ecuador
-Honduras,1.79,1989,0,0,0,3,4,San Lorenzo,537827,0,3,5,2,1,Enner Valencia,Ecuador,19,68,Forward,2,Ecuador
-Honduras,1.83,1985,0,0,0,0,0,Machala,510647,0,0,0,0,0,Gabriel Achilier,Ecuador,0,83,Defender,0,Ecuador
-Honduras,1.71,1995,0,0,0,0,0,Santo Domingo,688883,0,0,0,0,0,Carlos Gruezo,Ecuador,1,67,Midfielder,0,Ecuador
-Honduras,1.75,1979,0,0,0,0,0,Quito,347949,0,0,0,0,0,Edison Méndez,Ecuador,4,68,Midfielder,0,Ecuador
-Honduras,1.75,1983,0,0,0,0,0,Loja,372560,0,0,0,0,0,Luis Saritama,Ecuador,0,76,Midfielder,0,Ecuador
-Honduras,1.70,1982,0,0,0,0,0,Esmeraldas,374579,0,0,0,0,0,Óscar Bagüí,Ecuador,0,65,Defender,0,Ecuador
-Honduras,1.78,1987,0,0,0,0,0,Guayaquil,387218,0,0,0,0,0,Michael Arroyo,Ecuador,0,72,Midfielder,0,Ecuador
-Honduras,1.86,1988,0,0,0,0,0,Eloy Alfaro,387226,0,0,0,0,0,Jaime Ayoví,Ecuador,0,61,Forward,0,Ecuador
-Honduras,1.73,1989,0,0,0,0,0,La Troncal,510665,0,0,0,0,0,Joao Rojas,Ecuador,0,68,Forward,0,Ecuador
-Honduras,1.76,1990,0,0,0,0,0,Sucumbios,557536,0,0,0,0,0,Fidel Martínez,Ecuador,0,67,Midfielder,0,Ecuador
-Honduras,1.71,1991,0,0,0,0,0,Ambuqui,605529,0,0,0,0,0,Álex Ibarra,Ecuador,0,70,Midfielder,0,Ecuador
-Ecuador,1.78,1977,0,0,0,0,0,Comayagua,363537,0,0,0,0,0,Noel Valladares,Honduras,0,80,Goalkeeper,0,Honduras
-Ecuador,1.80,1981,0,0,0,0,0,San Ignacio,504478,0,0,0,0,0,Donis Escober,Honduras,0,75,Goalkeeper,0,Honduras
-Ecuador,1.82,1993,0,0,0,0,0,San Pedro Sula,826222,0,0,0,0,0,Luis López,Honduras,0,75,Goalkeeper,0,Honduras
-Honduras,1.87,1985,0,0,0,0,0,Guayaquil,554701,0,0,0,0,0,Máximo Banguera,Ecuador,0,84,Goalkeeper,0,Ecuador
+England,1.75,1989,0,0,1,0,0,Liberia,583761,2,2,3,0,0,Cristian Gamboa,Costa Rica,24,67,Defender,9,Costa Rica
+England,1.84,1989,0,0,2,0,0,Masaya,596442,0,2,0,0,0,Óscar Duarte,Nicaragua,41,85,Defender,7,Costa Rica
+England,1.92,1988,0,0,1,0,0,San Jose,390272,0,1,0,0,1,Giancarlo González,Costa Rica,22,83,Defender,14,Costa Rica
+England,1.89,1984,0,0,2,0,0,San Jose,358942,0,2,1,0,0,Roy Miller,Costa Rica,28,77,Defender,11,Costa Rica
+England,1.85,1983,0,2,0,0,0,San Jose,372583,2,0,2,0,0,Júnior Díaz,Costa Rica,37,76,Defender,7,Costa Rica
+England,1.87,1985,0,1,0,0,0,Alajuela,346902,1,2,2,0,0,Bryan Ruiz,Costa Rica,33,79,Forward,6,Costa Rica
+England,1.84,1988,0,0,1,1,1,San Jose,390305,0,0,0,0,0,Celso Borges,Costa Rica,23,82,Midfielder,7,Costa Rica
+England,1.79,1992,0,0,1,0,0,Limon,604444,0,1,0,0,0,Yeltsin Tejeda,Costa Rica,49,66,Midfielder,6,Costa Rica
+England,1.70,1983,0,1,1,1,1,San Jose,358943,1,1,0,0,2,Randall Brenes,Costa Rica,12,72,Forward,1,Costa Rica
+England,1.78,1992,0,0,2,0,1,San Jose,604434,2,2,4,0,0,Joel Campbell,Costa Rica,21,69,Forward,2,Costa Rica
+England,1.78,1984,0,0,1,1,1,San Jose,358846,0,3,1,0,0,Christian Bolanos,Costa Rica,12,67,Midfielder,0,Costa Rica
+England,1.77,1983,0,0,1,0,0,San Jose,385942,0,1,0,0,0,Michael Barrantes,Costa Rica,11,71,Midfielder,3,Costa Rica
+England,1.79,1990,0,0,0,0,0,San Jose,583756,0,0,1,0,0,Marco Urena,Costa Rica,5,70,Forward,1,Costa Rica
+England,1.80,1982,0,0,0,0,0,Santa Ana,322588,0,0,0,0,0,Michael Umana,Costa Rica,0,73,Defender,0,Costa Rica
+England,1.85,1988,0,0,0,0,0,Puerto Viejo Limon,390270,0,0,0,0,0,Dave Myrie,Costa Rica,0,79,Defender,0,Costa Rica
+England,1.78,1987,0,0,0,0,0,Sarchi,390295,0,0,0,0,0,José Cubero,Costa Rica,0,70,Midfielder,0,Costa Rica
+England,1.83,1985,0,0,0,0,0,Cartago,499531,0,0,0,0,0,Esteban Granados,Costa Rica,0,74,Midfielder,0,Costa Rica
+England,1.75,1983,0,0,0,0,0,Alajuela,596441,0,0,0,0,0,Johnny Acosta,Costa Rica,0,78,Defender,0,Costa Rica
+England,1.78,1991,0,0,0,0,0,San Jose,604437,0,0,0,0,0,Diego Calvo,Costa Rica,0,71,Midfielder,0,Costa Rica
+England,1.75,1990,0,0,0,0,0,Limon,660520,0,0,0,0,0,Waylon Francis,Costa Rica,0,73,Defender,0,Costa Rica
+Costa Rica,1.85,1992,0,0,1,0,0,Preston,515121,1,2,3,0,0,Phil Jones,England,38,71,Defender,5,England
+Costa Rica,1.91,1985,0,1,1,0,0,Sheffield,346244,0,1,0,0,0,Gary Cahill,England,57,71,Defender,14,England
+Costa Rica,1.94,1989,0,0,0,0,0,Greenwich,492580,0,3,1,0,0,Chris Smalling,England,39,90,Defender,11,England
+Costa Rica,1.84,1995,0,0,1,1,1,Kingston upon Tyme,619042,1,1,3,0,0,Luke Shaw,England,43,75,Defender,11,England
+Costa Rica,1.81,1978,0,1,1,1,1,Romford,330391,2,1,2,0,0,Frank Lampard,England,64,88,Midfielder,14,England
+Costa Rica,1.72,1992,0,2,0,0,0,Stevenage,466419,0,2,2,0,0,Jack Wilshere,England,32,65,Midfielder,3,England
+Costa Rica,1.75,1986,0,0,1,0,0,Leeds,346078,2,1,0,0,0,James Milner,England,21,70,Midfielder,6,England
+Costa Rica,1.85,1993,0,0,0,0,1,Liverpool,567304,1,2,1,0,0,Ross Barkley,England,32,76,Midfielder,5,England
+Costa Rica,1.79,1988,0,1,1,0,0,St Albans,408109,5,2,1,0,0,Adam Lallana,England,13,73,Midfielder,2,England
+Costa Rica,1.79,1989,0,0,0,0,4,Birmingham,376241,0,1,2,0,1,Daniel Sturridge,England,15,76,Forward,2,England
+Costa Rica,1.85,1980,0,0,1,0,0,Whiston,345844,1,1,0,0,0,Steven Gerrard,England,10,83,Midfielder,1,England
+Costa Rica,1.76,1985,0,0,0,1,1,Croxteth,346065,1,0,1,0,0,Wayne Rooney,England,5,78,Forward,1,England
+Costa Rica,1.70,1994,0,0,0,0,0,Kingston,587714,1,0,0,0,0,Raheem Sterling,Jamaica,12,69,Midfielder,2,England
+Costa Rica,1.80,1984,0,0,0,0,0,Greenwich,346107,0,0,0,0,0,Glen Johnson,England,0,70,Defender,0,England
+Costa Rica,1.83,1982,0,0,0,0,0,Sale,346291,0,0,0,0,0,Phil Jagielka,England,0,83,Defender,0,England
+Costa Rica,1.88,1982,0,0,0,0,0,Liverpool,422655,0,0,0,0,0,Rickie Lambert,England,0,77,Forward,0,England
+Costa Rica,1.84,1990,0,0,0,0,0,Manchester,447916,0,0,0,0,0,Danny Welbeck,England,0,73,Forward,0,England
+Costa Rica,1.87,1990,0,0,0,0,0,Sunderland,479360,0,0,0,0,0,Jordan Henderson,England,0,67,Midfielder,0,England
+England,1.84,1986,0,0,0,0,0,San Isidro,499527,0,0,0,0,0,Keylor Navas,Costa Rica,0,78,Goalkeeper,0,Costa Rica
+England,1.78,1982,0,0,0,0,0,Limon,375970,0,0,0,0,0,Patrick Pemberton,Costa Rica,0,80,Goalkeeper,0,Costa Rica
+England,1.81,1986,0,0,0,0,0,Costa Rica,499528,0,0,0,0,0,Daniel Cambronero,Costa Rica,0,71,Goalkeeper,0,Costa Rica
+Costa Rica,1.91,1987,0,0,0,0,0,Shrewsbury,346315,0,0,0,0,0,Joe Hart,England,0,80,Goalkeeper,0,England
+Costa Rica,2.01,1988,0,0,0,0,0,Hexham,353505,0,0,0,0,0,Fraser Forster,England,0,76,Goalkeeper,0,England
+Uruguay,1.86,1981,0,0,2,1,1,Fiesole,346590,0,2,0,0,0,Andrea Barzagli,Italy,63,79,Defender,6,Italy
+Uruguay,1.90,1987,0,2,0,0,0,Viterbo,375405,0,0,1,0,0,Leonardo Bonucci,Italy,47,82,Defender,11,Italy
+Uruguay,1.92,1984,0,1,0,0,0,Pisa,373065,0,0,4,0,0,Giorgio Chiellini,Italy,67,76,Defender,10,Italy
+Uruguay,1.82,1989,0,0,2,0,0,Legnano,353630,2,2,1,0,0,Matteo Darmian,Italy,28,70,Defender,6,Italy
+Uruguay,1.68,1992,0,0,1,0,0,Pescara,558287,0,2,3,0,0,Marco Verratti,Italy,43,60,Midfielder,9,Italy
+Uruguay,1.77,1979,0,1,0,1,3,Brescia,346422,2,1,5,0,0,Andrea Pirlo,Italy,70,68,Midfielder,4,Italy
+Uruguay,1.79,1986,0,0,2,1,1,Turin,396430,0,3,1,0,0,Claudio Marchisio,Italy,24,76,Midfielder,3,Italy
+Uruguay,1.79,1992,0,2,0,0,0,Milan,615000,9,3,0,0,0,Mattia De Sciglio,Italy,31,74,Defender,3,Italy
+Uruguay,1.84,1990,0,1,1,1,2,Torre Annunziata,489160,0,2,1,0,3,Ciro Immobile,Italy,10,78,Forward,1,Italy
+Uruguay,1.89,1990,0,0,1,0,1,Palermo,435987,0,4,2,0,0,Mario Balotelli,Italy,8,88,Forward,0,Italy
+Uruguay,1.86,1985,0,2,0,1,1,Gallarate,514025,0,0,0,0,0,Marco Parolo,Italy,11,82,Midfielder,3,Italy
+Uruguay,1.87,1982,0,0,0,0,0,Sao Bernardo,348502,0,0,1,0,0,Thiago Motta,Brazil,21,83,Midfielder,2,Italy
+Uruguay,1.75,1982,0,0,0,0,0,Bari,348402,2,0,0,0,0,Antonio Cassano,Italy,8,78,Forward,0,Italy
+Uruguay,1.87,1986,0,0,0,0,0,Longchamps,346195,0,0,0,0,0,Gabriel Paletta,Argentina,0,88,Defender,0,Italy
+Uruguay,1.84,1984,0,0,0,0,0,Rome,346703,0,0,0,0,0,Alberto Aquilani,Italy,0,77,Midfielder,0,Italy
+Uruguay,1.77,1987,0,0,0,0,0,Velletri,372472,0,0,0,0,0,Alessio Cerci,Italy,0,78,Forward,0,Italy
+Uruguay,1.80,1986,0,0,0,0,0,Sant Agata de Goti,373064,0,0,0,0,0,Ignazio Abate,Italy,0,73,Defender,0,Italy
+Uruguay,1.80,1987,0,0,0,0,0,Rome,402360,0,0,0,0,0,Antonio Candreva,Italy,0,72,Midfielder,0,Italy
+Uruguay,1.63,1991,0,0,0,0,0,Naples,537666,0,0,0,0,0,Lorenzo Insigne,Italy,0,59,Forward,0,Italy
+Italy,1.78,1987,0,0,2,1,2,Montevideo,387207,1,2,1,0,0,Martín Cáceres,Uruguay,46,77,Defender,12,Uruguay
+Italy,1.84,1995,0,4,0,0,0,Toledo,732955,0,1,1,0,0,José María Giménez,Uruguay,24,80,Defender,1,Uruguay
+Italy,1.85,1986,0,1,0,1,1,Rosario,359475,0,0,1,1,0,Diego Godín,Uruguay,33,78,Defender,6,Uruguay
+Italy,1.82,1985,0,0,0,0,0,Montevideo,540782,3,3,3,0,0,Álvaro Pereira,Uruguay,21,78,Midfielder,1,Uruguay
+Italy,1.75,1984,0,0,1,1,1,Montevideo,359240,2,3,1,0,0,Álvaro González,Uruguay,29,72,Midfielder,4,Uruguay
+Italy,1.68,1982,0,0,1,0,0,Paysandu,389856,0,2,3,0,0,Egidio Arévalo Ríos,Uruguay,34,68,Midfielder,5,Uruguay
+Italy,1.78,1985,0,0,1,0,1,Juan Lacaze,347602,1,1,1,0,0,Cristian Rodríguez,Uruguay,34,81,Midfielder,3,Uruguay
+Italy,1.73,1989,0,0,1,1,1,Paysandu,538125,0,1,0,0,0,Nicolás Lodeiro,Uruguay,17,69,Midfielder,1,Uruguay
+Italy,1.81,1987,0,0,2,4,6,Salto,348217,4,4,1,0,1,Luis Suárez,Uruguay,17,81,Forward,1,Uruguay
+Italy,1.88,1987,0,0,0,1,2,Salto,437146,0,2,1,0,0,Edinson Cavani,Uruguay,21,71,Forward,4,Uruguay
+Italy,1.83,1990,1,0,1,0,0,Fray Bentos,555407,0,1,1,0,0,Gastón Ramírez,Uruguay,8,77,Midfielder,1,Uruguay
+Italy,1.86,1986,0,0,0,0,0,Tala,373570,0,0,0,0,0,Christian Stuani,Uruguay,5,76,Forward,2,Uruguay
+Italy,1.76,1980,0,0,0,0,0,Montevideo,347401,0,0,0,0,0,Diego Pérez,Uruguay,0,81,Midfielder,0,Uruguay
+Italy,1.81,1979,0,0,0,0,0,Montevideo,348451,0,0,0,0,0,Diego Forlán,Uruguay,0,75,Forward,0,Uruguay
+Italy,1.77,1984,0,0,0,0,0,Montevideo,349157,0,0,0,0,0,Jorge Fucile,Uruguay,0,77,Defender,0,Uruguay
+Italy,1.68,1984,0,0,0,0,0,Paysandu,373573,0,0,0,0,0,Walter Gargano,Uruguay,0,65,Midfielder,0,Uruguay
+Italy,1.86,1990,0,0,0,0,0,Canelones,490577,0,0,0,0,0,Abel Hernández,Uruguay,0,73,Forward,0,Uruguay
+Italy,1.96,1990,0,0,0,0,0,Montevideo,492381,0,0,0,0,0,Sebastián Coates,Uruguay,0,85,Defender,0,Uruguay
+Uruguay,1.90,1978,0,0,0,0,0,Carrara,360304,0,0,0,0,0,Gianluigi Buffon,Italy,0,83,Goalkeeper,0,Italy
+Uruguay,1.90,1987,0,0,0,0,0,Nuoro,346769,0,0,0,0,0,Salvatore Sirigu,Italy,0,80,Goalkeeper,0,Italy
+Uruguay,1.88,1992,0,0,0,0,0,Latina,513642,0,0,0,0,0,Mattia Perin,Italy,0,74,Goalkeeper,0,Italy
+Italy,1.90,1986,0,0,0,0,0,Buenos Aires,387348,0,0,0,0,0,Fernando Muslera,Argentina,0,77,Goalkeeper,0,Uruguay
+Italy,1.87,1983,0,0,0,0,0,Montevideo,359237,0,0,0,0,0,Martín Silva,Uruguay,0,80,Goalkeeper,0,Uruguay
+Italy,1.85,1982,0,0,0,0,0,Montevideo,491576,0,0,0,0,0,Rodrigo Munoz,Uruguay,0,77,Goalkeeper,0,Uruguay
+Colombia,1.76,1988,0,0,0,0,1,Kannami,390339,3,0,0,0,0,Atsuto Uchida,Japan,28,62,Defender,3,Japan
+Colombia,1.89,1988,0,2,2,1,1,Nagasaki,394603,0,1,4,0,0,Yoshida Maya,Japan,47,78,Defender,16,Japan
+Colombia,1.78,1983,0,2,3,1,1,Sendai,394780,0,2,1,0,0,Yasuyuki Konno,Japan,49,73,Defender,6,Japan
+Colombia,1.70,1986,0,1,0,2,2,Ehime,395130,5,3,0,0,0,Yuto Nagatomo,Japan,40,68,Defender,3,Japan
+Colombia,1.74,1986,0,0,0,1,1,Okayama,394651,0,2,0,0,0,Aoyama Toshihiro,Japan,25,73,Midfielder,4,Japan
+Colombia,1.80,1984,0,0,0,1,1,Fujieda,364421,0,1,3,0,0,Makoto Hasebe,Japan,50,65,Midfielder,11,Japan
+Colombia,1.74,1986,0,0,0,1,2,Takarazuka,394566,0,1,4,1,0,Shinji Okazaki,Japan,6,76,Forward,3,Japan
+Colombia,1.82,1986,1,0,0,3,4,Osaka,394585,1,0,4,0,0,Keisuke Honda,Japan,29,76,Forward,4,Japan
+Colombia,1.72,1989,0,0,1,1,5,Kobe,390340,2,0,1,0,0,Shinji Kagawa,Japan,37,63,Forward,2,Japan
+Colombia,1.70,1982,0,0,0,1,4,Fukuoka,374178,1,0,2,0,0,Yoshito Okubo,Japan,23,73,Forward,0,Japan
+Colombia,1.77,1990,0,0,0,1,1,Osaka,394835,0,0,0,0,0,Kakitani Yoichiro,Japan,4,68,Forward,1,Japan
+Colombia,1.72,1989,0,0,0,0,0,Oita,445461,0,0,0,0,0,Hiroshi Kiyotake,Japan,5,63,Forward,1,Japan
+Colombia,1.73,1990,0,0,2,0,0,Mie,492909,0,0,0,0,0,Yamaguchi Hotaru,Japan,16,72,Midfielder,1,Japan
+Colombia,1.78,1980,0,0,0,0,0,Kagoshima,358760,0,0,0,0,0,Yasuhito Endo,Japan,0,75,Midfielder,0,Japan
+Colombia,1.83,1987,0,0,0,0,0,Hiroshima,390345,0,0,0,0,0,Morishige Masato,Japan,0,76,Defender,0,Japan
+Colombia,1.79,1985,0,0,0,0,0,Miyazaki,395125,0,0,0,0,0,Inoha Masahiko,Japan,0,74,Defender,0,Japan
+Colombia,1.69,1990,0,0,0,0,0,Kanagawa,445387,0,0,0,0,0,Saito Manabu,Japan,0,68,Forward,0,Japan
+Colombia,1.85,1990,0,0,0,0,0,Kashiwa,445416,0,0,0,0,0,Hiroki Sakai,Japan,0,70,Defender,0,Japan
+Colombia,1.76,1991,0,0,0,0,0,New York,447020,0,0,0,0,0,Gotoku Sakai,United States,0,74,Defender,0,Japan
+Colombia,1.82,1990,0,0,0,0,0,Kagoshima,492865,0,0,0,0,0,Osako Yuya,Japan,0,73,Forward,0,Japan
+Japan,1.71,1992,0,3,1,0,1,Medellin,716865,1,0,0,0,0,Santiago Arias,Colombia,32,68,Defender,10,Colombia
+Japan,1.88,1985,0,0,0,0,0,Cali,463178,0,2,0,0,0,Carlos Valdés,Colombia,26,77,Defender,7,Colombia
+Japan,1.81,1993,0,3,1,0,0,Bogota,727328,0,2,0,0,0,Éder Balanta,Colombia,21,78,Defender,8,Colombia
+Japan,1.74,1986,0,0,1,0,0,Tumaco,374302,1,2,0,0,0,Pablo Armero,Colombia,23,81,Defender,8,Colombia
+Japan,1.78,1988,0,0,0,1,1,Necocli,490689,0,1,1,1,0,Juan Cuadrado,Colombia,10,66,Midfielder,0,Colombia
+Japan,1.79,1988,0,4,2,0,0,Barranquilla,588006,0,3,0,0,0,Alexander Mejía,Colombia,21,78,Midfielder,10,Colombia
+Japan,1.87,1986,0,0,2,0,0,Puerto Boyaca,347380,1,3,1,0,0,Fredy Guarín,Colombia,23,77,Midfielder,3,Colombia
+Japan,1.68,1993,0,0,1,0,1,Medellin,648645,0,0,0,0,0,Juan Quintero,Colombia,14,64,Midfielder,2,Colombia
+Japan,1.86,1986,0,0,0,3,4,Quibdo,374514,0,0,2,2,1,Jackson Martínez,Colombia,18,85,Forward,3,Colombia
+Japan,1.84,1986,1,0,0,2,2,Santander de Quilichao,374316,1,3,2,0,1,Adrián Ramos,Colombia,23,74,Forward,2,Colombia
+Japan,1.80,1990,0,0,0,0,1,Bogota,554281,0,2,2,0,0,Carlos Carbonero,Colombia,16,77,Midfielder,1,Colombia
+Japan,1.80,1991,2,0,0,3,3,Cucuta,491720,2,1,2,1,0,James Rodríguez,Colombia,21,77,Midfielder,2,Colombia
+Japan,1.87,1986,0,0,0,0,0,Padilla,346357,0,0,0,0,0,Cristian Zapata,Colombia,0,82,Defender,0,Colombia
+Japan,1.86,1976,0,0,0,0,0,Cali,347398,0,0,0,0,0,Mario Yepes,Colombia,0,83,Defender,0,Colombia
+Japan,1.71,1985,0,0,0,0,0,Chigorodo,371070,0,0,0,0,0,Juan Zuniga,Colombia,0,72,Defender,0,Colombia
+Japan,1.82,1986,0,0,0,0,0,Quibdo,395451,0,0,0,0,0,Carlos Sánchez,Colombia,0,82,Midfielder,0,Colombia
+Japan,1.87,1985,0,0,0,0,0,Santa Fe de Bogota,487465,0,0,0,0,0,Abel Aguilar,Colombia,0,82,Midfielder,0,Colombia
+Japan,1.80,1985,0,0,0,0,0,Barranquilla,516681,0,0,0,0,0,Teófilo Gutiérrez,Colombia,0,72,Forward,0,Colombia
+Japan,1.88,1990,0,0,0,0,0,Santiago de Cali,608422,0,0,0,0,0,Víctor Ibarbo,Colombia,0,78,Forward,0,Colombia
+Colombia,1.85,1983,0,0,0,0,0,Yono,395310,0,0,0,0,0,Eiji Kawashima,Japan,0,82,Goalkeeper,0,Japan
+Colombia,1.83,1986,0,0,0,0,0,Oita,395037,0,0,0,0,0,Shusaku Nishikawa,Japan,0,81,Goalkeeper,0,Japan
+Colombia,1.87,1989,0,0,0,0,0,Tokyo,395122,0,0,0,0,0,Shuichi Gonda,Japan,0,85,Goalkeeper,0,Japan
+Japan,1.83,1988,0,0,0,0,0,Medellin,399085,0,0,0,0,0,David Ospina,Colombia,0,79,Goalkeeper,0,Colombia
+Japan,1.91,1971,0,0,0,0,0,Cali,348901,0,0,0,0,0,Faryd Mondragón,Colombia,0,94,Goalkeeper,0,Colombia
+Japan,1.85,1989,0,0,0,0,0,Bogota,555044,0,0,0,0,0,Camilo Vargas,Colombia,0,81,Goalkeeper,0,Colombia
+Ivory Coast,1.85,1985,0,1,3,0,2,Xanthi,409126,7,3,1,0,0,Vasilis Torosidis,Greece,28,80,Defender,2,Greece
+Ivory Coast,1.86,1991,0,0,2,0,0,Naxos,490673,0,2,2,0,0,Konstantinos Manolas,Greece,22,79,Defender,10,Greece
+Ivory Coast,1.86,1988,0,2,0,0,0,Kalamata,349081,0,1,1,0,0,Sokratis Papastathopoulos,Greece,20,85,Defender,7,Greece
+Ivory Coast,1.84,1984,0,1,2,0,1,Aschaffenburg,408160,4,3,2,0,0,José Holebas,West Germany,15,79,Defender,7,Greece
+Ivory Coast,1.84,1987,0,0,0,0,0,Tirana,349158,1,0,1,0,0,Panagiotis Koné,Albania,1,74,Midfielder,0,Greece
+Ivory Coast,1.78,1986,0,0,2,0,0,Livadia,415506,0,2,1,0,0,Ioannis Maniatis,Greece,37,68,Midfielder,9,Greece
+Ivory Coast,1.76,1977,0,0,1,2,3,Pyrgos,353049,3,0,0,0,0,Giorgos Karagounis,Greece,24,74,Midfielder,1,Greece
+Ivory Coast,1.82,1986,0,0,1,0,4,Thessaloniki,445051,4,0,2,0,0,Lazaros Christodoulopoulos,Greece,20,77,Midfielder,5,Greece
+Ivory Coast,1.92,1985,1,0,3,1,1,Heraklion,346109,1,1,5,1,0,Georgios Samaras,Greece,20,86,Forward,1,Greece
+Ivory Coast,1.71,1981,0,0,2,1,1,Thessaloniki,349417,3,1,3,0,1,Dimitrios Salpingidis,Greece,19,74,Forward,4,Greece
+Ivory Coast,1.79,1980,0,0,0,0,0,Larissa,345322,0,0,0,0,0,Theofanis Gekas,Greece,0,72,Forward,0,Greece
+Ivory Coast,1.90,1989,0,2,0,1,1,Patras,541738,0,0,3,1,0,Andreas Samaris,Greece,38,80,Midfielder,10,Greece
+Ivory Coast,1.93,1981,0,0,0,0,0,Larissa,349077,0,0,0,0,0,Vangelis Moras,Greece,0,78,Defender,0,Greece
+Ivory Coast,1.84,1981,0,0,0,0,0,Albrechtice,349387,0,0,0,0,0,Loukas Vyntra,Czechoslovakia,0,76,Defender,0,Greece
+Ivory Coast,1.90,1985,0,0,0,0,0,Katerini,349396,0,0,0,0,0,Alexandros Tziolis,Greece,0,84,Midfielder,0,Greece
+Ivory Coast,1.88,1988,0,0,0,0,0,Kavala,409124,0,0,0,0,0,Konstantinos Mitroglou,Greece,0,94,Forward,0,Greece
+Ivory Coast,1.83,1987,0,0,0,0,0,Athens,445324,0,0,0,0,0,Georgios Tzavelas,Greece,0,80,Defender,0,Greece
+Ivory Coast,1.94,1991,0,0,0,0,0,Nafplio,492491,0,0,0,0,0,Panagiotis Tachtsidis,Greece,0,86,Midfielder,0,Greece
+Ivory Coast,1.64,1990,0,0,0,0,0,Drama,531608,0,0,0,0,0,Ioannis Fetfatzidis,Greece,0,64,Forward,0,Greece
+Greece,1.76,1992,0,1,2,0,0,Ouragahio,536032,2,2,2,0,0,Serge Aurier,Ivory Coast,41,75,Defender,4,Ivory Coast
+Greece,1.83,1981,0,0,1,0,1,Sokoura Bouake,346029,0,2,1,0,0,Kolo Touré,Ivory Coast,36,74,Defender,6,Ivory Coast
+Greece,1.90,1985,0,1,0,0,1,Ivry-sur-Seine,345298,0,3,0,0,0,Souleymane Bamba,France,41,89,Defender,9,Ivory Coast
+Greece,1.66,1983,0,2,2,1,1,Abidjan,345644,3,2,1,0,0,Arthur Boka,Ivory Coast,41,67,Defender,11,Ivory Coast
+Greece,1.75,1986,0,0,0,1,1,Yamoussoukro,347134,1,0,0,0,0,Cheick Tioté,Ivory Coast,34,86,Midfielder,6,Ivory Coast
+Greece,1.89,1983,0,0,0,3,3,Sekoura Bouake,347384,1,0,1,0,0,Yaya Touré,Ivory Coast,52,90,Midfielder,4,Ivory Coast
+Greece,1.79,1984,0,0,2,0,0,Facobly,458638,0,3,0,0,0,Serey Die,Ivory Coast,60,77,Midfielder,13,Ivory Coast
+Greece,1.75,1985,0,0,2,1,2,Oume,331043,4,4,2,0,0,Salomon Kalou,Ivory Coast,14,77,Forward,3,Ivory Coast
+Greece,1.80,1978,0,1,2,0,0,Abidjan,330398,2,3,2,0,0,Didier Drogba,Ivory Coast,13,91,Forward,2,Ivory Coast
+Greece,1.79,1987,1,1,0,1,1,Anyama,532928,0,0,1,0,0,Gervinho,Ivory Coast,21,68,Forward,0,Ivory Coast
+Greece,1.80,1989,0,0,2,1,1,Saint-Sebastien-sur-Loire,386314,0,2,1,0,1,Giovanni Sio,France,2,77,Forward,1,Ivory Coast
+Greece,1.82,1988,0,0,0,1,2,Bingerville,464644,0,2,0,1,0,Wilfried Bony,Ivory Coast,2,88,Forward,0,Ivory Coast
+Greece,1.80,1992,0,0,0,0,0,Abidjan,595794,0,0,0,0,0,Ismael Diomande,Ivory Coast,2,75,Midfielder,0,Ivory Coast
+Greece,1.74,1984,0,0,0,0,0,Abidjan,409107,0,0,0,0,0,Didier Ya Konan,Ivory Coast,0,74,Midfielder,0,Ivory Coast
+Greece,1.77,1987,0,0,0,0,0,Abidjan,422411,0,0,0,0,0,Max Gradel,Ivory Coast,0,69,Midfielder,0,Ivory Coast
+Greece,1.86,1986,0,0,0,0,0,Daloa,461699,0,0,0,0,0,Ousmane Diarrassouba,Ivory Coast,0,83,Defender,0,Ivory Coast
+Greece,1.77,1986,0,0,0,0,0,Abidjan,462543,0,0,0,0,0,Constant Djakpa,Ivory Coast,0,71,Defender,0,Ivory Coast
+Greece,1.85,1990,0,0,0,0,0,Oslo,573604,0,0,0,0,0,Mathis Bolly,Norway,0,77,Midfielder,0,Ivory Coast
+Greece,1.80,1992,0,0,0,0,0,Toulouse,638926,0,0,0,0,0,Jean-Daniel Akpa,France,0,70,Defender,0,Ivory Coast
+Ivory Coast,1.89,1985,0,0,0,0,0,Athens,415214,0,0,0,0,0,Orestis Karnezis,Greece,0,84,Goalkeeper,0,Greece
+Ivory Coast,1.90,1986,0,0,0,0,0,Volos,445071,0,0,0,0,0,Panagiotis Glykos,Greece,0,77,Goalkeeper,0,Greece
+Ivory Coast,1.96,1994,0,0,0,0,0,Athens,565008,0,0,0,0,0,Stefanos Kapino,Greece,0,81,Goalkeeper,0,Greece
+Greece,1.90,1988,0,0,0,0,0,San Pedro,794286,0,0,0,0,0,Sylvain Gbohouo,Ivory Coast,0,82,Goalkeeper,0,Ivory Coast
+Greece,1.93,1993,0,0,0,0,0,Abidjan,821845,0,0,0,0,0,Sayouba Mandé,Ivory Coast,0,89,Goalkeeper,0,Ivory Coast
+Argentina,1.90,1988,0,1,0,0,1,Kaduna,392604,1,1,1,0,0,Efe Ambrose,Nigeria,44,70,Defender,8,Nigeria
+Argentina,1.85,1980,0,0,0,0,0,Kano,346040,0,1,0,0,0,Joseph Yobo,Nigeria,23,85,Defender,4,Nigeria
+Argentina,1.84,1990,0,1,3,0,0,Ilorin,656341,5,3,0,0,0,Juwon Oshaniwa,Nigeria,30,69,Defender,4,Nigeria
+Argentina,1.85,1993,0,0,2,0,0,Jos,604558,0,2,1,0,0,Kenneth Omeruo,Nigeria,28,71,Defender,5,Nigeria
+Argentina,1.76,1992,0,0,0,3,4,Bukuru,575271,2,0,1,2,0,Ahmed Musa,Nigeria,14,62,Forward,0,Nigeria
+Argentina,1.68,1992,0,1,4,2,3,Lagos,655435,0,2,1,0,0,Ogenyi Onazi,Nigeria,47,73,Midfielder,9,Nigeria
+Argentina,1.88,1987,0,0,1,1,1,Jos,330396,0,1,0,0,0,John Obi Mikel,Nigeria,42,86,Midfielder,6,Nigeria
+Argentina,1.65,1992,1,0,1,0,0,Lagos,735699,1,3,0,0,0,Michael Babatunde,Nigeria,17,72,Forward,2,Nigeria
+Argentina,1.81,1981,0,0,1,0,1,Tashkent,347710,3,2,0,0,0,Peter Odemwingie,USSR,15,79,Forward,2,Nigeria
+Argentina,1.82,1987,1,1,0,0,1,Otuocha,608424,1,2,1,0,1,Emmanuel Emenike,Nigeria,18,90,Forward,2,Nigeria
+Argentina,1.77,1991,0,0,0,0,0,Lagos,604564,0,0,0,0,0,Uche Nwofor,Nigeria,3,75,Forward,0,Nigeria
+Argentina,1.94,1990,0,0,0,1,1,Enugu,537661,0,0,0,0,0,Okechukwu Uchebo,Nigeria,7,85,Forward,1,Nigeria
 Honduras,1.88,1988,0,0,0,0,0,Esmeraldas,586284,0,0,0,0,0,Adrián Bone,Ecuador,0,76,Goalkeeper,0,Ecuador
 Iran,1.74,1985,0,1,0,0,1,Buenos Aires,348661,5,3,0,0,0,Pablo Zabaleta,Argentina,48,74,Defender,7,Argentina
 Iran,1.90,1989,0,0,1,0,1,Tres Algarrobos,457756,0,1,3,0,0,Fede Fernández,Argentina,41,81,Defender,4,Argentina
@@ -1504,3 +1856,91 @@ Chile,1.93,1988,0,0,0,0,0,The Hague,346316,0,0,0,0,0,Tim Krul,Netherlands,0,84,G
 Chile,1.83,1983,0,0,0,0,0,IJsselstein,348335,0,0,0,0,0,Michel Vorm,Netherlands,0,84,Goalkeeper,0,Netherlands
 Netherlands,1.83,1981,0,0,0,0,0,Angol,374546,0,0,0,0,0,Johnny Herrera,Chile,0,81,Goalkeeper,0,Chile
 Netherlands,1.81,1988,0,0,0,0,0,Antofagasta,389706,0,0,0,0,0,Cristopher Toselli,Chile,0,76,Goalkeeper,0,Chile
+Brazil,1.70,1988,1,1,0,1,1,Neuilly Sur Seine,501420,3,0,1,0,0,Allan Nyom,France,29,81,Defender,6,Cameroon
+Brazil,1.85,1990,0,4,0,0,1,Yaounde,461806,0,0,0,0,0,Nicolas N'Koulou,Cameroon,35,77,Defender,12,Cameroon
+Brazil,1.94,1991,0,2,0,2,2,Bochum,496822,0,0,0,1,0,Joel Matip,Germany,18,88,Midfielder,7,Cameroon
+Brazil,1.76,1984,0,0,1,0,0,Douala,370625,1,1,2,0,1,Henri Bedimo,Cameroon,36,80,Defender,8,Cameroon
+Brazil,1.90,1986,0,0,3,0,0,Yaounde,347769,0,4,3,0,0,Stephane Mbia,Cameroon,48,85,Midfielder,10,Cameroon
+Brazil,1.72,1985,0,0,0,0,2,Yaounde,347756,0,2,6,0,0,Landry N'Guemo,Cameroon,44,70,Midfielder,5,Cameroon
+Brazil,1.80,1986,0,0,2,2,3,Kumba,474975,0,3,1,0,0,Eyong Enoh,Cameroon,26,70,Midfielder,8,Cameroon
+Brazil,1.90,1989,0,1,0,0,2,Hamburg,397547,1,0,0,0,0,Eric Maxim Choupo-Moting,West Germany,23,84,Forward,6,Cameroon
+Brazil,1.76,1992,0,0,0,0,0,Yaounde,546158,0,0,0,0,0,Vincent Aboubakar,Cameroon,14,82,Forward,1,Cameroon
+Brazil,1.78,1988,0,0,1,1,1,Douala,534471,2,1,1,0,0,Benjamin Moukandjo,Cameroon,10,74,Forward,3,Cameroon
+Brazil,1.63,1992,0,0,0,0,0,Garoua,604618,0,2,2,0,0,Edgar Salli,Cameroon,10,64,Midfielder,0,Cameroon
+Brazil,1.70,1983,0,0,0,0,0,Yaounde,347594,0,0,2,0,0,Jean Makoun,Cameroon,6,65,Midfielder,0,Cameroon
+Brazil,1.80,1982,0,1,0,0,0,Bafoussam,348691,0,1,0,0,0,Pierre Webó,Cameroon,4,78,Forward,0,Cameroon
+Brazil,1.81,1981,0,0,0,0,0,Nkon,348449,0,0,0,0,0,Samuel Eto'o,Cameroon,0,75,Forward,0,Cameroon
+Brazil,1.85,1985,0,0,0,0,0,Douala,395468,0,0,0,0,0,Aurelien Chedjou,Cameroon,0,77,Defender,0,Cameroon
+Brazil,1.83,1986,0,0,0,0,0,Yaounde,505342,0,0,0,0,0,Dany Nounkeu,Cameroon,0,80,Defender,0,Cameroon
+Brazil,1.77,1996,0,0,0,0,0,Douala,699302,0,0,0,0,0,Fabrice Olinga,Cameroon,0,66,Forward,0,Cameroon
+Brazil,1.75,1992,0,0,0,0,0,Mankwa,826586,0,0,0,0,0,Cedric Djeugoue,Cameroon,0,78,Defender,0,Cameroon
+Cameroon,1.75,1983,0,2,4,0,1,Juazeiro,348634,0,1,3,0,0,Dani Alves,Brazil,57,64,Defender,14,Brazil
+Cameroon,1.82,1984,0,1,0,0,0,Rio de Janeiro,375843,0,0,0,0,0,Thiago Silva,Brazil,39,79,Defender,3,Brazil
+Cameroon,1.89,1987,1,2,3,0,0,Sao Paulo,409128,1,2,0,0,0,David Luiz,Brazil,52,84,Defender,7,Brazil
+Cameroon,1.74,1988,1,1,1,1,1,Rio de Janeiro,356026,2,1,1,0,0,Marcelo,Brazil,37,75,Defender,7,Brazil
+Cameroon,1.81,1988,0,1,1,1,1,Sao Paulo,545294,1,1,0,0,0,Paulinho,Brazil,9,71,Midfielder,2,Brazil
+Cameroon,1.88,1987,1,0,4,1,1,Pindamonhangaba,410479,1,4,2,0,0,Luiz Gustavo,Brazil,42,80,Midfielder,8,Brazil
+Cameroon,1.81,1991,1,1,2,1,1,Americana,466295,1,4,1,0,1,Oscar,Brazil,24,66,Midfielder,4,Brazil
+Cameroon,1.79,1986,0,1,1,3,3,Campina Grande,471521,2,1,3,0,0,Hulk,Brazil,10,80,Forward,2,Brazil
+Cameroon,1.86,1983,0,0,1,5,5,Teofilo Otoni,347711,0,1,0,1,0,Fred,Brazil,18,90,Forward,4,Brazil
+Cameroon,1.75,1992,0,1,1,4,4,Mogi das Cruzes,555042,1,1,2,2,1,Neymar,Brazil,26,65,Forward,3,Brazil
+Cameroon,1.79,1985,0,1,2,1,1,Londrina,348958,0,2,2,1,1,Fernandinho,Brazil,22,67,Midfielder,4,Brazil
+Cameroon,1.81,1987,0,0,1,0,0,Barra do Pirai,440827,0,1,0,0,0,Ramires,Brazil,6,73,Midfielder,0,Brazil
+Cameroon,1.76,1988,0,0,0,1,1,Ribeirao Pires,388493,0,0,0,0,0,Willian,Brazil,8,70,Midfielder,1,Brazil
+Cameroon,1.77,1981,0,0,0,0,0,Cachoeiro do Itapemirim,346567,0,0,0,0,0,Maxwell,Brazil,0,73,Defender,0,Brazil
+Cameroon,1.86,1981,0,0,0,0,0,Novo Hamburgo,346587,0,0,0,0,0,Maicon,Brazil,0,77,Defender,0,Brazil
+Cameroon,1.89,1983,0,0,0,0,0,Salvador de Bahia,347258,0,0,0,0,0,Dante,Brazil,0,87,Defender,0,Brazil
+Cameroon,1.80,1985,0,0,0,0,0,Recife,359280,0,0,0,0,0,Hernanes,Brazil,0,76,Midfielder,0,Brazil
+Cameroon,1.91,1987,0,0,0,0,0,Sao Paulo,409159,0,0,0,0,0,Jo,Brazil,0,78,Forward,0,Brazil
+Cameroon,1.86,1986,0,0,0,0,0,Marechal Candido Rondon,456926,0,0,0,0,0,Henrique,Brazil,0,73,Defender,0,Brazil
+Cameroon,1.66,1992,0,0,0,0,0,Belo Horizonte,589316,0,0,0,0,0,Bernard,Brazil,0,52,Forward,0,Brazil
+Brazil,1.85,1982,0,0,0,0,0,Bobigny,347466,0,0,0,0,0,Charles Itandje,France,0,83,Goalkeeper,0,Cameroon
+Brazil,1.78,1990,0,0,0,0,0,Yaounde,521485,0,0,0,0,0,Sammy N'Djock,Cameroon,0,85,Goalkeeper,0,Cameroon
+Brazil,1.78,1992,0,0,0,0,0,Douala,826585,0,0,0,0,0,Loic Feudjou,Cameroon,0,86,Goalkeeper,0,Cameroon
+Cameroon,1.95,1983,0,0,0,0,0,Santo Anastacio,359665,0,0,0,0,0,Victor,Brazil,0,84,Goalkeeper,0,Brazil
+Cameroon,1.90,1983,0,0,0,0,0,Sao Vicente,442973,0,0,0,0,0,Jefferson,Brazil,0,93,Goalkeeper,0,Brazil
+Mexico,1.82,1982,0,1,1,0,1,Metkovic,348951,6,1,1,0,0,Darijo Srna,Yugoslavia,38,72,Defender,7,Croatia
+Mexico,1.92,1986,0,1,1,0,0,Derventa,398553,0,1,2,0,0,Vedran Corluka,Yugoslavia,43,84,Defender,11,Croatia
+Mexico,1.88,1989,0,0,1,0,0,Zenica,466741,0,1,1,0,0,Dejan Lovren,Yugoslavia,46,84,Defender,4,Croatia
+Mexico,1.83,1992,0,0,1,0,0,Zara,541547,1,3,0,0,0,Šime Vrsaljko,Croatia,29,75,Defender,5,Croatia
+Mexico,1.84,1988,1,2,1,0,0,Mohlin,349448,3,3,0,0,0,Ivan Rakitic,Switzerland,57,76,Midfielder,7,Croatia
+Mexico,1.72,1981,0,0,1,0,1,Nasice,348254,2,0,1,0,0,Danijel Pranjic,Yugoslavia,25,70,Defender,3,Croatia
+Mexico,1.87,1989,0,0,0,3,6,Split,471072,1,0,1,1,0,Ivan Perisic,Yugoslavia,23,80,Midfielder,3,Croatia
+Mexico,1.73,1985,0,1,1,0,0,Zadar,360063,2,1,3,0,0,Luka Modric,Yugoslavia,42,65,Midfielder,3,Croatia
+Mexico,1.83,1979,0,0,0,1,1,Davor,351270,4,3,0,0,0,Ivica Olic,Yugoslavia,15,85,Forward,4,Croatia
+Mexico,1.88,1986,0,0,0,0,0,Slavonski Brod,415334,0,1,0,0,1,Mario Mandzukic,Yugoslavia,12,84,Forward,0,Croatia
+Mexico,1.87,1985,0,0,0,0,0,Capljina,396687,0,2,0,0,0,Nikica Jelavic,Yugoslavia,4,84,Forward,0,Croatia
+Mexico,1.81,1994,0,0,0,0,0,Linz,582489,0,0,1,0,0,Mateo Kovacic,Austria,19,75,Midfielder,2,Croatia
+Mexico,1.85,1993,0,1,0,1,1,Split,738854,0,2,0,0,0,Ante Rebic,Croatia,5,80,Forward,3,Croatia
+Mexico,1.78,1987,0,0,0,0,0,Itabuna,360028,0,0,0,0,0,Sammir,Brazil,0,77,Midfielder,0,Croatia
+Mexico,1.77,1983,0,0,0,0,0,Rio de Janeiro,360044,0,0,0,0,0,Eduardo,Brazil,0,72,Forward,0,Croatia
+Mexico,1.91,1985,0,0,0,0,0,Sibenik,415336,0,0,0,0,0,Gordon Schildenfeld,Yugoslavia,0,90,Defender,0,Croatia
+Mexico,1.84,1983,0,0,0,0,0,Bjelovar,415338,0,0,0,0,0,Ognjen Vukojevic,Yugoslavia,0,85,Midfielder,0,Croatia
+Mexico,1.86,1989,0,0,0,0,0,Zagreb,466739,0,0,0,0,0,Milan Badelj,Yugoslavia,0,76,Midfielder,0,Croatia
+Mexico,1.84,1989,0,0,0,0,0,Donji Miholjac,547151,0,0,0,0,0,Domagoj Vida,Yugoslavia,0,73,Defender,0,Croatia
+Mexico,1.81,1992,0,0,0,0,0,Zagreb,612564,0,0,0,0,0,Marcelo Brozovic,Croatia,0,68,Midfielder,0,Croatia
+Croatia,1.78,1986,0,1,1,1,1,Concordia,375518,3,0,2,0,0,Paul Aguilar,Mexico,31,65,Defender,5,Mexico
+Croatia,1.91,1981,0,1,0,0,0,Mazatlan,368436,0,0,0,0,0,Francisco Rodríguez,Mexico,24,84,Defender,10,Mexico
+Croatia,1.84,1979,1,0,0,1,1,Zamora,348468,0,2,2,1,0,Rafael Márquez,Mexico,38,74,Defender,5,Mexico
+Croatia,1.82,1988,0,1,0,0,0,Culiacan,359565,0,1,1,0,0,Héctor Moreno,Mexico,29,80,Defender,8,Mexico
+Croatia,1.78,1988,0,1,0,1,1,Veracruz,375578,0,0,2,0,0,Miguel Layún,Mexico,25,64,Defender,1,Mexico
+Croatia,1.80,1990,1,0,0,0,2,Mexico City,492556,2,2,4,0,0,Héctor Herrera,Mexico,44,72,Midfielder,4,Mexico
+Croatia,1.64,1988,0,0,1,0,1,Celaya,685141,0,2,1,0,0,Jose Vazquez,Mexico,29,68,Midfielder,3,Mexico
+Croatia,1.67,1986,0,1,2,2,2,Guadalajara,373962,3,1,1,1,0,Andrés Guardado,Mexico,28,67,Defender,3,Mexico
+Croatia,1.79,1989,0,0,0,0,0,Monterrey,390080,1,1,1,0,0,Giovani Dos Santos,Mexico,11,71,Forward,0,Mexico
+Croatia,1.77,1984,1,0,1,0,2,Torreon,369575,1,2,1,0,0,Oribe Peralta,Mexico,15,68,Forward,1,Mexico
+Croatia,1.71,1989,0,0,0,1,1,Guadalajara,419772,0,0,0,0,0,Marco Fabián,Mexico,1,65,Midfielder,0,Mexico
+Croatia,1.75,1988,0,0,0,1,1,Guadalajara,375893,1,1,2,1,1,Javier Hernández,Mexico,7,62,Forward,0,Mexico
+Croatia,1.76,1990,0,0,1,0,0,Ciudad Victoria,544125,0,0,1,0,0,Carlos Pena,Mexico,1,75,Midfielder,0,Mexico
+Croatia,1.76,1980,0,0,0,0,0,Ocotlan,347953,0,0,0,0,0,Carlos Salcido,Mexico,0,70,Defender,0,Mexico
+Croatia,1.73,1990,0,0,0,0,0,Lagos de Moreno,509598,0,0,0,0,0,Isaac Brizuela,Mexico,0,59,Midfielder,0,Mexico
+Croatia,1.76,1991,0,0,0,0,0,Ciudad Victoria,540218,0,0,0,0,0,Alan Pulido,Mexico,0,60,Forward,0,Mexico
+Croatia,1.89,1992,0,0,0,0,0,Mexico City,544254,0,0,0,0,0,Diego Reyes,Mexico,0,65,Defender,0,Mexico
+Croatia,1.75,1989,0,0,0,0,0,Sacramento,544563,0,0,0,0,0,Miguel Ángel Ponce,United States,0,77,Defender,0,Mexico
+Croatia,1.66,1990,0,0,0,0,0,Oaxaca,552821,0,0,0,0,0,Javier Aquino,Mexico,0,59,Midfielder,0,Mexico
+Croatia,1.86,1991,0,0,0,0,0,Tepeji del Rio,618109,0,0,0,0,0,Raúl Jiménez,Mexico,0,76,Forward,0,Mexico
+Mexico,1.93,1979,0,0,0,0,0,Split,348907,0,0,0,0,0,Stipe Pletikosa,Yugoslavia,0,83,Goalkeeper,0,Croatia
+Mexico,1.91,1984,0,0,0,0,0,Zadar,481245,0,0,0,0,0,Danijel Subašić,Yugoslavia,0,84,Goalkeeper,0,Croatia
+Mexico,1.91,1993,0,0,0,0,0,Zagreb,608491,0,0,0,0,0,Oliver Zelenika,Croatia,0,82,Goalkeeper,0,Croatia
+Croatia,1.78,1981,0,0,0,0,0,Guadalajara,368221,0,0,0,0,0,José de Jesús Corona,Mexico,0,82,Goalkeeper,0,Mexico
+Croatia,1.88,1982,0,0,0,0,0,Guadalajara,371511,0,0,0,0,0,Alfredo Talavera,Mexico,0,86,Goalkeeper,0,Mexico

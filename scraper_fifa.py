@@ -436,6 +436,34 @@ def calculaJogador():
 
     return resultado
 
+def calculaGrafico(times):
+    
+    #calcula as médias
+    for column in times:
+        if column not in ["vitorias","empates","derrotas","jogos"]:
+            times[column] = times[column]/times["jogos"]
+            times[column] = times[column].apply(lambda value:round(value,1))
+    
+    del times["chutes"]
+    del times["passes_area"]
+    del times["chutes_bloqueados"]
+    del times["chutes_defendidos"]
+    del times["chutes_trave"]
+    del times["carrinho"]
+    del times["dist_total"]
+    del times["passes"]
+    del times["vitorias"]
+    del times ["empates"]
+    del times ["derrotas"]
+    del times ["jogos"]
+    
+    times.columns = ["Gols","Ataques","Desarmes","Passes completados","Posse de bola","Chutes certos","Chutes para fora","Jogadas de bola parada","Cruzamentos","Escanteios","Impedimentos","Defesas","Bolas recuperadas","Bolas perdidas","Faltas cometidas","Cartões amarelos","Cartões vermelhos","Distância corrida com bola","Distância corrida sem bola","Passes curtos","Passes médios","Passes longos","Porcentagem de passes completos"]
+    
+    times["Mordidas"] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+    
+    print(times)
+    return times
+
 def limpaBase(base):
     client = MongoClient()
     my_db = client["copa"]
@@ -449,7 +477,9 @@ def limpaBases():
 def fazCalculos():
     consultaBase("jogadores_fifa").to_csv("jogadores_fifa_cadajogo.csv")
     consultaBase("jogos_fifa").to_csv("jogos_fifa.csv")
-    calculaTime().to_csv("times_fifa.csv")
+    times = calculaTime()
+    times.to_csv("times_fifa.csv")
+    calculaGrafico(times).to_csv("grafico_times.csv")
     calculaJogador().to_csv("jogadores_fifa_total.csv")
 
 #limpaBases()
@@ -463,10 +493,13 @@ def fazCalculos():
 #consultaData("20140619")
 #consultaData("20140620")
 #consultaData("20140621")
-#consultaData("20140622")
 #consultaData("20140623")
-consultaJogo("300186472")
+#consultaData("20140624")
+consultaJogo("300186482")
+consultaJogo("300186515")
 fazCalculos()
-#print(consultaBase("jogos_fifa"))
+#eventos = consultaBase("jogos_fifa")
+#print(eventos[eventos.time1 == "Argentina"])
+#print(eventos[eventos.time2 == "Argentina"])
 #consultaBase("jogos_fifa").to_csv("teste_fifa.csv",index=False)
 #consultaBase("jogadores_fifa").to_csv("teste_fifa.csv")
