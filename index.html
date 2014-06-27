@@ -8,8 +8,12 @@
     <script type="text/javascript" src ="estadao_dados.js"></script>
 </head>
 <body>
-    Veja a média de <select id="recorte" onchange="mudaRecorte()">
-        <option value="Gols">Gols</option>
+    Escolha o dado: <select id="recorte_selecoes" onchange="mudaRecorteSelecoes()"> 
+        <option value="Pontos">Pontos</option>
+        <option value="Ranking">Ranking</option>
+        <option value="Gols">Gols feitos</option>
+        <option value="Gols Sofridos">Gols sofridos</option>
+        <option value="Saldo de Gols">Saldo de Gols</option>
         <option value="Ataques">Ataques</option>
         <option value="Desarmes">Desarmes</option>
         <option value="Passes completados">Passes completados</option>
@@ -33,10 +37,13 @@
         <option value="Passes longos">Passes longos</option>
         <option value="Porcentagem de passes completos">Porcentagem de passes completos</option>
         <option value="Mordidas">Mordidas</option>
-    </select> por partida
+    </select> 
+    
+    <text id="media_selecoes" style="display: none;"> - média por partida</text>
+    <text id="total_selecoes" style="display: none;"> - total</text>
 
     <div id="selecoes">
-    <script>inicializa();</script>
+    <script>inicializa_selecoes();</script>
 </div>
 </body>
 </html>

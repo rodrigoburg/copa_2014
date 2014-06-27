@@ -1,6 +1,8 @@
 import xlsxwriter
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import time
+from datetime import date
 import csv
 from pymongo import MongoClient
 from pandas import DataFrame, pivot_table, merge,concat, Series
@@ -164,7 +166,7 @@ def atualizaJogadoresInfo(jogadores,partida):
             jogador["altura"] = infos[3].split(" ")[0]
             jogador["peso"] = infos[4].split(" ")[0]
             try: #se tiver data de nascimento
-                jogador["ano_nascimento"] = infos[5].split(",")[1].strip().split("&")[0]
+                jogador["ano_nascimento"] = infos[5].strip().split("&")[0]
             except IndexError: #se não tiver
                 jogador["ano_nascimento"] = "indefinido"
         except IndexError:
@@ -406,6 +408,7 @@ def calculaFaltas(eventos):
     resultado.to_csv("faltas_stats.csv")
 
 def calculaJogador(eventos):
+
     #calcula partidas titulares dos jogadores
     titulares = eventos[eventos.evento == "titular"]
     titular = pivot_table(titulares, values='evento', rows="codigo", aggfunc="count")
@@ -441,7 +444,7 @@ def calculaJogador(eventos):
     
     #adiciona infos do jogador que está no banco de dados
     jogadores_antigos = consultaBase("jogadores_info")
-
+    
     #enche vazios e NAs com 0
     jogadores_antigos = jogadores_antigos.fillna(0)
     for coluna in jogadores_antigos:
@@ -453,13 +456,13 @@ def calculaJogador(eventos):
     
     #faz a tabela dinâmica das infos antigas
     antigos_dinamica = jogadores_antigos.groupby("codigo").sum()
-    del antigos_dinamica["ano_nascimento"]
+    
     del antigos_dinamica["peso"]
     
     #adiciona infos que retiramos (nome, ano nascimento e peso)
     jogadores_antigos = jogadores_antigos.set_index("codigo")
     for coluna in jogadores_antigos:
-        if coluna not in ["nome","ano_nascimento","peso","time"]:
+        if coluna not in ["nome","ano_nascimento","peso","time","posicao","altura"]:
             del jogadores_antigos[coluna]
     
     #junta as infos
@@ -467,9 +470,131 @@ def calculaJogador(eventos):
 
     resultado = final.join(resultado,how="right")
     resultado = resultado.drop_duplicates()
-
+    
+    #arruma o nome dos times para português
+    resultado["time"] = resultado["time"].apply(arrumaTime)
+    
     resultado.to_csv("jogador_stats_somado.csv")
+    
+    return resultado
 
+def graficoJogador(jogadores):
+    #coloca o nome como index
+    jogadores.index = jogadores["nome"]
+    
+    #descobre idade
+    jogadores["idade"] = jogadores["ano_nascimento"].apply(achaIdade)
+    
+    #arruma posição
+    traducao = {"Goalkeeper":"Goleiro","Defender":"Zagueiro","Midfielder":"Meio Campo","Forward":"Atacante"}
+    jogadores["posicao"] = jogadores["posicao"].apply(lambda t: traducao[t])
+    
+    #descobre número jogos jogados
+    jogadores["jogos"] = jogadores["titular"] = jogadores["entrou"]
+    
+    #calcula aproveitamento e chutes no alvo
+    jogadores["aproveitamento"] = jogadores["gols"]/jogadores["chutes_total"]    
+    jogadores["mira_certa"] = jogadores["chutes_certos"]/jogadores["chutes_total"]
+
+    #calcula média
+    colunas_com_media = ["assistencias","bloqueios","carrinhos","chutes_certos","chutes_total","cruzamentos","faltas_cometidas","faltas_sofridas","gols","impedimentos","passes","roubadas"]
+    for c in colunas_com_media:
+        jogadores[c+"_media"] = jogadores[c]/jogadores["jogos"]
+    jogadores = jogadores.replace([np.inf, -np.inf], np.nan)
+    jogadores = jogadores.fillna(0)
+    
+    #arredonda tudo
+    for coluna in jogadores:
+        try:
+            jogadores[coluna] = jogadores[coluna].apply(lambda t:round(t,1))
+        except:
+            pass
+    
+    del jogadores["ano_nascimento"]
+    del jogadores["entrou"]
+    del jogadores["saiu"]
+    del jogadores["titular"]
+    del jogadores["banco"]
+    del jogadores["nome"]
+    
+    jogadores.columns = ['Altura', 'Peso', 'posicao', 'time', 'Assistências', 'Bloqueios', 'Carrinhos', 'Chutes Certos', 'Chutes ao gol - Total', 'Cruzamentos', 'Faltas Cometidas', 'Faltas Sofridas', 'Gols', 'Impedimentos', 'Passes', 'Roubadas', 'Cartões Amarelos', 'Cartões Vermelhos', 'Idade', 'Jogos', 'Chutes convertidos em gols (%)', 'Acerto de chutes (%)', 'Assistências - Média', 'Bloqueios - Média', 'Carrinhos - Média', 'Chutes Certos - Média', 'Chutes ao gol - Média', 'Cruzamentos - Média', 'Faltas Cometidas - Média', 'Faltas Sofridas - Média', 'Gols - Média', 'Impedimentos - Média', 'Passes - Média', 'Roubadas - Média']
+
+    jogadores.to_csv("grafico_jogadores.csv")
+    
+
+def achaIdade(data_nascimento):
+    #acha dia, mês e ano
+    campos = data_nascimento.split(" ")
+    dia = campos[0]
+    mes = campos[1].replace(",","")
+    ano = campos[2]
+    
+    #conserta o mês
+    datas = {
+        "January":"01",
+        "February":"02",
+        "March":"03",
+        "April":"04",
+        "May":"05",
+        "June":"06",
+        "July":"07",
+        "August":"08",
+        "September":"09",
+        "October":"10",
+        "November":"11",
+        "December":"12",
+    }
+    mes = datas[mes]
+    
+    data_string = dia + "/" + mes + "/" + ano
+    
+    data = time.strptime(data_string, "%d/%m/%Y")
+    
+    idade = calculate_age(data)
+    
+    return idade
+
+def calculate_age(born):
+    today = date.today()
+    return today.year - born.tm_year - ((today.month, today.day) < (born.tm_mon, born.tm_mday))
+    
+def arrumaTime(time):
+    traducao = {
+        "Germany":"Alemanha",
+        "Algeria":"Argélia",
+        "Argentina":"Argentina",
+        "Australia":"Austrália",
+        "Belgium":"Bélgica",
+        "Bosnia-Herzegovina":"Bósnia",
+        "Brazil":"Brasil",
+        "Ivory Coast":"C. Marfim",
+        "Cameroon":"Camarões",
+        "Chile":"Chile",
+        "Colombia":"Colômbia",
+        "Korea Republic":"Coreia",
+        "Costa Rica":"Costa Rica",
+        "Croatia":"Croácia",
+        "Ecuador":"Equador",
+        "Spain":"Espanha",
+        "United States":"Estados Unidos",
+        "France":"França",
+        "Ghana":"Gana",
+        "Greece":"Grécia",
+        "Netherlands":"Holanda",
+        "Honduras":"Honduras",
+        "England":"Inglaterra",
+        "Iran":"Irã",
+        "Italy":"Itália",
+        "Japan":"Japão",
+        "Mexico":"México",
+        "Nigeria":"Nigéria",
+        "Portugal":"Portugal",
+        "Russia":"Rússia",
+        "Switzerland":"Suíça",
+        "Uruguay":"Uruguai"
+    }
+    return traducao[time]
+    
 def encheEspaco(t):
     if t == "":
         return 0
@@ -546,7 +671,7 @@ def desenhaExcel():
         worksheet.write(s, soma[s])
 
 def atualizaPartidas():
-    data_inicio = datetime.strptime('26062014', "%d%m%Y").date()
+    data_inicio = datetime.strptime('12062014', "%d%m%Y").date()
     data_fim = datetime.strptime('26062014', "%d%m%Y").date()
     delta = data_fim - data_inicio
     datas = []
@@ -566,12 +691,13 @@ def limpaBases():
 def fazConsultas():
     calculaGols(consultaBase("eventos"))
     calculaFaltas(consultaBase("eventos"))
-    calculaJogador(consultaBase("jogadores"))
+    jogador = calculaJogador(consultaBase("jogadores"))
+    graficoJogador(jogador)
     
 
 #desenhaExcel()
 #limpaBases()
-atualizaPartidas()
+#atualizaPartidas()
 fazConsultas()
 #calculaJogador(consultaBase("jogadores"))
 #teste.to_csv("teste_copa.csv")

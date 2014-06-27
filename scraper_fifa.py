@@ -370,6 +370,11 @@ def calculaTime():
     eventos["derrotas1"] = eventos.apply(lambda row:1 if row["gols1"] < row["gols2"] else 0,axis=1)
     eventos["derrotas2"] = eventos.apply(lambda row:1 if row["gols2"] < row["gols1"] else 0,axis=1)
     
+    #arruma gols contra
+    
+    eventos["gols_sofridos1"] = eventos["gols2"]
+    eventos["gols_sofridos2"] = eventos["gols1"]
+    
     colunas = list(eventos.columns)
     #retira o código do jogo
     colunas.pop(0) 
@@ -438,9 +443,13 @@ def calculaJogador():
 
 def calculaGrafico(times):
     
+    #cria novas colunas
+    times["pontos"] = 3*times["vitorias"] + 1*times["empates"]
+    times["saldo_gols"] = times["gols"] - times["gols_sofridos"]
+    
     #calcula as médias
     for column in times:
-        if column not in ["vitorias","empates","derrotas","jogos"]:
+        if column not in ["vitorias","empates","derrotas","jogos","pontos","saldo_gols","gols","gols_sofridos"]:
             times[column] = times[column]/times["jogos"]
             times[column] = times[column].apply(lambda value:round(value,1))
     
@@ -457,12 +466,33 @@ def calculaGrafico(times):
     del times ["derrotas"]
     del times ["jogos"]
     
-    times.columns = ["Gols","Ataques","Desarmes","Passes completados","Posse de bola","Chutes certos","Chutes para fora","Jogadas de bola parada","Cruzamentos","Escanteios","Impedimentos","Defesas","Bolas recuperadas","Bolas perdidas","Faltas cometidas","Cartões amarelos","Cartões vermelhos","Distância corrida com bola","Distância corrida sem bola","Passes curtos","Passes médios","Passes longos","Porcentagem de passes completos"]
+    times.columns = ["Gols","Ataques","Desarmes","Passes completados","Posse de bola","Chutes certos","Chutes para fora","Jogadas de bola parada","Cruzamentos","Escanteios","Impedimentos","Defesas","Bolas recuperadas","Bolas perdidas","Faltas cometidas","Cartões amarelos","Cartões vermelhos","Distância corrida com bola","Distância corrida sem bola","Passes curtos","Passes médios","Passes longos","Porcentagem de passes completos","Gols Sofridos","Pontos","Saldo de Gols"]
     
     times["Mordidas"] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
     
-    print(times)
+    #acha ranking
+    times = times.sort(["Pontos","Saldo de Gols","Gols"],ascending=[0,0,0])
+    times["Ranking"] = range(1,33)
+    
+    #iguala o ranking se os pontos, saldo e gols pró forem iguais
+    times["pontuacao"] = times["Pontos"]*100 + times["Saldo de Gols"] + times["Gols"]*0.01
+    
+    #para cada um dos times
+    for t in times.index:
+        #cria lista com nome dos times que têm pontuação igual ao do que estamos vendo agora
+        times_mesma_pontuacao = list(times[times.pontuacao == float(times[times.index == t]["pontuacao"])].index)
+        #se houver mais um time nessa situação - ou seja, um empate
+        if len(times_mesma_pontuacao) > 1:
+            #acha o ranking do time que está acima (será o primeiro)
+            ranking = times.loc[t,"Ranking"]
+            #coloca o ranking igual para todos os outros times da nossa lista de mesmos pontos
+            for outro_t in times_mesma_pontuacao:
+                times.loc[outro_t,"Ranking"] = ranking
+
+    del times ["pontuacao"]
+    
     return times
+
 
 def limpaBase(base):
     client = MongoClient()
@@ -495,8 +525,8 @@ def fazCalculos():
 #consultaData("20140621")
 #consultaData("20140623")
 #consultaData("20140624")
-consultaJogo("300186476")
-consultaJogo("300186469")
+#consultaJogo("300186480")
+#consultaJogo("300186506")
 fazCalculos()
 #eventos = consultaBase("jogos_fifa")
 #print(eventos[eventos.time1 == "Argentina"])

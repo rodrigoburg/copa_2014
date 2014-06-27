@@ -8,25 +8,76 @@
     <script type="text/javascript" src ="jogadores.js"></script>
 </head>
 <body>
-    Veja a média de <select id="recorte" onchange="mudaRecorte()">
-      <option value="gols">Gols</option>
-      <option value="assistencias">Assistências</option>
-      <option value="bloqueios">Bloqueios</option>
-      <option value="carrinhos">Carrinhos</option>
-      <option value="chutes_certos">Chutes certos</option>
-      <option value="chutes_total">Total de chutes</option>
-      <option value="cruzamentos">Cruzamentos</option>
-      <option value="faltas_cometidas">Faltas cometidas</option>
-      <option value="faltas_sofridas">Faltas sofridas</option>
-      <option value="impedimentos">Impedimentos</option>
-      <option value="passes">Passes</option>
-      <option value="roubadas">Roubadas</option>
-      <option value="amarelo">Cartões Amarelos</option>
-      <option value="vermelho">Cartões Vermelhos</option>
-      <option value="peso">Peso</option>
-    </select> por partida
+    Escolha o dado: <select id="recorte" onchange="mudaRecorte()">
+    <option value="Gols">Gols</option>  
+    <option value="Chutes convertidos em gols (%)">Chutes convertidos em gols (%)</option>  
+    <option value="Chutes ao gol - Total">Chutes ao gol - Total</option>  
+    <option value="Chutes Certos">Chutes Certos</option>  
+    <option value="Acerto de chutes (%)">Acerto de chutes (%)</option>
+    <option value="Assistências">Assistências</option>  
+    <option value="Bloqueios">Bloqueios</option>  
+    <option value="Carrinhos">Carrinhos</option>  
+    <option value="Cruzamentos">Cruzamentos</option>  
+    <option value="Faltas Cometidas">Faltas Cometidas</option>  
+    <option value="Faltas Sofridas">Faltas Sofridas</option>  
+    <option value="Impedimentos">Impedimentos</option>  
+    <option value="Passes">Passes</option>  
+    <option value="Roubadas">Roubadas</option>  
+    <option value="Cartões Amarelos">Cartões Amarelos</option>  
+    <option value="Cartões Vermelhos">Cartões Vermelhos</option>  
+    <option value="Idade">Idade</option>
+    <option value="Altura">Altura</option>  
+    <option value="Peso">Peso</option>  
+    </select> <text id="media" style="display: none;"> - média por partida</text> <text id="total" style="display: none;"> - total</text>
 
+    <br>
+    <br>
+    Filtre por:    Time: <select id="time" onchange="mudaAgrupa()">
+        <option value="total">Total</option>
+        <option class="select-dash" disabled="disabled">----</option>
+        <option value="Alemanha">Alemanha</option>
+        <option value="Argélia">Argélia</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Austrália">Austrália</option>
+        <option value="Bélgica">Bélgica</option>
+        <option value="Bósnia">Bósnia</option>
+        <option value="Brasil">Brasil</option>
+        <option value="C. Marfim">C. Marfim</option>
+        <option value="Camarões">Camarões</option>
+        <option value="Chile">Chile</option>
+        <option value="Colômbia">Colômbia</option>
+        <option value="Coreia">Coreia</option>
+        <option value="Costa Rica">Costa Rica</option>
+        <option value="Croácia">Croácia</option>
+        <option value="Equador">Equador</option>
+        <option value="Espanha">Espanha</option>
+        <option value="Estados Unidos">Estados Unidos</option>
+        <option value="França">França</option>
+        <option value="Gana">Gana</option>
+        <option value="Grécia">Grécia</option>
+        <option value="Holanda">Holanda</option>
+        <option value="Honduras">Honduras</option>
+        <option value="Inglaterra">Inglaterra</option>
+        <option value="Irã">Irã</option>
+        <option value="Itália">Itália</option>
+        <option value="Japão">Japão</option>
+        <option value="México">México</option>
+        <option value="Nigéria">Nigéria</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Rússia">Rússia</option>
+        <option value="Suíça">Suíça</option>
+        <option value="Uruguai">Uruguai</option>
+    </select>
+    <br> 
+    Posição: <select id="posicao" onchange="mudaPosicao()">
+        <option value="total">Todas</option>
+        <option value="Atacante">Atacante</option>
+        <option value="Meio Campo">Meio-campo</option>
+        <option value="Zagueiro">Zagueiro</option>
+        <option value="Goleiro">Goleiro</option>        
+    </select>        
     <div id="jogador"></div>
+    <script type="text/javascript" src ="jogadores.js"></script>
     <script>inicializa();</script>
 </body>
 </html>
