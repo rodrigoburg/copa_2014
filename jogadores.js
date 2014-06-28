@@ -1,91 +1,115 @@
-var complete_data = null;
-var time = null
-var recorte = null
-var svg = null;
-var posicao = null
+var complete_data = null,
+time = null,
+recorte = null,
+svg = null,
+posicao = null,
+ordem = "Decrescente";
 
 function mudaRecorte() {
     //pega o valor
     var recorte = jQuery("#recorte").val();
     window.recorte = recorte
-    
-    //deleta o svg
-	jQuery("#jogador").replaceWith('<div id="jogador"></div>');
-	desenhaGrafico();
+
+    redesenhaGrafico();
 }
 
 function mudaAgrupa() {
     //pega o valor
     var time = jQuery("#time").val();
     window.time = time;
-    
-    //deleta o svg
-	jQuery("#jogador").replaceWith('<div id="jogador"></div>');
-	desenhaGrafico();
+
+    redesenhaGrafico();
 }
 
 function mudaPosicao() {
     //pega o valor
     var posicao = jQuery("#posicao").val();
     window.posicao = posicao;
-    
-    //deleta o svg
-	jQuery("#jogador").replaceWith('<div id="jogador"></div>');
-	desenhaGrafico();
+
+    redesenhaGrafico();
 }
 
+function mudaOrdem(el){
+    //pega o valor
+    var ordem = el.value;
+    window.ordem = ordem;
+    $(el).prop('checked',true);
+    //$('input[name="ordem"][value="' + ordem + '"]').prop('checked', true);
+    $('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
+
+    redesenhaGrafico();
+}
+
+function redesenhaGrafico(){
+    //deleta o svg
+    jQuery("#jogador").replaceWith('<div id="jogador"></div>');
+    desenhaGrafico();
+}
+
+function ordenaDados(a, b){
+    if (window.ordem == "Crescente") {
+        return a[window.recorte] - b[window.recorte];
+    } else {
+        return b[window.recorte] - a[window.recorte];
+    }
+}
 
 function desenhaGrafico()    {
     //pega as variáveis
-    var recorte = window.recorte
-    var time = window.time
-    var data = window.complete_data;
-    
+    var recorte = window.recorte,
+        time = window.time,
+        data = window.complete_data,
+        ordem = window.ordem;
+
     //vê se há timemento por time
     if (time != "total") {
         data = dimple.filterData(data,"time",time);
     }
-    
+
     //vê se há timemento por posição
     if (posicao != "total") {
         data = dimple.filterData(data,"posicao",posicao);
     }
-    
+
     //desenha o gráfico
     var svg = dimple.newSvg("#jogador", 950, 520);
-    
+
     //elimina todos com zero
     data = data.filter(function(a){return a[recorte] > 0;});
-    
+
     //pega os 32 top
-    data.sort(function(a,b){return b[recorte] - a[recorte];});
+    data.sort(ordenaDados);
     data = data.slice(0,32);
-    
+
     var myChart = new dimple.chart(svg, data);
-    myChart.setBounds(140, 30, 500, 405)
+    myChart.setBounds(140, 30, 500, 405);
     var x = myChart.addMeasureAxis("x", recorte);
-    
+
     //coloca % se a variável pedir
     if (["Chutes convertidos em gols (%)","Acerto de chutes (%)"].indexOf(recorte)>=0) {
         x.tickFormat = "%";
     }
     var y = myChart.addCategoryAxis("y", "nome");
     //retira o título do eixo Y
-    y.title = ""
+    y.title = "";
     var series = myChart.addSeries("nome", dimple.plot.bar);
-    y.addOrderRule(recorte,false)
-    
+    if (ordem == "Decrescente") {
+        y.addOrderRule(recorte,false);
+    } else {
+        y.addOrderRule(recorte,true);
+    }
+
     //arruma o gráfico
-    myChart = colore(myChart)
-    myChart = arrumaTolltip(myChart)
-    
+    myChart = colore(myChart);
+    myChart = arrumaTolltip(myChart);
+
     //desenha
     myChart.draw();
-    
+
     //continua arrumando
     colocaOrdem(myChart)
     arrumaMedia(recorte);
-    
+
 }
 
 function colore(myChart) {
@@ -124,7 +148,7 @@ function colore(myChart) {
         "Argélia":"#DAFFD6",
         "Irã":"#616E5F"
     }
-    
+
     //coloca as cores (fill para Brasil e Argélia)
     for (jogador in myChart.data) {
         if (myChart.data[jogador].time == "Brasil") {
@@ -136,7 +160,7 @@ function colore(myChart) {
         myChart.assignColor(myChart.data[jogador].nome,cores[myChart.data[jogador].time])
         }
     }
-    return myChart
+    return myChart;
 }
 
 function arrumaTolltip(chart) {
@@ -144,76 +168,89 @@ function arrumaTolltip(chart) {
         //pega o nome
         var nome = e.aggField[0]
         //filtra o dado do gráfico e pega o time do jogador
-        var time = chart.data.filter(function (a) { return a["nome"] == nome})[0]["time"] 
+        var time = chart.data.filter(function (a) { return a["nome"] == nome})[0]["time"]
 
         return [
            window.recorte+": "+ e.xValue ,
            "Time: "+ time
         ];
     };
-    return chart
-    
+    return chart;
+
 }
 function inicializa() {
     //checa se tem variavel na url
     //se tiver, coloca o recorte como ela e muda a option
     variaveis = getUrlVars()
-   
+
     if ("recorte" in variaveis) {
-        var recorte = variaveis["recorte"]
-        jQuery('#recorte').val(recorte)
+        var recorte = variaveis["recorte"];
+        jQuery('#recorte').val(recorte);
     }
     //se não tiver, coloca Gols mesmo
     else {
-        var recorte = "Gols"
+        var recorte = "Gols";
     }
-    
+
     //faz o mesmo com o time
     if ("time" in variaveis) {
-            var time = variaveis["time"]
-            jQuery('#time').val(time)
+            var time = variaveis["time"];
+            jQuery('#time').val(time);
         }
         //se não tiver, coloca total mesmo
         else {
-            var time = "total"
+            var time = "total";
     }
-    
+
     //faz o mesmo com a posicao
     if ("posicao" in variaveis) {
-            var posicao = variaveis["posicao"]
-            jQuery('#posicao').val(posicao)
+            var posicao = variaveis["posicao"];
+            jQuery('#posicao').val(posicao);
         }
         //se não tiver, coloca total mesmo
         else {
-            var posicao = "total"
+            var posicao = "total";
     }
-    
-    
-    window.recorte = recorte
-    window.time = time
-    window.posicao = posicao
-    
+
+    //faz o mesmo com a ordem
+    if ("ordem" in variaveis) {
+            var ordem = variaveis["ordem"];
+            jQuery('#ordem').val(ordem);
+            $('input[name="ordem"][value="' + ordem + '"]').prop('checked', true);
+            $('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
+        }
+        //se não tiver, coloca total mesmo
+        else {
+            var ordem = "Decrescente";
+    }
+
+    window.recorte = recorte;
+    window.time = time;
+    window.posicao = posicao;
+    window.ordem = ordem;
+
+
     //carrega os dados e cria o gráfico
 //    d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv.csv", function (data) {
     d3.csv("grafico_jogadores.csv", function (data) {
     window.complete_data = data;
-    desenhaGrafico()
+    desenhaGrafico();
     });
 }
 
 function colocaOrdem(chart) {
     //coloca bold no texto dos jogadores do Brasil
-    jogadores_BR = chart.data.filter(function (a) { return a["time"] == "Brasil"})
+    jogadores_BR = chart.data.filter(function (a) { return a["time"] == "Brasil"});
     for (j in jogadores_BR) {
-        jQuery("#jogador").find('text:contains("'+jogadores_BR[j]["nome"]+'")').css({'font-weight':'bold'})    
+        jQuery("#jogador").find('text:contains("'+jogadores_BR[j]["nome"]+'")').css({'font-weight':'bold'});
     }
-    
+
     //achar ordem dos jogadores
     jogadores = []
     nomes = jQuery("#jogador").find(".dimple-axis").find("text[x=-9]").each(
         function() {
             if (jQuery(this).text()) {
-                jogadores.push(jQuery(this).text())
+                jogadores.push(jQuery(this).text());
             }
         }
     );
@@ -227,12 +264,12 @@ function colocaOrdem(chart) {
 function arrumaMedia(recorte) {
     //se o recorte for algum desses:
     if (["Gols","Assistências","Cartões Amarelos","Cartões Vermelhos","Peso"].indexOf(recorte) >= 0) {
-        jQuery("#media").hide()
-        jQuery("#total").show()
+        jQuery("#media").hide();
+        jQuery("#total").show();
     }
     else {
-        jQuery("#total").hide()
-        jQuery("#media").show()    
+        jQuery("#total").hide();
+        jQuery("#media").show();
     }
 }
 

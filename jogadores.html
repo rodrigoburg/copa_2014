@@ -10,7 +10,7 @@
       .seletor-time {
         padding-left: 60px;
       }
-      .seletor-posicao {
+      .seletor-posicao, .seletor-ordem {
         padding-left: 10px;
       }
     </style>
@@ -18,25 +18,25 @@
 <body>
   <div id="filtro_dado">
     <b>Escolha o dado:</b> <select id="recorte" onchange="mudaRecorte()">
-      <option value="Gols">Gols</option>  
-      <option value="Chutes convertidos em gols (%)">Chutes convertidos em gols (%)</option>  
-      <option value="Chutes ao gol - Total">Chutes ao gol - Total</option>  
-      <option value="Chutes Certos">Chutes Certos</option>  
+      <option value="Gols">Gols</option>
+      <option value="Chutes convertidos em gols (%)">Chutes convertidos em gols (%)</option>
+      <option value="Chutes ao gol - Total">Chutes ao gol - Total</option>
+      <option value="Chutes Certos">Chutes Certos</option>
       <option value="Acerto de chutes (%)">Acerto de chutes (%)</option>
-      <option value="Assistências">Assistências</option>  
-      <option value="Bloqueios">Bloqueios</option>  
-      <option value="Carrinhos">Carrinhos</option>  
-      <option value="Cruzamentos">Cruzamentos</option>  
-      <option value="Faltas Cometidas">Faltas Cometidas</option>  
-      <option value="Faltas Sofridas">Faltas Sofridas</option>  
-      <option value="Impedimentos">Impedimentos</option>  
-      <option value="Passes">Passes</option>  
-      <option value="Roubadas">Roubadas</option>  
-      <option value="Cartões Amarelos">Cartões Amarelos</option>  
-      <option value="Cartões Vermelhos">Cartões Vermelhos</option>  
+      <option value="Assistências">Assistências</option>
+      <option value="Bloqueios">Bloqueios</option>
+      <option value="Carrinhos">Carrinhos</option>
+      <option value="Cruzamentos">Cruzamentos</option>
+      <option value="Faltas Cometidas">Faltas Cometidas</option>
+      <option value="Faltas Sofridas">Faltas Sofridas</option>
+      <option value="Impedimentos">Impedimentos</option>
+      <option value="Passes">Passes</option>
+      <option value="Roubadas">Roubadas</option>
+      <option value="Cartões Amarelos">Cartões Amarelos</option>
+      <option value="Cartões Vermelhos">Cartões Vermelhos</option>
       <option value="Idade">Idade</option>
-      <option value="Altura">Altura</option>  
-      <option value="Peso">Peso</option>  
+      <option value="Altura">Altura</option>
+      <option value="Peso">Peso</option>
       </select> (<text id="media" style="display: none;">média por partida</text><text id="total" style="display: none;">total</text>)
     <div/>
     <div id="filtros_adicionais">
@@ -79,13 +79,18 @@
           <option value="Uruguai">Uruguai</option>
         </select>
       </span>
-      <span class="seletor-posicao">Posição: <select id="posicao" onchange="mudaPosicao()">
-        <option value="total">Todas</option>
-        <option value="Atacante">Atacante</option>
-        <option value="Meio Campo">Meio-campo</option>
-        <option value="Zagueiro">Zagueiro</option>
-        <option value="Goleiro">Goleiro</option>        
-      </select></span>
+      <span class="seletor-posicao">
+        Posição: <select id="posicao" onchange="mudaPosicao()">
+          <option value="total">Todas</option>
+          <option value="Atacante">Atacante</option>
+          <option value="Meio Campo">Meio-campo</option>
+          <option value="Zagueiro">Zagueiro</option>
+          <option value="Goleiro">Goleiro</option>
+        </select>
+      </span>
+      <span class="seletor-ordem">
+        Ordem: <input type="radio" name="ordem" value="Decrescente" checked onChange="mudaOrdem(this)"> Decrescente  |  <input type="radio" name="ordem" value="Crescente" onChange="mudaOrdem(this)"> Crescente
+      </span>
     <div/>
     <div id="jogador"></div>
     <script type="text/javascript" src ="jogadores.js"></script>
