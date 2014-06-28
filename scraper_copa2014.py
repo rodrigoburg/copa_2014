@@ -71,8 +71,7 @@ def adicionaPartidas(partida):
 def adicionaJogadores(partida):
     codigo = partida['codigo_partida']
     url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_lineups_"+codigo+".txt&timezone=ET&pad=y&callback=cb"
-    #codigo = partida['codigo_partida']
-    #url = "http://hosted.stats.com/ifb2009/data.asp?file=en/natl_wcup_lineups_"+codigo+".txt"
+    
     page = BeautifulSoup(urlopen(url).read())
 
     #se houver info
@@ -100,8 +99,15 @@ def adicionaJogadores(partida):
             jogador["partida"] = codigo
             jogador["evento"] = "banco"
             resultado.append(jogador)
-    
-        for t in eventos_bruto.split("|"):
+        
+        #gambiarra pra pegar todas as substituições
+        eventos = [a.split("^") for a in eventos_bruto.split("|")]
+        eventos_limpos = []
+        for e in eventos:
+            for i in e:
+                eventos_limpos.append(i)
+
+        for t in eventos_limpos:
             campos = t.split("~")
             jogador = {}
             jogador["partida"] = codigo
@@ -490,7 +496,8 @@ def graficoJogador(jogadores):
     jogadores["posicao"] = jogadores["posicao"].apply(lambda t: traducao[t])
     
     #descobre número jogos jogados
-    jogadores["jogos"] = jogadores["titular"] = jogadores["entrou"]
+    jogadores["jogos"] = jogadores["titular"] + jogadores["entrou"]
+    jogadores.to_csv("testesteeteste.csv")
     
     #calcula aproveitamento e chutes no alvo
     jogadores["aproveitamento"] = jogadores["gols"]/jogadores["chutes_total"]    
@@ -696,9 +703,15 @@ def fazConsultas():
     
 
 #desenhaExcel()
-#limpaBases()
-#atualizaPartidas()
+limpaBases()
+atualizaPartidas()
 fazConsultas()
+#eventos = consultaBase("jogadores")
+#jogadores = consultaBase("jogadores_info")
+#jogadores = jogadores[jogadores.nome == "Fernandinho"]
+#eventos = eventos[eventos.codigo == 348958]
+#print(eventos)
+
 #calculaJogador(consultaBase("jogadores"))
 #teste.to_csv("teste_copa.csv")
 
