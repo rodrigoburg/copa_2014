@@ -8,7 +8,7 @@
     <script type="text/javascript" src ="jogadores.js"></script>
     <style>
       .seletor-time {
-        padding-left: 60px;
+        padding-left: 80px;
       }
       .seletor-posicao, .seletor-ordem {
         padding-left: 10px;
@@ -17,10 +17,10 @@
 </head>
 <body>
   <div id="filtro_dado">
-    <b>Escolha o dado:</b> <select id="recorte" onchange="mudaRecorte()">
+    <b>Escolha:</b> <select id="recorte" onchange="mudaRecorte()">
       <option value="Gols">Gols</option>
       <option value="Chutes convertidos em gols (%)">Chutes convertidos em gols (%)</option>
-      <option value="Chutes ao gol - Total">Chutes ao gol - Total</option>
+      <option value="Chutes ao gol">Chutes ao gol</option>
       <option value="Chutes Certos">Chutes Certos</option>
       <option value="Acerto de chutes (%)">Acerto de chutes (%)</option>
       <option value="Assistências">Assistências</option>
@@ -37,7 +37,8 @@
       <option value="Idade">Idade</option>
       <option value="Altura">Altura</option>
       <option value="Peso">Peso</option>
-      </select> (<text id="media" style="display: none;">média por partida</text><text id="total" style="display: none;">total</text>)
+      </select> <span id="total_media"><input type="radio" name="media" value="total" checked onChange="mudaMedia(this)"> Total | <input type="radio" name="media" value="media" onChange="mudaMedia(this)"> Média por jogo </span>
+
     <div/>
     <div id="filtros_adicionais">
       <b>Filtre por:</b><br/>

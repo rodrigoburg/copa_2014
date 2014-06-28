@@ -517,7 +517,7 @@ def graficoJogador(jogadores):
     del jogadores["banco"]
     del jogadores["nome"]
     
-    jogadores.columns = ['Altura', 'Peso', 'posicao', 'time', 'Assistências', 'Bloqueios', 'Carrinhos', 'Chutes Certos', 'Chutes ao gol - Total', 'Cruzamentos', 'Faltas Cometidas', 'Faltas Sofridas', 'Gols', 'Impedimentos', 'Passes', 'Roubadas', 'Cartões Amarelos', 'Cartões Vermelhos', 'Idade', 'Jogos', 'Chutes convertidos em gols (%)', 'Acerto de chutes (%)', 'Assistências - Média', 'Bloqueios - Média', 'Carrinhos - Média', 'Chutes Certos - Média', 'Chutes ao gol - Média', 'Cruzamentos - Média', 'Faltas Cometidas - Média', 'Faltas Sofridas - Média', 'Gols - Média', 'Impedimentos - Média', 'Passes - Média', 'Roubadas - Média']
+    jogadores.columns = ['Altura', 'Peso', 'posicao', 'time', 'Assistências', 'Bloqueios', 'Carrinhos', 'Chutes Certos', 'Chutes ao gol', 'Cruzamentos', 'Faltas Cometidas', 'Faltas Sofridas', 'Gols', 'Impedimentos', 'Passes', 'Roubadas', 'Cartões Amarelos', 'Cartões Vermelhos', 'Idade', 'Jogos', 'Chutes convertidos em gols (%)', 'Acerto de chutes (%)', 'Assistências - Média', 'Bloqueios - Média', 'Carrinhos - Média', 'Chutes Certos - Média', 'Chutes ao gol - Média', 'Cruzamentos - Média', 'Faltas Cometidas - Média', 'Faltas Sofridas - Média', 'Gols - Média', 'Impedimentos - Média', 'Passes - Média', 'Roubadas - Média']
 
     jogadores.to_csv("grafico_jogadores.csv")
     

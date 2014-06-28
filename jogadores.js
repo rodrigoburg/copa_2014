@@ -9,7 +9,11 @@ function mudaRecorte() {
     //pega o valor
     var recorte = jQuery("#recorte").val();
     window.recorte = recorte
-
+    
+    //reseta radio da média para total
+    $('input[name="media"][value!="media"]').prop('checked', false);
+    $('input[name="media"][value="total"]').prop('checked', true);
+    
     redesenhaGrafico();
 }
 
@@ -29,12 +33,31 @@ function mudaPosicao() {
     redesenhaGrafico();
 }
 
+function mudaMedia(el) {
+    //passa o valor
+    media = el.value
+    window.media = media;
+
+    //ativa ou reativa o radio
+    $(el).prop('checked',true);
+    $('input[name="media"][value!="' + media + '"]').prop('checked', false);
+    
+    //muda o nome da variável se for necessário
+    if (media == "media") {
+        recorte = recorte + " - Média"
+    } else {
+        recorte = recorte.replace(" - Média","")
+    }
+
+	redesenhaGrafico();
+    
+}
+
 function mudaOrdem(el){
     //pega o valor
     var ordem = el.value;
     window.ordem = ordem;
     $(el).prop('checked',true);
-    //$('input[name="ordem"][value="' + ordem + '"]').prop('checked', true);
     $('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
 
     redesenhaGrafico();
@@ -93,6 +116,7 @@ function desenhaGrafico()    {
     //retira o título do eixo Y
     y.title = "";
     var series = myChart.addSeries("nome", dimple.plot.bar);
+    
     if (ordem == "Decrescente") {
         y.addOrderRule(recorte,false);
     } else {
@@ -108,8 +132,8 @@ function desenhaGrafico()    {
 
     //continua arrumando
     colocaOrdem(myChart)
-    arrumaMedia(recorte);
-
+    mostraRadios();
+    
 }
 
 function colore(myChart) {
@@ -223,12 +247,27 @@ function inicializa() {
         else {
             var ordem = "Decrescente";
     }
-
+    
+    //faz o mesmo com a media
+    if ("media" in variaveis) {
+        var media = variaveis["media"]
+        var radios = document.total_media.media
+        for (var id = 0; id < radios.length; id++) {
+            if (radios[id].value == media) jQuery(radios[id]).attr('disabled',false);
+        }
+    }
+    else {
+        var media = "total"
+    }
+    
+    window.media = media;
     window.recorte = recorte;
     window.time = time;
     window.posicao = posicao;
     window.ordem = ordem;
 
+    //mostra ou não mostra os radios de total e média
+    mostraRadios()
 
     //carrega os dados e cria o gráfico
 //    d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv.csv", function (data) {
@@ -261,15 +300,20 @@ function colocaOrdem(chart) {
     }
 }
 
-function arrumaMedia(recorte) {
-    //se o recorte for algum desses:
-    if (["Gols","Assistências","Cartões Amarelos","Cartões Vermelhos","Peso"].indexOf(recorte) >= 0) {
-        jQuery("#media").hide();
-        jQuery("#total").show();
-    }
-    else {
-        jQuery("#total").hide();
-        jQuery("#media").show();
+function mostraRadios() {
+    //vê quais são nossos agrupamentos
+    var media = window.media
+    var recorte = window.recorte
+    
+    //se recorte estiver com média, tira
+    recorte = recorte.replace(" - Média","")
+    
+    var variaveis_com_media = ['Assistências', 'Bloqueios', 'Carrinhos', 'Chutes Certos', 'Chutes ao gol', 'Cruzamentos', 'Faltas Cometidas', 'Faltas Sofridas', 'Gols', 'Impedimentos', 'Passes', 'Roubadas']
+    
+    if (variaveis_com_media.indexOf(recorte) >= 0) {
+        jQuery("#total_media").show()
+    } else { 
+        jQuery("#total_media").hide()
     }
 }
 
