@@ -31,8 +31,12 @@ def consultaData(data):
             url = url.replace("index","statistics")
             scrape_pagina(url)
 
-def consultaJogo(codigo):
-    url = "http://pt.fifa.com/worldcup/matches/round=255931/match="+codigo+"/statistics.html"
+def consultaJogo(codigo,segunda_fase):
+    if segunda_fase:
+        url = "http://pt.fifa.com/worldcup/matches/round=255951/match="+codigo+"/statistics.html"        
+    else:
+        url = "http://pt.fifa.com/worldcup/matches/round=255931/match="+codigo+"/statistics.html"
+        
     scrape_pagina(url)
 
 def scrape_pagina(url):
@@ -523,9 +527,11 @@ def fazCalculos():
 #consultaData("20140619")
 #consultaData("20140620")
 #consultaData("20140621")
-#consultaData("20140623")
+#consultaData("20140622")
 #consultaData("20140624")
-#consultaJogo("300186480")
+#consultaData("20140625")
+#consultaData("20140626")
+consultaJogo("300186491",True)
 #consultaJogo("300186506")
 fazCalculos()
 #eventos = consultaBase("jogos_fifa")

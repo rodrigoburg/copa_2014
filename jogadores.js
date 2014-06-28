@@ -1,18 +1,17 @@
-var complete_data = null,
-time = null,
-recorte = null,
-svg = null,
-posicao = null,
-ordem = "Decrescente";
+var jogador_data = null,
+time_jogador = null,
+recorte_jogador = null,
+posicao_jogador = null,
+ordem_jogador = "Decrescente";
 
 function mudaRecorte() {
     //pega o valor
     var recorte = jQuery("#recorte").val();
-    window.recorte = recorte
+    window.recorte_jogador = recorte
     
     //reseta radio da média para total
-    $('input[name="media"][value!="media"]').prop('checked', false);
-    $('input[name="media"][value="total"]').prop('checked', true);
+    jQuery('input[name="media"][value!="media"]').prop('checked', false);
+    jQuery('input[name="media"][value="total"]').prop('checked', true);
     
     redesenhaGrafico();
 }
@@ -20,7 +19,7 @@ function mudaRecorte() {
 function mudaAgrupa() {
     //pega o valor
     var time = jQuery("#time").val();
-    window.time = time;
+    window.time_jogador = time;
 
     redesenhaGrafico();
 }
@@ -28,7 +27,7 @@ function mudaAgrupa() {
 function mudaPosicao() {
     //pega o valor
     var posicao = jQuery("#posicao").val();
-    window.posicao = posicao;
+    window.posicao_jogador = posicao;
 
     redesenhaGrafico();
 }
@@ -39,8 +38,8 @@ function mudaMedia(el) {
     window.media = media;
 
     //ativa ou reativa o radio
-    $(el).prop('checked',true);
-    $('input[name="media"][value!="' + media + '"]').prop('checked', false);
+    jQuery(el).prop('checked',true);
+    jQuery('input[name="media"][value!="' + media + '"]').prop('checked', false);
     
     //muda o nome da variável se for necessário
     if (media == "media") {
@@ -56,9 +55,9 @@ function mudaMedia(el) {
 function mudaOrdem(el){
     //pega o valor
     var ordem = el.value;
-    window.ordem = ordem;
-    $(el).prop('checked',true);
-    $('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
+    window.ordem_jogador = ordem;
+    jQuery(el).prop('checked',true);
+    jQuery('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
 
     redesenhaGrafico();
 }
@@ -70,26 +69,26 @@ function redesenhaGrafico(){
 }
 
 function ordenaDados(a, b){
-    if (window.ordem == "Crescente") {
-        return a[window.recorte] - b[window.recorte];
+    if (window.ordem_jogador == "Crescente") {
+        return a[window.recorte_jogador] - b[window.recorte_jogador];
     } else {
-        return b[window.recorte] - a[window.recorte];
+        return b[window.recorte_jogador] - a[window.recorte_jogador];
     }
 }
 
 function desenhaGrafico()    {
     //pega as variáveis
-    var recorte = window.recorte,
-        time = window.time,
-        data = window.complete_data,
-        ordem = window.ordem;
+    var recorte = window.recorte_jogador,
+        time = window.time_jogador,
+        data = window.jogador_data,
+        ordem = window.ordem_jogador;
+        posicao = window.posicao_jogador;
 
-    //vê se há timemento por time
+    //vê se há agrupamento por time
     if (time != "total") {
         data = dimple.filterData(data,"time",time);
     }
-
-    //vê se há timemento por posição
+    //vê se há agrupamento por posição
     if (posicao != "total") {
         data = dimple.filterData(data,"posicao",posicao);
     }
@@ -100,6 +99,11 @@ function desenhaGrafico()    {
     //elimina todos com zero
     data = data.filter(function(a){return a[recorte] > 0;});
 
+    //descobre o valor máximo
+    var maximo_x = d3.max(data, function(d) {
+        return parseInt(d[recorte]);
+    }); 
+    
     //pega os 32 top
     data.sort(ordenaDados);
     data = data.slice(0,32);
@@ -107,7 +111,10 @@ function desenhaGrafico()    {
     var myChart = new dimple.chart(svg, data);
     myChart.setBounds(140, 30, 500, 405);
     var x = myChart.addMeasureAxis("x", recorte);
-
+    
+    //bota o tamanho máximo de x (para igualar ordem crescente ou decrescente)
+    x.overrideMax = maximo_x;
+    
     //coloca % se a variável pedir
     if (["Chutes convertidos em gols (%)","Acerto de chutes (%)"].indexOf(recorte)>=0) {
         x.tickFormat = "%";
@@ -195,7 +202,7 @@ function arrumaTolltip(chart) {
         var time = chart.data.filter(function (a) { return a["nome"] == nome})[0]["time"]
 
         return [
-           window.recorte+": "+ e.xValue ,
+           window.recorte_jogador+": "+ e.xValue ,
            "Time: "+ time
         ];
     };
@@ -215,7 +222,7 @@ function inicializa() {
     else {
         var recorte = "Gols";
     }
-
+        
     //faz o mesmo com o time
     if ("time" in variaveis) {
             var time = variaveis["time"];
@@ -240,8 +247,8 @@ function inicializa() {
     if ("ordem" in variaveis) {
             var ordem = variaveis["ordem"];
             jQuery('#ordem').val(ordem);
-            $('input[name="ordem"][value="' + ordem + '"]').prop('checked', true);
-            $('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
+            jQuery('input[name="ordem"][value="' + ordem + '"]').prop('checked', true);
+            jQuery('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
         }
         //se não tiver, coloca total mesmo
         else {
@@ -261,18 +268,18 @@ function inicializa() {
     }
     
     window.media = media;
-    window.recorte = recorte;
-    window.time = time;
-    window.posicao = posicao;
-    window.ordem = ordem;
+    window.recorte_jogador = recorte;
+    window.time_jogador = time;
+    window.posicao_jogador = posicao;
+    window.ordem_jogador = ordem;
 
     //mostra ou não mostra os radios de total e média
     mostraRadios()
-
+    
     //carrega os dados e cria o gráfico
 //    d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv.csv", function (data) {
-    d3.csv("grafico_jogadores.csv", function (data) {
-    window.complete_data = data;
+    d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv", function (data) {
+    window.jogador_data = data;
     desenhaGrafico();
     });
 }
@@ -303,7 +310,7 @@ function colocaOrdem(chart) {
 function mostraRadios() {
     //vê quais são nossos agrupamentos
     var media = window.media
-    var recorte = window.recorte
+    var recorte = window.recorte_jogador
     
     //se recorte estiver com média, tira
     recorte = recorte.replace(" - Média","")

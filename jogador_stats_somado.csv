@@ -15,7 +15,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 330396,1.88,"22 April, 1987",John Obi Mikel,86,Midfielder,Nigéria,0,0,7,2,3,1,6,5,0,0,153,29,3.0,0.0,0.0,0.0,1.0,0.0
 330398,1.80,"11 March, 1978",Didier Drogba,91,Forward,C. Marfim,0,1,2,2,3,3,6,6,0,0,20,3,1.0,2.0,1.0,2.0,0.0,0.0
 331043,1.75,"5 August, 1985",Salomon Kalou,77,Forward,C. Marfim,0,1,3,3,7,6,7,2,0,0,48,4,2.0,1.0,0.0,1.0,1.0,0.0
-345016,1.85,"4 February, 1984",Mauricio Pinilla,75,Forward,Chile,0,0,0,1,1,0,0,0,0,0,6,1,0.0,3.0,0.0,2.0,0.0,0.0
+345016,1.85,"4 February, 1984",Mauricio Pinilla,75,Forward,Chile,0,0,1,2,4,0,2,1,0,0,12,2,0.0,3.0,0.0,3.0,1.0,0.0
 345298,1.90,"13 January, 1985",Souleymane Bamba,89,Defender,C. Marfim,0,2,2,0,1,0,4,1,0,0,140,23,3.0,0.0,0.0,0.0,1.0,0.0
 345322,1.79,"23 May, 1980",Theofanis Gekas,72,Forward,Grécia,0,0,0,1,2,0,1,0,0,4,17,5,1.0,2.0,1.0,2.0,0.0,0.0
 345366,1.88,"6 August, 1980",Roman Weidenfeller,85,Goalkeeper,Alemanha,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
@@ -72,15 +72,15 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 346291,1.83,"17 August, 1982",Phil Jagielka,83,Defender,Inglaterra,0,2,1,0,1,1,1,1,0,0,92,13,2.0,1.0,0.0,0.0,0.0,0.0
 346315,1.91,"19 April, 1987",Joe Hart,80,Goalkeeper,Inglaterra,0,0,0,0,0,0,0,0,0,0,0,0,1.0,1.0,0.0,0.0,0.0,0.0
 346316,1.93,"3 April, 1988",Tim Krul,84,Goalkeeper,Holanda,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-346357,1.87,"30 September, 1986",Cristian Zapata,82,Defender,Colômbia,0,4,3,0,0,0,1,1,0,0,75,10,2.0,1.0,0.0,0.0,0.0,0.0
+346357,1.87,"30 September, 1986",Cristian Zapata,82,Defender,Colômbia,0,5,3,0,1,0,1,1,0,0,116,17,3.0,1.0,0.0,0.0,0.0,0.0
 346358,1.84,"19 April, 1985",Valon Behrami,78,Midfielder,Suíça,0,1,4,1,1,0,6,2,0,0,116,19,3.0,0.0,1.0,0.0,0.0,0.0
 346422,1.77,"19 May, 1979",Andrea Pirlo,68,Midfielder,Itália,0,1,2,2,5,3,2,10,0,0,249,8,3.0,0.0,0.0,0.0,0.0,0.0
 346537,1.82,"11 February, 1980",Mark Bresciano,75,Midfielder,Austrália,0,0,2,3,5,3,4,2,0,0,71,4,2.0,1.0,2.0,1.0,0.0,0.0
 346563,1.79,"27 August, 1984",Sulley Muntari,76,Midfielder,Gana,1,0,6,1,5,7,5,6,0,0,88,14,2.0,0.0,0.0,0.0,2.0,0.0
-346567,1.77,"27 August, 1981",Maxwell,73,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+346567,1.77,"27 August, 1981",Maxwell,73,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 346573,1.82,"24 July, 1983",Daniele De Rossi,83,Midfielder,Itália,0,0,6,0,0,0,3,2,0,0,202,9,2.0,0.0,0.0,0.0,0.0,0.0
-346587,1.86,"26 July, 1981",Maicon,77,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-346589,1.78,"3 September, 1979",Júlio César,79,Goalkeeper,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,2.0,0.0,0.0,0.0,0.0,0.0
+346587,1.86,"26 July, 1981",Maicon,77,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
+346589,1.78,"3 September, 1979",Júlio César,79,Goalkeeper,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,3.0,0.0,0.0,0.0,0.0,0.0
 346590,1.86,"8 May, 1981",Andrea Barzagli,79,Defender,Itália,0,2,3,1,1,0,3,1,0,0,189,18,3.0,0.0,0.0,0.0,0.0,0.0
 346703,1.84,"7 July, 1984",Alberto Aquilani,77,Midfielder,Itália,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 346769,1.90,"12 January, 1987",Salvatore Sirigu,80,Goalkeeper,Itália,0,0,0,0,0,0,0,0,0,0,0,0,0.0,2.0,0.0,0.0,0.0,0.0
@@ -96,22 +96,22 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 347218,1.73,"15 April, 1988",Steven Defour,70,Midfielder,Bélgica,0,0,1,0,0,0,2,1,0,0,23,8,1.0,2.0,0.0,0.0,0.0,0.0
 347225,1.83,"12 January, 1989",Axel Witsel,76,Midfielder,Bélgica,0,0,5,2,4,0,3,6,0,0,107,19,2.0,1.0,0.0,0.0,1.0,0.0
 347254,1.80,"5 August, 1985",Laurent Ciman,70,Defender,Bélgica,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-347258,1.89,"18 October, 1983",Dante,87,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+347258,1.89,"18 October, 1983",Dante,87,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 347350,1.93,"6 March, 1988",Simon Mignolet,87,Goalkeeper,Bélgica,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-347380,1.87,"30 June, 1986",Fredy Guarín,77,Midfielder,Colômbia,0,0,2,0,0,1,3,1,0,0,23,3,1.0,1.0,0.0,0.0,1.0,0.0
+347380,1.87,"30 June, 1986",Fredy Guarín,77,Midfielder,Colômbia,0,0,3,0,0,1,4,1,0,0,25,3,1.0,2.0,0.0,1.0,1.0,0.0
 347384,1.89,"13 May, 1983",Yaya Touré,90,Midfielder,C. Marfim,0,0,2,6,9,7,1,4,0,0,137,11,3.0,0.0,0.0,0.0,0.0,0.0
-347398,1.86,"13 January, 1976",Mario Yepes,83,Defender,Colômbia,0,5,4,0,1,0,1,2,0,1,48,11,2.0,1.0,0.0,0.0,0.0,0.0
-347401,1.76,"18 May, 1980",Diego Pérez,81,Midfielder,Uruguai,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+347398,1.86,"13 January, 1976",Mario Yepes,83,Defender,Colômbia,0,6,4,1,2,0,1,2,0,2,80,20,3.0,1.0,0.0,0.0,0.0,0.0
+347401,1.76,"18 May, 1980",Diego Pérez,81,Midfielder,Uruguai,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 347466,1.85,"2 November, 1982",Charles Itandje,83,Goalkeeper,Camarões,0,0,0,0,0,0,0,0,0,0,0,0,2.0,0.0,0.0,0.0,0.0,0.0
 347486,1.84,"14 May, 1979",Mickael Landreau,85,Goalkeeper,França,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 347594,1.70,"29 May, 1983",Jean Makoun,65,Midfielder,Camarões,0,0,0,0,0,0,0,2,0,0,6,0,0.0,3.0,0.0,1.0,0.0,0.0
-347602,1.78,"30 September, 1985",Cristian Rodríguez,81,Midfielder,Uruguai,0,1,6,0,2,3,4,8,0,0,74,13,3.0,0.0,2.0,0.0,0.0,0.0
+347602,1.78,"30 September, 1985",Cristian Rodríguez,81,Midfielder,Uruguai,0,1,6,2,4,3,5,10,0,0,102,16,4.0,0.0,2.0,0.0,0.0,0.0
 347649,1.72,"8 March, 1984",Rio Mavuba,74,Midfielder,França,0,0,0,0,0,0,1,0,0,0,26,0,0.0,3.0,0.0,1.0,0.0,0.0
 347680,1.75,"14 February, 1983",Bacary Sagna,72,Defender,França,0,1,0,0,0,6,0,1,0,0,40,1,1.0,2.0,0.0,0.0,0.0,0.0
 347681,1.88,"14 May, 1984",Hassan Yebda,80,Midfielder,Argélia,0,1,1,0,0,0,1,0,0,0,5,2,0.0,3.0,0.0,1.0,0.0,0.0
 347705,1.78,"28 July, 1985",Mathieu Debuchy,78,Defender,França,0,1,3,2,2,7,6,1,0,1,79,12,2.0,1.0,0.0,0.0,0.0,0.0
 347710,1.81,"15 July, 1981",Peter Odemwingie,79,Forward,Nigéria,0,1,6,3,5,3,5,1,1,0,68,17,2.0,1.0,1.0,1.0,0.0,0.0
-347711,1.86,"3 October, 1983",Fred,90,Forward,Brasil,0,1,1,7,7,1,1,3,1,4,32,5,3.0,0.0,1.0,0.0,0.0,0.0
+347711,1.86,"3 October, 1983",Fred,90,Forward,Brasil,0,1,2,8,9,2,2,4,1,4,39,6,4.0,0.0,2.0,0.0,0.0,0.0
 347716,1.75,"14 January, 1986",Yohan Cabaye,72,Midfielder,França,0,2,0,0,4,1,4,3,0,0,109,17,2.0,0.0,1.0,0.0,2.0,0.0
 347725,1.85,"19 December, 1987",Karim Benzema,79,Forward,França,2,0,0,15,20,5,1,4,3,1,82,4,3.0,0.0,0.0,0.0,0.0,0.0
 347734,1.79,"5 October, 1987",Kevin Mirallas,72,Forward,Bélgica,0,0,0,2,3,3,1,1,0,3,22,4,1.0,2.0,1.0,1.0,0.0,0.0
@@ -142,14 +142,14 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 348438,1.85,"20 May, 1981",Iker Casillas,84,Goalkeeper,Espanha,0,0,0,0,0,0,0,0,0,0,0,0,2.0,1.0,0.0,0.0,1.0,0.0
 348442,1.70,"25 January, 1980",Xavi,68,Midfielder,Espanha,0,0,0,0,0,0,0,0,0,0,67,1,1.0,2.0,0.0,0.0,0.0,0.0
 348449,1.81,"10 March, 1981",Samuel Eto'o,75,Forward,Camarões,0,0,1,0,2,0,0,1,0,2,15,0,1.0,2.0,0.0,0.0,0.0,0.0
-348451,1.81,"19 May, 1979",Diego Forlán,75,Forward,Uruguai,0,0,0,1,3,3,0,0,0,0,18,0,1.0,2.0,1.0,0.0,0.0,0.0
+348451,1.81,"19 May, 1979",Diego Forlán,75,Forward,Uruguai,0,0,0,1,4,4,1,0,0,0,32,0,2.0,2.0,1.0,0.0,0.0,0.0
 348468,1.84,"13 February, 1979",Rafael Márquez,74,Defender,México,1,2,3,1,2,2,2,4,1,0,121,27,3.0,0.0,0.0,0.0,0.0,0.0
 348501,1.70,"11 May, 1984",Andrés Iniesta,65,Midfielder,Espanha,1,0,0,3,4,6,3,8,0,1,188,10,3.0,0.0,0.0,0.0,0.0,0.0
 348502,1.87,"28 August, 1982",Thiago Motta,83,Midfielder,Itália,0,1,0,0,1,0,0,3,0,0,78,4,1.0,1.0,1.0,2.0,0.0,0.0
 348509,1.86,"20 March, 1984",Fernando Torres,70,Forward,Espanha,0,0,0,2,2,3,2,3,1,3,24,6,1.0,2.0,0.0,2.0,0.0,0.0
 348535,1.80,"2 January, 1981",Maxi Rodríguez,74,Midfielder,Argentina,0,0,1,0,1,0,0,0,0,0,27,1,1.0,2.0,1.0,0.0,0.0,0.0
 348611,1.85,"13 April, 1983",Claudio Bravo,84,Goalkeeper,Chile,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0
-348634,1.75,"6 May, 1983",Dani Alves,64,Defender,Brasil,0,3,9,1,3,10,3,5,0,0,174,31,3.0,0.0,0.0,0.0,0.0,0.0
+348634,1.75,"6 May, 1983",Dani Alves,64,Defender,Brasil,0,4,10,2,5,15,4,6,0,0,238,49,4.0,0.0,0.0,0.0,1.0,0.0
 348651,1.75,"3 December, 1981",David Villa,69,Forward,Espanha,0,2,0,1,1,2,2,2,1,3,15,1,1.0,2.0,1.0,0.0,0.0,0.0
 348656,1.72,"2 June, 1988",Sergio Agüero,69,Forward,Argentina,0,2,0,3,5,6,1,5,0,0,26,1,3.0,0.0,3.0,0.0,0.0,0.0
 348661,1.74,"16 January, 1985",Pablo Zabaleta,74,Defender,Argentina,0,3,1,0,1,6,5,3,0,0,120,17,3.0,0.0,0.0,0.0,0.0,0.0
@@ -165,13 +165,13 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 348798,1.70,"8 January, 1986",David Silva,67,Midfielder,Espanha,0,3,3,2,3,1,0,5,0,1,100,12,2.0,1.0,1.0,1.0,0.0,0.0
 348840,1.90,"2 September, 1988",Javi Martínez,81,Midfielder,Espanha,0,0,1,0,0,0,1,1,0,0,45,6,1.0,2.0,0.0,0.0,0.0,0.0
 348894,1.83,"16 May, 1981",Ricardo Costa,80,Defender,Portugal,0,4,2,0,0,0,3,2,0,0,67,13,1.0,2.0,0.0,1.0,0.0,0.0
-348901,1.91,"21 June, 1971",Faryd Mondragón,94,Goalkeeper,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,1.0,0.0,0.0
+348901,1.91,"21 June, 1971",Faryd Mondragón,94,Goalkeeper,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,1.0,0.0,0.0
 348907,1.93,"8 January, 1979",Stipe Pletikosa,83,Goalkeeper,Croácia,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0
 348910,1.86,"14 July, 1979",Sergey Ignashevich,75,Defender,Rússia,0,3,3,1,2,0,2,3,0,0,151,24,3.0,0.0,0.0,0.0,0.0,0.0
 348947,1.83,"21 June, 1979",Kostas Katsouranis,81,Midfielder,Grécia,0,1,4,0,0,0,4,1,0,0,66,9,2.0,0.0,0.0,0.0,0.0,1.0
 348949,1.85,"8 April, 1986",Igor Akinfeev,71,Goalkeeper,Rússia,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0
 348951,1.82,"1 May, 1982",Darijo Srna,72,Defender,Croácia,0,3,5,2,4,10,4,3,0,0,96,19,3.0,0.0,0.0,0.0,0.0,0.0
-348958,1.79,"4 May, 1985",Fernandinho,67,Midfielder,Brasil,0,1,2,1,1,0,2,2,1,1,22,4,0.0,2.0,0.0,1.0,0.0,0.0
+348958,1.79,"4 May, 1985",Fernandinho,67,Midfielder,Brasil,0,1,8,2,3,0,8,3,1,1,36,11,1.0,2.0,1.0,1.0,0.0,0.0
 348978,1.81,"11 May, 1986",Miguel Veloso,78,Midfielder,Portugal,0,4,2,2,2,16,1,3,0,0,124,19,3.0,0.0,1.0,0.0,0.0,0.0
 348981,1.70,"8 September, 1986",Joao Joao Moutinho,61,Midfielder,Portugal,0,2,4,0,2,4,6,5,0,0,185,15,3.0,0.0,0.0,0.0,1.0,0.0
 348983,1.75,"17 November, 1986",Nani,66,Forward,Portugal,0,3,5,6,12,13,5,2,1,0,104,13,3.0,0.0,0.0,0.0,0.0,0.0
@@ -183,9 +183,9 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 349060,1.70,"24 January, 1986",Vieirinha,73,Forward,Portugal,0,0,1,0,0,4,1,0,0,0,8,3,0.0,3.0,0.0,1.0,0.0,0.0
 349077,1.93,"26 August, 1981",Vangelis Moras,78,Defender,Grécia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 349081,1.86,"9 June, 1988",Sokratis Papastathopoulos,85,Defender,Grécia,0,3,2,0,0,1,4,4,0,0,63,21,3.0,0.0,0.0,0.0,0.0,0.0
-349157,1.77,"19 November, 1984",Jorge Fucile,77,Defender,Uruguai,0,0,1,0,0,0,1,0,0,0,1,0,0.0,3.0,0.0,1.0,0.0,0.0
+349157,1.77,"19 November, 1984",Jorge Fucile,77,Defender,Uruguai,0,0,1,0,0,0,1,0,0,0,1,0,0.0,4.0,0.0,1.0,0.0,0.0
 349158,1.84,"26 July, 1987",Panagiotis Koné,74,Midfielder,Grécia,0,0,3,2,5,5,2,5,0,0,34,5,3.0,0.0,3.0,0.0,0.0,0.0
-349238,1.88,"2 November, 1980",Diego Lugano,83,Defender,Uruguai,0,0,1,0,0,1,1,3,0,0,32,4,1.0,0.0,0.0,0.0,1.0,0.0
+349238,1.88,"2 November, 1980",Diego Lugano,83,Defender,Uruguai,0,0,1,0,0,1,1,3,0,0,32,4,1.0,1.0,0.0,0.0,2.0,0.0
 349387,1.84,"5 February, 1981",Loukas Vyntra,76,Defender,Grécia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 349396,1.90,"13 February, 1985",Alexandros Tziolis,84,Midfielder,Grécia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 349417,1.71,"18 August, 1981",Dimitrios Salpingidis,74,Forward,Grécia,0,0,3,2,2,7,3,5,0,2,29,5,2.0,1.0,1.0,1.0,1.0,0.0
@@ -202,7 +202,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 353505,2.01,"17 March, 1988",Fraser Forster,76,Goalkeeper,Inglaterra,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 353630,1.82,"2 December, 1989",Matteo Darmian,70,Defender,Itália,0,1,4,2,3,5,4,4,0,1,102,10,3.0,0.0,0.0,0.0,0.0,0.0
 356019,1.84,"10 December, 1987",Gonzalo Higuaín,82,Forward,Argentina,1,2,0,2,4,2,2,0,0,0,53,2,2.0,1.0,2.0,1.0,0.0,0.0
-356026,1.74,"12 May, 1988",Marcelo,75,Defender,Brasil,1,4,6,1,2,8,2,6,0,0,140,23,3.0,0.0,0.0,0.0,0.0,0.0
+356026,1.74,"12 May, 1988",Marcelo,75,Defender,Brasil,1,4,8,1,3,9,4,8,0,0,199,42,4.0,0.0,0.0,0.0,0.0,0.0
 357416,1.88,"27 June, 1988",Matthew Spiranovic,87,Defender,Austrália,0,5,1,1,2,0,5,3,0,0,116,17,3.0,0.0,0.0,0.0,1.0,0.0
 358760,1.78,"28 January, 1980",Yasuhito Endo,75,Midfielder,Japão,0,0,3,2,2,3,2,0,0,0,76,2,0.0,2.0,0.0,2.0,0.0,0.0
 358846,1.78,"17 May, 1984",Christian Bolanos,67,Midfielder,Costa Rica,1,0,3,3,3,6,10,3,0,1,61,5,2.0,1.0,1.0,1.0,0.0,0.0
@@ -211,17 +211,17 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 358942,1.89,"24 November, 1984",Roy Miller,77,Defender,Costa Rica,0,0,2,0,0,0,2,1,0,0,28,11,1.0,2.0,0.0,0.0,0.0,0.0
 358943,1.70,"13 August, 1983",Randall Brenes,72,Forward,Costa Rica,0,1,1,1,2,1,2,0,0,2,16,2,1.0,1.0,1.0,1.0,0.0,0.0
 358947,1.76,"4 September, 1984",Boniek García,72,Midfielder,Honduras,0,0,2,2,2,4,2,9,0,0,69,4,2.0,1.0,2.0,1.0,1.0,0.0
-359225,1.68,"30 December, 1986",Marcelo Díaz,67,Midfielder,Chile,0,0,5,1,2,4,5,1,0,0,147,13,3.0,0.0,0.0,0.0,0.0,0.0
-359237,1.87,"25 March, 1983",Martín Silva,80,Goalkeeper,Uruguai,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-359240,1.75,"29 October, 1984",Álvaro González,72,Midfielder,Uruguai,0,2,6,2,2,4,4,2,0,0,64,16,2.0,1.0,1.0,1.0,0.0,0.0
-359247,1.73,"8 June, 1984",Maximiliano Maxi Pereira,70,Defender,Uruguai,0,0,0,0,0,2,2,2,0,0,38,8,1.0,0.0,0.0,0.0,0.0,1.0
-359280,1.80,"29 May, 1985",Hernanes,76,Midfielder,Brasil,0,0,0,0,0,1,0,1,0,0,5,3,0.0,3.0,0.0,1.0,0.0,0.0
-359475,1.85,"16 February, 1986",Diego Godín,78,Defender,Uruguai,0,2,6,1,1,0,5,5,1,1,71,15,3.0,0.0,0.0,0.0,1.0,0.0
+359225,1.68,"30 December, 1986",Marcelo Díaz,67,Midfielder,Chile,0,0,6,1,6,7,5,2,0,0,197,26,4.0,0.0,0.0,0.0,0.0,0.0
+359237,1.87,"25 March, 1983",Martín Silva,80,Goalkeeper,Uruguai,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
+359240,1.75,"29 October, 1984",Álvaro González,72,Midfielder,Uruguai,0,2,6,3,3,5,4,2,0,0,78,20,3.0,1.0,2.0,1.0,0.0,0.0
+359247,1.73,"8 June, 1984",Maximiliano Maxi Pereira,70,Defender,Uruguai,0,0,0,1,1,2,3,5,0,0,74,13,2.0,0.0,0.0,0.0,0.0,1.0
+359280,1.80,"29 May, 1985",Hernanes,76,Midfielder,Brasil,0,0,0,0,0,1,0,1,0,0,5,3,0.0,4.0,0.0,1.0,0.0,0.0
+359475,1.85,"16 February, 1986",Diego Godín,78,Defender,Uruguai,0,2,6,1,2,1,6,9,1,1,100,27,4.0,0.0,0.0,0.0,1.0,0.0
 359565,1.82,"17 January, 1988",Héctor Moreno,80,Defender,México,0,7,4,0,0,1,3,1,0,0,114,13,3.0,0.0,0.0,0.0,1.0,0.0
-359610,1.78,"22 May, 1987",Arturo Vidal,75,Midfielder,Chile,0,0,3,0,1,1,6,3,0,0,66,11,2.0,1.0,2.0,0.0,1.0,0.0
-359665,1.95,"21 January, 1983",Victor,84,Goalkeeper,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-359808,1.70,"22 February, 1985",Jose Fuenzalida,67,Midfielder,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-359932,1.77,"12 June, 1988",Mauricio Isla,72,Defender,Chile,0,9,3,1,2,1,3,5,0,1,146,15,3.0,0.0,0.0,0.0,0.0,0.0
+359610,1.78,"22 May, 1987",Arturo Vidal,75,Midfielder,Chile,0,0,4,0,1,1,8,9,0,1,96,15,3.0,1.0,3.0,0.0,1.0,0.0
+359665,1.95,"21 January, 1983",Victor,84,Goalkeeper,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
+359808,1.70,"22 February, 1985",Jose Fuenzalida,67,Midfielder,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
+359932,1.77,"12 June, 1988",Mauricio Isla,72,Defender,Chile,0,9,3,1,2,4,4,7,0,2,196,24,4.0,0.0,0.0,0.0,0.0,0.0
 359948,1.78,"14 February, 1988",Ángel Di María,70,Midfielder,Argentina,0,1,1,8,10,25,1,4,0,0,155,15,3.0,0.0,1.0,0.0,0.0,0.0
 360028,1.78,"23 April, 1987",Sammir,77,Midfielder,Croácia,0,0,3,1,2,0,2,1,0,0,23,3,1.0,2.0,1.0,0.0,0.0,0.0
 360044,1.77,"25 February, 1983",Eduardo,72,Forward,Croácia,0,0,1,1,1,0,0,0,0,1,8,1,0.0,3.0,0.0,1.0,1.0,0.0
@@ -244,12 +244,12 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 369575,1.77,"12 January, 1984",Oribe Peralta,68,Forward,México,1,1,5,2,4,1,6,2,1,3,42,3,3.0,0.0,3.0,0.0,0.0,0.0
 370625,1.76,"4 June, 1984",Henri Bedimo,80,Defender,Camarões,0,0,1,0,0,1,1,2,0,1,36,8,1.0,2.0,0.0,0.0,0.0,0.0
 370693,1.95,"8 September, 1983",Diego Benaglio,83,Goalkeeper,Suíça,0,0,0,0,0,0,0,0,0,0,0,0,2.0,0.0,0.0,0.0,0.0,0.0
-371070,1.71,"14 December, 1985",Juan Zuniga,72,Defender,Colômbia,0,4,1,0,0,0,2,5,0,0,64,12,2.0,1.0,0.0,0.0,0.0,0.0
+371070,1.71,"14 December, 1985",Juan Zuniga,72,Defender,Colômbia,0,5,1,1,2,2,2,9,0,0,99,19,3.0,1.0,0.0,0.0,0.0,0.0
 371264,1.90,"26 July, 1981",Agustín Orión,83,Goalkeeper,Argentina,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 371511,1.88,"18 September, 1982",Alfredo Talavera,86,Goalkeeper,México,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 372059,1.85,"13 July, 1985",Guillermo Ochoa,78,Goalkeeper,México,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0
-372134,1.73,"19 October, 1983",Jorge Valdivia,71,Midfielder,Chile,0,0,5,2,2,3,1,3,1,1,44,2,1.0,2.0,1.0,2.0,0.0,0.0
-372141,1.79,"1 August, 1980",Esteban Paredes,78,Forward,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+372134,1.73,"19 October, 1983",Jorge Valdivia,71,Midfielder,Chile,0,0,5,2,2,3,1,3,1,1,44,2,1.0,3.0,1.0,2.0,0.0,0.0
+372141,1.79,"1 August, 1980",Esteban Paredes,78,Forward,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 372417,1.77,"22 February, 1986",Enzo Pérez,77,Midfielder,Argentina,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 372472,1.77,"23 July, 1987",Alessio Cerci,78,Forward,Itália,0,0,0,0,0,1,0,0,0,2,4,0,0.0,3.0,0.0,1.0,0.0,0.0
 372560,1.75,"20 October, 1983",Luis Saritama,76,Midfielder,Equador,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
@@ -259,20 +259,20 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 373064,1.80,"12 November, 1986",Ignazio Abate,73,Defender,Itália,0,0,0,0,0,1,3,2,0,1,30,7,1.0,2.0,0.0,0.0,0.0,0.0
 373065,1.92,"14 August, 1984",Giorgio Chiellini,76,Defender,Itália,0,5,9,0,1,0,1,9,0,0,187,34,3.0,0.0,0.0,0.0,0.0,0.0
 373114,1.83,"26 July, 1983",Oswaldo Minda,78,Midfielder,Equador,0,3,3,0,0,0,2,0,0,0,63,13,2.0,1.0,1.0,0.0,0.0,0.0
-373570,1.86,"12 October, 1986",Christian Stuani,76,Forward,Uruguai,0,0,3,0,0,1,5,2,0,0,25,6,1.0,2.0,0.0,2.0,0.0,0.0
-373573,1.68,"23 July, 1984",Walter Gargano,65,Midfielder,Uruguai,0,0,1,0,0,0,2,0,0,0,36,5,1.0,2.0,1.0,0.0,1.0,0.0
+373570,1.86,"12 October, 1986",Christian Stuani,76,Forward,Uruguai,0,0,3,1,2,1,5,5,0,0,29,6,1.0,3.0,0.0,2.0,0.0,0.0
+373573,1.68,"23 July, 1984",Walter Gargano,65,Midfielder,Uruguai,0,0,1,0,0,0,2,0,0,0,36,5,1.0,3.0,1.0,0.0,1.0,0.0
 373592,1.88,"3 April, 1984",José María Basanta,78,Defender,Argentina,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 373844,1.92,"22 February, 1987",Sergio Romero,88,Goalkeeper,Argentina,0,0,0,0,0,0,0,0,0,0,0,0,2.0,0.0,0.0,0.0,0.0,0.0
-373900,1.78,"11 February, 1986",Francisco Silva,80,Midfielder,Chile,0,0,4,0,0,0,5,6,0,0,91,20,2.0,1.0,1.0,0.0,0.0,0.0
+373900,1.78,"11 February, 1986",Francisco Silva,80,Midfielder,Chile,0,4,6,0,0,0,10,10,0,0,136,31,3.0,1.0,1.0,0.0,1.0,0.0
 373962,1.67,"28 September, 1986",Andrés Guardado,67,Defender,México,0,2,4,3,6,8,5,5,1,0,82,9,3.0,0.0,2.0,0.0,0.0,0.0
 373972,1.82,"8 October, 1984",Sejad Salihovic,79,Midfielder,Bósnia,1,0,1,0,0,4,0,1,0,0,18,2,0.0,2.0,0.0,2.0,0.0,0.0
 374090,1.78,"10 April, 1986",Fernando Gago,72,Midfielder,Argentina,0,0,4,0,0,2,2,5,0,0,220,13,2.0,1.0,0.0,1.0,0.0,0.0
 374178,1.70,"9 June, 1982",Yoshito Okubo,73,Forward,Japão,0,0,3,4,9,2,4,7,0,0,50,1,2.0,1.0,0.0,1.0,0.0,0.0
-374302,1.74,"2 November, 1986",Pablo Armero,81,Defender,Colômbia,0,2,2,1,1,4,4,2,1,1,69,20,3.0,0.0,2.0,0.0,0.0,0.0
-374316,1.84,"22 January, 1986",Adrián Ramos,74,Forward,Colômbia,1,0,0,2,2,1,3,2,0,1,23,2,1.0,2.0,0.0,0.0,0.0,0.0
-374514,1.86,"3 October, 1986",Jackson Martínez,85,Forward,Colômbia,0,0,1,3,4,0,2,3,2,1,19,3,1.0,2.0,0.0,1.0,0.0,0.0
-374546,1.83,"9 May, 1981",Johnny Herrera,81,Goalkeeper,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-374561,1.74,"23 June, 1983",Jose Rojas,77,Defender,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+374302,1.74,"2 November, 1986",Pablo Armero,81,Defender,Colômbia,0,3,4,1,1,5,8,2,1,1,114,26,4.0,0.0,2.0,0.0,1.0,0.0
+374316,1.84,"22 January, 1986",Adrián Ramos,74,Forward,Colômbia,1,0,0,2,2,1,5,2,0,1,24,2,1.0,3.0,0.0,1.0,0.0,0.0
+374514,1.86,"3 October, 1986",Jackson Martínez,85,Forward,Colômbia,0,0,1,4,5,0,4,5,2,1,33,10,2.0,2.0,0.0,1.0,0.0,0.0
+374546,1.83,"9 May, 1981",Johnny Herrera,81,Goalkeeper,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
+374561,1.74,"23 June, 1983",Jose Rojas,77,Defender,Chile,0,0,0,0,0,0,0,0,0,0,0,1,0.0,4.0,0.0,1.0,0.0,0.0
 374579,1.70,"10 December, 1982",Óscar Bagüí,65,Defender,Equador,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 374864,1.86,"25 April, 1986",Rais M'Bolhi,80,Goalkeeper,Argélia,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0
 374914,1.75,"15 March, 1984",Mehdi Lacen,72,Midfielder,Argélia,0,0,3,0,0,0,1,1,0,0,11,3,0.0,2.0,0.0,2.0,0.0,0.0
@@ -281,13 +281,13 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 375405,1.90,"1 May, 1987",Leonardo Bonucci,82,Defender,Itália,0,2,0,0,0,0,0,1,0,0,47,11,1.0,2.0,0.0,0.0,0.0,0.0
 375518,1.78,"6 March, 1986",Paul Aguilar,65,Defender,México,0,2,7,1,2,9,4,7,0,0,87,8,3.0,0.0,0.0,0.0,0.0,0.0
 375578,1.78,"25 June, 1988",Miguel Layún,64,Defender,México,0,3,2,2,5,8,1,3,0,0,82,9,3.0,0.0,0.0,0.0,0.0,0.0
-375735,1.77,"29 August, 1985",Gonzalo Jara,79,Defender,Chile,0,2,4,0,1,1,5,2,0,0,166,37,3.0,0.0,0.0,0.0,0.0,0.0
-375843,1.82,"22 September, 1984",Thiago Silva,79,Defender,Brasil,0,3,4,1,1,0,1,2,0,0,145,16,3.0,0.0,0.0,0.0,1.0,0.0
+375735,1.77,"29 August, 1985",Gonzalo Jara,79,Defender,Chile,0,2,6,0,1,2,7,2,0,0,211,42,4.0,0.0,0.0,0.0,0.0,0.0
+375843,1.82,"22 September, 1984",Thiago Silva,79,Defender,Brasil,1,4,5,1,1,0,2,3,0,0,182,31,4.0,0.0,0.0,0.0,1.0,0.0
 375893,1.75,"1 June, 1988",Javier Hernández,62,Forward,México,0,0,0,1,3,2,2,6,1,1,10,1,0.0,3.0,0.0,3.0,0.0,0.0
 375927,1.87,"12 February, 1989",Ron-Robert Zieler,83,Goalkeeper,Alemanha,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 375970,1.78,"24 April, 1982",Patrick Pemberton,80,Goalkeeper,Costa Rica,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-376173,1.75,"20 November, 1989",Eduardo Vargas,69,Forward,Chile,1,4,0,3,4,0,0,1,1,1,54,6,3.0,0.0,3.0,0.0,0.0,0.0
-376177,1.71,"17 April, 1989",Charles Aranguiz,66,Midfielder,Chile,1,2,2,1,1,2,1,4,1,1,101,12,3.0,0.0,1.0,0.0,1.0,0.0
+376173,1.75,"20 November, 1989",Eduardo Vargas,69,Forward,Chile,2,4,0,3,4,1,0,1,1,1,59,7,4.0,0.0,4.0,0.0,0.0,0.0
+376177,1.71,"17 April, 1989",Charles Aranguiz,66,Midfielder,Chile,1,2,3,4,4,3,3,5,1,1,131,14,4.0,0.0,1.0,0.0,1.0,0.0
 376188,1.96,"5 June, 1987",Alexander Domínguez,80,Goalkeeper,Equador,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0
 376241,1.79,"1 September, 1989",Daniel Sturridge,76,Forward,Inglaterra,0,0,1,6,12,2,2,7,1,2,53,3,3.0,0.0,1.0,0.0,0.0,0.0
 376672,1.89,"7 October, 1982",Madjid Bouguerra,89,Defender,Argélia,0,3,5,0,0,0,1,2,0,0,56,21,2.0,1.0,1.0,0.0,1.0,0.0
@@ -300,23 +300,23 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 385942,1.77,"4 October, 1983",Michael Barrantes,71,Midfielder,Costa Rica,0,0,1,0,0,0,2,1,0,0,11,3,0.0,2.0,0.0,2.0,0.0,0.0
 386041,1.76,"8 January, 1986",Jorge Claros,70,Midfielder,Honduras,0,1,7,1,2,1,1,3,0,0,129,15,2.0,1.0,0.0,1.0,0.0,0.0
 386314,1.80,"31 March, 1989",Giovanni Sio,77,Forward,C. Marfim,0,0,2,1,1,0,2,1,0,1,2,1,0.0,2.0,0.0,1.0,0.0,0.0
-387207,1.78,"7 April, 1987",Martín Cáceres,77,Defender,Uruguai,0,1,7,2,3,5,6,6,0,0,124,29,3.0,0.0,0.0,0.0,1.0,0.0
+387207,1.78,"7 April, 1987",Martín Cáceres,77,Defender,Uruguai,0,1,8,2,4,5,6,6,0,0,175,39,4.0,0.0,0.0,0.0,1.0,0.0
 387218,1.78,"23 April, 1987",Michael Arroyo,72,Midfielder,Equador,0,2,1,1,3,2,2,1,0,0,33,4,1.0,1.0,1.0,1.0,0.0,0.0
 387226,1.86,"21 February, 1988",Jaime Ayoví,61,Forward,Equador,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-387261,1.68,"27 January, 1986",Fabián Orellana,69,Forward,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+387261,1.68,"27 January, 1986",Fabián Orellana,69,Forward,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 387348,1.90,"16 June, 1986",Fernando Muslera,77,Goalkeeper,Uruguai,0,0,0,0,0,0,0,0,0,0,0,0,2.0,0.0,0.0,0.0,1.0,0.0
-388493,1.76,"9 August, 1988",Willian,70,Midfielder,Brasil,0,0,0,1,1,0,0,1,0,0,11,2,0.0,3.0,0.0,2.0,0.0,0.0
+388493,1.76,"9 August, 1988",Willian,70,Midfielder,Brasil,0,0,0,1,1,2,0,1,0,0,20,2,0.0,4.0,0.0,3.0,0.0,0.0
 389277,1.98,"20 June, 1987",Asmir Begovic,83,Goalkeeper,Bósnia,0,0,0,0,0,0,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0
-389706,1.81,"15 June, 1988",Cristopher Toselli,76,Goalkeeper,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-389856,1.68,"1 January, 1982",Egidio Arévalo Ríos,68,Midfielder,Uruguai,0,0,8,1,1,1,6,4,0,0,104,26,3.0,0.0,0.0,0.0,1.0,0.0
-390012,1.71,"3 August, 1987",Gary Medel,74,Defender,Chile,0,0,4,0,1,1,3,6,0,0,209,37,3.0,0.0,0.0,0.0,0.0,0.0
+389706,1.81,"15 June, 1988",Cristopher Toselli,76,Goalkeeper,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
+389856,1.68,"1 January, 1982",Egidio Arévalo Ríos,68,Midfielder,Uruguai,0,0,8,2,2,2,8,6,0,0,136,38,4.0,0.0,0.0,0.0,1.0,0.0
+390012,1.71,"3 August, 1987",Gary Medel,74,Defender,Chile,0,2,4,0,1,1,3,7,0,0,275,52,4.0,0.0,1.0,0.0,0.0,0.0
 390080,1.79,"11 May, 1989",Giovani Dos Santos,71,Forward,México,0,1,1,3,3,3,3,4,0,2,61,4,3.0,0.0,2.0,0.0,0.0,0.0
 390097,1.74,"16 January, 1987",Joo-Ho Park,69,Defender,Coreia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 390270,1.85,"1 June, 1988",Dave Myrie,79,Defender,Costa Rica,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 390272,1.92,"8 February, 1988",Giancarlo González,83,Defender,Costa Rica,0,2,6,0,3,0,2,3,0,1,65,34,3.0,0.0,0.0,0.0,1.0,0.0
 390295,1.78,"14 February, 1987",José Cubero,70,Midfielder,Costa Rica,0,1,2,0,0,0,1,0,0,0,7,2,0.0,3.0,0.0,2.0,1.0,0.0
 390305,1.84,"27 May, 1988",Celso Borges,82,Midfielder,Costa Rica,0,1,1,2,4,1,0,1,0,0,93,20,3.0,0.0,1.0,0.0,0.0,0.0
-390332,1.79,"21 February, 1987",Carlos Carmona,68,Midfielder,Chile,0,0,0,0,0,0,0,0,0,0,1,0,0.0,2.0,0.0,1.0,0.0,0.0
+390332,1.79,"21 February, 1987",Carlos Carmona,68,Midfielder,Chile,0,0,0,0,0,0,0,0,0,0,1,0,0.0,3.0,0.0,1.0,0.0,0.0
 390339,1.76,"27 March, 1988",Atsuto Uchida,62,Defender,Japão,0,3,4,1,3,16,1,3,0,1,96,11,3.0,0.0,0.0,0.0,0.0,0.0
 390340,1.72,"17 March, 1989",Shinji Kagawa,63,Forward,Japão,0,2,8,1,5,2,2,3,0,0,99,8,2.0,1.0,2.0,1.0,0.0,0.0
 390345,1.83,"21 May, 1987",Morishige Masato,76,Defender,Japão,0,3,1,0,0,0,2,1,0,0,30,1,1.0,2.0,0.0,0.0,1.0,0.0
@@ -334,7 +334,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 395125,1.79,"28 August, 1985",Inoha Masahiko,74,Defender,Japão,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 395130,1.70,"12 September, 1986",Yuto Nagatomo,68,Defender,Japão,1,3,3,2,2,23,5,1,0,0,117,18,3.0,0.0,0.0,0.0,0.0,0.0
 395310,1.85,"20 March, 1983",Eiji Kawashima,82,Goalkeeper,Japão,0,0,0,0,0,0,0,0,0,0,0,0,2.0,0.0,0.0,0.0,0.0,0.0
-395451,1.82,"6 February, 1986",Carlos Sánchez,82,Midfielder,Colômbia,0,1,6,1,1,1,2,1,0,0,42,11,2.0,1.0,0.0,0.0,1.0,0.0
+395451,1.82,"6 February, 1986",Carlos Sánchez,82,Midfielder,Colômbia,0,1,7,1,1,1,2,1,0,0,65,18,3.0,1.0,0.0,0.0,1.0,0.0
 395468,1.85,"20 June, 1985",Aurelien Chedjou,77,Defender,Camarões,0,0,3,1,2,0,1,1,0,0,50,8,2.0,1.0,1.0,0.0,0.0,0.0
 395615,1.79,"2 September, 1986",Gelson Fernandes,70,Midfielder,Suíça,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 396430,1.79,"19 January, 1986",Claudio Marchisio,76,Midfielder,Itália,0,0,5,2,2,0,7,5,1,1,82,10,3.0,0.0,1.0,0.0,0.0,1.0
@@ -349,7 +349,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 397904,1.87,"16 August, 1989",Moussa Sissoko,88,Midfielder,França,0,1,1,2,3,13,4,2,1,1,87,3,2.0,1.0,0.0,1.0,0.0,0.0
 398553,1.92,"5 February, 1986",Vedran Corluka,84,Defender,Croácia,0,5,2,0,1,0,3,3,0,0,107,22,3.0,0.0,0.0,0.0,1.0,0.0
 398659,1.80,"2 February, 1985",Silvestre Varela,79,Forward,Portugal,0,0,1,2,3,4,1,1,1,0,20,1,0.0,3.0,0.0,2.0,0.0,0.0
-399085,1.83,"31 August, 1988",David Ospina,79,Goalkeeper,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,2.0,0.0,1.0,0.0,0.0,0.0
+399085,1.83,"31 August, 1988",David Ospina,79,Goalkeeper,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,3.0,0.0,1.0,0.0,0.0,0.0
 400160,1.92,"17 March, 1986",Edin Dzeko,80,Forward,Bósnia,0,1,1,8,12,1,5,5,1,3,52,2,3.0,0.0,1.0,0.0,0.0,0.0
 400424,1.67,"8 January, 1989",Oliver Bozanic,77,Midfielder,Austrália,0,1,2,1,1,4,2,2,0,0,33,1,1.0,2.0,1.0,1.0,0.0,0.0
 401315,1.83,"10 June, 1983",Steve Von Bergen,79,Defender,Suíça,0,0,0,0,0,0,0,2,0,0,32,8,2.0,1.0,1.0,0.0,0.0,0.0
@@ -368,9 +368,9 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 409107,1.74,"22 May, 1984",Didier Ya Konan,74,Midfielder,C. Marfim,0,0,0,0,0,0,0,1,0,0,8,0,0.0,3.0,0.0,1.0,0.0,0.0
 409124,1.88,"12 March, 1988",Konstantinos Mitroglou,94,Forward,Grécia,0,0,0,2,2,1,0,0,0,1,4,0,1.0,2.0,1.0,1.0,0.0,0.0
 409126,1.85,"10 June, 1985",Vasilis Torosidis,80,Defender,Grécia,0,3,4,1,5,16,6,4,0,0,84,7,3.0,0.0,0.0,0.0,1.0,0.0
-409128,1.89,"22 April, 1987",David Luiz,84,Defender,Brasil,1,4,6,2,3,2,4,0,0,0,139,19,3.0,0.0,0.0,0.0,0.0,0.0
-409159,1.91,"20 March, 1987",Jo,78,Forward,Brasil,0,0,0,0,1,0,0,0,0,1,2,0,0.0,3.0,0.0,1.0,0.0,0.0
-410479,1.88,"23 July, 1987",Luiz Gustavo,80,Midfielder,Brasil,1,2,9,1,2,1,7,10,0,0,132,30,3.0,0.0,0.0,0.0,1.0,0.0
+409128,1.89,"22 April, 1987",David Luiz,84,Defender,Brasil,1,6,9,3,4,3,7,1,1,0,172,28,4.0,0.0,0.0,0.0,0.0,0.0
+409159,1.91,"20 March, 1987",Jo,78,Forward,Brasil,0,1,1,1,3,0,1,2,0,1,8,0,0.0,4.0,0.0,2.0,1.0,0.0
+410479,1.88,"23 July, 1987",Luiz Gustavo,80,Midfielder,Brasil,1,3,12,2,3,3,10,12,0,0,184,44,4.0,0.0,0.0,0.0,2.0,0.0
 415166,1.76,"17 May, 1984",Igor Denisov,70,Midfielder,Rússia,0,0,2,2,2,0,1,2,0,0,56,5,0.0,3.0,0.0,2.0,0.0,0.0
 415170,1.78,"18 February, 1989",Alexey Ionov,68,Forward,Rússia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 415208,1.78,"19 July, 1984",Alexander Samedov,75,Forward,Rússia,0,1,1,1,2,23,1,6,0,0,100,10,3.0,0.0,1.0,0.0,0.0,0.0
@@ -389,17 +389,17 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 422655,1.88,"16 February, 1982",Rickie Lambert,77,Forward,Inglaterra,0,0,0,0,0,0,1,0,0,0,0,1,0.0,3.0,0.0,1.0,0.0,0.0
 435987,1.89,"12 August, 1990",Mario Balotelli,88,Forward,Itália,0,0,3,4,7,0,8,3,1,6,34,2,3.0,0.0,2.0,0.0,2.0,0.0
 437140,1.69,"28 July, 1987",Pedro,64,Forward,Espanha,0,0,2,1,1,1,2,6,0,0,30,2,1.0,2.0,1.0,1.0,0.0,0.0
-437146,1.88,"14 February, 1987",Edinson Cavani,71,Forward,Uruguai,1,0,2,3,8,3,5,1,1,4,57,10,3.0,0.0,0.0,0.0,0.0,0.0
+437146,1.88,"14 February, 1987",Edinson Cavani,71,Forward,Uruguai,1,0,3,5,12,6,8,3,1,5,82,16,4.0,0.0,0.0,0.0,0.0,0.0
 439302,1.80,"25 October, 1986",Roger Espinoza,73,Midfielder,Honduras,0,0,4,3,4,2,4,1,0,0,81,12,3.0,0.0,1.0,0.0,0.0,0.0
 439571,1.90,"11 July, 1985",Geoff Cameron,84,Defender,Estados Unidos,0,2,0,0,0,0,1,1,0,0,54,8,2.0,1.0,0.0,0.0,0.0,0.0
 440563,1.77,"26 December, 1989",Sofiane Feghouli,71,Forward,Argélia,1,1,6,2,3,4,4,7,1,0,64,13,3.0,0.0,0.0,0.0,0.0,0.0
 440565,1.92,"30 September, 1986",Olivier Giroud,88,Forward,França,1,1,0,3,5,1,2,4,1,0,24,0,1.0,1.0,1.0,2.0,0.0,0.0
-440827,1.81,"24 March, 1987",Ramires,73,Midfielder,Brasil,1,0,4,0,0,1,3,1,0,0,16,2,1.0,2.0,1.0,2.0,1.0,0.0
+440827,1.81,"24 March, 1987",Ramires,73,Midfielder,Brasil,1,1,6,0,1,2,6,2,0,0,29,7,1.0,3.0,1.0,3.0,1.0,0.0
 441046,1.85,"13 December, 1987",Albert Adomah,74,Midfielder,Gana,0,1,1,0,0,1,0,0,0,0,7,1,0.0,3.0,0.0,1.0,0.0,0.0
 441986,1.80,"27 January, 1985",Ruben Amorim,78,Midfielder,Portugal,0,0,1,0,1,1,2,1,0,0,39,6,1.0,2.0,0.0,0.0,0.0,0.0
 442081,1.90,"22 December, 1987",Eder,81,Forward,Portugal,0,0,1,2,7,3,4,5,0,0,52,5,1.0,1.0,1.0,2.0,0.0,0.0
 442366,1.76,"22 April, 1986",Viktor Fayzulin,72,Midfielder,Rússia,0,0,1,3,4,5,1,7,0,0,139,14,3.0,0.0,0.0,0.0,0.0,0.0
-442973,1.90,"2 January, 1983",Jefferson,93,Goalkeeper,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+442973,1.90,"2 January, 1983",Jefferson,93,Goalkeeper,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 443052,1.87,"2 August, 1989",Nacer Chadli,80,Midfielder,Bélgica,0,0,3,3,4,1,3,0,0,0,36,3,1.0,1.0,1.0,1.0,0.0,0.0
 443066,1.64,"6 May, 1987",Dries Mertens,61,Midfielder,Bélgica,0,0,1,5,8,12,3,3,1,2,37,9,2.0,1.0,2.0,1.0,0.0,0.0
 443126,1.86,"22 July, 1989",Daryl Janmaat,80,Defender,Holanda,1,1,5,0,0,3,6,1,0,0,83,27,3.0,0.0,0.0,0.0,0.0,0.0
@@ -414,7 +414,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 447020,1.76,"14 March, 1991",Gotoku Sakai,74,Defender,Japão,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 447916,1.84,"26 November, 1990",Danny Welbeck,73,Forward,Inglaterra,0,1,3,0,1,3,1,3,0,0,46,6,2.0,1.0,2.0,0.0,0.0,0.0
 454635,1.88,"12 April, 1988",Ricardo Álvarez,84,Midfielder,Argentina,0,0,0,0,0,0,0,2,0,0,11,2,0.0,2.0,0.0,1.0,0.0,0.0
-456926,1.86,"14 October, 1986",Henrique,73,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+456926,1.86,"14 October, 1986",Henrique,73,Defender,Brasil,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 457028,1.83,"18 January, 1986",Senad Lulic,75,Midfielder,Bósnia,1,0,5,2,2,4,2,1,0,2,47,6,2.0,1.0,1.0,0.0,0.0,0.0
 457102,1.88,"14 November, 1990",Roman Burki,83,Goalkeeper,Suíça,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 457113,1.83,"16 March, 1991",Admir Mehmedi,76,Forward,Suíça,0,1,0,4,5,1,1,6,1,1,80,11,2.0,1.0,0.0,1.0,0.0,0.0
@@ -434,15 +434,15 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 461806,1.85,"27 March, 1990",Nicolas N'Koulou,77,Defender,Camarões,0,6,3,0,1,0,1,0,0,0,88,20,3.0,0.0,0.0,0.0,0.0,0.0
 462543,1.77,"17 October, 1986",Constant Djakpa,71,Defender,C. Marfim,0,1,0,0,0,0,0,0,0,0,9,1,0.0,3.0,0.0,1.0,0.0,0.0
 462632,1.98,"15 May, 1986",Jasmin Fejzic,95,Goalkeeper,Bósnia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-463178,1.88,"22 May, 1985",Carlos Valdés,77,Defender,Colômbia,0,0,0,0,0,0,2,0,0,0,26,7,1.0,2.0,0.0,0.0,0.0,0.0
+463178,1.88,"22 May, 1985",Carlos Valdés,77,Defender,Colômbia,0,0,0,0,0,0,2,0,0,0,26,7,1.0,3.0,0.0,0.0,0.0,0.0
 464644,1.82,"10 December, 1988",Wilfried Bony,88,Forward,C. Marfim,0,1,1,2,6,1,5,1,2,1,28,1,2.0,1.0,2.0,1.0,0.0,0.0
-466295,1.81,"9 September, 1991",Oscar,66,Midfielder,Brasil,2,2,11,4,5,10,5,5,1,2,87,13,3.0,0.0,1.0,0.0,0.0,0.0
+466295,1.81,"9 September, 1991",Oscar,66,Midfielder,Brasil,2,3,11,5,6,15,5,6,1,2,110,20,4.0,0.0,2.0,0.0,0.0,0.0
 466419,1.72,"1 January, 1992",Jack Wilshere,65,Midfielder,Inglaterra,0,2,0,0,0,0,2,2,0,0,44,3,1.0,2.0,1.0,1.0,0.0,0.0
 466739,1.86,"25 February, 1989",Milan Badelj,76,Midfielder,Croácia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,2.0,0.0,0.0,0.0,0.0
 466741,1.88,"5 July, 1989",Dejan Lovren,84,Defender,Croácia,0,4,3,0,1,0,5,2,0,0,99,15,3.0,0.0,0.0,0.0,1.0,0.0
 468085,1.86,"19 July, 1988",Kevin Großkreutz,72,Defender,Alemanha,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 471072,1.87,"2 February, 1989",Ivan Perisic,80,Midfielder,Croácia,1,1,2,6,11,11,3,5,2,0,50,13,3.0,0.0,1.0,0.0,0.0,0.0
-471521,1.79,"25 July, 1986",Hulk,80,Forward,Brasil,0,1,1,3,5,3,1,4,0,0,24,3,2.0,1.0,2.0,0.0,0.0,0.0
+471521,1.79,"25 July, 1986",Hulk,80,Forward,Brasil,0,2,2,6,11,9,4,7,0,0,48,10,3.0,1.0,2.0,0.0,1.0,0.0
 473187,1.89,"16 July, 1988",Sergio Busquets,73,Midfielder,Espanha,0,0,1,0,1,0,1,3,0,0,111,12,2.0,1.0,0.0,0.0,0.0,0.0
 473961,1.80,"2 July, 1988",Chung-Yong Lee,69,Midfielder,Coreia,0,2,5,1,3,11,3,3,0,0,73,10,3.0,0.0,1.0,0.0,0.0,0.0
 473962,1.86,"24 January, 1989",Sung-Yueng Ki,79,Midfielder,Coreia,1,2,6,5,7,8,5,6,0,0,175,15,3.0,0.0,0.0,0.0,1.0,0.0
@@ -471,23 +471,23 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 483710,1.81,"28 June, 1991",Kevin De Bruyne,68,Midfielder,Bélgica,1,0,2,1,1,6,2,0,0,1,64,13,2.0,1.0,0.0,0.0,0.0,0.0
 483865,1.86,"29 March, 1990",Timmy Chandler,83,Defender,Estados Unidos,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 487107,1.82,"2 March, 1985",Ha Dae-Sung,73,Midfielder,Coreia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-487289,1.69,"19 December, 1988",Alexis Sánchez,70,Forward,Chile,1,1,1,3,5,7,5,17,1,1,80,13,3.0,0.0,0.0,0.0,0.0,0.0
-487465,1.87,"6 January, 1985",Abel Aguilar,82,Midfielder,Colômbia,1,0,7,0,1,1,4,0,0,0,50,4,2.0,1.0,2.0,0.0,0.0,0.0
+487289,1.69,"19 December, 1988",Alexis Sánchez,70,Forward,Chile,1,1,1,4,7,9,7,24,2,2,103,17,4.0,0.0,0.0,0.0,0.0,0.0
+487465,1.87,"6 January, 1985",Abel Aguilar,82,Midfielder,Colômbia,2,2,8,0,1,1,6,3,0,0,99,13,3.0,1.0,2.0,0.0,0.0,0.0
 489160,1.84,"20 February, 1990",Ciro Immobile,78,Forward,Itália,0,1,1,1,2,0,3,1,0,6,14,1,1.0,2.0,1.0,1.0,0.0,0.0
-489253,1.78,"1 June, 1984",Jean Beausejour,80,Midfielder,Chile,0,0,1,1,1,5,1,0,1,0,13,2,0.0,2.0,0.0,2.0,0.0,0.0
+489253,1.78,"1 June, 1984",Jean Beausejour,80,Midfielder,Chile,0,0,1,1,1,5,1,0,1,0,13,2,0.0,3.0,0.0,2.0,0.0,0.0
 490027,1.80,"15 May, 1989",James Holland,76,Midfielder,Austrália,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 490205,1.95,"11 October, 1988",Omar González,95,Defender,Estados Unidos,0,2,0,0,0,0,1,1,0,0,26,6,1.0,2.0,0.0,1.0,1.0,0.0
 490210,1.82,"11 February, 1987",Matt Besler,77,Defender,Estados Unidos,0,5,4,0,0,0,1,3,0,0,97,19,3.0,0.0,1.0,0.0,0.0,0.0
 490225,1.77,"18 August, 1986",Graham Zusi,73,Midfielder,Estados Unidos,2,2,1,0,1,2,1,2,0,0,71,6,2.0,1.0,2.0,1.0,0.0,0.0
-490577,1.86,"8 August, 1990",Abel Hernández,73,Forward,Uruguai,0,0,0,0,0,0,0,0,0,2,1,0,0.0,3.0,0.0,1.0,0.0,0.0
+490577,1.86,"8 August, 1990",Abel Hernández,73,Forward,Uruguai,0,0,0,0,0,0,0,0,0,2,5,2,0.0,4.0,0.0,2.0,0.0,0.0
 490600,1.89,"5 May, 1988",Frickson Erazo,65,Defender,Equador,0,4,4,0,2,0,2,0,0,1,68,18,3.0,0.0,0.0,0.0,1.0,0.0
 490673,1.86,"14 June, 1991",Konstantinos Manolas,79,Defender,Grécia,0,1,6,0,0,0,2,5,0,0,56,24,3.0,0.0,0.0,0.0,0.0,0.0
-490689,1.78,"26 May, 1988",Juan Cuadrado,66,Midfielder,Colômbia,3,0,8,3,5,6,4,7,1,0,59,3,3.0,0.0,1.0,0.0,0.0,0.0
+490689,1.78,"26 May, 1988",Juan Cuadrado,66,Midfielder,Colômbia,4,0,9,3,5,9,6,13,1,0,88,9,4.0,0.0,2.0,0.0,0.0,0.0
 490995,1.79,"8 July, 1987",Juan Paredes,72,Defender,Equador,1,1,7,0,0,6,3,5,0,0,83,19,3.0,0.0,0.0,0.0,1.0,0.0
 491194,1.90,"18 July, 1982",Carlo Costly,85,Forward,Honduras,0,1,1,1,3,3,6,4,1,1,33,3,3.0,0.0,1.0,0.0,0.0,0.0
-491576,1.85,"22 January, 1982",Rodrigo Munoz,77,Goalkeeper,Uruguai,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-491720,1.80,"12 July, 1991",James Rodríguez,77,Midfielder,Colômbia,2,1,5,10,11,9,5,6,3,0,93,13,2.0,1.0,0.0,1.0,0.0,0.0
-492381,1.96,"7 October, 1990",Sebastián Coates,85,Defender,Uruguai,0,0,0,0,0,0,0,0,0,0,2,0,0.0,3.0,0.0,1.0,0.0,0.0
+491576,1.85,"22 January, 1982",Rodrigo Munoz,77,Goalkeeper,Uruguai,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
+491720,1.80,"12 July, 1991",James Rodríguez,77,Midfielder,Colômbia,2,1,5,14,15,12,8,6,5,0,121,20,3.0,1.0,1.0,1.0,0.0,0.0
+492381,1.96,"7 October, 1990",Sebastián Coates,85,Defender,Uruguai,0,0,0,0,0,0,0,0,0,0,2,0,0.0,4.0,0.0,1.0,0.0,0.0
 492491,1.94,"15 February, 1991",Panagiotis Tachtsidis,86,Midfielder,Grécia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 492556,1.80,"19 April, 1990",Héctor Herrera,72,Midfielder,México,1,0,3,0,5,5,6,5,0,0,122,10,3.0,0.0,2.0,0.0,0.0,0.0
 492564,1.89,"20 March, 1990",Marcos Rojo,82,Defender,Argentina,0,1,4,2,5,13,4,3,1,0,123,19,3.0,0.0,0.0,0.0,1.0,0.0
@@ -534,7 +534,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 514875,1.82,"22 January, 1987",Dmitry Kombarov,73,Defender,Rússia,1,4,4,2,2,14,4,5,0,0,117,13,3.0,0.0,0.0,0.0,1.0,0.0
 515035,1.78,"8 January, 1992",Koke,74,Midfielder,Espanha,0,0,2,1,2,0,0,2,0,0,123,6,1.0,2.0,0.0,1.0,0.0,0.0
 515121,1.85,"21 February, 1992",Phil Jones,71,Defender,Inglaterra,0,0,1,0,0,1,2,3,0,0,38,5,1.0,2.0,0.0,0.0,0.0,0.0
-516681,1.80,"17 May, 1985",Teófilo Gutiérrez,72,Forward,Colômbia,1,1,1,2,4,0,3,1,1,2,32,1,2.0,1.0,1.0,0.0,0.0,0.0
+516681,1.80,"17 May, 1985",Teófilo Gutiérrez,72,Forward,Colômbia,1,3,2,3,5,0,5,2,1,2,47,4,3.0,1.0,2.0,0.0,0.0,0.0
 517263,1.82,"2 October, 1990",Mix Diskerud,71,Midfielder,Estados Unidos,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 518541,1.80,"25 August, 1992",Ricardo Rodríguez,72,Defender,Suíça,2,1,2,2,2,7,2,3,0,1,120,27,3.0,0.0,0.0,0.0,0.0,0.0
 520909,1.87,"2 September, 1986",Rafik Halliche,77,Defender,Argélia,0,1,3,2,2,0,0,0,1,0,90,32,3.0,0.0,0.0,0.0,0.0,0.0
@@ -554,7 +554,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 535678,1.85,"10 September, 1990",André Almeida,75,Defender,Portugal,0,1,0,0,0,1,0,0,0,0,30,7,1.0,1.0,1.0,1.0,0.0,0.0
 536032,1.76,"24 December, 1992",Serge Aurier,75,Defender,C. Marfim,2,2,11,3,3,15,4,5,0,0,118,19,3.0,0.0,0.0,0.0,0.0,0.0
 536847,1.87,"19 March, 1985",Mohamed Zemmamouche,82,Goalkeeper,Argélia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-536956,1.75,"8 October, 1990",Felipe Gutiérrez,64,Midfielder,Chile,0,0,0,0,3,0,1,2,0,0,46,7,1.0,2.0,1.0,2.0,0.0,0.0
+536956,1.75,"8 October, 1990",Felipe Gutiérrez,64,Midfielder,Chile,0,0,1,0,3,1,5,4,0,0,64,10,1.0,3.0,1.0,3.0,0.0,0.0
 537093,1.78,"1 February, 1987",Steven Beitashour,77,Defender,Irã,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 537368,1.82,"27 February, 1989",Ja-Cheol Koo,75,Forward,Coreia,0,0,7,5,6,1,5,6,1,2,96,8,3.0,0.0,0.0,0.0,1.0,0.0
 537371,1.96,"14 April, 1988",Shin-Wook Kim,94,Forward,Coreia,0,0,0,1,2,0,1,4,0,0,17,0,1.0,2.0,1.0,1.0,0.0,0.0
@@ -562,8 +562,8 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 537661,1.94,"3 February, 1990",Okechukwu Uchebo,85,Forward,Nigéria,0,0,0,1,1,0,0,0,0,0,7,1,0.0,3.0,0.0,1.0,0.0,0.0
 537666,1.63,"4 June, 1991",Lorenzo Insigne,59,Forward,Itália,0,0,0,0,1,0,0,0,0,2,13,3,0.0,3.0,0.0,1.0,0.0,0.0
 537827,1.79,"4 November, 1989",Enner Valencia,68,Forward,Equador,0,2,2,5,8,2,6,7,3,3,43,10,3.0,0.0,0.0,0.0,1.0,0.0
-537878,1.81,"8 September, 1986",Carlos Bacca,77,Forward,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,1.0,0.0,0.0,0.0,0.0
-538125,1.73,"21 March, 1989",Nicolás Lodeiro,69,Midfielder,Uruguai,0,0,4,1,1,0,2,0,0,0,55,2,2.0,1.0,1.0,1.0,0.0,0.0
+537878,1.81,"8 September, 1986",Carlos Bacca,77,Forward,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,2.0,0.0,0.0,0.0,0.0
+538125,1.73,"21 March, 1989",Nicolás Lodeiro,69,Midfielder,Uruguai,0,0,4,1,1,0,2,0,0,0,55,2,2.0,2.0,1.0,1.0,0.0,0.0
 538348,1.87,"22 February, 1992",Haris Seferovic,83,Forward,Suíça,0,0,0,1,3,0,2,0,1,0,24,0,1.0,2.0,1.0,2.0,0.0,0.0
 539244,1.78,"12 July, 1983",Ghasem Hadadifar,66,Midfielder,Irã,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 539492,1.81,"4 February, 1991",Mathew Leckie,81,Forward,Austrália,0,3,2,3,5,5,4,5,0,0,71,10,3.0,0.0,0.0,0.0,0.0,0.0
@@ -572,7 +572,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 540313,1.83,"19 April, 1990",Kook-Young Han,74,Midfielder,Coreia,0,3,8,0,0,0,3,2,0,0,92,6,3.0,0.0,2.0,0.0,1.0,0.0
 540398,1.78,"6 October, 1989",Bo-Kyung Kim,73,Midfielder,Coreia,0,0,1,0,0,0,0,0,0,0,27,0,0.0,3.0,0.0,2.0,0.0,0.0
 540414,1.87,"27 February, 1990",Kim Young-Gwon,74,Defender,Coreia,0,6,2,1,2,0,2,5,0,0,135,19,3.0,0.0,0.0,0.0,0.0,0.0
-540782,1.82,"28 November, 1985",Álvaro Pereira,78,Midfielder,Uruguai,0,2,7,0,0,3,3,5,0,0,43,8,2.0,1.0,1.0,0.0,0.0,0.0
+540782,1.82,"28 November, 1985",Álvaro Pereira,78,Midfielder,Uruguai,0,2,7,0,0,6,7,5,0,0,60,8,3.0,1.0,2.0,0.0,0.0,0.0
 540807,1.70,"10 December, 1991",Tommy Oar,73,Midfielder,Austrália,0,1,2,0,2,15,1,5,0,0,27,1,3.0,0.0,3.0,0.0,0.0,0.0
 541547,1.83,"10 January, 1992",Šime Vrsaljko,75,Defender,Croácia,0,4,4,0,0,3,5,1,0,0,71,21,2.0,1.0,1.0,0.0,0.0,0.0
 541738,1.90,"13 June, 1989",Andreas Samaris,80,Midfielder,Grécia,0,2,0,1,1,0,0,3,1,0,38,10,0.0,3.0,0.0,1.0,0.0,0.0
@@ -585,7 +585,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 544471,1.77,"4 August, 1991",Izet Hajrovic,71,Midfielder,Bósnia,0,0,0,4,5,2,2,3,0,0,36,3,2.0,1.0,2.0,0.0,0.0,0.0
 544490,1.87,"8 April, 1987",Jerry Bengtson,75,Forward,Honduras,0,0,5,3,4,2,6,2,0,2,40,4,3.0,0.0,1.0,0.0,1.0,0.0
 544563,1.75,"12 April, 1989",Miguel Ángel Ponce,77,Defender,México,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-545294,1.81,"25 July, 1988",Paulinho,71,Midfielder,Brasil,0,2,2,3,5,1,4,0,0,0,48,4,3.0,0.0,2.0,0.0,0.0,0.0
+545294,1.81,"25 July, 1988",Paulinho,71,Midfielder,Brasil,0,2,2,3,5,1,4,0,0,0,48,4,3.0,1.0,2.0,0.0,0.0,0.0
 545664,1.77,"28 September, 1984",Stephen Adams,78,Goalkeeper,Gana,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 545667,1.82,"13 July, 1990",Jonathan Mensah,83,Defender,Gana,0,2,5,0,3,0,1,1,0,0,118,34,3.0,0.0,0.0,0.0,0.0,0.0
 546158,1.76,"22 January, 1992",Vincent Aboubakar,82,Forward,Camarões,0,0,2,2,5,1,1,1,0,0,29,1,2.0,1.0,2.0,0.0,0.0,0.0
@@ -596,19 +596,19 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 552821,1.66,"11 February, 1990",Javier Aquino,59,Midfielder,México,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 552969,1.83,"27 September, 1992",Granit Xhaka,82,Midfielder,Suíça,0,3,1,5,10,1,1,3,1,1,100,4,3.0,0.0,1.0,0.0,0.0,0.0
 553391,1.86,"13 February, 1992",Tino-Sven Susic,77,Midfielder,Bósnia,1,0,2,1,1,3,2,1,0,0,57,6,1.0,2.0,1.0,1.0,0.0,0.0
-554281,1.80,"25 July, 1990",Carlos Carbonero,77,Midfielder,Colômbia,0,0,0,0,1,0,2,2,0,0,16,1,0.0,2.0,0.0,1.0,0.0,0.0
+554281,1.80,"25 July, 1990",Carlos Carbonero,77,Midfielder,Colômbia,0,0,0,0,1,0,2,2,0,0,16,1,0.0,3.0,0.0,1.0,0.0,0.0
 554701,1.87,"16 December, 1985",Máximo Banguera,84,Goalkeeper,Equador,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-555042,1.75,"5 February, 1992",Neymar,65,Forward,Brasil,0,1,3,10,11,8,3,9,4,1,87,13,3.0,0.0,2.0,0.0,1.0,0.0
-555044,1.85,"9 March, 1989",Camilo Vargas,81,Goalkeeper,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+555042,1.75,"5 February, 1992",Neymar,65,Forward,Brasil,0,1,7,13,15,12,7,14,4,3,112,18,4.0,0.0,2.0,0.0,1.0,0.0
+555044,1.85,"9 March, 1989",Camilo Vargas,81,Goalkeeper,Colômbia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 555210,1.89,"31 December, 1989",Mohammed Rabiu,70,Midfielder,Gana,0,1,7,0,0,0,8,2,0,0,77,18,3.0,0.0,3.0,0.0,1.0,0.0
-555407,1.83,"2 December, 1990",Gastón Ramírez,77,Midfielder,Uruguai,1,0,1,0,0,0,1,1,0,0,8,1,0.0,3.0,0.0,1.0,0.0,0.0
+555407,1.83,"2 December, 1990",Gastón Ramírez,77,Midfielder,Uruguai,1,0,1,1,1,2,3,1,0,0,37,3,0.0,3.0,0.0,2.0,0.0,0.0
 557536,1.76,"15 February, 1990",Fidel Martínez,67,Midfielder,Equador,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 558151,1.79,"20 July, 1993",Lucas Digne,74,Defender,França,0,1,3,0,0,6,1,4,0,0,56,11,1.0,2.0,0.0,0.0,0.0,0.0
 558287,1.68,"5 November, 1992",Marco Verratti,60,Midfielder,Itália,1,2,1,0,0,0,4,4,0,0,102,10,2.0,1.0,2.0,0.0,0.0,0.0
 558856,1.84,"22 October, 1991",Aissa Mandi,78,Defender,Argélia,0,0,6,0,0,4,2,3,0,1,59,19,2.0,1.0,0.0,0.0,0.0,0.0
 561086,1.86,"24 October, 1989",Ognjen Vranjes,74,Defender,Bósnia,0,0,0,0,0,1,1,2,0,0,13,3,0.0,3.0,0.0,1.0,0.0,0.0
 561661,1.79,"5 January, 1992",Afriyie Acquah,70,Midfielder,Gana,0,0,1,0,0,0,0,0,0,0,6,1,0.0,2.0,0.0,1.0,0.0,0.0
-562261,1.74,"18 July, 1988",Eugenio Mena,68,Defender,Chile,0,1,1,1,1,5,2,3,0,0,113,18,3.0,0.0,0.0,0.0,1.0,0.0
+562261,1.74,"18 July, 1988",Eugenio Mena,68,Defender,Chile,0,3,1,1,2,7,5,3,0,0,144,25,4.0,0.0,0.0,0.0,1.0,0.0
 564033,1.89,"19 February, 1991",Christoph Kramer,82,Midfielder,Alemanha,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 565008,1.96,"18 March, 1994",Stefanos Kapino,81,Goalkeeper,Grécia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 565439,1.85,"7 April, 1992",William,87,Midfielder,Portugal,0,1,6,0,0,1,7,1,0,0,90,12,1.0,1.0,0.0,1.0,0.0,0.0
@@ -627,7 +627,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 575271,1.76,"14 October, 1992",Ahmed Musa,62,Forward,Nigéria,0,0,4,7,8,10,3,2,2,1,35,6,3.0,0.0,1.0,0.0,0.0,0.0
 577897,1.87,"5 March, 1988",Liassine Cadamuro,81,Defender,Argélia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,1.0,0.0
 578835,1.90,"13 May, 1981",Asmir Avdukic,86,Goalkeeper,Bósnia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-580876,1.80,"30 November, 1990",Miiko Albornoz,80,Defender,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
+580876,1.80,"30 November, 1990",Miiko Albornoz,80,Defender,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0.0,4.0,0.0,0.0,0.0,0.0
 582489,1.81,"6 May, 1994",Mateo Kovacic,75,Midfielder,Croácia,0,0,3,0,1,0,1,1,0,0,47,5,1.0,2.0,1.0,2.0,0.0,0.0
 583025,1.72,"19 September, 1991",Majeed Waris,70,Forward,Gana,0,0,2,0,1,1,3,3,0,2,14,3,1.0,2.0,1.0,0.0,1.0,0.0
 583081,1.99,"2 April, 1989",Bum-Young Lee,90,Goalkeeper,Coreia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
@@ -642,10 +642,10 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 586284,1.88,"8 September, 1988",Adrián Bone,76,Goalkeeper,Equador,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 587714,1.70,"8 December, 1994",Raheem Sterling,69,Midfielder,Inglaterra,0,0,2,2,4,7,6,4,0,0,60,4,2.0,1.0,0.0,1.0,1.0,0.0
 587719,1.77,"13 February, 1994",Memphis Depay,78,Forward,Holanda,1,0,1,3,3,2,3,2,2,0,21,1,0.0,3.0,0.0,2.0,0.0,0.0
-588006,1.79,"11 July, 1988",Alexander Mejía,78,Midfielder,Colômbia,0,4,6,0,0,0,3,0,0,0,28,14,1.0,2.0,0.0,2.0,0.0,0.0
+588006,1.79,"11 July, 1988",Alexander Mejía,78,Midfielder,Colômbia,0,4,7,0,0,0,4,0,0,0,31,14,1.0,3.0,0.0,3.0,0.0,0.0
 588585,1.92,"15 March, 1993",Paul Pogba,80,Midfielder,França,1,0,2,4,7,8,2,6,0,0,120,11,2.0,1.0,1.0,1.0,1.0,0.0
 589004,1.82,"27 January, 1987",Denis Glushakov,72,Midfielder,Rússia,0,2,4,2,4,2,5,2,0,0,65,23,3.0,0.0,2.0,0.0,0.0,0.0
-589316,1.66,"8 September, 1992",Bernard,52,Forward,Brasil,0,1,0,0,0,3,1,1,0,0,20,2,0.0,3.0,0.0,2.0,0.0,0.0
+589316,1.66,"8 September, 1992",Bernard,52,Forward,Brasil,0,1,0,0,0,3,1,1,0,0,20,2,0.0,4.0,0.0,2.0,0.0,0.0
 589686,1.85,"25 December, 1986",Aleksei Kozlov,78,Defender,Rússia,0,3,3,0,0,2,4,0,0,0,58,15,2.0,1.0,1.0,0.0,1.0,0.0
 589810,1.83,"25 January, 1993",Pavel Mogilevets,70,Midfielder,Rússia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 590168,1.82,"30 July, 1980",Rahman Ahmadi,77,Goalkeeper,Irã,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
@@ -667,7 +667,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 605529,1.71,"20 January, 1991",Álex Ibarra,70,Midfielder,Equador,0,0,0,2,2,1,2,1,0,0,4,1,0.0,3.0,0.0,1.0,0.0,0.0
 606860,1.77,"9 February, 1984",Andrey Eshchenko,62,Defender,Rússia,1,1,4,2,3,4,1,0,0,0,72,1,1.0,2.0,0.0,1.0,0.0,0.0
 607949,1.86,"26 May, 1988",Luis Neto,71,Defender,Portugal,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-608422,1.88,"19 May, 1990",Víctor Ibarbo,78,Forward,Colômbia,0,0,6,0,0,2,5,3,0,0,26,4,2.0,1.0,1.0,0.0,0.0,0.0
+608422,1.88,"19 May, 1990",Víctor Ibarbo,78,Forward,Colômbia,0,0,6,0,0,2,5,3,0,0,26,4,2.0,2.0,1.0,0.0,0.0,0.0
 608424,1.82,"10 May, 1987",Emmanuel Emenike,90,Forward,Nigéria,2,2,4,3,7,6,3,2,0,1,50,8,3.0,0.0,0.0,0.0,0.0,0.0
 608491,1.91,"14 May, 1993",Oliver Zelenika,82,Goalkeeper,Croácia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 612564,1.81,"16 November, 1992",Marcelo Brozovic,68,Midfielder,Croácia,0,0,2,1,2,0,1,0,0,0,13,1,0.0,2.0,0.0,1.0,0.0,0.0
@@ -688,7 +688,7 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 640301,1.87,"19 January, 1994",Matthias Ginter,85,Defender,Alemanha,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 644835,1.83,"20 June, 1993",Sead Kolasinac,82,Defender,Bósnia,0,1,6,1,1,2,4,2,0,0,95,17,2.0,1.0,0.0,0.0,0.0,0.0
 644865,1.83,"15 January, 1992",Joel Veltman,73,Defender,Holanda,0,0,1,0,0,0,2,0,0,0,5,0,0.0,2.0,0.0,1.0,0.0,0.0
-648645,1.68,"18 January, 1993",Juan Quintero,64,Midfielder,Colômbia,0,0,1,2,3,1,0,1,1,0,23,4,1.0,2.0,1.0,1.0,0.0,0.0
+648645,1.68,"18 January, 1993",Juan Quintero,64,Midfielder,Colômbia,0,0,1,2,3,1,0,1,1,0,23,4,1.0,3.0,1.0,1.0,0.0,0.0
 649698,1.76,"29 July, 1990",Oleg Shatov,64,Midfielder,Rússia,0,0,3,1,2,4,2,2,0,0,70,3,3.0,0.0,3.0,0.0,1.0,0.0
 650461,1.80,"10 September, 1987",Ivan Franjic,77,Defender,Austrália,1,1,4,0,0,1,0,1,0,0,18,0,1.0,0.0,1.0,0.0,0.0,0.0
 650483,1.80,"24 December, 1986",Yong Lee,74,Defender,Coreia,0,4,6,1,1,3,4,2,0,0,121,17,3.0,0.0,0.0,0.0,1.0,0.0
@@ -710,14 +710,14 @@ codigo,altura,ano_nascimento,nome,peso,posicao,time,assistencias,bloqueios,carri
 706676,1.90,"1 January, 1989",Esseid Belkalem,90,Defender,Argélia,0,1,1,0,1,0,1,2,0,0,28,11,1.0,1.0,0.0,1.0,0.0,0.0
 706821,1.82,"9 January, 1985",Cedric Si Mohamed,68,Goalkeeper,Argélia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 709617,1.91,"24 March, 1989",Andrey Semenov,86,Defender,Rússia,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-716865,1.71,"13 January, 1992",Santiago Arias,68,Defender,Colômbia,0,3,1,1,2,1,1,0,0,0,41,13,1.0,2.0,0.0,2.0,0.0,0.0
+716865,1.71,"13 January, 1992",Santiago Arias,68,Defender,Colômbia,0,3,1,1,2,1,1,0,0,0,41,13,1.0,3.0,0.0,2.0,0.0,0.0
 719156,1.68,"31 January, 1987",Abdelmoumene Djabou,66,Forward,Argélia,1,0,3,2,3,5,2,5,1,1,34,7,2.0,1.0,2.0,0.0,0.0,0.0
 723261,1.82,"18 December, 1992",Rashid Sumaila,80,Defender,Gana,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 723625,1.75,"9 July, 1993",DeAndre Yedlin,68,Defender,Estados Unidos,0,1,1,0,0,2,0,0,0,0,7,2,0.0,3.0,0.0,2.0,0.0,0.0
 724860,1.85,"18 April, 1995",Divock Origi,75,Forward,Bélgica,0,1,1,5,6,1,2,2,1,2,15,2,0.0,3.0,0.0,3.0,0.0,0.0
 724862,1.96,"26 December, 1985",Juan Montes,75,Defender,Honduras,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
-727328,1.81,"28 February, 1993",Éder Balanta,78,Defender,Colômbia,0,3,1,0,0,0,2,0,0,0,21,8,1.0,2.0,0.0,0.0,0.0,0.0
-732955,1.84,"20 January, 1995",José María Giménez,80,Defender,Uruguai,0,4,5,0,0,0,3,2,0,0,35,9,2.0,1.0,0.0,0.0,0.0,0.0
+727328,1.81,"28 February, 1993",Éder Balanta,78,Defender,Colômbia,0,3,1,0,0,0,2,0,0,0,21,8,1.0,3.0,0.0,0.0,0.0,0.0
+732955,1.84,"20 January, 1995",José María Giménez,80,Defender,Uruguai,0,4,6,0,1,0,5,4,0,0,59,9,3.0,1.0,0.0,0.0,1.0,0.0
 735697,1.87,"30 April, 1991",Ebenezer Odunlami,70,Defender,Nigéria,0,0,0,0,0,0,0,0,0,0,0,0,0.0,3.0,0.0,0.0,0.0,0.0
 735699,1.65,"24 December, 1992",Michael Babatunde,72,Forward,Nigéria,1,0,5,2,2,1,3,2,0,2,37,5,2.0,1.0,2.0,0.0,0.0,0.0
 735764,1.80,"5 February, 1995",Adnan Januzaj,75,Midfielder,Bélgica,0,0,2,0,0,0,1,2,0,0,14,4,1.0,2.0,1.0,0.0,0.0,0.0
