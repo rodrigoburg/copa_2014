@@ -3,6 +3,7 @@ var time = null
 var recorte = null
 var svg = null;
 var posicao = null
+var media = null
 
 function mudaRecorte() {
     //pega o valor
@@ -29,24 +30,47 @@ function mudaPosicao() {
     var posicao = jQuery("#posicao").val();
     window.posicao = posicao;
     
+    //volta a média para total
+    mudaMedia("total")
+    
     //deleta o svg
 	jQuery("#jogador").replaceWith('<div id="jogador"></div>');
 	desenhaGrafico();
 }
 
+function mudaMedia(media) {
+    //passa o valor
+    window.media = media;
+
+    //ativa ou reativa o radio
+    jQuery("input[name='"+media+"']").attr("checked","checked")
+
+    //muda o nome da variável se for necessário
+    if (media == "media") {
+        recorte = recorte + " - Média"
+    } else {
+        recorte = recorte.replace(" - Média","")
+    }
+
+    //deleta o svg
+	jQuery("#jogador").replaceWith('<div id="jogador"></div>');
+	desenhaGrafico();
+    
+}
 
 function desenhaGrafico()    {
     //pega as variáveis
     var recorte = window.recorte
     var time = window.time
     var data = window.complete_data;
+
     
-    //vê se há timemento por time
+    //vê se há agrupamento por time
     if (time != "total") {
         data = dimple.filterData(data,"time",time);
     }
     
-    //vê se há timemento por posição
+    //vê se há agrupamento por posição
     if (posicao != "total") {
         data = dimple.filterData(data,"posicao",posicao);
     }
@@ -84,7 +108,7 @@ function desenhaGrafico()    {
     
     //continua arrumando
     colocaOrdem(myChart)
-    arrumaMedia(recorte);
+    mostraRadios();
     
 }
 
@@ -188,10 +212,26 @@ function inicializa() {
             var posicao = "total"
     }
     
-    
+    //faz o mesmo com a media
+    if ("media" in variaveis) {
+        var media = variaveis["media"]
+        var radios = document.total_media.media
+        for (var id = 0; id < radios.length; id++) {
+            if (radios[id].value == media) jQuery(radios[id]).attr('disabled',false);
+        }
+    }
+    else {
+        var media = "total"
+    }
+        
+    //arruma as variáveis globais
     window.recorte = recorte
     window.time = time
     window.posicao = posicao
+    window.media = media
+    
+    //mostra ou não mostra os radios de total e média
+    mostraRadios()
     
     //carrega os dados e cria o gráfico
 //    d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv.csv", function (data) {
@@ -201,6 +241,22 @@ function inicializa() {
     });
 }
 
+function mostraRadios() {
+    //vê quais são nossos agrupamentos
+    var media = window.media
+    var recorte = window.recorte
+    
+    //se recorte estiver com média, tira
+    recorte = recorte.replace(" - Média","")
+    
+    var variaveis_com_media = ['Assistências', 'Bloqueios', 'Carrinhos', 'Chutes Certos', 'Chutes ao gol', 'Cruzamentos', 'Faltas Cometidas', 'Faltas Sofridas', 'Gols', 'Impedimentos', 'Passes', 'Roubadas']
+    
+    if (variaveis_com_media.indexOf(recorte) >= 0) {
+        jQuery("form[name='total_media']").show()
+    } else { 
+        jQuery("form[name='total_media']").hide()
+    }
+}
 function colocaOrdem(chart) {
     //coloca bold no texto dos jogadores do Brasil
     jogadores_BR = chart.data.filter(function (a) { return a["time"] == "Brasil"})
@@ -221,18 +277,6 @@ function colocaOrdem(chart) {
     //coloca o número na frente de cada jogador
    for (var i = 0; i < jogadores.length;i++) {
         jQuery("#jogador").find('text:contains("'+jogadores[i]+'")').text((jogadores.length - i) + " - " +jogadores[i]);
-    }
-}
-
-function arrumaMedia(recorte) {
-    //se o recorte for algum desses:
-    if (["Gols","Assistências","Cartões Amarelos","Cartões Vermelhos","Peso"].indexOf(recorte) >= 0) {
-        jQuery("#media").hide()
-        jQuery("#total").show()
-    }
-    else {
-        jQuery("#total").hide()
-        jQuery("#media").show()    
     }
 }
 
