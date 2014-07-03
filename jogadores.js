@@ -36,7 +36,7 @@ function mudaMedia(el) {
     //passa o valor
     media = el.value
     window.media = media;
-
+    recorte = window.recorte_jogador
     //ativa ou reativa o radio
     jQuery(el).prop('checked',true);
     jQuery('input[name="media"][value!="' + media + '"]').prop('checked', false);
@@ -47,7 +47,8 @@ function mudaMedia(el) {
     } else {
         recorte = recorte.replace(" - Média","")
     }
-
+    console.log(recorte)
+    window.recorte_jogador = recorte
 	redesenhaGrafico();
     
 }
@@ -94,14 +95,14 @@ function desenhaGrafico()    {
     }
 
     //desenha o gráfico
-    var svg = dimple.newSvg("#jogador", 950, 520);
+    var svg = dimple.newSvg("#jogador", 950, 700);
 
     //elimina todos com zero
     data = data.filter(function(a){return a[recorte] > 0;});
 
     //descobre o valor máximo
     var maximo_x = d3.max(data, function(d) {
-        return parseInt(d[recorte]);
+        return parseFloat(d[recorte]);
     }); 
     
     //pega os 32 top
@@ -109,7 +110,7 @@ function desenhaGrafico()    {
     data = data.slice(0,32);
 
     var myChart = new dimple.chart(svg, data);
-    myChart.setBounds(140, 30, 500, 405);
+    myChart.setBounds(140, 30, 600, 600);
     var x = myChart.addMeasureAxis("x", recorte);
     
     //bota o tamanho máximo de x (para igualar ordem crescente ou decrescente)
@@ -119,10 +120,15 @@ function desenhaGrafico()    {
     if (["Chutes convertidos em gols (%)","Acerto de chutes (%)"].indexOf(recorte)>=0) {
         x.tickFormat = "%";
     }
+    
+    x.ticks = 5;
+    
     var y = myChart.addCategoryAxis("y", "nome");
     //retira o título do eixo Y
     y.title = "";
     var series = myChart.addSeries("nome", dimple.plot.bar);
+    
+    series.barGap = 0.42;
     
     if (ordem == "Decrescente") {
         y.addOrderRule(recorte,false);
@@ -136,6 +142,7 @@ function desenhaGrafico()    {
 
     //desenha
     myChart.draw();
+    console.log(data)
 
     //continua arrumando
     colocaOrdem(myChart)
@@ -305,6 +312,10 @@ function colocaOrdem(chart) {
    for (var i = 0; i < jogadores.length;i++) {
         jQuery("#jogador").find('text:contains("'+jogadores[i]+'")').text((jogadores.length - i) + " - " +jogadores[i]);
     }
+    
+    //muda tamanho do texto
+    jQuery("#jogador").find("text").css({"font-size":"12px"})
+    
 }
 
 function mostraRadios() {

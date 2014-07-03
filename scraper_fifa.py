@@ -184,13 +184,12 @@ def scrape_pagina(url):
         
         #cartões vermelhos
         try:
-            pai = page.find("tr",{"data-codename":"redcard"})
-            jogo["48cartao_vermelho1"] = pai.findChild("td",{"data-statref":"home"}).getText()
-            jogo["49cartao_vermelho2"] = pai.findChild("td",{"data-statref":"away"}).getText()
-        except AttributeError:
             pai = page.find("tr",{"data-codeid":"2000098"})
             jogo["48cartao_vermelho1"] = pai.findChild("td",{"data-statref":"home"}).getText()
             jogo["49cartao_vermelho2"] = pai.findChild("td",{"data-statref":"away"}).getText()
+        except AttributeError:
+            jogo["48cartao_vermelho1"] = 0
+            jogo["49cartao_vermelho2"] = 0
     
         #distância time casa
         pai = page.find("div",{"id":"distance"})
@@ -468,9 +467,8 @@ def calculaGrafico(times):
     del times["vitorias"]
     del times ["empates"]
     del times ["derrotas"]
-    del times ["jogos"]
-    
-    times.columns = ["Gols","Ataques","Desarmes","Passes completados","Posse de bola","Chutes certos","Chutes para fora","Jogadas de bola parada","Cruzamentos","Escanteios","Impedimentos","Defesas","Bolas recuperadas","Bolas perdidas","Faltas cometidas","Cartões amarelos","Cartões vermelhos","Distância corrida com bola","Distância corrida sem bola","Passes curtos","Passes médios","Passes longos","Porcentagem de passes completos","Gols Sofridos","Pontos","Saldo de Gols"]
+
+    times.columns = ["Gols","Ataques","Desarmes","Passes completados","Posse de bola","Chutes certos","Chutes para fora","Jogadas de bola parada","Cruzamentos","Escanteios","Impedimentos","Defesas","Bolas recuperadas","Bolas perdidas","Faltas cometidas","Cartões amarelos","Cartões vermelhos","Distância corrida com bola","Distância corrida sem bola","Passes curtos","Passes médios","Passes longos","Porcentagem de passes completos","Gols Sofridos","jogos","Pontos","Saldo de Gols"]
     
     times["Mordidas"] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
     
@@ -495,9 +493,157 @@ def calculaGrafico(times):
 
     del times ["pontuacao"]
     
+    #calcula índice de chutes a gol por minuto de posse de bola
+    times["prorrogacao"] = 0
+    times.loc["Alemanha","prorrogacao"] = 1
+    times.loc["Argélia","prorrogacao"] = 1
+    times.loc["Brasil","prorrogacao"] = 1
+    times.loc["Chile","prorrogacao"] = 1
+    times.loc["Costa Rica","prorrogacao"] = 1
+    times.loc["Grécia","prorrogacao"] = 1
+    times.loc["Argentina","prorrogacao"] = 1
+    times.loc["Suíça","prorrogacao"] = 1
+    times.loc["Bélgica","prorrogacao"] = 1 
+    times.loc["EUA","prorrogacao"] = 1 
+    
+    times["minutos_jogados"] = times["jogos"]*90 + times["prorrogacao"]*30
+    times["minutos_posse_bola"] = times["minutos_jogados"]*times["Posse de bola"]/100
+    times["Chutes por 100 min"] = 100*(times["Chutes certos"]+times["Chutes para fora"])/times["minutos_posse_bola"]
+    times["Chutes certos por 100 min"] = 100*times["Chutes certos"]/times["minutos_posse_bola"]
+    times["Gols por 100 min"] = 100*(times["Gols"])/times["minutos_posse_bola"]
+    times["Ataques por 100 min"] = 100*(times["Ataques"])/times["minutos_posse_bola"]
+    times["Minutos para cada gol"] = times["minutos_posse_bola"]/times["Gols"]
+    
+    del times["jogos"]
+    del times["minutos_jogados"]
+    del times["minutos_posse_bola"]
+    del times["prorrogacao"]
+    
     return times
 
+def calculaGolsMinuto():
+    jogos = consultaBase("jogos_fifa")
+    jogos.index = jogos.codigo
+    del jogos["codigo"]
+    
+    jogos["prorrogacao"] = 0
+    jogos.ix[300186503,"prorrogacao"] = 1
+    jogos.ix[300186460,"prorrogacao"] = 1
+    jogos.ix[300186459,"prorrogacao"] = 1
+    jogos.ix[300186487,"prorrogacao"] = 1 
+    
+    jogos["minutos_posse1"] = jogos["posse_bola1"]*(90+30*jogos["prorrogacao"])/100
+    jogos["minutos_posse2"] = jogos["posse_bola2"]*(90+30*jogos["prorrogacao"])/100
+    
+    jogos["Minuto_gol1"] = jogos["minutos_posse1"]/jogos["gols1"]
+    jogos["Minuto_gol2"] = jogos["minutos_posse2"]/jogos["gols2"]
 
+    eventos = jogos
+    
+    #cria o nome das colunas e dataframes para cada um dos times
+    colunas = list(eventos.columns)
+    
+    colunas1 = [campo for campo in colunas if campo[-1] == "1"]
+    colunas2 = [campo for campo in colunas if campo[-1] == "2"]
+    eventos1 = eventos[colunas1]
+    eventos2 = eventos[colunas2]
+
+    #faz uma tabela só com uma das colunas - cada linha continua sendo um jogo
+    resultado = eventos1.append(eventos2)
+    resultado = resultado.fillna(0)
+    
+    #arruma o nome do time
+    resultado["time"] = resultado.apply(arrumaTime,axis=1)
+    del resultado["time1"]
+    del resultado["time2"]    
+
+    #calcula a soma de todos os indicadores
+    colunas = [c[:-1] for c in colunas1] #tira o 1 dos nomes de coluna
+    colunas.pop(0) #tira o nome dos times
+    
+    for c in colunas:
+        resultado[c] = resultado[c+"1"] + resultado[c+"2"]
+        del resultado[c+"1"]
+        del resultado[c+"2"]
+    
+    resultado.to_csv("graficoGolsMinuto.csv")
+    
+def graficoJogos(eventos):
+    eventos.index = eventos["codigo"]
+    del eventos["codigo"]
+        
+    #cria o nome das colunas e dataframes para cada um dos times
+    colunas = list(eventos.columns)
+    
+    #tira o nome dos times do loop
+    colunas.pop(0)
+    colunas.pop(0)
+    
+    #pega os nomes únicos de cada coluna
+    colunas = set([c[:-1] for c in colunas])
+    
+    #soma todas as colunas
+    for c in colunas:
+        eventos[c+"1"] = eventos[c+"1"].apply(int)
+        eventos[c+"2"] = eventos[c+"2"].apply(int)
+        eventos[c] = eventos[c+str(1)] + eventos[c+str(2)]
+    
+    #tira indices que não fazem sentido
+    del eventos["posse_bola"]
+    del eventos["porc_passes_completos"]
+    
+    #junta os times
+    eventos["times"] = eventos["time1"] + " x " + eventos["time2"]
+    
+    #arruma os nomes
+    eventos = eventos.rename_axis(nomeJogos,axis=1)
+
+    return eventos
+    
+def nomeJogos(nome):
+    traducao = {
+        'escanteios':"Escanteios",
+        'chutes_fora':"Chutes para fora",
+        'passes_curtos':"Passes curtos",
+        'dist_sem_bola':"Distância corrida sem bola",
+        'carrinho':"Carrinhos",
+        'cruzamentos':"Cruzamentos",
+        'defesas':"Defesas",
+        'dist_com_bola':"Distância corrida com bola",
+        'chutes_certos':"Chutes certos",
+        'chutes_bloqueados':"Chutes bloqueados",
+        'chutes_defendidos':"Chutes defendidos",
+        'cartao_amarelo':"Cartões amarelos",
+        'bolas_perdidas':"Bolas perdidas",
+        'passes_longos':"Passes longos",
+        'ataque':"Ataques",
+        'dist_total':"Distância corrida - Total",
+        'bola_parada':"Jogadas de bola parada",
+        'chutes':"Chutes a gol - Total",
+        'bolas_recuperadas':"Bolas recuperadas",
+        'passes':"Passes - Total",
+        'impedimentos':"Impedimentos",
+        'passes_area':"Passes dentro da área",
+        'desarmes':"Desarmes",
+        'passes_completados':"Passes completados",
+        'cartao_vermelho':"Cartões vermelhos",
+        'passes_medios':"Passes médios",
+        'faltas_cometidas':"Faltas",
+        'chutes_trave':"Chutes na trave",
+        'gols':"Gols",
+        'times':"Times"
+    }
+    
+    if nome in traducao:
+        return traducao[nome]
+    elif nome[:-1] in traducao:
+        if nome[-1] == "1": 
+            return traducao[nome[:-1]]+"1"
+        else:
+            return traducao[nome[:-1]]+"2"
+    else:
+        return nome
+    
 def limpaBase(base):
     client = MongoClient()
     my_db = client["copa"]
@@ -510,11 +656,14 @@ def limpaBases():
 
 def fazCalculos():
     consultaBase("jogadores_fifa").to_csv("jogadores_fifa_cadajogo.csv")
-    consultaBase("jogos_fifa").to_csv("jogos_fifa.csv")
+    jogos = consultaBase("jogos_fifa")
+    jogos.to_csv("jogos_fifa.csv")
+    graficoJogos(jogos).to_csv("grafico_jogos.csv")
     times = calculaTime()
     times.to_csv("times_fifa.csv")
     calculaGrafico(times).to_csv("grafico_times.csv")
     calculaJogador().to_csv("jogadores_fifa_total.csv")
+
 
 #limpaBases()
 #consultaData("20140612")
@@ -531,9 +680,10 @@ def fazCalculos():
 #consultaData("20140624")
 #consultaData("20140625")
 #consultaData("20140626")
-consultaJogo("300186491",True)
+#consultaJogo("300186497",True)
 #consultaJogo("300186506")
 fazCalculos()
+#calculaGolsMinuto()
 #eventos = consultaBase("jogos_fifa")
 #print(eventos[eventos.time1 == "Argentina"])
 #print(eventos[eventos.time2 == "Argentina"])

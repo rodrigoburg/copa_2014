@@ -10,10 +10,10 @@ function mudaRecorteSelecoes() {
 }
 
 function desenhaGraficoSelecoes(recorte)    {
-      var svg = dimple.newSvg("#selecoes", 950, 520);
+      var svg = dimple.newSvg("#selecoes", 950, 700);
       data = window.complete_dataSelecoes
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(80, 30, 600, 405)
+      myChart.setBounds(80, 30, 600, 600);
       var x = myChart.addMeasureAxis("x", recorte);
       
       var y = myChart.addCategoryAxis("y", "time");
@@ -21,7 +21,7 @@ function desenhaGraficoSelecoes(recorte)    {
       y.title = ""
       series = myChart.addSeries("time", dimple.plot.bar);
       //ordena diferente se o recorte for Ranking
-      if (recorte == "Ranking") { 
+      if (["Ranking","Minutos para cada gol"].indexOf(recorte) >= 0) { 
           y.addOrderRule(recorte,true) 
       }  else { y.addOrderRule(recorte,false) }
       
@@ -29,6 +29,8 @@ function desenhaGraficoSelecoes(recorte)    {
       if (recorte == "Saldo de Gols") {
           y.showGridlines = false
       }
+      series.barGap = 0.42;
+      
       myChart = coloreSelecoes(myChart)
       myChart.draw();
       
@@ -88,22 +90,23 @@ function inicializa_selecoes() {
     }
 
     //cria o svg
-    var svg = dimple.newSvg("#selecoes", 950, 520);
+    var svg = dimple.newSvg("#selecoes", 950, 700);
     //carrega os dados e cria o gráfico
     d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_times.csv", function (data) {
 //    d3.csv("grafico_times.csv", function (data) {
         window.complete_dataSelecoes = data
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(80, 30, 600, 405)
+      myChart.setBounds(80, 30, 600, 600);
       myChart.addMeasureAxis("x", recorte);
       var y = myChart.addCategoryAxis("y", "time");
       //retira o título do eixo Y
       y.title = ""
       series = myChart.addSeries("time", dimple.plot.bar);
       //ordena diferente se o recorte for Ranking
-      if (recorte == "Ranking") { 
+      if (["Ranking","Minutos para cada gol"].indexOf(recorte) >= 0) { 
           y.addOrderRule(recorte,true) 
       }  else { y.addOrderRule(recorte,false) }
+      series.barGap = 0.42;
       
       //arruma as cores
       myChart = coloreSelecoes(myChart)
@@ -117,6 +120,11 @@ function inicializa_selecoes() {
 function arrumaNomesSelecoes(recorte) {
     data = window.complete_dataSelecoes
     
+    if (recorte == "Minutos para cada gol") {
+        data.sort(function (a,b) {return a[recorte]-b[recorte]})
+        console.log(data)
+    }
+    
     //coloca bold no texto do Brasil
     jQuery("#selecoes").find('text:contains("Brasil")').css({'font-weight':'bold'})
     
@@ -124,6 +132,9 @@ function arrumaNomesSelecoes(recorte) {
     jQuery("#selecoes").find('text:contains("Costa do Marfim")').text("C. Marfim");
     jQuery("#selecoes").find('text:contains("Bósnia e Herzegovina")').text("Bósnia");
     jQuery("#selecoes").find('text:contains("Coreia do Sul")').text("Coreia");
+    
+    //muda tamanho do texto
+    jQuery("#selecoes").find("text").css({"font-size":"12px"})
     
     //achar ordem das seleções
     //começa pegando o nome de todas as seleções e a ordem delas
@@ -160,7 +171,7 @@ function arrumaNomesSelecoes(recorte) {
             numero = ordem[i]
             jQuery("#selecoes").find('text:contains("'+selecoes[i]+'")').text(ranking[i] + " - " +selecoes[i]);
         }
-    } else {
+    } else if (recorte == "Ranking"){
         //regra diferente pro ranking
         data.sort(function(a, b){return b[recorte]-a[recorte]});
         

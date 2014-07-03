@@ -678,8 +678,8 @@ def desenhaExcel():
         worksheet.write(s, soma[s])
 
 def atualizaPartidas():
-    data_inicio = datetime.strptime('28062014', "%d%m%Y").date()
-    data_fim = datetime.strptime('28062014', "%d%m%Y").date()
+    data_inicio = datetime.strptime('01072014', "%d%m%Y").date()
+    data_fim = datetime.strptime('01072014', "%d%m%Y").date()
     delta = data_fim - data_inicio
     datas = []
     for i in range(delta.days + 1):
@@ -706,6 +706,7 @@ def fazConsultas():
 #limpaBases()
 atualizaPartidas()
 fazConsultas()
+
 #eventos = consultaBase("jogadores")
 #jogadores = consultaBase("jogadores_info")
 #jogadores = jogadores[jogadores.nome == "Fernandinho"]
