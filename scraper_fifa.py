@@ -33,7 +33,7 @@ def consultaData(data):
 
 def consultaJogo(codigo,segunda_fase):
     if segunda_fase:
-        url = "http://pt.fifa.com/worldcup/matches/round=255951/match="+codigo+"/statistics.html"        
+        url = "http://pt.fifa.com/worldcup/matches/round=255953/match="+codigo+"/statistics.html"        
     else:
         url = "http://pt.fifa.com/worldcup/matches/round=255931/match="+codigo+"/statistics.html"
         
@@ -680,7 +680,7 @@ def fazCalculos():
 #consultaData("20140624")
 #consultaData("20140625")
 #consultaData("20140626")
-#consultaJogo("300186497",True)
+#consultaJogo("300186485",True)
 #consultaJogo("300186506")
 fazCalculos()
 #calculaGolsMinuto()

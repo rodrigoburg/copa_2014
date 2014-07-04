@@ -89,10 +89,16 @@
           <option value="Goleiro">Goleiro</option>
         </select>
       </span>
-      <span class="seletor-ordem">
+      <span class="seletor-jogo">
+              Jogo:
+          <select id ="jogo_jogador" onChange="mudaJogoJogador()">
+              <option value="todos">Todos</option>
+          </select>
+      </span>
+       <span class="seletor-ordem">
         Ordem: <input type="radio" name="ordem" value="Decrescente" checked onChange="mudaOrdem(this)"> Maiores  |  <input type="radio" name="ordem" value="Crescente" onChange="mudaOrdem(this)"> Menores
       </span>
-    <div/>
+    <div/> 
     <div id="jogador"></div>
     <script type="text/javascript" src ="jogadores.js"></script>
     <script>inicializa();</script>

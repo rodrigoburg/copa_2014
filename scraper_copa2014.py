@@ -458,7 +458,21 @@ def calculaJogador(eventos):
     
     #exporta o jogadores_antigos para um csv
     del jogadores_antigos["_id"]
+    
+    #acrescenta cartões aos jogadores_antigos
+    jogadores_antigos.index = jogadores_antigos["codigo"]
+    
+    temp = jogadores_antigos.join(resultado,how="left")
+    
     jogadores_antigos.to_csv("jogador_stats_cadajogo.csv",index=False)
+    
+    #salva o dataframe para ser usado depois
+    del temp["titular"]
+    del temp["banco"]
+    del temp["saiu"]
+    del temp["entrou"]
+    
+    jogadores_cadajogo = temp
     
     #faz a tabela dinâmica das infos antigas
     antigos_dinamica = jogadores_antigos.groupby("codigo").sum()
@@ -482,27 +496,19 @@ def calculaJogador(eventos):
     
     resultado.to_csv("jogador_stats_somado.csv")
     
-    return resultado
+    return resultado, jogadores_cadajogo
 
-def graficoJogador(jogadores):
+def graficoJogador(jogadores,jogadores_cadajogo):
     #coloca o nome como index
     jogadores.index = jogadores["nome"]
-    
-    #descobre idade
-    jogadores["idade"] = jogadores["ano_nascimento"].apply(achaIdade)
-    
+
     #arruma posição
     traducao = {"Goalkeeper":"Goleiro","Defender":"Zagueiro","Midfielder":"Meio Campo","Forward":"Atacante"}
     jogadores["posicao"] = jogadores["posicao"].apply(lambda t: traducao[t])
     
     #descobre número jogos jogados
     jogadores["jogos"] = jogadores["titular"] + jogadores["entrou"]
-    jogadores.to_csv("testesteeteste.csv")
     
-    #calcula aproveitamento e chutes no alvo
-    jogadores["aproveitamento"] = jogadores["gols"]/jogadores["chutes_total"]    
-    jogadores["mira_certa"] = jogadores["chutes_certos"]/jogadores["chutes_total"]
-
     #calcula média
     colunas_com_media = ["assistencias","bloqueios","carrinhos","chutes_certos","chutes_total","cruzamentos","faltas_cometidas","faltas_sofridas","gols","impedimentos","passes","roubadas"]
     for c in colunas_com_media:
@@ -517,17 +523,80 @@ def graficoJogador(jogadores):
         except:
             pass
     
-    del jogadores["ano_nascimento"]
     del jogadores["entrou"]
     del jogadores["saiu"]
     del jogadores["titular"]
     del jogadores["banco"]
     del jogadores["nome"]
-    
-    jogadores.columns = ['Altura', 'Peso', 'posicao', 'time', 'Assistências', 'Bloqueios', 'Carrinhos', 'Chutes Certos', 'Chutes ao gol', 'Cruzamentos', 'Faltas Cometidas', 'Faltas Sofridas', 'Gols', 'Impedimentos', 'Passes', 'Roubadas', 'Cartões Amarelos', 'Cartões Vermelhos', 'Idade', 'Jogos', 'Chutes convertidos em gols (%)', 'Acerto de chutes (%)', 'Assistências - Média', 'Bloqueios - Média', 'Carrinhos - Média', 'Chutes Certos - Média', 'Chutes ao gol - Média', 'Cruzamentos - Média', 'Faltas Cometidas - Média', 'Faltas Sofridas - Média', 'Gols - Média', 'Impedimentos - Média', 'Passes - Média', 'Roubadas - Média']
 
-    jogadores.to_csv("grafico_jogadores.csv")
+    #agora vamos juntar a tabela de cada jogo
+    jogadores["adversario"] = "Todos"    
     
+    jogadores_cadajogo.index = jogadores_cadajogo["nome"]
+    del jogadores_cadajogo["cidade_nascimento"]
+    del jogadores_cadajogo["nome"]
+    del jogadores_cadajogo["codigo"]
+    del jogadores_cadajogo["pais_nascimento"]
+    
+    final = jogadores.append(jogadores_cadajogo)
+    final = final.fillna(0)
+    
+    #calcula aproveitamento e chutes no alvo
+    final["aproveitamento"] = final["gols"]/final["chutes_total"]    
+    final["mira_certa"] = final["chutes_certos"]/final["chutes_total"]
+    
+    #descobre idade
+    final["idade"] = final["ano_nascimento"].apply(achaIdade)
+    del final["ano_nascimento"]
+    
+    #arruma os nomes
+    final = final.rename_axis(nomeJogador,axis=1)
+    final["adversario"] = final["adversario"].apply(arrumaTime)
+    final["time"] = final["time"].apply(arrumaTime)
+    
+    
+    final.to_csv("grafico_jogadores.csv")
+        
+def nomeJogador(nome):
+    traducao = {
+        'altura':"Altura",
+        'amarelo':"Cartões Amarelos",
+        'aproveitamento':"Chutes convertidos em gols (%)",
+        'assistencias':"Assistências",
+        'assistencias_media':"Assistências - Média",
+        'bloqueios':"Bloqueios",
+        'bloqueios_media':"Bloqueios - Média",
+        'carrinhos':"Carrinhos",
+        'carrinhos_media':"Carrinhos - Média",
+        'chutes_certos':"Chutes Certos",
+        'chutes_certos_media':"Chutes Certos - Média",
+        'chutes_total':"Chutes ao gol",
+        'chutes_total_media':"Chutes ao gol - Média",
+        'cruzamentos':"Cruzamentos",
+        'cruzamentos_media':"Cruzamentos - Média",
+        'faltas_cometidas':"Faltas Cometidas",
+        'faltas_cometidas_media':"Faltas Cometidas - Média",
+        'faltas_sofridas':"Faltas Sofridas",
+        'faltas_sofridas_media':"Faltas Sofridas - Média",
+        'gols':"Gols",
+        'gols_media':"Gols - Média",
+        'idade':"Idade",
+        'impedimentos':"Impedimentos",
+        'impedimentos_media':"Impedimentos - Média",
+        'jogos':"Jogos",
+        'mira_certa':"Acerto de chutes (%)",
+        'passes':"Passes",
+        'passes_media':"Passes - Média",
+        'peso':"Peso",
+        'roubadas':"Roubadas",
+        'roubadas_media':"Roubadas - Média",
+        'vermelho':"Cartões Vermelhos"
+        }
+            
+    if nome in traducao:
+        return traducao[nome]
+    else:
+        return nome
 
 def achaIdade(data_nascimento):
     #acha dia, mês e ano
@@ -598,9 +667,12 @@ def arrumaTime(time):
         "Portugal":"Portugal",
         "Russia":"Rússia",
         "Switzerland":"Suíça",
-        "Uruguay":"Uruguai"
+        "Uruguay":"Uruguai",
     }
-    return traducao[time]
+    if time in traducao:
+        return traducao[time]
+    else:
+        return time
     
 def encheEspaco(t):
     if t == "":
@@ -678,8 +750,8 @@ def desenhaExcel():
         worksheet.write(s, soma[s])
 
 def atualizaPartidas():
-    data_inicio = datetime.strptime('01072014', "%d%m%Y").date()
-    data_fim = datetime.strptime('01072014', "%d%m%Y").date()
+    data_inicio = datetime.strptime('04072014', "%d%m%Y").date()
+    data_fim = datetime.strptime('04072014', "%d%m%Y").date()
     delta = data_fim - data_inicio
     datas = []
     for i in range(delta.days + 1):
@@ -698,13 +770,13 @@ def limpaBases():
 def fazConsultas():
     calculaGols(consultaBase("eventos"))
     calculaFaltas(consultaBase("eventos"))
-    jogador = calculaJogador(consultaBase("jogadores"))
-    graficoJogador(jogador)
+    jogador,jogadores_cadajogo = calculaJogador(consultaBase("jogadores"))
+    graficoJogador(jogador,jogadores_cadajogo)
     
 
 #desenhaExcel()
 #limpaBases()
-atualizaPartidas()
+#atualizaPartidas()
 fazConsultas()
 
 #eventos = consultaBase("jogadores")

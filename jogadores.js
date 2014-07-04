@@ -1,8 +1,9 @@
-var jogador_data = null,
+var data_jogador = null,
 time_jogador = null,
 recorte_jogador = null,
 posicao_jogador = null,
 ordem_jogador = "Decrescente";
+jogo_jogador = null
 
 function mudaRecorte() {
     //pega o valor
@@ -20,7 +21,8 @@ function mudaAgrupa() {
     //pega o valor
     var time = jQuery("#time").val();
     window.time_jogador = time;
-
+    window.jogo_jogador = "Todos";
+    mostraJogoJogador();
     redesenhaGrafico();
 }
 
@@ -47,7 +49,6 @@ function mudaMedia(el) {
     } else {
         recorte = recorte.replace(" - Média","")
     }
-    console.log(recorte)
     window.recorte_jogador = recorte
 	redesenhaGrafico();
     
@@ -61,6 +62,15 @@ function mudaOrdem(el){
     jQuery('input[name="ordem"][value!="' + ordem + '"]').prop('checked', false);
 
     redesenhaGrafico();
+}
+
+function mudaJogoJogador() {
+    //pega o valor
+    var jogo_jogador = jQuery("#jogo_jogador").val();
+    window.jogo_jogador = jogo_jogador;
+    
+    redesenhaGrafico();
+    
 }
 
 function redesenhaGrafico(){
@@ -81,9 +91,10 @@ function desenhaGrafico()    {
     //pega as variáveis
     var recorte = window.recorte_jogador,
         time = window.time_jogador,
-        data = window.jogador_data,
+        data = window.data_jogador,
         ordem = window.ordem_jogador;
         posicao = window.posicao_jogador;
+        jogo_jogador = window.jogo_jogador;
 
     //vê se há agrupamento por time
     if (time != "total") {
@@ -93,6 +104,10 @@ function desenhaGrafico()    {
     if (posicao != "total") {
         data = dimple.filterData(data,"posicao",posicao);
     }
+    
+    // agora por jogo
+    data = dimple.filterData(data,"adversario",jogo_jogador)
+    console.log(data)
 
     //desenha o gráfico
     var svg = dimple.newSvg("#jogador", 950, 700);
@@ -142,7 +157,6 @@ function desenhaGrafico()    {
 
     //desenha
     myChart.draw();
-    console.log(data)
 
     //continua arrumando
     colocaOrdem(myChart)
@@ -284,9 +298,10 @@ function inicializa() {
     mostraRadios()
     
     //carrega os dados e cria o gráfico
-//    d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv.csv", function (data) {
-    d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv", function (data) {
-    window.jogador_data = data;
+    //d3.csv("grafico_jogadores.csv", function (data) {
+ d3.csv("https://s3-sa-east-1.amazonaws.com/blogedados/javascripts/copa_2014/grafico_jogadores.csv", function (data) {
+    window.data_jogador = data;
+    mostraJogoJogador(); 
     desenhaGrafico();
     });
 }
@@ -322,6 +337,7 @@ function mostraRadios() {
     //vê quais são nossos agrupamentos
     var media = window.media
     var recorte = window.recorte_jogador
+    var jogo_jogador = window.jogo_jogador
     
     //se recorte estiver com média, tira
     recorte = recorte.replace(" - Média","")
@@ -329,9 +345,40 @@ function mostraRadios() {
     var variaveis_com_media = ['Assistências', 'Bloqueios', 'Carrinhos', 'Chutes Certos', 'Chutes ao gol', 'Cruzamentos', 'Faltas Cometidas', 'Faltas Sofridas', 'Gols', 'Impedimentos', 'Passes', 'Roubadas']
     
     if (variaveis_com_media.indexOf(recorte) >= 0) {
-        jQuery("#total_media").show()
+        if (jogo_jogador == "Todos") {
+            jQuery("#total_media").show()
+        } else {
+            jQuery("#total_media").hide()
+        }
     } else { 
         jQuery("#total_media").hide()
+    }
+}
+
+function mostraJogoJogador() {
+    var data = window.data_jogador
+    var time  = window.time_jogador
+    if (time == "total") {
+        window.jogo_jogador = "Todos"
+        jQuery(".seletor-jogo").hide()
+        
+    } else {
+        novo_dado =  data.filter(function (a) { return (a["time"] == time)})
+        adversarios = dimple.getUniqueValues(novo_dado,"adversario")
+
+        jQuery('#jogo_jogador')
+            .find('option')
+            .remove()
+            .end()
+        
+        adversarios.forEach(function(e){
+            jQuery('#jogo_jogador')
+                .append('<option value="'+e+'">'+e+'</option>')
+            
+        })
+                
+        jQuery('#jogo_jogador').val('Todos')
+        jQuery(".seletor-jogo").show()        
     }
 }
 
@@ -342,5 +389,3 @@ function getUrlVars() {
     });
     return vars;
 }
-
-
