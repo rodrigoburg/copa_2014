@@ -11,6 +11,7 @@ from pandas import DataFrame, pivot_table, merge,concat, Series
 import numpy as np
 from re import match
 from datetime import date, datetime, timedelta as td
+from urllib.request import Request
 
 def consultaData(data):
     url = "http://pt.fifa.com/worldcup/matches/"
@@ -33,20 +34,23 @@ def consultaData(data):
 
 def consultaJogo(codigo,segunda_fase):
     if segunda_fase:
-        url = "http://pt.fifa.com/worldcup/matches/round=255953/match="+codigo+"/statistics.html"        
+        url = "http://pt.fifa.com/worldcup/matches/round=255955/match="+codigo+"/statistics.html"        
     else:
-        url = "http://pt.fifa.com/worldcup/matches/round=255931/match="+codigo+"/statistics.html"
+        url = "http://pt.fifa.com/worldcup/matches/round=255955/match=300186490/statistics.html"
         
     scrape_pagina(url)
 
 def scrape_pagina(url):
     print(url)
+    headers = {'User-Agent':'Mozilla/5.0'}
+    req = Request(url,headers=headers)
+    
     client = MongoClient()
     my_db = client["copa"]
     my_collection = my_db["jogos_fifa"]
     
     #abre o link
-    page = BeautifulSoup(urlopen(url).read())
+    page = BeautifulSoup(urlopen(req).read())
     
     #monta estatísticas dos times
     jogo = collections.OrderedDict()
@@ -680,7 +684,9 @@ def fazCalculos():
 #consultaData("20140624")
 #consultaData("20140625")
 #consultaData("20140626")
-#consultaJogo("300186485",True)
+#consultaJogo("300186488",True)
+
+consultaJogo("300186490",False)
 #consultaJogo("300186506")
 fazCalculos()
 #calculaGolsMinuto()

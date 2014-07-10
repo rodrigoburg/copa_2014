@@ -107,7 +107,6 @@ function desenhaGrafico()    {
     
     // agora por jogo
     data = dimple.filterData(data,"adversario",jogo_jogador)
-    console.log(data)
 
     //desenha o gráfico
     var svg = dimple.newSvg("#jogador", 950, 700);
@@ -288,12 +287,24 @@ function inicializa() {
         var media = "total"
     }
     
+    //faz o mesmo com a posicao
+    if ("contra" in variaveis) {
+            var jogo_jogador = variaveis["contra"];
+            jQuery('#jogo_jogador').val(jogo_jogador);
+        }
+        //se não tiver, coloca total mesmo
+        else {
+            var jogo_jogador = "Todos";
+    }
+    
+    
     window.media = media;
     window.recorte_jogador = recorte;
     window.time_jogador = time;
     window.posicao_jogador = posicao;
     window.ordem_jogador = ordem;
-
+    window.jogo_jogador = jogo_jogador;
+    
     //mostra ou não mostra os radios de total e média
     mostraRadios()
     
@@ -358,8 +369,8 @@ function mostraRadios() {
 function mostraJogoJogador() {
     var data = window.data_jogador
     var time  = window.time_jogador
+    var jogo_jogador = window.jogo_jogador
     if (time == "total") {
-        window.jogo_jogador = "Todos"
         jQuery(".seletor-jogo").hide()
         
     } else {
@@ -377,9 +388,11 @@ function mostraJogoJogador() {
             
         })
                 
-        jQuery('#jogo_jogador').val('Todos')
         jQuery(".seletor-jogo").show()        
     }
+    
+    jQuery('#jogo_jogador').val(jogo_jogador)
+    
 }
 
 function getUrlVars() {

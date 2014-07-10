@@ -18,10 +18,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 10   DZAGOEV,2.0,26.0,3.0,0.0,0.0,9465.0,3,Rússia
 10   DZAGOEV,2.0,26.0,3.0,0.0,0.0,9465.0,3,Rússia
 10   DZAGOEV,2.0,26.0,3.0,0.0,0.0,9465.0,3,Rússia
-10   E.HAZARD,7.0,109.0,3.0,1.0,0.0,33917.0,4,Bélgica
-10   E.HAZARD,7.0,109.0,3.0,1.0,0.0,33917.0,4,Bélgica
-10   E.HAZARD,7.0,109.0,3.0,1.0,0.0,33917.0,4,Bélgica
-10   E.HAZARD,7.0,109.0,3.0,1.0,0.0,33917.0,4,Bélgica
+10   E.HAZARD,7.0,132.0,6.0,1.0,0.0,42134.0,5,Bélgica
+10   E.HAZARD,7.0,132.0,6.0,1.0,0.0,42134.0,5,Bélgica
+10   E.HAZARD,7.0,132.0,6.0,1.0,0.0,42134.0,5,Bélgica
+10   E.HAZARD,7.0,132.0,6.0,1.0,0.0,42134.0,5,Bélgica
+10   E.HAZARD,7.0,132.0,6.0,1.0,0.0,42134.0,5,Bélgica
 10   FEGHOULI,5.0,83.0,14.0,6.0,0.0,45303.0,4,Argélia
 10   FEGHOULI,5.0,83.0,14.0,6.0,0.0,45303.0,4,Argélia
 10   FEGHOULI,5.0,83.0,14.0,6.0,0.0,45303.0,4,Argélia
@@ -38,10 +39,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 10   HALLORAN,0.0,17.0,2.0,2.0,0.0,11953.0,3,Austrália
 10   HALLORAN,0.0,17.0,2.0,2.0,0.0,11953.0,3,Austrália
 10   HALLORAN,0.0,17.0,2.0,2.0,0.0,11953.0,3,Austrália
-10   JAMES,15.0,129.0,7.0,8.0,0.0,36045.0,4,Colômbia
-10   JAMES,15.0,129.0,7.0,8.0,0.0,36045.0,4,Colômbia
-10   JAMES,15.0,129.0,7.0,8.0,0.0,36045.0,4,Colômbia
-10   JAMES,15.0,129.0,7.0,8.0,0.0,36045.0,4,Colômbia
+10   JAMES,17.0,158.0,10.0,9.0,0.0,46127.0,5,Colômbia
+10   JAMES,17.0,158.0,10.0,9.0,0.0,46127.0,5,Colômbia
+10   JAMES,17.0,158.0,10.0,9.0,0.0,46127.0,5,Colômbia
+10   JAMES,17.0,158.0,10.0,9.0,0.0,46127.0,5,Colômbia
+10   JAMES,17.0,158.0,10.0,9.0,0.0,46127.0,5,Colômbia
 10   KAGAWA,5.0,99.0,9.0,7.0,0.0,24635.0,3,Japão
 10   KAGAWA,5.0,99.0,9.0,7.0,0.0,24635.0,3,Japão
 10   KAGAWA,5.0,99.0,9.0,7.0,0.0,24635.0,3,Japão
@@ -51,10 +53,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 10   KARAGOUNIS,7.0,121.0,13.0,13.0,0.0,30984.0,4,Grécia
 10   KARIM,0.0,5.0,0.0,0.0,0.0,2984.0,1,Irã
 10   M. MARTINEZ,2.0,11.0,1.0,0.0,0.0,2183.0,1,Honduras
-10   MESSI,15.0,158.0,4.0,5.0,0.0,33015.0,4,Argentina
-10   MESSI,15.0,158.0,4.0,5.0,0.0,33015.0,4,Argentina
-10   MESSI,15.0,158.0,4.0,5.0,0.0,33015.0,4,Argentina
-10   MESSI,15.0,158.0,4.0,5.0,0.0,33015.0,4,Argentina
+10   MESSI,18.0,213.0,8.0,7.0,0.0,51933.0,6,Argentina
+10   MESSI,18.0,213.0,8.0,7.0,0.0,51933.0,6,Argentina
+10   MESSI,18.0,213.0,8.0,7.0,0.0,51933.0,6,Argentina
+10   MESSI,18.0,213.0,8.0,7.0,0.0,51933.0,6,Argentina
+10   MESSI,18.0,213.0,8.0,7.0,0.0,51933.0,6,Argentina
+10   MESSI,18.0,213.0,8.0,7.0,0.0,51933.0,6,Argentina
 10   MIKEL,3.0,199.0,17.0,10.0,0.0,39480.0,4,Nigéria
 10   MIKEL,3.0,199.0,17.0,10.0,0.0,39480.0,4,Nigéria
 10   MIKEL,3.0,199.0,17.0,10.0,0.0,39480.0,4,Nigéria
@@ -64,23 +68,27 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 10   MODRIĆ,2.0,135.0,12.0,4.0,0.0,28886.0,3,Croácia
 10   MODRIĆ,2.0,135.0,12.0,4.0,0.0,28886.0,3,Croácia
 10   MODRIĆ,2.0,135.0,12.0,4.0,0.0,28886.0,3,Croácia
-10   NEYMAR JR,15.0,113.0,13.0,6.0,0.0,40845.0,4,Brasil
-10   NEYMAR JR,15.0,113.0,13.0,6.0,0.0,40845.0,4,Brasil
-10   NEYMAR JR,15.0,113.0,13.0,6.0,0.0,40845.0,4,Brasil
-10   NEYMAR JR,15.0,113.0,13.0,6.0,0.0,40845.0,4,Brasil
+10   NEYMAR JR,18.0,137.0,16.0,6.0,0.0,49935.0,5,Brasil
+10   NEYMAR JR,18.0,137.0,16.0,6.0,0.0,49935.0,5,Brasil
+10   NEYMAR JR,18.0,137.0,16.0,6.0,0.0,49935.0,5,Brasil
+10   NEYMAR JR,18.0,137.0,16.0,6.0,0.0,49935.0,5,Brasil
+10   NEYMAR JR,18.0,137.0,16.0,6.0,0.0,49935.0,5,Brasil
 10   PODOLSKI,2.0,30.0,3.0,3.0,0.0,6590.0,2,Alemanha
 10   PODOLSKI,2.0,30.0,3.0,3.0,0.0,6590.0,2,Alemanha
 10   ROONEY,9.0,56.0,0.0,1.0,0.0,23704.0,3,Inglaterra
 10   ROONEY,9.0,56.0,0.0,1.0,0.0,23704.0,3,Inglaterra
 10   ROONEY,9.0,56.0,0.0,1.0,0.0,23704.0,3,Inglaterra
-10   RUIZ B.,5.0,124.0,10.0,3.0,0.0,43461.0,4,Costa Rica
-10   RUIZ B.,5.0,124.0,10.0,3.0,0.0,43461.0,4,Costa Rica
-10   RUIZ B.,5.0,124.0,10.0,3.0,0.0,43461.0,4,Costa Rica
-10   RUIZ B.,5.0,124.0,10.0,3.0,0.0,43461.0,4,Costa Rica
-10   SNEIJDER,11.0,124.0,7.0,5.0,0.0,41931.0,4,Holanda
-10   SNEIJDER,11.0,124.0,7.0,5.0,0.0,41931.0,4,Holanda
-10   SNEIJDER,11.0,124.0,7.0,5.0,0.0,41931.0,4,Holanda
-10   SNEIJDER,11.0,124.0,7.0,5.0,0.0,41931.0,4,Holanda
+10   RUIZ B.,5.0,158.0,12.0,3.0,0.0,57422.0,5,Costa Rica
+10   RUIZ B.,5.0,158.0,12.0,3.0,0.0,57422.0,5,Costa Rica
+10   RUIZ B.,5.0,158.0,12.0,3.0,0.0,57422.0,5,Costa Rica
+10   RUIZ B.,5.0,158.0,12.0,3.0,0.0,57422.0,5,Costa Rica
+10   RUIZ B.,5.0,158.0,12.0,3.0,0.0,57422.0,5,Costa Rica
+10   SNEIJDER,18.0,242.0,17.0,5.0,0.0,69573.0,6,Holanda
+10   SNEIJDER,18.0,242.0,17.0,5.0,0.0,69573.0,6,Holanda
+10   SNEIJDER,18.0,242.0,17.0,5.0,0.0,69573.0,6,Holanda
+10   SNEIJDER,18.0,242.0,17.0,5.0,0.0,69573.0,6,Holanda
+10   SNEIJDER,18.0,242.0,17.0,5.0,0.0,69573.0,6,Holanda
+10   SNEIJDER,18.0,242.0,17.0,5.0,0.0,69573.0,6,Holanda
 10   VALDIVIA,2.0,45.0,1.0,5.0,0.0,11163.0,3,Chile
 10   VALDIVIA,2.0,45.0,1.0,5.0,0.0,11163.0,3,Chile
 10   VALDIVIA,2.0,45.0,1.0,5.0,0.0,11163.0,3,Chile
@@ -116,10 +124,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 11   CAICEDO,1.0,29.0,3.0,3.0,0.0,14444.0,3,Equador
 11   CAICEDO,1.0,29.0,3.0,3.0,0.0,14444.0,3,Equador
 11   CERCI,0.0,4.0,0.0,0.0,0.0,2366.0,1,Itália
-11   CUADRADO,5.0,95.0,7.0,14.0,0.0,33788.0,4,Colômbia
-11   CUADRADO,5.0,95.0,7.0,14.0,0.0,33788.0,4,Colômbia
-11   CUADRADO,5.0,95.0,7.0,14.0,0.0,33788.0,4,Colômbia
-11   CUADRADO,5.0,95.0,7.0,14.0,0.0,33788.0,4,Colômbia
+11   CUADRADO,8.0,109.0,8.0,16.0,0.0,41992.0,5,Colômbia
+11   CUADRADO,8.0,109.0,8.0,16.0,0.0,41992.0,5,Colômbia
+11   CUADRADO,8.0,109.0,8.0,16.0,0.0,41992.0,5,Colômbia
+11   CUADRADO,8.0,109.0,8.0,16.0,0.0,41992.0,5,Colômbia
+11   CUADRADO,8.0,109.0,8.0,16.0,0.0,41992.0,5,Colômbia
 11   DROGBA,3.0,21.0,2.0,3.0,0.0,14493.0,3,Costa do Marfim
 11   DROGBA,3.0,21.0,2.0,3.0,0.0,14493.0,3,Costa do Marfim
 11   DROGBA,3.0,21.0,2.0,3.0,0.0,14493.0,3,Costa do Marfim
@@ -139,14 +148,17 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 11   KERZHAKOV,4.0,6.0,0.0,2.0,0.0,11957.0,3,Rússia
 11   KERZHAKOV,4.0,6.0,0.0,2.0,0.0,11957.0,3,Rússia
 11   KERZHAKOV,4.0,6.0,0.0,2.0,0.0,11957.0,3,Rússia
-11   KLOSE,3.0,20.0,5.0,3.0,0.0,14953.0,3,Alemanha
-11   KLOSE,3.0,20.0,5.0,3.0,0.0,14953.0,3,Alemanha
-11   KLOSE,3.0,20.0,5.0,3.0,0.0,14953.0,3,Alemanha
-11   M. RODRIGUEZ,1.0,27.0,3.0,1.0,0.0,5143.0,1,Argentina
+11   KLOSE,6.0,32.0,5.0,3.0,0.0,21642.0,4,Alemanha
+11   KLOSE,6.0,32.0,5.0,3.0,0.0,21642.0,4,Alemanha
+11   KLOSE,6.0,32.0,5.0,3.0,0.0,21642.0,4,Alemanha
+11   KLOSE,6.0,32.0,5.0,3.0,0.0,21642.0,4,Alemanha
+11   M. RODRIGUEZ,2.0,32.0,5.0,1.0,0.0,7620.0,2,Argentina
+11   M. RODRIGUEZ,2.0,32.0,5.0,1.0,0.0,7620.0,2,Argentina
 11   MAKOUN,0.0,6.0,0.0,0.0,0.0,1139.0,1,Camarões
-11   MIRALLAS,5.0,36.0,5.0,2.0,0.0,20401.0,3,Bélgica
-11   MIRALLAS,5.0,36.0,5.0,2.0,0.0,20401.0,3,Bélgica
-11   MIRALLAS,5.0,36.0,5.0,2.0,0.0,20401.0,3,Bélgica
+11   MIRALLAS,6.0,49.0,6.0,2.0,0.0,27667.0,4,Bélgica
+11   MIRALLAS,6.0,49.0,6.0,2.0,0.0,27667.0,4,Bélgica
+11   MIRALLAS,6.0,49.0,6.0,2.0,0.0,27667.0,4,Bélgica
+11   MIRALLAS,6.0,49.0,6.0,2.0,0.0,27667.0,4,Bélgica
 11   MOSES,2.0,25.0,2.0,3.0,0.0,15834.0,2,Nigéria
 11   MOSES,2.0,25.0,2.0,3.0,0.0,15834.0,2,Nigéria
 11   MUNTARI,5.0,89.0,7.0,6.0,0.0,22545.0,2,Gana
@@ -154,16 +166,20 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 11   OAR,2.0,26.0,5.0,4.0,0.0,26070.0,3,Austrália
 11   OAR,2.0,26.0,5.0,4.0,0.0,26070.0,3,Austrália
 11   OAR,2.0,26.0,5.0,4.0,0.0,26070.0,3,Austrália
-11   OSCAR,6.0,111.0,14.0,23.0,0.0,40413.0,4,Brasil
-11   OSCAR,6.0,111.0,14.0,23.0,0.0,40413.0,4,Brasil
-11   OSCAR,6.0,111.0,14.0,23.0,0.0,40413.0,4,Brasil
-11   OSCAR,6.0,111.0,14.0,23.0,0.0,40413.0,4,Brasil
+11   OSCAR,11.0,169.0,22.0,29.0,0.0,60708.0,6,Brasil
+11   OSCAR,11.0,169.0,22.0,29.0,0.0,60708.0,6,Brasil
+11   OSCAR,11.0,169.0,22.0,29.0,0.0,60708.0,6,Brasil
+11   OSCAR,11.0,169.0,22.0,29.0,0.0,60708.0,6,Brasil
+11   OSCAR,11.0,169.0,22.0,29.0,0.0,60708.0,6,Brasil
+11   OSCAR,11.0,169.0,22.0,29.0,0.0,60708.0,6,Brasil
 11   PEDRO,1.0,33.0,2.0,3.0,0.0,11886.0,2,Espanha
 11   PEDRO,1.0,33.0,2.0,3.0,0.0,11886.0,2,Espanha
-11   ROBBEN,12.0,82.0,6.0,1.0,0.0,42740.0,4,Holanda
-11   ROBBEN,12.0,82.0,6.0,1.0,0.0,42740.0,4,Holanda
-11   ROBBEN,12.0,82.0,6.0,1.0,0.0,42740.0,4,Holanda
-11   ROBBEN,12.0,82.0,6.0,1.0,0.0,42740.0,4,Holanda
+11   ROBBEN,19.0,167.0,9.0,2.0,0.0,69058.0,6,Holanda
+11   ROBBEN,19.0,167.0,9.0,2.0,0.0,69058.0,6,Holanda
+11   ROBBEN,19.0,167.0,9.0,2.0,0.0,69058.0,6,Holanda
+11   ROBBEN,19.0,167.0,9.0,2.0,0.0,69058.0,6,Holanda
+11   ROBBEN,19.0,167.0,9.0,2.0,0.0,69058.0,6,Holanda
+11   ROBBEN,19.0,167.0,9.0,2.0,0.0,69058.0,6,Holanda
 11   SRNA,4.0,97.0,8.0,7.0,0.0,30718.0,3,Croácia
 11   SRNA,4.0,97.0,8.0,7.0,0.0,30718.0,3,Croácia
 11   SRNA,4.0,97.0,8.0,7.0,0.0,30718.0,3,Croácia
@@ -184,10 +200,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 12   B. WILFRIED,6.0,27.0,1.0,2.0,0.0,17034.0,3,Costa do Marfim
 12   BEDIMO,0.0,36.0,6.0,2.0,0.0,9026.0,1,Camarões
 12   GLYKOS,0.0,15.0,0.0,0.0,3.0,3734.0,1,Grécia
-12   JULIO CESAR,0.0,80.0,0.0,0.0,6.0,16144.0,4,Brasil
-12   JULIO CESAR,0.0,80.0,0.0,0.0,6.0,16144.0,4,Brasil
-12   JULIO CESAR,0.0,80.0,0.0,0.0,6.0,16144.0,4,Brasil
-12   JULIO CESAR,0.0,80.0,0.0,0.0,6.0,16144.0,4,Brasil
+12   JULIO CESAR,0.0,111.0,0.0,2.0,9.0,23116.0,6,Brasil
+12   JULIO CESAR,0.0,111.0,0.0,2.0,9.0,23116.0,6,Brasil
+12   JULIO CESAR,0.0,111.0,0.0,2.0,9.0,23116.0,6,Brasil
+12   JULIO CESAR,0.0,111.0,0.0,2.0,9.0,23116.0,6,Brasil
+12   JULIO CESAR,0.0,111.0,0.0,2.0,9.0,23116.0,6,Brasil
+12   JULIO CESAR,0.0,111.0,0.0,2.0,9.0,23116.0,6,Brasil
 12   KWARASEY,0.0,22.0,0.0,0.0,4.0,4427.0,1,Gana
 12   MAVUBA,0.0,26.0,0.0,0.0,0.0,3257.0,1,França
 12   MEDJANI,2.0,64.0,12.0,6.0,0.0,32597.0,3,Argélia
@@ -208,6 +226,7 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 13   COSTLY,3.0,33.0,2.0,2.0,0.0,22272.0,3,Honduras
 13   COSTLY,3.0,33.0,2.0,2.0,0.0,22272.0,3,Honduras
 13   COSTLY,3.0,33.0,2.0,2.0,0.0,22272.0,3,Honduras
+13   DANTE,0.0,55.0,8.0,2.0,0.0,9527.0,1,Brasil
 13   E. VALENCIA,8.0,43.0,7.0,3.0,0.0,26235.0,3,Equador
 13   E. VALENCIA,8.0,43.0,7.0,3.0,0.0,26235.0,3,Equador
 13   E. VALENCIA,8.0,43.0,7.0,3.0,0.0,26235.0,3,Equador
@@ -216,8 +235,9 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 13   G OCHOA,0.0,51.0,0.0,0.0,8.0,11862.0,3,México
 13   G OCHOA,0.0,51.0,0.0,0.0,8.0,11862.0,3,México
 13   G. OCHOA,0.0,24.0,0.0,0.0,2.0,4294.0,1,México
-13   GUARIN,0.0,25.0,6.0,4.0,0.0,12291.0,2,Colômbia
-13   GUARIN,0.0,25.0,6.0,4.0,0.0,12291.0,2,Colômbia
+13   GUARIN,2.0,61.0,12.0,5.0,0.0,22332.0,3,Colômbia
+13   GUARIN,2.0,61.0,12.0,5.0,0.0,22332.0,3,Colômbia
+13   GUARIN,2.0,61.0,12.0,5.0,0.0,22332.0,3,Colômbia
 13   J C KOO,6.0,96.0,7.0,8.0,0.0,34657.0,3,Coreia do Sul
 13   J C KOO,6.0,96.0,7.0,8.0,0.0,34657.0,3,Coreia do Sul
 13   J C KOO,6.0,96.0,7.0,8.0,0.0,34657.0,3,Coreia do Sul
@@ -234,11 +254,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 13   MATA,2.0,31.0,0.0,1.0,0.0,4505.0,1,Espanha
 13   MUJDŽA,0.0,63.0,9.0,2.0,0.0,18214.0,2,Bósnia e Herzegovina
 13   MUJDŽA,0.0,63.0,9.0,2.0,0.0,18214.0,2,Bósnia e Herzegovina
-13   MÜLLER,14.0,133.0,6.0,5.0,0.0,56791.0,5,Alemanha
-13   MÜLLER,14.0,133.0,6.0,5.0,0.0,56791.0,5,Alemanha
-13   MÜLLER,14.0,133.0,6.0,5.0,0.0,56791.0,5,Alemanha
-13   MÜLLER,14.0,133.0,6.0,5.0,0.0,56791.0,5,Alemanha
-13   MÜLLER,14.0,133.0,6.0,5.0,0.0,56791.0,5,Alemanha
+13   MÜLLER,16.0,164.0,7.0,6.0,0.0,68214.0,6,Alemanha
+13   MÜLLER,16.0,164.0,7.0,6.0,0.0,68214.0,6,Alemanha
+13   MÜLLER,16.0,164.0,7.0,6.0,0.0,68214.0,6,Alemanha
+13   MÜLLER,16.0,164.0,7.0,6.0,0.0,68214.0,6,Alemanha
+13   MÜLLER,16.0,164.0,7.0,6.0,0.0,68214.0,6,Alemanha
+13   MÜLLER,16.0,164.0,7.0,6.0,0.0,68214.0,6,Alemanha
 13   OKUBO,9.0,50.0,1.0,3.0,0.0,22266.0,3,Japão
 13   OKUBO,9.0,50.0,1.0,3.0,0.0,22266.0,3,Japão
 13   OKUBO,9.0,50.0,1.0,3.0,0.0,22266.0,3,Japão
@@ -281,10 +302,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 14   CHEDJOU,2.0,49.0,12.0,3.0,0.0,12891.0,2,Camarões
 14   DAVIS,0.0,19.0,2.0,1.0,0.0,7707.0,1,EUA
 14   DIOMANDE,0.0,2.0,0.0,0.0,0.0,1635.0,1,Costa do Marfim
+14   DRAXLER,0.0,9.0,0.0,0.0,0.0,2266.0,1,Alemanha
 14   HENDERSON,3.0,100.0,10.0,1.0,0.0,18068.0,2,Inglaterra
 14   HENDERSON,3.0,100.0,10.0,1.0,0.0,18068.0,2,Inglaterra
-14   IBARBO,0.0,30.0,3.0,6.0,0.0,15686.0,2,Colômbia
-14   IBARBO,0.0,30.0,3.0,6.0,0.0,15686.0,2,Colômbia
+14   IBARBO,0.0,37.0,4.0,6.0,0.0,20493.0,3,Colômbia
+14   IBARBO,0.0,37.0,4.0,6.0,0.0,20493.0,3,Colômbia
+14   IBARBO,0.0,37.0,4.0,6.0,0.0,20493.0,3,Colômbia
 14   J HERNANDEZ,3.0,13.0,0.0,0.0,0.0,8046.0,3,México
 14   J HERNANDEZ,3.0,13.0,0.0,0.0,0.0,8046.0,3,México
 14   J HERNANDEZ,3.0,13.0,0.0,0.0,0.0,8046.0,3,México
@@ -293,19 +316,22 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 14   K Y HAN,0.0,92.0,14.0,8.0,0.0,27041.0,3,Coreia do Sul
 14   K Y HAN,0.0,92.0,14.0,8.0,0.0,27041.0,3,Coreia do Sul
 14   KONGOLO,0.0,0.0,0.0,0.0,0.0,573.0,1,Holanda
-14   MASCHERANO,4.0,357.0,32.0,11.0,0.0,43272.0,4,Argentina
-14   MASCHERANO,4.0,357.0,32.0,11.0,0.0,43272.0,4,Argentina
-14   MASCHERANO,4.0,357.0,32.0,11.0,0.0,43272.0,4,Argentina
-14   MASCHERANO,4.0,357.0,32.0,11.0,0.0,43272.0,4,Argentina
+14   MASCHERANO,4.0,471.0,40.0,17.0,0.0,67187.0,6,Argentina
+14   MASCHERANO,4.0,471.0,40.0,17.0,0.0,67187.0,6,Argentina
+14   MASCHERANO,4.0,471.0,40.0,17.0,0.0,67187.0,6,Argentina
+14   MASCHERANO,4.0,471.0,40.0,17.0,0.0,67187.0,6,Argentina
+14   MASCHERANO,4.0,471.0,40.0,17.0,0.0,67187.0,6,Argentina
+14   MASCHERANO,4.0,471.0,40.0,17.0,0.0,67187.0,6,Argentina
 14   MATUIDI,8.0,216.0,15.0,10.0,0.0,49753.0,5,França
 14   MATUIDI,8.0,216.0,15.0,10.0,0.0,49753.0,5,França
 14   MATUIDI,8.0,216.0,15.0,10.0,0.0,49753.0,5,França
 14   MATUIDI,8.0,216.0,15.0,10.0,0.0,49753.0,5,França
 14   MATUIDI,8.0,216.0,15.0,10.0,0.0,49753.0,5,França
-14   MERTENS,10.0,57.0,7.0,3.0,0.0,26603.0,4,Bélgica
-14   MERTENS,10.0,57.0,7.0,3.0,0.0,26603.0,4,Bélgica
-14   MERTENS,10.0,57.0,7.0,3.0,0.0,26603.0,4,Bélgica
-14   MERTENS,10.0,57.0,7.0,3.0,0.0,26603.0,4,Bélgica
+14   MERTENS,11.0,67.0,7.0,3.0,0.0,30189.0,5,Bélgica
+14   MERTENS,11.0,67.0,7.0,3.0,0.0,30189.0,5,Bélgica
+14   MERTENS,11.0,67.0,7.0,3.0,0.0,30189.0,5,Bélgica
+14   MERTENS,11.0,67.0,7.0,3.0,0.0,30189.0,5,Bélgica
+14   MERTENS,11.0,67.0,7.0,3.0,0.0,30189.0,5,Bélgica
 14   MINDA,0.0,63.0,16.0,5.0,0.0,19933.0,2,Equador
 14   MINDA,0.0,63.0,16.0,5.0,0.0,19933.0,2,Equador
 14   N. LODEIRO,1.0,57.0,7.0,4.0,0.0,20365.0,3,Uruguai
@@ -339,10 +365,13 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 15   BECKERMAN,1.0,135.0,14.0,18.0,0.0,33421.0,3,EUA
 15   BECKERMAN,1.0,135.0,14.0,18.0,0.0,33421.0,3,EUA
 15   BECKERMAN,1.0,135.0,14.0,18.0,0.0,33421.0,3,EUA
-15   DIAZ J.,0.0,131.0,14.0,11.0,0.0,43262.0,4,Costa Rica
-15   DIAZ J.,0.0,131.0,14.0,11.0,0.0,43262.0,4,Costa Rica
-15   DIAZ J.,0.0,131.0,14.0,11.0,0.0,43262.0,4,Costa Rica
-15   DIAZ J.,0.0,131.0,14.0,11.0,0.0,43262.0,4,Costa Rica
+15   DEMICHELIS,0.0,102.0,22.0,3.0,0.0,20158.0,2,Argentina
+15   DEMICHELIS,0.0,102.0,22.0,3.0,0.0,20158.0,2,Argentina
+15   DIAZ J.,0.0,155.0,17.0,12.0,0.0,56202.0,5,Costa Rica
+15   DIAZ J.,0.0,155.0,17.0,12.0,0.0,56202.0,5,Costa Rica
+15   DIAZ J.,0.0,155.0,17.0,12.0,0.0,56202.0,5,Costa Rica
+15   DIAZ J.,0.0,155.0,17.0,12.0,0.0,56202.0,5,Costa Rica
+15   DIAZ J.,0.0,155.0,17.0,12.0,0.0,56202.0,5,Costa Rica
 15   DZEMAILI,4.0,43.0,1.0,1.0,0.0,6721.0,3,Suíça
 15   DZEMAILI,4.0,43.0,1.0,1.0,0.0,6721.0,3,Suíça
 15   DZEMAILI,4.0,43.0,1.0,1.0,0.0,6721.0,3,Suíça
@@ -354,13 +383,16 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 15   H MORENO,0.0,120.0,17.0,4.0,0.0,27158.0,3,México
 15   H MORENO,0.0,120.0,17.0,4.0,0.0,27158.0,3,México
 15   H. MORENO,0.0,19.0,5.0,2.0,0.0,5187.0,1,México
+15   HENRIQUE,0.0,0.0,0.0,0.0,0.0,863.0,1,Brasil
 15   JEDINAK,2.0,125.0,18.0,4.0,0.0,35350.0,3,Austrália
 15   JEDINAK,2.0,125.0,18.0,4.0,0.0,35350.0,3,Austrália
 15   JEDINAK,2.0,125.0,18.0,4.0,0.0,35350.0,3,Austrália
 15   KONNO,1.0,127.0,6.0,2.0,0.0,18600.0,2,Japão
 15   KONNO,1.0,127.0,6.0,2.0,0.0,18600.0,2,Japão
-15   KUYT,1.0,76.0,11.0,2.0,0.0,20434.0,2,Holanda
-15   KUYT,1.0,76.0,11.0,2.0,0.0,20434.0,2,Holanda
+15   KUYT,3.0,218.0,20.0,2.0,0.0,47751.0,4,Holanda
+15   KUYT,3.0,218.0,20.0,2.0,0.0,47751.0,4,Holanda
+15   KUYT,3.0,218.0,20.0,2.0,0.0,47751.0,4,Holanda
+15   KUYT,3.0,218.0,20.0,2.0,0.0,47751.0,4,Holanda
 15   MONTAZERI,0.0,89.0,19.0,5.0,0.0,30194.0,3,Irã
 15   MONTAZERI,0.0,89.0,19.0,5.0,0.0,30194.0,3,Irã
 15   MONTAZERI,0.0,89.0,19.0,5.0,0.0,30194.0,3,Irã
@@ -375,10 +407,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 15   TOROSIDIS,5.0,127.0,20.0,6.0,0.0,40931.0,4,Grécia
 15   TOROSIDIS,5.0,127.0,20.0,6.0,0.0,40931.0,4,Grécia
 15   TOROSIDIS,5.0,127.0,20.0,6.0,0.0,40931.0,4,Grécia
-15   VAN BUYTEN,5.0,202.0,36.0,3.0,0.0,43047.0,4,Bélgica
-15   VAN BUYTEN,5.0,202.0,36.0,3.0,0.0,43047.0,4,Bélgica
-15   VAN BUYTEN,5.0,202.0,36.0,3.0,0.0,43047.0,4,Bélgica
-15   VAN BUYTEN,5.0,202.0,36.0,3.0,0.0,43047.0,4,Bélgica
+15   VAN BUYTEN,5.0,231.0,40.0,5.0,0.0,52567.0,5,Bélgica
+15   VAN BUYTEN,5.0,231.0,40.0,5.0,0.0,52567.0,5,Bélgica
+15   VAN BUYTEN,5.0,231.0,40.0,5.0,0.0,52567.0,5,Bélgica
+15   VAN BUYTEN,5.0,231.0,40.0,5.0,0.0,52567.0,5,Bélgica
+15   VAN BUYTEN,5.0,231.0,40.0,5.0,0.0,52567.0,5,Bélgica
 15   WEBO,2.0,10.0,2.0,1.0,0.0,6165.0,3,Camarões
 15   WEBO,2.0,10.0,2.0,1.0,0.0,6165.0,3,Camarões
 15   WEBO,2.0,10.0,2.0,1.0,0.0,6165.0,3,Camarões
@@ -388,16 +421,18 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 16   A. VALENCIA,2.0,67.0,4.0,2.0,0.0,26292.0,3,Equador
 16   A. VALENCIA,2.0,67.0,4.0,2.0,0.0,26292.0,3,Equador
 16   A. VALENCIA,2.0,67.0,4.0,2.0,0.0,26292.0,3,Equador
+16   CLASIE,1.0,45.0,4.0,0.0,0.0,6196.0,1,Holanda
 16   DAUDA,0.0,34.0,0.0,0.0,8.0,8393.0,2,Gana
 16   DAUDA,0.0,34.0,0.0,0.0,8.0,8393.0,2,Gana
 16   DE ROSSI,0.0,202.0,15.0,6.0,0.0,20821.0,2,Itália
 16   DE ROSSI,0.0,202.0,15.0,6.0,0.0,20821.0,2,Itália
 16   DEFOUR,0.0,23.0,2.0,1.0,0.0,5313.0,1,Bélgica
 16   FERNANDES,0.0,16.0,4.0,3.0,0.0,8087.0,1,Suíça
-16   GAMBOA C.,1.0,103.0,18.0,10.0,0.0,38736.0,4,Costa Rica
-16   GAMBOA C.,1.0,103.0,18.0,10.0,0.0,38736.0,4,Costa Rica
-16   GAMBOA C.,1.0,103.0,18.0,10.0,0.0,38736.0,4,Costa Rica
-16   GAMBOA C.,1.0,103.0,18.0,10.0,0.0,38736.0,4,Costa Rica
+16   GAMBOA C.,1.0,120.0,24.0,11.0,0.0,47033.0,5,Costa Rica
+16   GAMBOA C.,1.0,120.0,24.0,11.0,0.0,47033.0,5,Costa Rica
+16   GAMBOA C.,1.0,120.0,24.0,11.0,0.0,47033.0,5,Costa Rica
+16   GAMBOA C.,1.0,120.0,24.0,11.0,0.0,47033.0,5,Costa Rica
+16   GAMBOA C.,1.0,120.0,24.0,11.0,0.0,47033.0,5,Costa Rica
 16   GREEN,1.0,4.0,0.0,0.0,0.0,2032.0,1,EUA
 16   GUTIÉRREZ,3.0,65.0,7.0,6.0,0.0,25186.0,4,Chile
 16   GUTIÉRREZ,3.0,65.0,7.0,6.0,0.0,25186.0,4,Chile
@@ -407,11 +442,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 16   ITANJDE,0.0,52.0,0.0,0.0,15.0,10743.0,3,Camarões
 16   ITANJDE,0.0,52.0,0.0,0.0,15.0,10743.0,3,Camarões
 16   JONES,0.0,38.0,6.0,1.0,0.0,9644.0,1,Inglaterra
-16   LAHM,3.0,395.0,26.0,7.0,0.0,56117.0,5,Alemanha
-16   LAHM,3.0,395.0,26.0,7.0,0.0,56117.0,5,Alemanha
-16   LAHM,3.0,395.0,26.0,7.0,0.0,56117.0,5,Alemanha
-16   LAHM,3.0,395.0,26.0,7.0,0.0,56117.0,5,Alemanha
-16   LAHM,3.0,395.0,26.0,7.0,0.0,56117.0,5,Alemanha
+16   LAHM,3.0,445.0,33.0,11.0,0.0,66864.0,6,Alemanha
+16   LAHM,3.0,445.0,33.0,11.0,0.0,66864.0,6,Alemanha
+16   LAHM,3.0,445.0,33.0,11.0,0.0,66864.0,6,Alemanha
+16   LAHM,3.0,445.0,33.0,11.0,0.0,66864.0,6,Alemanha
+16   LAHM,3.0,445.0,33.0,11.0,0.0,66864.0,6,Alemanha
+16   LAHM,3.0,445.0,33.0,11.0,0.0,66864.0,6,Alemanha
 16   LAZAROS,9.0,54.0,5.0,5.0,0.0,21933.0,2,Grécia
 16   LAZAROS,9.0,54.0,5.0,5.0,0.0,21933.0,2,Grécia
 16   LULIĆ,2.0,51.0,6.0,5.0,0.0,16718.0,2,Bósnia e Herzegovina
@@ -421,20 +457,23 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 16   M. PEREIRA,1.0,99.0,14.0,2.0,0.0,26758.0,3,Uruguai
 16   R. MEIRELES,2.0,82.0,7.0,2.0,0.0,18802.0,2,Portugal
 16   R. MEIRELES,2.0,82.0,7.0,2.0,0.0,18802.0,2,Portugal
-16   RAMIRES,1.0,29.0,2.0,3.0,0.0,16497.0,4,Brasil
-16   RAMIRES,1.0,29.0,2.0,3.0,0.0,16497.0,4,Brasil
-16   RAMIRES,1.0,29.0,2.0,3.0,0.0,16497.0,4,Brasil
-16   RAMIRES,1.0,29.0,2.0,3.0,0.0,16497.0,4,Brasil
+16   RAMIRES,5.0,50.0,3.0,3.0,0.0,24447.0,6,Brasil
+16   RAMIRES,5.0,50.0,3.0,3.0,0.0,24447.0,6,Brasil
+16   RAMIRES,5.0,50.0,3.0,3.0,0.0,24447.0,6,Brasil
+16   RAMIRES,5.0,50.0,3.0,3.0,0.0,24447.0,6,Brasil
+16   RAMIRES,5.0,50.0,3.0,3.0,0.0,24447.0,6,Brasil
+16   RAMIRES,5.0,50.0,3.0,3.0,0.0,24447.0,6,Brasil
 16   REBIĆ,2.0,12.0,2.0,0.0,0.0,5885.0,3,Croácia
 16   REBIĆ,2.0,12.0,2.0,0.0,0.0,5885.0,3,Croácia
 16   REBIĆ,2.0,12.0,2.0,0.0,0.0,5885.0,3,Croácia
 16   REZA,10.0,39.0,6.0,3.0,0.0,32021.0,3,Irã
 16   REZA,10.0,39.0,6.0,3.0,0.0,32021.0,3,Irã
 16   REZA,10.0,39.0,6.0,3.0,0.0,32021.0,3,Irã
-16   ROJO,7.0,177.0,30.0,8.0,0.0,44758.0,4,Argentina
-16   ROJO,7.0,177.0,30.0,8.0,0.0,44758.0,4,Argentina
-16   ROJO,7.0,177.0,30.0,8.0,0.0,44758.0,4,Argentina
-16   ROJO,7.0,177.0,30.0,8.0,0.0,44758.0,4,Argentina
+16   ROJO,8.0,217.0,36.0,12.0,0.0,58583.0,5,Argentina
+16   ROJO,8.0,217.0,36.0,12.0,0.0,58583.0,5,Argentina
+16   ROJO,8.0,217.0,36.0,12.0,0.0,58583.0,5,Argentina
+16   ROJO,8.0,217.0,36.0,12.0,0.0,58583.0,5,Argentina
+16   ROJO,8.0,217.0,36.0,12.0,0.0,58583.0,5,Argentina
 16   S Y KI,7.0,175.0,13.0,6.0,0.0,32507.0,3,Coreia do Sul
 16   S Y KI,7.0,175.0,13.0,6.0,0.0,32507.0,3,Coreia do Sul
 16   S Y KI,7.0,175.0,13.0,6.0,0.0,32507.0,3,Coreia do Sul
@@ -444,6 +483,7 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 16   YAMAGUCHI,2.0,145.0,10.0,3.0,0.0,23000.0,3,Japão
 16   YAMAGUCHI,2.0,145.0,10.0,3.0,0.0,23000.0,3,Japão
 17   ALTIDORE,1.0,3.0,0.0,0.0,0.0,2437.0,1,EUA
+17   BACCA,1.0,7.0,1.0,0.0,0.0,2446.0,1,Colômbia
 17   C Y LEE,3.0,94.0,8.0,4.0,0.0,30318.0,3,Coreia do Sul
 17   C Y LEE,3.0,94.0,8.0,4.0,0.0,30318.0,3,Coreia do Sul
 17   C Y LEE,3.0,94.0,8.0,4.0,0.0,30318.0,3,Coreia do Sul
@@ -467,13 +507,15 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 17   IMMOBILE,2.0,14.0,0.0,0.0,0.0,11031.0,2,Itália
 17   KOKE,2.0,125.0,10.0,6.0,0.0,18997.0,2,Espanha
 17   KOKE,2.0,125.0,10.0,6.0,0.0,18997.0,2,Espanha
-17   L GUSTAVO,3.0,186.0,34.0,12.0,0.0,46129.0,4,Brasil
-17   L GUSTAVO,3.0,186.0,34.0,12.0,0.0,46129.0,4,Brasil
-17   L GUSTAVO,3.0,186.0,34.0,12.0,0.0,46129.0,4,Brasil
-17   L GUSTAVO,3.0,186.0,34.0,12.0,0.0,46129.0,4,Brasil
-17   LENS,3.0,12.0,2.0,2.0,0.0,9593.0,3,Holanda
-17   LENS,3.0,12.0,2.0,2.0,0.0,9593.0,3,Holanda
-17   LENS,3.0,12.0,2.0,2.0,0.0,9593.0,3,Holanda
+17   L GUSTAVO,3.0,242.0,42.0,17.0,0.0,57426.0,5,Brasil
+17   L GUSTAVO,3.0,242.0,42.0,17.0,0.0,57426.0,5,Brasil
+17   L GUSTAVO,3.0,242.0,42.0,17.0,0.0,57426.0,5,Brasil
+17   L GUSTAVO,3.0,242.0,42.0,17.0,0.0,57426.0,5,Brasil
+17   L GUSTAVO,3.0,242.0,42.0,17.0,0.0,57426.0,5,Brasil
+17   LENS,4.0,23.0,2.0,2.0,0.0,14584.0,4,Holanda
+17   LENS,4.0,23.0,2.0,2.0,0.0,14584.0,4,Holanda
+17   LENS,4.0,23.0,2.0,2.0,0.0,14584.0,4,Holanda
+17   LENS,4.0,23.0,2.0,2.0,0.0,14584.0,4,Holanda
 17   MANDŽUKIĆ,4.0,27.0,1.0,2.0,0.0,19293.0,2,Croácia
 17   MANDŽUKIĆ,4.0,27.0,1.0,2.0,0.0,19293.0,2,Croácia
 17   MBIA,4.0,122.0,13.0,2.0,0.0,31501.0,3,Camarões
@@ -485,10 +527,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 17   MEDEL,1.0,281.0,36.0,7.0,0.0,39331.0,4,Chile
 17   MEDEL,1.0,281.0,36.0,7.0,0.0,39331.0,4,Chile
 17   MEDEL,1.0,281.0,36.0,7.0,0.0,39331.0,4,Chile
-17   MERTESACKER,0.0,299.0,33.0,2.0,0.0,39082.0,4,Alemanha
-17   MERTESACKER,0.0,299.0,33.0,2.0,0.0,39082.0,4,Alemanha
-17   MERTESACKER,0.0,299.0,33.0,2.0,0.0,39082.0,4,Alemanha
-17   MERTESACKER,0.0,299.0,33.0,2.0,0.0,39082.0,4,Alemanha
+17   MERTESACKER,0.0,320.0,35.0,2.0,0.0,44288.0,5,Alemanha
+17   MERTESACKER,0.0,320.0,35.0,2.0,0.0,44288.0,5,Alemanha
+17   MERTESACKER,0.0,320.0,35.0,2.0,0.0,44288.0,5,Alemanha
+17   MERTESACKER,0.0,320.0,35.0,2.0,0.0,44288.0,5,Alemanha
+17   MERTESACKER,0.0,320.0,35.0,2.0,0.0,44288.0,5,Alemanha
 17   MILNER,0.0,21.0,5.0,1.0,0.0,8792.0,1,Inglaterra
 17   NAJAR,1.0,14.0,0.0,1.0,0.0,8033.0,2,Honduras
 17   NAJAR,1.0,14.0,0.0,1.0,0.0,8033.0,2,Honduras
@@ -499,10 +542,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 17   ONAZI,12.0,188.0,27.0,15.0,0.0,36468.0,4,Nigéria
 17   ONAZI,12.0,188.0,27.0,15.0,0.0,36468.0,4,Nigéria
 17   ONAZI,12.0,188.0,27.0,15.0,0.0,36468.0,4,Nigéria
-17   ORIGI,11.0,32.0,2.0,1.0,0.0,23662.0,4,Bélgica
-17   ORIGI,11.0,32.0,2.0,1.0,0.0,23662.0,4,Bélgica
-17   ORIGI,11.0,32.0,2.0,1.0,0.0,23662.0,4,Bélgica
-17   ORIGI,11.0,32.0,2.0,1.0,0.0,23662.0,4,Bélgica
+17   ORIGI,11.0,37.0,2.0,1.0,0.0,30434.0,5,Bélgica
+17   ORIGI,11.0,37.0,2.0,1.0,0.0,30434.0,5,Bélgica
+17   ORIGI,11.0,37.0,2.0,1.0,0.0,30434.0,5,Bélgica
+17   ORIGI,11.0,37.0,2.0,1.0,0.0,30434.0,5,Bélgica
+17   ORIGI,11.0,37.0,2.0,1.0,0.0,30434.0,5,Bélgica
 17   RABIU,0.0,77.0,11.0,3.0,0.0,29408.0,3,Gana
 17   RABIU,0.0,77.0,11.0,3.0,0.0,29408.0,3,Gana
 17   RABIU,0.0,77.0,11.0,3.0,0.0,29408.0,3,Gana
@@ -512,19 +556,21 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 17   SHATOV,2.0,70.0,11.0,1.0,0.0,27743.0,3,Rússia
 17   SHATOV,2.0,70.0,11.0,1.0,0.0,27743.0,3,Rússia
 17   SHATOV,2.0,70.0,11.0,1.0,0.0,27743.0,3,Rússia
-17   TEJEDA Y.,0.0,131.0,19.0,16.0,0.0,37569.0,4,Costa Rica
-17   TEJEDA Y.,0.0,131.0,19.0,16.0,0.0,37569.0,4,Costa Rica
-17   TEJEDA Y.,0.0,131.0,19.0,16.0,0.0,37569.0,4,Costa Rica
-17   TEJEDA Y.,0.0,131.0,19.0,16.0,0.0,37569.0,4,Costa Rica
+17   TEJEDA Y.,0.0,151.0,23.0,20.0,0.0,50037.0,5,Costa Rica
+17   TEJEDA Y.,0.0,151.0,23.0,20.0,0.0,50037.0,5,Costa Rica
+17   TEJEDA Y.,0.0,151.0,23.0,20.0,0.0,50037.0,5,Costa Rica
+17   TEJEDA Y.,0.0,151.0,23.0,20.0,0.0,50037.0,5,Costa Rica
+17   TEJEDA Y.,0.0,151.0,23.0,20.0,0.0,50037.0,5,Costa Rica
 18   A GUARDADO,6.0,85.0,8.0,3.0,0.0,29775.0,3,México
 18   A GUARDADO,6.0,85.0,8.0,3.0,0.0,29775.0,3,México
 18   A GUARDADO,6.0,85.0,8.0,3.0,0.0,29775.0,3,México
 18   A. GUARDADO,0.0,22.0,2.0,0.0,0.0,11760.0,1,México
 18   BABATUNDE,2.0,37.0,6.0,5.0,0.0,17542.0,2,Nigéria
 18   BABATUNDE,2.0,37.0,6.0,5.0,0.0,17542.0,2,Nigéria
-18   C. ZUÑIGA,2.0,123.0,14.0,3.0,0.0,27868.0,3,Colômbia
-18   C. ZUÑIGA,2.0,123.0,14.0,3.0,0.0,27868.0,3,Colômbia
-18   C. ZUÑIGA,2.0,123.0,14.0,3.0,0.0,27868.0,3,Colômbia
+18   C. ZUÑIGA,2.0,151.0,17.0,3.0,0.0,36532.0,4,Colômbia
+18   C. ZUÑIGA,2.0,151.0,17.0,3.0,0.0,36532.0,4,Colômbia
+18   C. ZUÑIGA,2.0,151.0,17.0,3.0,0.0,36532.0,4,Colômbia
+18   C. ZUÑIGA,2.0,151.0,17.0,3.0,0.0,36532.0,4,Colômbia
 18   DJABOU,4.0,40.0,8.0,3.0,0.0,18654.0,3,Argélia
 18   DJABOU,4.0,40.0,8.0,3.0,0.0,18654.0,3,Argélia
 18   DJABOU,4.0,40.0,8.0,3.0,0.0,18654.0,3,Argélia
@@ -537,7 +583,8 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 18   FETFATZIDIS,0.0,19.0,6.0,3.0,0.0,8997.0,2,Grécia
 18   G. RAMIREZ,1.0,37.0,4.0,1.0,0.0,7877.0,2,Uruguai
 18   G. RAMIREZ,1.0,37.0,4.0,1.0,0.0,7877.0,2,Uruguai
-18   HERNANES,0.0,5.0,1.0,0.0,0.0,3420.0,1,Brasil
+18   HERNANES,0.0,8.0,2.0,0.0,0.0,4566.0,2,Brasil
+18   HERNANES,0.0,8.0,2.0,0.0,0.0,4566.0,2,Brasil
 18   JARA,1.0,217.0,22.0,6.0,0.0,43673.0,4,Chile
 18   JARA,1.0,217.0,22.0,6.0,0.0,43673.0,4,Chile
 18   JARA,1.0,217.0,22.0,6.0,0.0,43673.0,4,Chile
@@ -545,11 +592,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 18   JORDI ALBA,3.0,194.0,25.0,0.0,0.0,31809.0,3,Espanha
 18   JORDI ALBA,3.0,194.0,25.0,0.0,0.0,31809.0,3,Espanha
 18   JORDI ALBA,3.0,194.0,25.0,0.0,0.0,31809.0,3,Espanha
-18   KROOS,10.0,379.0,12.0,5.0,0.0,56451.0,5,Alemanha
-18   KROOS,10.0,379.0,12.0,5.0,0.0,56451.0,5,Alemanha
-18   KROOS,10.0,379.0,12.0,5.0,0.0,56451.0,5,Alemanha
-18   KROOS,10.0,379.0,12.0,5.0,0.0,56451.0,5,Alemanha
-18   KROOS,10.0,379.0,12.0,5.0,0.0,56451.0,5,Alemanha
+18   KROOS,13.0,442.0,15.0,5.0,0.0,68144.0,6,Alemanha
+18   KROOS,13.0,442.0,15.0,5.0,0.0,68144.0,6,Alemanha
+18   KROOS,13.0,442.0,15.0,5.0,0.0,68144.0,6,Alemanha
+18   KROOS,13.0,442.0,15.0,5.0,0.0,68144.0,6,Alemanha
+18   KROOS,13.0,442.0,15.0,5.0,0.0,68144.0,6,Alemanha
+18   KROOS,13.0,442.0,15.0,5.0,0.0,68144.0,6,Alemanha
 18   LAMBERT,0.0,0.0,0.0,0.0,0.0,803.0,1,Inglaterra
 18   LOMBAERTS,0.0,30.0,4.0,0.0,0.0,10121.0,1,Bélgica
 18   MEDUNJANIN,2.0,86.0,7.0,1.0,0.0,9946.0,2,Bósnia e Herzegovina
@@ -563,8 +611,10 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 18   OLIĆ,5.0,38.0,9.0,10.0,0.0,28619.0,3,Croácia
 18   OSAKO,3.0,19.0,0.0,0.0,0.0,13681.0,2,Japão
 18   OSAKO,3.0,19.0,0.0,0.0,0.0,13681.0,2,Japão
-18   PALACIO,3.0,8.0,2.0,2.0,0.0,8642.0,2,Argentina
-18   PALACIO,3.0,8.0,2.0,2.0,0.0,8642.0,2,Argentina
+18   PALACIO,5.0,22.0,3.0,3.0,0.0,17101.0,4,Argentina
+18   PALACIO,5.0,22.0,3.0,3.0,0.0,17101.0,4,Argentina
+18   PALACIO,5.0,22.0,3.0,3.0,0.0,17101.0,4,Argentina
+18   PALACIO,5.0,22.0,3.0,3.0,0.0,17101.0,4,Argentina
 18   PAROLO,1.0,18.0,4.0,0.0,0.0,8062.0,2,Itália
 18   PAROLO,1.0,18.0,4.0,0.0,0.0,8062.0,2,Itália
 18   S W KIM,2.0,17.0,1.0,0.0,0.0,11629.0,2,Coreia do Sul
@@ -603,7 +653,9 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 19   GÖTZE,7.0,96.0,7.0,4.0,0.0,30264.0,5,Alemanha
 19   GÖTZE,7.0,96.0,7.0,4.0,0.0,30264.0,5,Alemanha
 19   GÖTZE,7.0,96.0,7.0,4.0,0.0,30264.0,5,Alemanha
-19   HUNTELAAR,1.0,4.0,1.0,0.0,0.0,2375.0,1,Holanda
+19   HUNTELAAR,1.0,19.0,2.0,1.0,0.0,7412.0,3,Holanda
+19   HUNTELAAR,1.0,19.0,2.0,1.0,0.0,7412.0,3,Holanda
+19   HUNTELAAR,1.0,19.0,2.0,1.0,0.0,7412.0,3,Holanda
 19   JONATHAN,3.0,122.0,22.0,5.0,0.0,29725.0,3,Gana
 19   JONATHAN,3.0,122.0,22.0,5.0,0.0,29725.0,3,Gana
 19   JONATHAN,3.0,122.0,22.0,5.0,0.0,29725.0,3,Gana
@@ -622,8 +674,9 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 19   POGBA,10.0,184.0,7.0,4.0,0.0,40241.0,5,França
 19   POGBA,10.0,184.0,7.0,4.0,0.0,40241.0,5,França
 19   POGBA,10.0,184.0,7.0,4.0,0.0,40241.0,5,França
-19   RAMOS,2.0,24.0,0.0,1.0,0.0,10898.0,2,Colômbia
-19   RAMOS,2.0,24.0,0.0,1.0,0.0,10898.0,2,Colômbia
+19   RAMOS,4.0,34.0,1.0,1.0,0.0,15548.0,3,Colômbia
+19   RAMOS,4.0,34.0,1.0,1.0,0.0,15548.0,3,Colômbia
+19   RAMOS,4.0,34.0,1.0,1.0,0.0,15548.0,3,Colômbia
 19   S. COATES,0.0,2.0,1.0,0.0,0.0,820.0,1,Uruguai
 19   SAMEDOV,2.0,100.0,8.0,1.0,0.0,33272.0,3,Rússia
 19   SAMEDOV,2.0,100.0,8.0,1.0,0.0,33272.0,3,Rússia
@@ -643,9 +696,10 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 19   TOURE YAYA,9.0,136.0,8.0,2.0,0.0,29605.0,3,Costa do Marfim
 19   VIŠĆA,3.0,5.0,0.0,0.0,0.0,4107.0,2,Bósnia e Herzegovina
 19   VIŠĆA,3.0,5.0,0.0,0.0,0.0,4107.0,2,Bósnia e Herzegovina
-19   WILLIAN,1.0,21.0,3.0,0.0,0.0,5534.0,3,Brasil
-19   WILLIAN,1.0,21.0,3.0,0.0,0.0,5534.0,3,Brasil
-19   WILLIAN,1.0,21.0,3.0,0.0,0.0,5534.0,3,Brasil
+19   WILLIAN,2.0,34.0,3.0,0.0,0.0,8643.0,4,Brasil
+19   WILLIAN,2.0,34.0,3.0,0.0,0.0,8643.0,4,Brasil
+19   WILLIAN,2.0,34.0,3.0,0.0,0.0,8643.0,4,Brasil
+19   WILLIAN,2.0,34.0,3.0,0.0,0.0,8643.0,4,Brasil
 19   ZUSI,2.0,91.0,7.0,7.0,0.0,33673.0,4,EUA
 19   ZUSI,2.0,91.0,7.0,7.0,0.0,33673.0,4,EUA
 19   ZUSI,2.0,91.0,7.0,7.0,0.0,33673.0,4,EUA
@@ -669,14 +723,17 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 1   C. BRAVO,0.0,116.0,0.0,0.0,18.0,23362.0,4,Chile
 1   C. BRAVO,0.0,116.0,0.0,0.0,18.0,23362.0,4,Chile
 1   C. BRAVO,0.0,116.0,0.0,0.0,18.0,23362.0,4,Chile
-1   CILLESSEN,0.0,87.0,0.0,0.0,11.0,19602.0,4,Holanda
-1   CILLESSEN,0.0,87.0,0.0,0.0,11.0,19602.0,4,Holanda
-1   CILLESSEN,0.0,87.0,0.0,0.0,11.0,19602.0,4,Holanda
-1   CILLESSEN,0.0,87.0,0.0,0.0,11.0,19602.0,4,Holanda
-1   COURTOIS,0.0,67.0,0.0,0.0,13.0,16420.0,4,Bélgica
-1   COURTOIS,0.0,67.0,0.0,0.0,13.0,16420.0,4,Bélgica
-1   COURTOIS,0.0,67.0,0.0,0.0,13.0,16420.0,4,Bélgica
-1   COURTOIS,0.0,67.0,0.0,0.0,13.0,16420.0,4,Bélgica
+1   CILLESSEN,0.0,150.0,0.0,0.0,16.0,31940.0,6,Holanda
+1   CILLESSEN,0.0,150.0,0.0,0.0,16.0,31940.0,6,Holanda
+1   CILLESSEN,0.0,150.0,0.0,0.0,16.0,31940.0,6,Holanda
+1   CILLESSEN,0.0,150.0,0.0,0.0,16.0,31940.0,6,Holanda
+1   CILLESSEN,0.0,150.0,0.0,0.0,16.0,31940.0,6,Holanda
+1   CILLESSEN,0.0,150.0,0.0,0.0,16.0,31940.0,6,Holanda
+1   COURTOIS,0.0,85.0,0.0,0.0,14.0,20319.0,5,Bélgica
+1   COURTOIS,0.0,85.0,0.0,0.0,14.0,20319.0,5,Bélgica
+1   COURTOIS,0.0,85.0,0.0,0.0,14.0,20319.0,5,Bélgica
+1   COURTOIS,0.0,85.0,0.0,0.0,14.0,20319.0,5,Bélgica
+1   COURTOIS,0.0,85.0,0.0,0.0,14.0,20319.0,5,Bélgica
 1   EDUARDO,0.0,1.0,0.0,0.0,0.0,410.0,1,Portugal
 1   ENYEAMA,0.0,74.0,0.0,0.0,21.0,12700.0,4,Nigéria
 1   ENYEAMA,0.0,74.0,0.0,0.0,21.0,12700.0,4,Nigéria
@@ -706,26 +763,31 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 1   LLORIS,0.0,100.0,0.0,0.0,10.0,22616.0,5,França
 1   LLORIS,0.0,100.0,0.0,0.0,10.0,22616.0,5,França
 1   LLORIS,0.0,100.0,0.0,0.0,10.0,22616.0,5,França
-1   NAVAS K.,0.0,74.0,0.0,0.0,14.0,19259.0,4,Costa Rica
-1   NAVAS K.,0.0,74.0,0.0,0.0,14.0,19259.0,4,Costa Rica
-1   NAVAS K.,0.0,74.0,0.0,0.0,14.0,19259.0,4,Costa Rica
-1   NAVAS K.,0.0,74.0,0.0,0.0,14.0,19259.0,4,Costa Rica
-1   NEUER,0.0,158.0,0.0,0.0,18.0,25421.0,5,Alemanha
-1   NEUER,0.0,158.0,0.0,0.0,18.0,25421.0,5,Alemanha
-1   NEUER,0.0,158.0,0.0,0.0,18.0,25421.0,5,Alemanha
-1   NEUER,0.0,158.0,0.0,0.0,18.0,25421.0,5,Alemanha
-1   NEUER,0.0,158.0,0.0,0.0,18.0,25421.0,5,Alemanha
-1   OSPINA,0.0,77.0,0.0,1.0,18.0,15933.0,4,Colômbia
-1   OSPINA,0.0,77.0,0.0,1.0,18.0,15933.0,4,Colômbia
-1   OSPINA,0.0,77.0,0.0,1.0,18.0,15933.0,4,Colômbia
-1   OSPINA,0.0,77.0,0.0,1.0,18.0,15933.0,4,Colômbia
+1   NAVAS K.,0.0,101.0,0.0,0.0,21.0,24729.0,5,Costa Rica
+1   NAVAS K.,0.0,101.0,0.0,0.0,21.0,24729.0,5,Costa Rica
+1   NAVAS K.,0.0,101.0,0.0,0.0,21.0,24729.0,5,Costa Rica
+1   NAVAS K.,0.0,101.0,0.0,0.0,21.0,24729.0,5,Costa Rica
+1   NAVAS K.,0.0,101.0,0.0,0.0,21.0,24729.0,5,Costa Rica
+1   NEUER,0.0,199.0,0.0,0.0,25.0,31261.0,6,Alemanha
+1   NEUER,0.0,199.0,0.0,0.0,25.0,31261.0,6,Alemanha
+1   NEUER,0.0,199.0,0.0,0.0,25.0,31261.0,6,Alemanha
+1   NEUER,0.0,199.0,0.0,0.0,25.0,31261.0,6,Alemanha
+1   NEUER,0.0,199.0,0.0,0.0,25.0,31261.0,6,Alemanha
+1   NEUER,0.0,199.0,0.0,0.0,25.0,31261.0,6,Alemanha
+1   OSPINA,0.0,89.0,0.0,1.0,21.0,20186.0,5,Colômbia
+1   OSPINA,0.0,89.0,0.0,1.0,21.0,20186.0,5,Colômbia
+1   OSPINA,0.0,89.0,0.0,1.0,21.0,20186.0,5,Colômbia
+1   OSPINA,0.0,89.0,0.0,1.0,21.0,20186.0,5,Colômbia
+1   OSPINA,0.0,89.0,0.0,1.0,21.0,20186.0,5,Colômbia
 1   PLETIKOSA,0.0,60.0,0.0,0.0,5.0,9761.0,3,Croácia
 1   PLETIKOSA,0.0,60.0,0.0,0.0,5.0,9761.0,3,Croácia
 1   PLETIKOSA,0.0,60.0,0.0,0.0,5.0,9761.0,3,Croácia
-1   ROMERO,0.0,72.0,0.0,0.0,13.0,12973.0,4,Argentina
-1   ROMERO,0.0,72.0,0.0,0.0,13.0,12973.0,4,Argentina
-1   ROMERO,0.0,72.0,0.0,0.0,13.0,12973.0,4,Argentina
-1   ROMERO,0.0,72.0,0.0,0.0,13.0,12973.0,4,Argentina
+1   ROMERO,0.0,115.0,0.0,0.0,15.0,20321.0,6,Argentina
+1   ROMERO,0.0,115.0,0.0,0.0,15.0,20321.0,6,Argentina
+1   ROMERO,0.0,115.0,0.0,0.0,15.0,20321.0,6,Argentina
+1   ROMERO,0.0,115.0,0.0,0.0,15.0,20321.0,6,Argentina
+1   ROMERO,0.0,115.0,0.0,0.0,15.0,20321.0,6,Argentina
+1   ROMERO,0.0,115.0,0.0,0.0,15.0,20321.0,6,Argentina
 1   RYAN,0.0,105.0,0.0,0.0,11.0,18494.0,3,Austrália
 1   RYAN,0.0,105.0,0.0,0.0,11.0,18494.0,3,Austrália
 1   RYAN,0.0,105.0,0.0,0.0,11.0,18494.0,3,Austrália
@@ -735,16 +797,19 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 20   A. GONZALEZ,3.0,87.0,12.0,7.0,0.0,32148.0,4,Uruguai
 20   A. GONZALEZ,3.0,87.0,12.0,7.0,0.0,32148.0,4,Uruguai
 20   A. GONZALEZ,3.0,87.0,12.0,7.0,0.0,32148.0,4,Uruguai
-20   AGUERO,5.0,26.0,1.0,0.0,0.0,19534.0,3,Argentina
-20   AGUERO,5.0,26.0,1.0,0.0,0.0,19534.0,3,Argentina
-20   AGUERO,5.0,26.0,1.0,0.0,0.0,19534.0,3,Argentina
-20   BERNARD,0.0,23.0,1.0,0.0,0.0,8381.0,2,Brasil
-20   BERNARD,0.0,23.0,1.0,0.0,0.0,8381.0,2,Brasil
-20   BOATENG,1.0,250.0,28.0,8.0,0.0,45346.0,5,Alemanha
-20   BOATENG,1.0,250.0,28.0,8.0,0.0,45346.0,5,Alemanha
-20   BOATENG,1.0,250.0,28.0,8.0,0.0,45346.0,5,Alemanha
-20   BOATENG,1.0,250.0,28.0,8.0,0.0,45346.0,5,Alemanha
-20   BOATENG,1.0,250.0,28.0,8.0,0.0,45346.0,5,Alemanha
+20   AGUERO,5.0,30.0,2.0,2.0,0.0,23653.0,4,Argentina
+20   AGUERO,5.0,30.0,2.0,2.0,0.0,23653.0,4,Argentina
+20   AGUERO,5.0,30.0,2.0,2.0,0.0,23653.0,4,Argentina
+20   AGUERO,5.0,30.0,2.0,2.0,0.0,23653.0,4,Argentina
+20   BERNARD,1.0,55.0,3.0,2.0,0.0,18990.0,3,Brasil
+20   BERNARD,1.0,55.0,3.0,2.0,0.0,18990.0,3,Brasil
+20   BERNARD,1.0,55.0,3.0,2.0,0.0,18990.0,3,Brasil
+20   BOATENG,1.0,295.0,33.0,8.0,0.0,56107.0,6,Alemanha
+20   BOATENG,1.0,295.0,33.0,8.0,0.0,56107.0,6,Alemanha
+20   BOATENG,1.0,295.0,33.0,8.0,0.0,56107.0,6,Alemanha
+20   BOATENG,1.0,295.0,33.0,8.0,0.0,56107.0,6,Alemanha
+20   BOATENG,1.0,295.0,33.0,8.0,0.0,56107.0,6,Alemanha
+20   BOATENG,1.0,295.0,33.0,8.0,0.0,56107.0,6,Alemanha
 20   CAMERON,0.0,120.0,21.0,3.0,0.0,35501.0,3,EUA
 20   CAMERON,0.0,120.0,21.0,3.0,0.0,35501.0,3,EUA
 20   CAMERON,0.0,120.0,21.0,3.0,0.0,35501.0,3,EUA
@@ -786,8 +851,9 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 20   MANDI,0.0,91.0,15.0,11.0,0.0,32360.0,3,Argélia
 20   MANDI,0.0,91.0,15.0,11.0,0.0,32360.0,3,Argélia
 20   PALETTA,0.0,43.0,2.0,1.0,0.0,8955.0,1,Itália
-20   QUINTERO,3.0,25.0,3.0,0.0,0.0,10329.0,2,Colômbia
-20   QUINTERO,3.0,25.0,3.0,0.0,0.0,10329.0,2,Colômbia
+20   QUINTERO,3.0,30.0,3.0,0.0,0.0,12041.0,3,Colômbia
+20   QUINTERO,3.0,30.0,3.0,0.0,0.0,12041.0,3,Colômbia
+20   QUINTERO,3.0,30.0,3.0,0.0,0.0,12041.0,3,Colômbia
 20   R. AMORIM,1.0,39.0,2.0,0.0,0.0,11276.0,1,Portugal
 20   REMY,1.0,9.0,0.0,0.0,0.0,3722.0,2,França
 20   REMY,1.0,9.0,0.0,0.0,0.0,3722.0,2,França
@@ -799,10 +865,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 20   SEREY DIE,1.0,148.0,15.0,13.0,0.0,22896.0,3,Costa do Marfim
 20   SEREY DIE,1.0,148.0,15.0,13.0,0.0,22896.0,3,Costa do Marfim
 20   UCHEBO,1.0,6.0,2.0,1.0,0.0,3825.0,1,Nigéria
-20   WIJNALDUM,2.0,61.0,9.0,3.0,0.0,27808.0,4,Holanda
-20   WIJNALDUM,2.0,61.0,9.0,3.0,0.0,27808.0,4,Holanda
-20   WIJNALDUM,2.0,61.0,9.0,3.0,0.0,27808.0,4,Holanda
-20   WIJNALDUM,2.0,61.0,9.0,3.0,0.0,27808.0,4,Holanda
+20   WIJNALDUM,2.0,178.0,17.0,5.0,0.0,53923.0,6,Holanda
+20   WIJNALDUM,2.0,178.0,17.0,5.0,0.0,53923.0,6,Holanda
+20   WIJNALDUM,2.0,178.0,17.0,5.0,0.0,53923.0,6,Holanda
+20   WIJNALDUM,2.0,178.0,17.0,5.0,0.0,53923.0,6,Holanda
+20   WIJNALDUM,2.0,178.0,17.0,5.0,0.0,53923.0,6,Holanda
+20   WIJNALDUM,2.0,178.0,17.0,5.0,0.0,53923.0,6,Holanda
 21   ACHILIER,0.0,0.0,0.0,0.0,0.0,1330.0,2,Equador
 21   ACHILIER,0.0,0.0,0.0,0.0,0.0,1330.0,2,Equador
 21   BARKLEY,2.0,59.0,1.0,4.0,0.0,18379.0,3,Inglaterra
@@ -845,9 +913,10 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 21   MAHREZ,1.0,12.0,4.0,3.0,0.0,8740.0,1,Argélia
 21   MATIP,2.0,42.0,5.0,2.0,0.0,17952.0,2,Camarões
 21   MATIP,2.0,42.0,5.0,2.0,0.0,17952.0,2,Camarões
-21   MEMPHIS,5.0,35.0,1.0,1.0,0.0,12215.0,3,Holanda
-21   MEMPHIS,5.0,35.0,1.0,1.0,0.0,12215.0,3,Holanda
-21   MEMPHIS,5.0,35.0,1.0,1.0,0.0,12215.0,3,Holanda
+21   MEMPHIS,6.0,55.0,2.0,1.0,0.0,19560.0,4,Holanda
+21   MEMPHIS,6.0,55.0,2.0,1.0,0.0,19560.0,4,Holanda
+21   MEMPHIS,6.0,55.0,2.0,1.0,0.0,19560.0,4,Holanda
+21   MEMPHIS,6.0,55.0,2.0,1.0,0.0,19560.0,4,Holanda
 21   MUSTAFI,1.0,65.0,2.0,1.0,0.0,14626.0,3,Alemanha
 21   MUSTAFI,1.0,65.0,2.0,1.0,0.0,14626.0,3,Alemanha
 21   MUSTAFI,1.0,65.0,2.0,1.0,0.0,14626.0,3,Alemanha
@@ -859,9 +928,10 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 21   SILVA,3.0,102.0,14.0,3.0,0.0,21162.0,3,Espanha
 21   SILVA,3.0,102.0,14.0,3.0,0.0,21162.0,3,Espanha
 21   SIO,1.0,1.0,1.0,1.0,0.0,1232.0,1,Costa do Marfim
-21   UREÑA M.,2.0,6.0,2.0,0.0,0.0,6590.0,3,Costa Rica
-21   UREÑA M.,2.0,6.0,2.0,0.0,0.0,6590.0,3,Costa Rica
-21   UREÑA M.,2.0,6.0,2.0,0.0,0.0,6590.0,3,Costa Rica
+21   UREÑA M.,3.0,14.0,2.0,1.0,0.0,12456.0,4,Costa Rica
+21   UREÑA M.,3.0,14.0,2.0,1.0,0.0,12456.0,4,Costa Rica
+21   UREÑA M.,3.0,14.0,2.0,1.0,0.0,12456.0,4,Costa Rica
+21   UREÑA M.,3.0,14.0,2.0,1.0,0.0,12456.0,4,Costa Rica
 21   VANDEN BORRE,0.0,40.0,3.0,0.0,0.0,10370.0,1,Bélgica
 22   AZPILICUETA,0.0,105.0,9.0,1.0,0.0,19445.0,2,Espanha
 22   AZPILICUETA,0.0,105.0,9.0,1.0,0.0,19445.0,2,Espanha
@@ -870,12 +940,14 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 22   BAMBA,1.0,141.0,16.0,4.0,0.0,24756.0,3,Costa do Marfim
 22   BETO,0.0,51.0,0.0,0.0,5.0,11219.0,2,Portugal
 22   BETO,0.0,51.0,0.0,0.0,5.0,11219.0,2,Portugal
-22   CHADLI,4.0,38.0,3.0,3.0,0.0,11207.0,3,Bélgica
-22   CHADLI,4.0,38.0,3.0,3.0,0.0,11207.0,3,Bélgica
-22   CHADLI,4.0,38.0,3.0,3.0,0.0,11207.0,3,Bélgica
-22   CUBERO J.,0.0,20.0,3.0,4.0,0.0,13026.0,3,Costa Rica
-22   CUBERO J.,0.0,20.0,3.0,4.0,0.0,13026.0,3,Costa Rica
-22   CUBERO J.,0.0,20.0,3.0,4.0,0.0,13026.0,3,Costa Rica
+22   CHADLI,4.0,43.0,3.0,3.0,0.0,13521.0,4,Bélgica
+22   CHADLI,4.0,43.0,3.0,3.0,0.0,13521.0,4,Bélgica
+22   CHADLI,4.0,43.0,3.0,3.0,0.0,13521.0,4,Bélgica
+22   CHADLI,4.0,43.0,3.0,3.0,0.0,13521.0,4,Bélgica
+22   CUBERO J.,0.0,26.0,3.0,4.0,0.0,16047.0,4,Costa Rica
+22   CUBERO J.,0.0,26.0,3.0,4.0,0.0,16047.0,4,Costa Rica
+22   CUBERO J.,0.0,26.0,3.0,4.0,0.0,16047.0,4,Costa Rica
+22   CUBERO J.,0.0,26.0,3.0,4.0,0.0,16047.0,4,Costa Rica
 22   DOMINGUEZ,0.0,54.0,0.0,0.0,18.0,9413.0,3,Equador
 22   DOMINGUEZ,0.0,54.0,0.0,0.0,18.0,9413.0,3,Equador
 22   DOMINGUEZ,0.0,54.0,0.0,0.0,18.0,9413.0,3,Equador
@@ -883,9 +955,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 22   ESHCHENKO,3.0,72.0,7.0,4.0,0.0,14759.0,2,Rússia
 22   ESHCHENKO,3.0,72.0,7.0,4.0,0.0,14759.0,2,Rússia
 22   INSIGNE,1.0,13.0,4.0,0.0,0.0,4650.0,1,Itália
-22   LAVEZZI,3.0,46.0,1.0,1.0,0.0,17573.0,3,Argentina
-22   LAVEZZI,3.0,46.0,1.0,1.0,0.0,17573.0,3,Argentina
-22   LAVEZZI,3.0,46.0,1.0,1.0,0.0,17573.0,3,Argentina
+22   LAVEZZI,5.0,84.0,2.0,2.0,0.0,38067.0,5,Argentina
+22   LAVEZZI,5.0,84.0,2.0,2.0,0.0,38067.0,5,Argentina
+22   LAVEZZI,5.0,84.0,2.0,2.0,0.0,38067.0,5,Argentina
+22   LAVEZZI,5.0,84.0,2.0,2.0,0.0,38067.0,5,Argentina
+22   LAVEZZI,5.0,84.0,2.0,2.0,0.0,38067.0,5,Argentina
 22   M. CACERES,4.0,176.0,23.0,6.0,0.0,38786.0,4,Uruguai
 22   M. CACERES,4.0,176.0,23.0,6.0,0.0,38786.0,4,Uruguai
 22   M. CACERES,4.0,176.0,23.0,6.0,0.0,38786.0,4,Uruguai
@@ -917,7 +991,8 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 22   YOSHIDA,2.0,138.0,21.0,3.0,0.0,29187.0,3,Japão
 23   AMEOBI,2.0,14.0,0.0,1.0,0.0,7705.0,2,Nigéria
 23   AMEOBI,2.0,14.0,0.0,1.0,0.0,7705.0,2,Nigéria
-23   BASANTA,0.0,8.0,1.0,0.0,0.0,2386.0,1,Argentina
+23   BASANTA,0.0,43.0,7.0,2.0,0.0,12962.0,2,Argentina
+23   BASANTA,0.0,43.0,7.0,2.0,0.0,12962.0,2,Argentina
 23   BRESCIANO,5.0,70.0,2.0,1.0,0.0,19396.0,3,Austrália
 23   BRESCIANO,5.0,70.0,2.0,1.0,0.0,19396.0,3,Austrália
 23   BRESCIANO,5.0,70.0,2.0,1.0,0.0,19396.0,3,Austrália
@@ -938,8 +1013,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 23   JOHNSON,2.0,97.0,10.0,2.0,0.0,34916.0,4,EUA
 23   KRAMER,1.0,8.0,1.0,0.0,0.0,1968.0,2,Alemanha
 23   KRAMER,1.0,8.0,1.0,0.0,0.0,1968.0,2,Alemanha
+23   KRUL,0.0,0.0,0.0,0.0,0.0,90.0,1,Holanda
 23   M. CHAVEZ,0.0,19.0,4.0,0.0,0.0,5062.0,2,Honduras
 23   M. CHAVEZ,0.0,19.0,4.0,0.0,0.0,5062.0,2,Honduras
+23   MAICON,0.0,67.0,8.0,1.0,0.0,19588.0,2,Brasil
+23   MAICON,0.0,67.0,8.0,1.0,0.0,19588.0,2,Brasil
 23   MEHRDAD,0.0,54.0,14.0,20.0,0.0,27904.0,3,Irã
 23   MEHRDAD,0.0,54.0,14.0,20.0,0.0,27904.0,3,Irã
 23   MEHRDAD,0.0,54.0,14.0,20.0,0.0,27904.0,3,Irã
@@ -958,10 +1036,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 23   VALDES,0.0,25.0,8.0,1.0,0.0,9283.0,1,Colômbia
 23   VERRATTI,0.0,102.0,5.0,5.0,0.0,16491.0,2,Itália
 23   VERRATTI,0.0,102.0,5.0,5.0,0.0,16491.0,2,Itália
-2   ACOSTA J.,0.0,8.0,2.0,2.0,0.0,5391.0,1,Costa Rica
-2   ALDERWEIRELD,2.0,133.0,15.0,6.0,0.0,34954.0,3,Bélgica
-2   ALDERWEIRELD,2.0,133.0,15.0,6.0,0.0,34954.0,3,Bélgica
-2   ALDERWEIRELD,2.0,133.0,15.0,6.0,0.0,34954.0,3,Bélgica
+2   ACOSTA J.,1.0,48.0,6.0,2.0,0.0,19082.0,2,Costa Rica
+2   ACOSTA J.,1.0,48.0,6.0,2.0,0.0,19082.0,2,Costa Rica
+2   ALDERWEIRELD,2.0,181.0,18.0,9.0,0.0,45581.0,4,Bélgica
+2   ALDERWEIRELD,2.0,181.0,18.0,9.0,0.0,45581.0,4,Bélgica
+2   ALDERWEIRELD,2.0,181.0,18.0,9.0,0.0,45581.0,4,Bélgica
+2   ALDERWEIRELD,2.0,181.0,18.0,9.0,0.0,45581.0,4,Bélgica
 2   ASSOU EKOTTO,2.0,70.0,10.0,0.0,0.0,18844.0,2,Camarões
 2   ASSOU EKOTTO,2.0,70.0,10.0,0.0,0.0,18844.0,2,Camarões
 2   B. ALVES,0.0,122.0,16.0,5.0,0.0,29421.0,3,Portugal
@@ -970,9 +1050,10 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 2   BOUGUERRA,1.0,77.0,13.0,7.0,0.0,23379.0,3,Argélia
 2   BOUGUERRA,1.0,77.0,13.0,7.0,0.0,23379.0,3,Argélia
 2   BOUGUERRA,1.0,77.0,13.0,7.0,0.0,23379.0,3,Argélia
-2   C. ZAPATA,1.0,91.0,17.0,1.0,0.0,27848.0,3,Colômbia
-2   C. ZAPATA,1.0,91.0,17.0,1.0,0.0,27848.0,3,Colômbia
-2   C. ZAPATA,1.0,91.0,17.0,1.0,0.0,27848.0,3,Colômbia
+2   C. ZAPATA,2.0,109.0,24.0,2.0,0.0,36871.0,4,Colômbia
+2   C. ZAPATA,2.0,109.0,24.0,2.0,0.0,36871.0,4,Colômbia
+2   C. ZAPATA,2.0,109.0,24.0,2.0,0.0,36871.0,4,Colômbia
+2   C. ZAPATA,2.0,109.0,24.0,2.0,0.0,36871.0,4,Colômbia
 2   D. LUGANO,0.0,34.0,3.0,1.0,0.0,8978.0,1,Uruguai
 2   DANI ALVES,5.0,240.0,18.0,15.0,0.0,44520.0,4,Brasil
 2   DANI ALVES,5.0,240.0,18.0,15.0,0.0,44520.0,4,Brasil
@@ -988,10 +1069,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 2   F RODRIGUEZ,0.0,123.0,17.0,4.0,0.0,28276.0,3,México
 2   F. RODRIGUEZ,0.0,39.0,4.0,1.0,0.0,9990.0,1,México
 2   FRANJIC,0.0,18.0,2.0,4.0,0.0,5833.0,1,Austrália
-2   GARAY,4.0,201.0,27.0,3.0,0.0,41903.0,4,Argentina
-2   GARAY,4.0,201.0,27.0,3.0,0.0,41903.0,4,Argentina
-2   GARAY,4.0,201.0,27.0,3.0,0.0,41903.0,4,Argentina
-2   GARAY,4.0,201.0,27.0,3.0,0.0,41903.0,4,Argentina
+2   GARAY,5.0,288.0,43.0,5.0,0.0,63507.0,6,Argentina
+2   GARAY,5.0,288.0,43.0,5.0,0.0,63507.0,6,Argentina
+2   GARAY,5.0,288.0,43.0,5.0,0.0,63507.0,6,Argentina
+2   GARAY,5.0,288.0,43.0,5.0,0.0,63507.0,6,Argentina
+2   GARAY,5.0,288.0,43.0,5.0,0.0,63507.0,6,Argentina
+2   GARAY,5.0,288.0,43.0,5.0,0.0,63507.0,6,Argentina
 2   GUAGUA,0.0,58.0,14.0,4.0,0.0,24767.0,3,Equador
 2   GUAGUA,0.0,58.0,14.0,4.0,0.0,24767.0,3,Equador
 2   GUAGUA,0.0,58.0,14.0,4.0,0.0,24767.0,3,Equador
@@ -1019,10 +1102,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 2   UCHIDA,3.0,96.0,18.0,4.0,0.0,29799.0,3,Japão
 2   UCHIDA,3.0,96.0,18.0,4.0,0.0,29799.0,3,Japão
 2   UCHIDA,3.0,96.0,18.0,4.0,0.0,29799.0,3,Japão
-2   VLAAR,2.0,122.0,18.0,8.0,0.0,39536.0,4,Holanda
-2   VLAAR,2.0,122.0,18.0,8.0,0.0,39536.0,4,Holanda
-2   VLAAR,2.0,122.0,18.0,8.0,0.0,39536.0,4,Holanda
-2   VLAAR,2.0,122.0,18.0,8.0,0.0,39536.0,4,Holanda
+2   VLAAR,4.0,274.0,39.0,12.0,0.0,64047.0,6,Holanda
+2   VLAAR,4.0,274.0,39.0,12.0,0.0,64047.0,6,Holanda
+2   VLAAR,4.0,274.0,39.0,12.0,0.0,64047.0,6,Holanda
+2   VLAAR,4.0,274.0,39.0,12.0,0.0,64047.0,6,Holanda
+2   VLAAR,4.0,274.0,39.0,12.0,0.0,64047.0,6,Holanda
+2   VLAAR,4.0,274.0,39.0,12.0,0.0,64047.0,6,Holanda
 2   VRSALJKO,0.0,71.0,12.0,3.0,0.0,17689.0,2,Croácia
 2   VRSALJKO,0.0,71.0,12.0,3.0,0.0,17689.0,2,Croácia
 2   VRŠAJEVIĆ,2.0,42.0,4.0,1.0,0.0,10825.0,1,Bósnia e Herzegovina
@@ -1055,10 +1140,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 3   DAVIDSON,0.0,116.0,16.0,5.0,0.0,32768.0,3,Austrália
 3   DAVIDSON,0.0,116.0,16.0,5.0,0.0,32768.0,3,Austrália
 3   DAVIDSON,0.0,116.0,16.0,5.0,0.0,32768.0,3,Austrália
-3   DE VRIJ,4.0,152.0,25.0,11.0,0.0,37399.0,4,Holanda
-3   DE VRIJ,4.0,152.0,25.0,11.0,0.0,37399.0,4,Holanda
-3   DE VRIJ,4.0,152.0,25.0,11.0,0.0,37399.0,4,Holanda
-3   DE VRIJ,4.0,152.0,25.0,11.0,0.0,37399.0,4,Holanda
+3   DE VRIJ,5.0,323.0,45.0,16.0,0.0,61408.0,6,Holanda
+3   DE VRIJ,5.0,323.0,45.0,16.0,0.0,61408.0,6,Holanda
+3   DE VRIJ,5.0,323.0,45.0,16.0,0.0,61408.0,6,Holanda
+3   DE VRIJ,5.0,323.0,45.0,16.0,0.0,61408.0,6,Holanda
+3   DE VRIJ,5.0,323.0,45.0,16.0,0.0,61408.0,6,Holanda
+3   DE VRIJ,5.0,323.0,45.0,16.0,0.0,61408.0,6,Holanda
 3   ERAZO,2.0,67.0,16.0,2.0,0.0,26711.0,3,Equador
 3   ERAZO,2.0,67.0,16.0,2.0,0.0,26711.0,3,Equador
 3   ERAZO,2.0,67.0,16.0,2.0,0.0,26711.0,3,Equador
@@ -1074,10 +1161,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 3   GONZALEZ,0.0,85.0,8.0,5.0,0.0,24473.0,3,EUA
 3   GONZALEZ,0.0,85.0,8.0,5.0,0.0,24473.0,3,EUA
 3   GONZALEZ,0.0,85.0,8.0,5.0,0.0,24473.0,3,EUA
-3   GONZALEZ G.,4.0,98.0,27.0,6.0,0.0,41328.0,4,Costa Rica
-3   GONZALEZ G.,4.0,98.0,27.0,6.0,0.0,41328.0,4,Costa Rica
-3   GONZALEZ G.,4.0,98.0,27.0,6.0,0.0,41328.0,4,Costa Rica
-3   GONZALEZ G.,4.0,98.0,27.0,6.0,0.0,41328.0,4,Costa Rica
+3   GONZALEZ G.,5.0,137.0,37.0,9.0,0.0,54449.0,5,Costa Rica
+3   GONZALEZ G.,5.0,137.0,37.0,9.0,0.0,54449.0,5,Costa Rica
+3   GONZALEZ G.,5.0,137.0,37.0,9.0,0.0,54449.0,5,Costa Rica
+3   GONZALEZ G.,5.0,137.0,37.0,9.0,0.0,54449.0,5,Costa Rica
+3   GONZALEZ G.,5.0,137.0,37.0,9.0,0.0,54449.0,5,Costa Rica
 3   HAJI SAFI,5.0,45.0,8.0,10.0,0.0,28540.0,3,Irã
 3   HAJI SAFI,5.0,45.0,8.0,10.0,0.0,28540.0,3,Irã
 3   HAJI SAFI,5.0,45.0,8.0,10.0,0.0,28540.0,3,Irã
@@ -1092,15 +1180,17 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 3   S Y YUN,0.0,101.0,17.0,2.0,0.0,31052.0,3,Coreia do Sul
 3   S Y YUN,0.0,101.0,17.0,2.0,0.0,31052.0,3,Coreia do Sul
 3   S Y YUN,0.0,101.0,17.0,2.0,0.0,31052.0,3,Coreia do Sul
-3   T SILVA,1.0,185.0,25.0,8.0,0.0,34614.0,4,Brasil
-3   T SILVA,1.0,185.0,25.0,8.0,0.0,34614.0,4,Brasil
-3   T SILVA,1.0,185.0,25.0,8.0,0.0,34614.0,4,Brasil
-3   T SILVA,1.0,185.0,25.0,8.0,0.0,34614.0,4,Brasil
+3   T SILVA,2.0,212.0,31.0,8.0,0.0,42320.0,5,Brasil
+3   T SILVA,2.0,212.0,31.0,8.0,0.0,42320.0,5,Brasil
+3   T SILVA,2.0,212.0,31.0,8.0,0.0,42320.0,5,Brasil
+3   T SILVA,2.0,212.0,31.0,8.0,0.0,42320.0,5,Brasil
+3   T SILVA,2.0,212.0,31.0,8.0,0.0,42320.0,5,Brasil
 3   UZOENYI,1.0,0.0,0.0,1.0,0.0,2300.0,1,Nigéria
 3   VERMAELEN,0.0,19.0,0.0,0.0,0.0,3286.0,1,Bélgica
-3   YEPES,2.0,81.0,14.0,6.0,0.0,27981.0,3,Colômbia
-3   YEPES,2.0,81.0,14.0,6.0,0.0,27981.0,3,Colômbia
-3   YEPES,2.0,81.0,14.0,6.0,0.0,27981.0,3,Colômbia
+3   YEPES,2.0,102.0,22.0,8.0,0.0,37309.0,4,Colômbia
+3   YEPES,2.0,102.0,22.0,8.0,0.0,37309.0,4,Colômbia
+3   YEPES,2.0,102.0,22.0,8.0,0.0,37309.0,4,Colômbia
+3   YEPES,2.0,102.0,22.0,8.0,0.0,37309.0,4,Colômbia
 4   ARIAS,2.0,56.0,10.0,1.0,0.0,15093.0,3,Colômbia
 4   ARIAS,2.0,56.0,10.0,1.0,0.0,15093.0,3,Colômbia
 4   ARIAS,2.0,56.0,10.0,1.0,0.0,15093.0,3,Colômbia
@@ -1117,10 +1207,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 4   DARMIAN,3.0,102.0,7.0,3.0,0.0,32102.0,3,Itália
 4   DARMIAN,3.0,102.0,7.0,3.0,0.0,32102.0,3,Itália
 4   DARMIAN,3.0,102.0,7.0,3.0,0.0,32102.0,3,Itália
-4   DAVID LUIZ,4.0,173.0,24.0,12.0,0.0,36758.0,4,Brasil
-4   DAVID LUIZ,4.0,173.0,24.0,12.0,0.0,36758.0,4,Brasil
-4   DAVID LUIZ,4.0,173.0,24.0,12.0,0.0,36758.0,4,Brasil
-4   DAVID LUIZ,4.0,173.0,24.0,12.0,0.0,36758.0,4,Brasil
+4   DAVID LUIZ,6.0,246.0,39.0,15.0,0.0,54335.0,6,Brasil
+4   DAVID LUIZ,6.0,246.0,39.0,15.0,0.0,54335.0,6,Brasil
+4   DAVID LUIZ,6.0,246.0,39.0,15.0,0.0,54335.0,6,Brasil
+4   DAVID LUIZ,6.0,246.0,39.0,15.0,0.0,54335.0,6,Brasil
+4   DAVID LUIZ,6.0,246.0,39.0,15.0,0.0,54335.0,6,Brasil
+4   DAVID LUIZ,6.0,246.0,39.0,15.0,0.0,54335.0,6,Brasil
 4   DJEUGOUE,0.0,9.0,2.0,1.0,0.0,5005.0,1,Camarões
 4   GABRIEL,0.0,17.0,3.0,0.0,0.0,3876.0,1,Nigéria
 4   GERRARD,2.0,113.0,7.0,2.0,0.0,24003.0,3,Inglaterra
@@ -1129,11 +1221,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 4   HONDA,11.0,125.0,4.0,2.0,0.0,31093.0,3,Japão
 4   HONDA,11.0,125.0,4.0,2.0,0.0,31093.0,3,Japão
 4   HONDA,11.0,125.0,4.0,2.0,0.0,31093.0,3,Japão
-4   HÖWEDES,3.0,211.0,34.0,15.0,0.0,54362.0,5,Alemanha
-4   HÖWEDES,3.0,211.0,34.0,15.0,0.0,54362.0,5,Alemanha
-4   HÖWEDES,3.0,211.0,34.0,15.0,0.0,54362.0,5,Alemanha
-4   HÖWEDES,3.0,211.0,34.0,15.0,0.0,54362.0,5,Alemanha
-4   HÖWEDES,3.0,211.0,34.0,15.0,0.0,54362.0,5,Alemanha
+4   HÖWEDES,3.0,245.0,40.0,16.0,0.0,65784.0,6,Alemanha
+4   HÖWEDES,3.0,245.0,40.0,16.0,0.0,65784.0,6,Alemanha
+4   HÖWEDES,3.0,245.0,40.0,16.0,0.0,65784.0,6,Alemanha
+4   HÖWEDES,3.0,245.0,40.0,16.0,0.0,65784.0,6,Alemanha
+4   HÖWEDES,3.0,245.0,40.0,16.0,0.0,65784.0,6,Alemanha
+4   HÖWEDES,3.0,245.0,40.0,16.0,0.0,65784.0,6,Alemanha
 4   IGNASHEVICH,2.0,151.0,20.0,4.0,0.0,30259.0,3,Rússia
 4   IGNASHEVICH,2.0,151.0,20.0,4.0,0.0,30259.0,3,Rússia
 4   IGNASHEVICH,2.0,151.0,20.0,4.0,0.0,30259.0,3,Rússia
@@ -1146,16 +1239,19 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 4   J. HOSSEINI,2.0,36.0,14.0,3.0,0.0,27642.0,3,Irã
 4   J. HOSSEINI,2.0,36.0,14.0,3.0,0.0,27642.0,3,Irã
 4   JAVI MARTÍNEZ,0.0,46.0,4.0,1.0,0.0,9525.0,1,Espanha
-4   KOMPANY,1.0,153.0,23.0,2.0,0.0,33486.0,3,Bélgica
-4   KOMPANY,1.0,153.0,23.0,2.0,0.0,33486.0,3,Bélgica
-4   KOMPANY,1.0,153.0,23.0,2.0,0.0,33486.0,3,Bélgica
+4   KOMPANY,2.0,189.0,32.0,5.0,0.0,42844.0,4,Bélgica
+4   KOMPANY,2.0,189.0,32.0,5.0,0.0,42844.0,4,Bélgica
+4   KOMPANY,2.0,189.0,32.0,5.0,0.0,42844.0,4,Bélgica
+4   KOMPANY,2.0,189.0,32.0,5.0,0.0,42844.0,4,Bélgica
 4   MANOLAS,1.0,107.0,18.0,6.0,0.0,35690.0,4,Grécia
 4   MANOLAS,1.0,107.0,18.0,6.0,0.0,35690.0,4,Grécia
 4   MANOLAS,1.0,107.0,18.0,6.0,0.0,35690.0,4,Grécia
 4   MANOLAS,1.0,107.0,18.0,6.0,0.0,35690.0,4,Grécia
-4   MARTINS INDI,0.0,125.0,16.0,3.0,0.0,24947.0,3,Holanda
-4   MARTINS INDI,0.0,125.0,16.0,3.0,0.0,24947.0,3,Holanda
-4   MARTINS INDI,0.0,125.0,16.0,3.0,0.0,24947.0,3,Holanda
+4   MARTINS INDI,0.0,246.0,25.0,3.0,0.0,39768.0,5,Holanda
+4   MARTINS INDI,0.0,246.0,25.0,3.0,0.0,39768.0,5,Holanda
+4   MARTINS INDI,0.0,246.0,25.0,3.0,0.0,39768.0,5,Holanda
+4   MARTINS INDI,0.0,246.0,25.0,3.0,0.0,39768.0,5,Holanda
+4   MARTINS INDI,0.0,246.0,25.0,3.0,0.0,39768.0,5,Holanda
 4   MIGUEL,2.0,124.0,14.0,1.0,0.0,26913.0,3,Portugal
 4   MIGUEL,2.0,124.0,14.0,1.0,0.0,26913.0,3,Portugal
 4   MIGUEL,2.0,124.0,14.0,1.0,0.0,26913.0,3,Portugal
@@ -1174,18 +1270,21 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 4   SPAHIĆ,0.0,164.0,30.0,8.0,0.0,31273.0,3,Bósnia e Herzegovina
 4   SPAHIĆ,0.0,164.0,30.0,8.0,0.0,31273.0,3,Bósnia e Herzegovina
 4   T. KOLO,1.0,33.0,2.0,1.0,0.0,8281.0,1,Costa do Marfim
-4   UMAÑA M.,0.0,92.0,22.0,11.0,0.0,32034.0,3,Costa Rica
-4   UMAÑA M.,0.0,92.0,22.0,11.0,0.0,32034.0,3,Costa Rica
-4   UMAÑA M.,0.0,92.0,22.0,11.0,0.0,32034.0,3,Costa Rica
+4   UMAÑA M.,0.0,119.0,24.0,14.0,0.0,45222.0,4,Costa Rica
+4   UMAÑA M.,0.0,119.0,24.0,14.0,0.0,45222.0,4,Costa Rica
+4   UMAÑA M.,0.0,119.0,24.0,14.0,0.0,45222.0,4,Costa Rica
+4   UMAÑA M.,0.0,119.0,24.0,14.0,0.0,45222.0,4,Costa Rica
 4   VARANE,1.0,164.0,23.0,2.0,0.0,40341.0,5,França
 4   VARANE,1.0,164.0,23.0,2.0,0.0,40341.0,5,França
 4   VARANE,1.0,164.0,23.0,2.0,0.0,40341.0,5,França
 4   VARANE,1.0,164.0,23.0,2.0,0.0,40341.0,5,França
 4   VARANE,1.0,164.0,23.0,2.0,0.0,40341.0,5,França
-4   ZABALETA,1.0,172.0,16.0,5.0,0.0,42631.0,4,Argentina
-4   ZABALETA,1.0,172.0,16.0,5.0,0.0,42631.0,4,Argentina
-4   ZABALETA,1.0,172.0,16.0,5.0,0.0,42631.0,4,Argentina
-4   ZABALETA,1.0,172.0,16.0,5.0,0.0,42631.0,4,Argentina
+4   ZABALETA,1.0,255.0,23.0,10.0,0.0,65603.0,6,Argentina
+4   ZABALETA,1.0,255.0,23.0,10.0,0.0,65603.0,6,Argentina
+4   ZABALETA,1.0,255.0,23.0,10.0,0.0,65603.0,6,Argentina
+4   ZABALETA,1.0,255.0,23.0,10.0,0.0,65603.0,6,Argentina
+4   ZABALETA,1.0,255.0,23.0,10.0,0.0,65603.0,6,Argentina
+4   ZABALETA,1.0,255.0,23.0,10.0,0.0,65603.0,6,Argentina
 5   AMBROSE,1.0,175.0,26.0,5.0,0.0,38181.0,4,Nigéria
 5   AMBROSE,1.0,175.0,26.0,5.0,0.0,38181.0,4,Nigéria
 5   AMBROSE,1.0,175.0,26.0,5.0,0.0,38181.0,4,Nigéria
@@ -1200,14 +1299,17 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 5   BESLER,0.0,153.0,26.0,8.0,0.0,37822.0,4,EUA
 5   BESLER,0.0,153.0,26.0,8.0,0.0,37822.0,4,EUA
 5   BESLER,0.0,153.0,26.0,8.0,0.0,37822.0,4,EUA
-5   BLIND,2.0,178.0,18.0,10.0,0.0,41528.0,4,Holanda
-5   BLIND,2.0,178.0,18.0,10.0,0.0,41528.0,4,Holanda
-5   BLIND,2.0,178.0,18.0,10.0,0.0,41528.0,4,Holanda
-5   BLIND,2.0,178.0,18.0,10.0,0.0,41528.0,4,Holanda
-5   BORGES C.,4.0,135.0,16.0,1.0,0.0,46318.0,4,Costa Rica
-5   BORGES C.,4.0,135.0,16.0,1.0,0.0,46318.0,4,Costa Rica
-5   BORGES C.,4.0,135.0,16.0,1.0,0.0,46318.0,4,Costa Rica
-5   BORGES C.,4.0,135.0,16.0,1.0,0.0,46318.0,4,Costa Rica
+5   BLIND,2.0,323.0,30.0,12.0,0.0,67384.0,6,Holanda
+5   BLIND,2.0,323.0,30.0,12.0,0.0,67384.0,6,Holanda
+5   BLIND,2.0,323.0,30.0,12.0,0.0,67384.0,6,Holanda
+5   BLIND,2.0,323.0,30.0,12.0,0.0,67384.0,6,Holanda
+5   BLIND,2.0,323.0,30.0,12.0,0.0,67384.0,6,Holanda
+5   BLIND,2.0,323.0,30.0,12.0,0.0,67384.0,6,Holanda
+5   BORGES C.,4.0,161.0,21.0,2.0,0.0,60420.0,5,Costa Rica
+5   BORGES C.,4.0,161.0,21.0,2.0,0.0,60420.0,5,Costa Rica
+5   BORGES C.,4.0,161.0,21.0,2.0,0.0,60420.0,5,Costa Rica
+5   BORGES C.,4.0,161.0,21.0,2.0,0.0,60420.0,5,Costa Rica
+5   BORGES C.,4.0,161.0,21.0,2.0,0.0,60420.0,5,Costa Rica
 5   C. CARBONERO,1.0,16.0,1.0,2.0,0.0,5453.0,1,Colômbia
 5   CAHILL,0.0,139.0,17.0,4.0,0.0,29932.0,3,Inglaterra
 5   CAHILL,0.0,139.0,17.0,4.0,0.0,29932.0,3,Inglaterra
@@ -1218,20 +1320,24 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 5   D. REYES,0.0,10.0,1.0,1.0,0.0,4991.0,1,México
 5   ESSIEN,1.0,16.0,2.0,2.0,0.0,2660.0,1,Gana
 5   F. COENTRÃO,0.0,30.0,5.0,1.0,0.0,6734.0,1,Portugal
-5   FERNANDINHO,3.0,36.0,7.0,10.0,0.0,13948.0,2,Brasil
-5   FERNANDINHO,3.0,36.0,7.0,10.0,0.0,13948.0,2,Brasil
-5   GAGO,2.0,287.0,21.0,11.0,0.0,38219.0,4,Argentina
-5   GAGO,2.0,287.0,21.0,11.0,0.0,38219.0,4,Argentina
-5   GAGO,2.0,287.0,21.0,11.0,0.0,38219.0,4,Argentina
-5   GAGO,2.0,287.0,21.0,11.0,0.0,38219.0,4,Argentina
+5   FERNANDINHO,4.0,83.0,21.0,15.0,0.0,29548.0,4,Brasil
+5   FERNANDINHO,4.0,83.0,21.0,15.0,0.0,29548.0,4,Brasil
+5   FERNANDINHO,4.0,83.0,21.0,15.0,0.0,29548.0,4,Brasil
+5   FERNANDINHO,4.0,83.0,21.0,15.0,0.0,29548.0,4,Brasil
+5   GAGO,2.0,292.0,21.0,11.0,0.0,39873.0,5,Argentina
+5   GAGO,2.0,292.0,21.0,11.0,0.0,39873.0,5,Argentina
+5   GAGO,2.0,292.0,21.0,11.0,0.0,39873.0,5,Argentina
+5   GAGO,2.0,292.0,21.0,11.0,0.0,39873.0,5,Argentina
+5   GAGO,2.0,292.0,21.0,11.0,0.0,39873.0,5,Argentina
 5   HALLICHE,2.0,119.0,22.0,5.0,0.0,40131.0,4,Argélia
 5   HALLICHE,2.0,119.0,22.0,5.0,0.0,40131.0,4,Argélia
 5   HALLICHE,2.0,119.0,22.0,5.0,0.0,40131.0,4,Argélia
 5   HALLICHE,2.0,119.0,22.0,5.0,0.0,40131.0,4,Argélia
-5   HUMMELS,3.0,210.0,35.0,7.0,0.0,37148.0,4,Alemanha
-5   HUMMELS,3.0,210.0,35.0,7.0,0.0,37148.0,4,Alemanha
-5   HUMMELS,3.0,210.0,35.0,7.0,0.0,37148.0,4,Alemanha
-5   HUMMELS,3.0,210.0,35.0,7.0,0.0,37148.0,4,Alemanha
+5   HUMMELS,3.0,224.0,37.0,9.0,0.0,42334.0,5,Alemanha
+5   HUMMELS,3.0,224.0,37.0,9.0,0.0,42334.0,5,Alemanha
+5   HUMMELS,3.0,224.0,37.0,9.0,0.0,42334.0,5,Alemanha
+5   HUMMELS,3.0,224.0,37.0,9.0,0.0,42334.0,5,Alemanha
+5   HUMMELS,3.0,224.0,37.0,9.0,0.0,42334.0,5,Alemanha
 5   IBARRA,2.0,3.0,1.0,1.0,0.0,3191.0,1,Equador
 5   JUANFRAN,0.0,52.0,7.0,2.0,0.0,10583.0,1,Espanha
 5   KOLAŠINAC,1.0,95.0,15.0,4.0,0.0,21060.0,2,Bósnia e Herzegovina
@@ -1252,10 +1358,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 5   THIAGO MOTTA,1.0,78.0,3.0,0.0,0.0,12247.0,3,Itália
 5   THIAGO MOTTA,1.0,78.0,3.0,0.0,0.0,12247.0,3,Itália
 5   THIAGO MOTTA,1.0,78.0,3.0,0.0,0.0,12247.0,3,Itália
-5   VERTONGHEN,10.0,164.0,22.0,7.0,0.0,37762.0,4,Bélgica
-5   VERTONGHEN,10.0,164.0,22.0,7.0,0.0,37762.0,4,Bélgica
-5   VERTONGHEN,10.0,164.0,22.0,7.0,0.0,37762.0,4,Bélgica
-5   VERTONGHEN,10.0,164.0,22.0,7.0,0.0,37762.0,4,Bélgica
+5   VERTONGHEN,10.0,195.0,24.0,8.0,0.0,47083.0,5,Bélgica
+5   VERTONGHEN,10.0,195.0,24.0,8.0,0.0,47083.0,5,Bélgica
+5   VERTONGHEN,10.0,195.0,24.0,8.0,0.0,47083.0,5,Bélgica
+5   VERTONGHEN,10.0,195.0,24.0,8.0,0.0,47083.0,5,Bélgica
+5   VERTONGHEN,10.0,195.0,24.0,8.0,0.0,47083.0,5,Bélgica
 5   VON BERGEN,0.0,32.0,4.0,0.0,0.0,9795.0,2,Suíça
 5   VON BERGEN,0.0,32.0,4.0,0.0,0.0,9795.0,2,Suíça
 5   W. GARGANO,0.0,36.0,1.0,1.0,0.0,6663.0,1,Uruguai
@@ -1271,15 +1378,18 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 6   A. PEREIRA,0.0,60.0,7.0,12.0,0.0,21399.0,3,Uruguai
 6   A. PEREIRA,0.0,60.0,7.0,12.0,0.0,21399.0,3,Uruguai
 6   ACQUAH,0.0,7.0,1.0,1.0,0.0,2476.0,1,Gana
-6   BIGLIA,0.0,17.0,1.0,1.0,0.0,3670.0,4,Argentina
-6   BIGLIA,0.0,17.0,1.0,1.0,0.0,3670.0,4,Argentina
-6   BIGLIA,0.0,17.0,1.0,1.0,0.0,3670.0,4,Argentina
-6   BIGLIA,0.0,17.0,1.0,1.0,0.0,3670.0,4,Argentina
+6   BIGLIA,0.0,109.0,14.0,3.0,0.0,30037.0,6,Argentina
+6   BIGLIA,0.0,109.0,14.0,3.0,0.0,30037.0,6,Argentina
+6   BIGLIA,0.0,109.0,14.0,3.0,0.0,30037.0,6,Argentina
+6   BIGLIA,0.0,109.0,14.0,3.0,0.0,30037.0,6,Argentina
+6   BIGLIA,0.0,109.0,14.0,3.0,0.0,30037.0,6,Argentina
+6   BIGLIA,0.0,109.0,14.0,3.0,0.0,30037.0,6,Argentina
 6   BOLLY,1.0,5.0,0.0,0.0,0.0,2929.0,1,Costa do Marfim
 6   BROOKS,1.0,11.0,2.0,0.0,0.0,4977.0,1,EUA
-6   C. SANCHEZ,1.0,69.0,5.0,7.0,0.0,30262.0,3,Colômbia
-6   C. SANCHEZ,1.0,69.0,5.0,7.0,0.0,30262.0,3,Colômbia
-6   C. SANCHEZ,1.0,69.0,5.0,7.0,0.0,30262.0,3,Colômbia
+6   C. SANCHEZ,1.0,94.0,7.0,7.0,0.0,38922.0,4,Colômbia
+6   C. SANCHEZ,1.0,94.0,7.0,7.0,0.0,38922.0,4,Colômbia
+6   C. SANCHEZ,1.0,94.0,7.0,7.0,0.0,38922.0,4,Colômbia
+6   C. SANCHEZ,1.0,94.0,7.0,7.0,0.0,38922.0,4,Colômbia
 6   CABAYE,5.0,192.0,25.0,11.0,0.0,36485.0,4,França
 6   CABAYE,5.0,192.0,25.0,11.0,0.0,36485.0,4,França
 6   CABAYE,5.0,192.0,25.0,11.0,0.0,36485.0,4,França
@@ -1287,10 +1397,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 6   CANDREVA,5.0,42.0,1.0,0.0,0.0,15404.0,2,Itália
 6   CANDREVA,5.0,42.0,1.0,0.0,0.0,15404.0,2,Itália
 6   CARMONA,0.0,2.0,0.0,0.0,0.0,1232.0,1,Chile
-6   DE JONG,2.0,92.0,22.0,11.0,0.0,32228.0,4,Holanda
-6   DE JONG,2.0,92.0,22.0,11.0,0.0,32228.0,4,Holanda
-6   DE JONG,2.0,92.0,22.0,11.0,0.0,32228.0,4,Holanda
-6   DE JONG,2.0,92.0,22.0,11.0,0.0,32228.0,4,Holanda
+6   DE JONG,2.0,132.0,24.0,13.0,0.0,38737.0,5,Holanda
+6   DE JONG,2.0,132.0,24.0,13.0,0.0,38737.0,5,Holanda
+6   DE JONG,2.0,132.0,24.0,13.0,0.0,38737.0,5,Holanda
+6   DE JONG,2.0,132.0,24.0,13.0,0.0,38737.0,5,Holanda
+6   DE JONG,2.0,132.0,24.0,13.0,0.0,38737.0,5,Holanda
 6   DUARTE O.,3.0,146.0,18.0,8.0,0.0,37159.0,4,Costa Rica
 6   DUARTE O.,3.0,146.0,18.0,8.0,0.0,37159.0,4,Costa Rica
 6   DUARTE O.,3.0,146.0,18.0,8.0,0.0,37159.0,4,Costa Rica
@@ -1308,18 +1419,21 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 6   JAGIELKA,1.0,92.0,12.0,1.0,0.0,18189.0,2,Inglaterra
 6   KANUNNIKOV,2.0,24.0,7.0,3.0,0.0,13060.0,2,Rússia
 6   KANUNNIKOV,2.0,24.0,7.0,3.0,0.0,13060.0,2,Rússia
-6   KHEDIRA,2.0,159.0,10.0,2.0,0.0,36823.0,4,Alemanha
-6   KHEDIRA,2.0,159.0,10.0,2.0,0.0,36823.0,4,Alemanha
-6   KHEDIRA,2.0,159.0,10.0,2.0,0.0,36823.0,4,Alemanha
-6   KHEDIRA,2.0,159.0,10.0,2.0,0.0,36823.0,4,Alemanha
+6   KHEDIRA,4.0,201.0,13.0,2.0,0.0,46854.0,5,Alemanha
+6   KHEDIRA,4.0,201.0,13.0,2.0,0.0,46854.0,5,Alemanha
+6   KHEDIRA,4.0,201.0,13.0,2.0,0.0,46854.0,5,Alemanha
+6   KHEDIRA,4.0,201.0,13.0,2.0,0.0,46854.0,5,Alemanha
+6   KHEDIRA,4.0,201.0,13.0,2.0,0.0,46854.0,5,Alemanha
 6   LANG,0.0,4.0,0.0,0.0,0.0,1768.0,1,Suíça
 6   LOVREN,1.0,100.0,16.0,2.0,0.0,27369.0,3,Croácia
 6   LOVREN,1.0,100.0,16.0,2.0,0.0,27369.0,3,Croácia
 6   LOVREN,1.0,100.0,16.0,2.0,0.0,27369.0,3,Croácia
-6   MARCELO,3.0,202.0,25.0,13.0,0.0,40209.0,4,Brasil
-6   MARCELO,3.0,202.0,25.0,13.0,0.0,40209.0,4,Brasil
-6   MARCELO,3.0,202.0,25.0,13.0,0.0,40209.0,4,Brasil
-6   MARCELO,3.0,202.0,25.0,13.0,0.0,40209.0,4,Brasil
+6   MARCELO,7.0,291.0,33.0,15.0,0.0,59701.0,6,Brasil
+6   MARCELO,7.0,291.0,33.0,15.0,0.0,59701.0,6,Brasil
+6   MARCELO,7.0,291.0,33.0,15.0,0.0,59701.0,6,Brasil
+6   MARCELO,7.0,291.0,33.0,15.0,0.0,59701.0,6,Brasil
+6   MARCELO,7.0,291.0,33.0,15.0,0.0,59701.0,6,Brasil
+6   MARCELO,7.0,291.0,33.0,15.0,0.0,59701.0,6,Brasil
 6   MESBAH,1.0,92.0,8.0,4.0,0.0,21349.0,2,Argélia
 6   MESBAH,1.0,92.0,8.0,4.0,0.0,21349.0,2,Argélia
 6   MORISHIGE,0.0,29.0,5.0,1.0,0.0,9473.0,1,Japão
@@ -1335,9 +1449,10 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 6   VRANJEŠ,0.0,13.0,2.0,1.0,0.0,3659.0,1,Bósnia e Herzegovina
 6   WILLIAM,0.0,90.0,8.0,3.0,0.0,16495.0,2,Portugal
 6   WILLIAM,0.0,90.0,8.0,3.0,0.0,16495.0,2,Portugal
-6   WITSEL,7.0,168.0,15.0,7.0,0.0,35717.0,3,Bélgica
-6   WITSEL,7.0,168.0,15.0,7.0,0.0,35717.0,3,Bélgica
-6   WITSEL,7.0,168.0,15.0,7.0,0.0,35717.0,3,Bélgica
+6   WITSEL,9.0,224.0,23.0,7.0,0.0,45606.0,4,Bélgica
+6   WITSEL,9.0,224.0,23.0,7.0,0.0,45606.0,4,Bélgica
+6   WITSEL,9.0,224.0,23.0,7.0,0.0,45606.0,4,Bélgica
+6   WITSEL,9.0,224.0,23.0,7.0,0.0,45606.0,4,Bélgica
 7   ABATE,0.0,30.0,4.0,0.0,0.0,9429.0,1,Itália
 7   ALEXIS,7.0,108.0,12.0,3.0,0.0,39974.0,4,Chile
 7   ALEXIS,7.0,108.0,12.0,3.0,0.0,39974.0,4,Chile
@@ -1355,34 +1470,40 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 7   BEŠIĆ,4.0,212.0,21.0,16.0,0.0,34897.0,3,Bósnia e Herzegovina
 7   BEŠIĆ,4.0,212.0,21.0,16.0,0.0,34897.0,3,Bósnia e Herzegovina
 7   BEŠIĆ,4.0,212.0,21.0,16.0,0.0,34897.0,3,Bósnia e Herzegovina
-7   BOLAÑOS C.,5.0,72.0,13.0,6.0,0.0,33127.0,4,Costa Rica
-7   BOLAÑOS C.,5.0,72.0,13.0,6.0,0.0,33127.0,4,Costa Rica
-7   BOLAÑOS C.,5.0,72.0,13.0,6.0,0.0,33127.0,4,Costa Rica
-7   BOLAÑOS C.,5.0,72.0,13.0,6.0,0.0,33127.0,4,Costa Rica
+7   BOLAÑOS C.,8.0,90.0,15.0,7.0,0.0,46046.0,5,Costa Rica
+7   BOLAÑOS C.,8.0,90.0,15.0,7.0,0.0,46046.0,5,Costa Rica
+7   BOLAÑOS C.,8.0,90.0,15.0,7.0,0.0,46046.0,5,Costa Rica
+7   BOLAÑOS C.,8.0,90.0,15.0,7.0,0.0,46046.0,5,Costa Rica
+7   BOLAÑOS C.,8.0,90.0,15.0,7.0,0.0,46046.0,5,Costa Rica
 7   C. RODRIGUEZ,4.0,102.0,11.0,6.0,0.0,36607.0,4,Uruguai
 7   C. RODRIGUEZ,4.0,102.0,11.0,6.0,0.0,36607.0,4,Uruguai
 7   C. RODRIGUEZ,4.0,102.0,11.0,6.0,0.0,36607.0,4,Uruguai
 7   C. RODRIGUEZ,4.0,102.0,11.0,6.0,0.0,36607.0,4,Uruguai
 7   DAVID VILLA,1.0,15.0,0.0,1.0,0.0,5780.0,1,Espanha
-7   DE BRUYNE,7.0,126.0,12.0,3.0,0.0,38866.0,3,Bélgica
-7   DE BRUYNE,7.0,126.0,12.0,3.0,0.0,38866.0,3,Bélgica
-7   DE BRUYNE,7.0,126.0,12.0,3.0,0.0,38866.0,3,Bélgica
+7   DE BRUYNE,10.0,163.0,16.0,4.0,0.0,50151.0,4,Bélgica
+7   DE BRUYNE,10.0,163.0,16.0,4.0,0.0,50151.0,4,Bélgica
+7   DE BRUYNE,10.0,163.0,16.0,4.0,0.0,50151.0,4,Bélgica
+7   DE BRUYNE,10.0,163.0,16.0,4.0,0.0,50151.0,4,Bélgica
 7   DENISOV,2.0,56.0,7.0,3.0,0.0,8387.0,2,Rússia
 7   DENISOV,2.0,56.0,7.0,3.0,0.0,8387.0,2,Rússia
-7   DI MARIA,22.0,196.0,10.0,4.0,0.0,42372.0,4,Argentina
-7   DI MARIA,22.0,196.0,10.0,4.0,0.0,42372.0,4,Argentina
-7   DI MARIA,22.0,196.0,10.0,4.0,0.0,42372.0,4,Argentina
-7   DI MARIA,22.0,196.0,10.0,4.0,0.0,42372.0,4,Argentina
+7   DI MARIA,25.0,202.0,10.0,5.0,0.0,45798.0,5,Argentina
+7   DI MARIA,25.0,202.0,10.0,5.0,0.0,45798.0,5,Argentina
+7   DI MARIA,25.0,202.0,10.0,5.0,0.0,45798.0,5,Argentina
+7   DI MARIA,25.0,202.0,10.0,5.0,0.0,45798.0,5,Argentina
+7   DI MARIA,25.0,202.0,10.0,5.0,0.0,45798.0,5,Argentina
 7   EMILIO,0.0,44.0,6.0,2.0,0.0,13922.0,2,Honduras
 7   EMILIO,0.0,44.0,6.0,2.0,0.0,13922.0,2,Honduras
 7   ENDO,2.0,76.0,1.0,3.0,0.0,9380.0,2,Japão
 7   ENDO,2.0,76.0,1.0,3.0,0.0,9380.0,2,Japão
-7   HULK,11.0,48.0,4.0,1.0,0.0,25950.0,3,Brasil
-7   HULK,11.0,48.0,4.0,1.0,0.0,25950.0,3,Brasil
-7   HULK,11.0,48.0,4.0,1.0,0.0,25950.0,3,Brasil
-7   JANMAAT,0.0,88.0,21.0,4.0,0.0,32804.0,3,Holanda
-7   JANMAAT,0.0,88.0,21.0,4.0,0.0,32804.0,3,Holanda
-7   JANMAAT,0.0,88.0,21.0,4.0,0.0,32804.0,3,Holanda
+7   HULK,14.0,75.0,7.0,1.0,0.0,38761.0,5,Brasil
+7   HULK,14.0,75.0,7.0,1.0,0.0,38761.0,5,Brasil
+7   HULK,14.0,75.0,7.0,1.0,0.0,38761.0,5,Brasil
+7   HULK,14.0,75.0,7.0,1.0,0.0,38761.0,5,Brasil
+7   HULK,14.0,75.0,7.0,1.0,0.0,38761.0,5,Brasil
+7   JANMAAT,0.0,141.0,25.0,6.0,0.0,41597.0,4,Holanda
+7   JANMAAT,0.0,141.0,25.0,6.0,0.0,41597.0,4,Holanda
+7   JANMAAT,0.0,141.0,25.0,6.0,0.0,41597.0,4,Holanda
+7   JANMAAT,0.0,141.0,25.0,6.0,0.0,41597.0,4,Holanda
 7   LECKIE,5.0,79.0,13.0,2.0,0.0,32807.0,3,Austrália
 7   LECKIE,5.0,79.0,13.0,2.0,0.0,32807.0,3,Austrália
 7   LECKIE,5.0,79.0,13.0,2.0,0.0,32807.0,3,Austrália
@@ -1401,10 +1522,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 7   MUSA,8.0,41.0,8.0,5.0,0.0,34208.0,4,Nigéria
 7   MUSA,8.0,41.0,8.0,5.0,0.0,34208.0,4,Nigéria
 7   NGUEMO,2.0,44.0,4.0,2.0,0.0,10164.0,1,Camarões
-7   P. ARMERO,1.0,114.0,14.0,3.0,0.0,36021.0,4,Colômbia
-7   P. ARMERO,1.0,114.0,14.0,3.0,0.0,36021.0,4,Colômbia
-7   P. ARMERO,1.0,114.0,14.0,3.0,0.0,36021.0,4,Colômbia
-7   P. ARMERO,1.0,114.0,14.0,3.0,0.0,36021.0,4,Colômbia
+7   P. ARMERO,1.0,147.0,17.0,3.0,0.0,45933.0,5,Colômbia
+7   P. ARMERO,1.0,147.0,17.0,3.0,0.0,45933.0,5,Colômbia
+7   P. ARMERO,1.0,147.0,17.0,3.0,0.0,45933.0,5,Colômbia
+7   P. ARMERO,1.0,147.0,17.0,3.0,0.0,45933.0,5,Colômbia
+7   P. ARMERO,1.0,147.0,17.0,3.0,0.0,45933.0,5,Colômbia
 7   RAKITIĆ,2.0,149.0,21.0,8.0,0.0,31768.0,3,Croácia
 7   RAKITIĆ,2.0,149.0,21.0,8.0,0.0,31768.0,3,Croácia
 7   RAKITIĆ,2.0,149.0,21.0,8.0,0.0,31768.0,3,Croácia
@@ -1415,10 +1537,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 7   SAMARAS,7.0,92.0,8.0,12.0,0.0,41077.0,4,Grécia
 7   SAMARAS,7.0,92.0,8.0,12.0,0.0,41077.0,4,Grécia
 7   SAMARAS,7.0,92.0,8.0,12.0,0.0,41077.0,4,Grécia
-7   SCHWEINSTEIGER,6.0,245.0,16.0,10.0,0.0,34717.0,4,Alemanha
-7   SCHWEINSTEIGER,6.0,245.0,16.0,10.0,0.0,34717.0,4,Alemanha
-7   SCHWEINSTEIGER,6.0,245.0,16.0,10.0,0.0,34717.0,4,Alemanha
-7   SCHWEINSTEIGER,6.0,245.0,16.0,10.0,0.0,34717.0,4,Alemanha
+7   SCHWEINSTEIGER,6.0,306.0,21.0,11.0,0.0,47334.0,5,Alemanha
+7   SCHWEINSTEIGER,6.0,306.0,21.0,11.0,0.0,47334.0,5,Alemanha
+7   SCHWEINSTEIGER,6.0,306.0,21.0,11.0,0.0,47334.0,5,Alemanha
+7   SCHWEINSTEIGER,6.0,306.0,21.0,11.0,0.0,47334.0,5,Alemanha
+7   SCHWEINSTEIGER,6.0,306.0,21.0,11.0,0.0,47334.0,5,Alemanha
 7   WILSHERE,0.0,44.0,7.0,3.0,0.0,10903.0,2,Inglaterra
 7   WILSHERE,0.0,44.0,7.0,3.0,0.0,10903.0,2,Inglaterra
 7   YEBDA,0.0,5.0,0.0,1.0,0.0,3124.0,1,Argélia
@@ -1435,10 +1558,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 8   DEMPSEY,12.0,99.0,5.0,2.0,0.0,45336.0,4,EUA
 8   DEMPSEY,12.0,99.0,5.0,2.0,0.0,45336.0,4,EUA
 8   DEMPSEY,12.0,99.0,5.0,2.0,0.0,45336.0,4,EUA
-8   FELLAINI,6.0,104.0,14.0,6.0,0.0,43525.0,4,Bélgica
-8   FELLAINI,6.0,104.0,14.0,6.0,0.0,43525.0,4,Bélgica
-8   FELLAINI,6.0,104.0,14.0,6.0,0.0,43525.0,4,Bélgica
-8   FELLAINI,6.0,104.0,14.0,6.0,0.0,43525.0,4,Bélgica
+8   FELLAINI,7.0,140.0,15.0,8.0,0.0,55238.0,5,Bélgica
+8   FELLAINI,7.0,140.0,15.0,8.0,0.0,55238.0,5,Bélgica
+8   FELLAINI,7.0,140.0,15.0,8.0,0.0,55238.0,5,Bélgica
+8   FELLAINI,7.0,140.0,15.0,8.0,0.0,55238.0,5,Bélgica
+8   FELLAINI,7.0,140.0,15.0,8.0,0.0,55238.0,5,Bélgica
 8   GLUSHAKOV,4.0,65.0,12.0,4.0,0.0,25802.0,3,Rússia
 8   GLUSHAKOV,4.0,65.0,12.0,4.0,0.0,25802.0,3,Rússia
 8   GLUSHAKOV,4.0,65.0,12.0,4.0,0.0,25802.0,3,Rússia
@@ -1470,13 +1594,18 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 8   MOUKANDJO,4.0,42.0,4.0,1.0,0.0,26072.0,3,Camarões
 8   MOUKANDJO,4.0,42.0,4.0,1.0,0.0,26072.0,3,Camarões
 8   MOUKANDJO,4.0,42.0,4.0,1.0,0.0,26072.0,3,Camarões
+8   MYRIE D.,0.0,7.0,3.0,1.0,0.0,5456.0,1,Costa Rica
 8   ODEMWINGIE,7.0,101.0,10.0,9.0,0.0,33091.0,4,Nigéria
 8   ODEMWINGIE,7.0,101.0,10.0,9.0,0.0,33091.0,4,Nigéria
 8   ODEMWINGIE,7.0,101.0,10.0,9.0,0.0,33091.0,4,Nigéria
 8   ODEMWINGIE,7.0,101.0,10.0,9.0,0.0,33091.0,4,Nigéria
-8   PAULINHO,5.0,51.0,3.0,2.0,0.0,23666.0,3,Brasil
-8   PAULINHO,5.0,51.0,3.0,2.0,0.0,23666.0,3,Brasil
-8   PAULINHO,5.0,51.0,3.0,2.0,0.0,23666.0,3,Brasil
+8   PAULINHO,8.0,94.0,6.0,2.0,0.0,39493.0,5,Brasil
+8   PAULINHO,8.0,94.0,6.0,2.0,0.0,39493.0,5,Brasil
+8   PAULINHO,8.0,94.0,6.0,2.0,0.0,39493.0,5,Brasil
+8   PAULINHO,8.0,94.0,6.0,2.0,0.0,39493.0,5,Brasil
+8   PAULINHO,8.0,94.0,6.0,2.0,0.0,39493.0,5,Brasil
+8   PEREZ,1.0,57.0,4.0,2.0,0.0,16218.0,2,Argentina
+8   PEREZ,1.0,57.0,4.0,2.0,0.0,16218.0,2,Argentina
 8   PJANIĆ,7.0,190.0,9.0,2.0,0.0,34524.0,3,Bósnia e Herzegovina
 8   PJANIĆ,7.0,190.0,9.0,2.0,0.0,34524.0,3,Bósnia e Herzegovina
 8   PJANIĆ,7.0,190.0,9.0,2.0,0.0,34524.0,3,Bósnia e Herzegovina
@@ -1491,30 +1620,34 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 8   W. PALACIOS,2.0,89.0,5.0,5.0,0.0,12330.0,2,Honduras
 8   W. PALACIOS,2.0,89.0,5.0,5.0,0.0,12330.0,2,Honduras
 8   XAVI,0.0,73.0,2.0,0.0,0.0,11116.0,1,Espanha
-8   ÖZIL,7.0,202.0,7.0,3.0,0.0,47663.0,5,Alemanha
-8   ÖZIL,7.0,202.0,7.0,3.0,0.0,47663.0,5,Alemanha
-8   ÖZIL,7.0,202.0,7.0,3.0,0.0,47663.0,5,Alemanha
-8   ÖZIL,7.0,202.0,7.0,3.0,0.0,47663.0,5,Alemanha
-8   ÖZIL,7.0,202.0,7.0,3.0,0.0,47663.0,5,Alemanha
+8   ÖZIL,9.0,245.0,7.0,3.0,0.0,59080.0,6,Alemanha
+8   ÖZIL,9.0,245.0,7.0,3.0,0.0,59080.0,6,Alemanha
+8   ÖZIL,9.0,245.0,7.0,3.0,0.0,59080.0,6,Alemanha
+8   ÖZIL,9.0,245.0,7.0,3.0,0.0,59080.0,6,Alemanha
+8   ÖZIL,9.0,245.0,7.0,3.0,0.0,59080.0,6,Alemanha
+8   ÖZIL,9.0,245.0,7.0,3.0,0.0,59080.0,6,Alemanha
 9   ALIREZA,1.0,14.0,0.0,3.0,0.0,7313.0,3,Irã
 9   ALIREZA,1.0,14.0,0.0,3.0,0.0,7313.0,3,Irã
 9   ALIREZA,1.0,14.0,0.0,3.0,0.0,7313.0,3,Irã
 9   BALOTELLI,7.0,34.0,0.0,2.0,0.0,20833.0,3,Itália
 9   BALOTELLI,7.0,34.0,0.0,2.0,0.0,20833.0,3,Itália
 9   BALOTELLI,7.0,34.0,0.0,2.0,0.0,20833.0,3,Itália
-9   CAMPBELL J.,5.0,78.0,7.0,4.0,0.0,33170.0,4,Costa Rica
-9   CAMPBELL J.,5.0,78.0,7.0,4.0,0.0,33170.0,4,Costa Rica
-9   CAMPBELL J.,5.0,78.0,7.0,4.0,0.0,33170.0,4,Costa Rica
-9   CAMPBELL J.,5.0,78.0,7.0,4.0,0.0,33170.0,4,Costa Rica
+9   CAMPBELL J.,5.0,91.0,7.0,6.0,0.0,39264.0,5,Costa Rica
+9   CAMPBELL J.,5.0,91.0,7.0,6.0,0.0,39264.0,5,Costa Rica
+9   CAMPBELL J.,5.0,91.0,7.0,6.0,0.0,39264.0,5,Costa Rica
+9   CAMPBELL J.,5.0,91.0,7.0,6.0,0.0,39264.0,5,Costa Rica
+9   CAMPBELL J.,5.0,91.0,7.0,6.0,0.0,39264.0,5,Costa Rica
 9   EMENIKE,11.0,67.0,1.0,4.0,0.0,38474.0,4,Nigéria
 9   EMENIKE,11.0,67.0,1.0,4.0,0.0,38474.0,4,Nigéria
 9   EMENIKE,11.0,67.0,1.0,4.0,0.0,38474.0,4,Nigéria
 9   EMENIKE,11.0,67.0,1.0,4.0,0.0,38474.0,4,Nigéria
 9   ETO'O,2.0,14.0,0.0,1.0,0.0,7469.0,1,Camarões
-9   FRED,9.0,39.0,4.0,0.0,0.0,31367.0,4,Brasil
-9   FRED,9.0,39.0,4.0,0.0,0.0,31367.0,4,Brasil
-9   FRED,9.0,39.0,4.0,0.0,0.0,31367.0,4,Brasil
-9   FRED,9.0,39.0,4.0,0.0,0.0,31367.0,4,Brasil
+9   FRED,11.0,67.0,6.0,0.0,0.0,47227.0,6,Brasil
+9   FRED,11.0,67.0,6.0,0.0,0.0,47227.0,6,Brasil
+9   FRED,11.0,67.0,6.0,0.0,0.0,47227.0,6,Brasil
+9   FRED,11.0,67.0,6.0,0.0,0.0,47227.0,6,Brasil
+9   FRED,11.0,67.0,6.0,0.0,0.0,47227.0,6,Brasil
+9   FRED,11.0,67.0,6.0,0.0,0.0,47227.0,6,Brasil
 9   GHILAS,1.0,10.0,2.0,1.0,0.0,5645.0,3,Argélia
 9   GHILAS,1.0,10.0,2.0,1.0,0.0,5645.0,3,Argélia
 9   GHILAS,1.0,10.0,2.0,1.0,0.0,5645.0,3,Argélia
@@ -1527,10 +1660,12 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 9   H M SON,5.0,61.0,6.0,0.0,0.0,27813.0,3,Coreia do Sul
 9   H M SON,5.0,61.0,6.0,0.0,0.0,27813.0,3,Coreia do Sul
 9   H. ALMEIDA,1.0,4.0,0.0,0.0,0.0,2948.0,1,Portugal
-9   HIGUAIN,7.0,66.0,3.0,1.0,0.0,36902.0,4,Argentina
-9   HIGUAIN,7.0,66.0,3.0,1.0,0.0,36902.0,4,Argentina
-9   HIGUAIN,7.0,66.0,3.0,1.0,0.0,36902.0,4,Argentina
-9   HIGUAIN,7.0,66.0,3.0,1.0,0.0,36902.0,4,Argentina
+9   HIGUAIN,11.0,102.0,4.0,3.0,0.0,54658.0,6,Argentina
+9   HIGUAIN,11.0,102.0,4.0,3.0,0.0,54658.0,6,Argentina
+9   HIGUAIN,11.0,102.0,4.0,3.0,0.0,54658.0,6,Argentina
+9   HIGUAIN,11.0,102.0,4.0,3.0,0.0,54658.0,6,Argentina
+9   HIGUAIN,11.0,102.0,4.0,3.0,0.0,54658.0,6,Argentina
+9   HIGUAIN,11.0,102.0,4.0,3.0,0.0,54658.0,6,Argentina
 9   IBIŠEVIĆ,5.0,29.0,3.0,1.0,0.0,18169.0,3,Bósnia e Herzegovina
 9   IBIŠEVIĆ,5.0,29.0,3.0,1.0,0.0,18169.0,3,Bósnia e Herzegovina
 9   IBIŠEVIĆ,5.0,29.0,3.0,1.0,0.0,18169.0,3,Bósnia e Herzegovina
@@ -1543,9 +1678,10 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 9   KOKORIN,8.0,56.0,4.0,3.0,0.0,35316.0,3,Rússia
 9   L. SUAREZ,12.0,33.0,2.0,5.0,0.0,18144.0,2,Uruguai
 9   L. SUAREZ,12.0,33.0,2.0,5.0,0.0,18144.0,2,Uruguai
-9   LUKAKU,5.0,25.0,0.0,2.0,0.0,15698.0,3,Bélgica
-9   LUKAKU,5.0,25.0,0.0,2.0,0.0,15698.0,3,Bélgica
-9   LUKAKU,5.0,25.0,0.0,2.0,0.0,15698.0,3,Bélgica
+9   LUKAKU,6.0,29.0,0.0,2.0,0.0,18728.0,4,Bélgica
+9   LUKAKU,6.0,29.0,0.0,2.0,0.0,18728.0,4,Bélgica
+9   LUKAKU,6.0,29.0,0.0,2.0,0.0,18728.0,4,Bélgica
+9   LUKAKU,6.0,29.0,0.0,2.0,0.0,18728.0,4,Bélgica
 9   MITROGLOU,5.0,17.0,0.0,0.0,0.0,13425.0,3,Grécia
 9   MITROGLOU,5.0,17.0,0.0,0.0,0.0,13425.0,3,Grécia
 9   MITROGLOU,5.0,17.0,0.0,0.0,0.0,13425.0,3,Grécia
@@ -1559,10 +1695,11 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 9   PRINCE,3.0,28.0,0.0,0.0,0.0,10296.0,2,Gana
 9   R JIMENEZ,1.0,0.0,1.0,0.0,0.0,1142.0,1,México
 9   ROJAS,0.0,4.0,0.0,0.0,0.0,2099.0,1,Equador
-9   SCHÜRRLE,11.0,31.0,4.0,2.0,0.0,12899.0,4,Alemanha
-9   SCHÜRRLE,11.0,31.0,4.0,2.0,0.0,12899.0,4,Alemanha
-9   SCHÜRRLE,11.0,31.0,4.0,2.0,0.0,12899.0,4,Alemanha
-9   SCHÜRRLE,11.0,31.0,4.0,2.0,0.0,12899.0,4,Alemanha
+9   SCHÜRRLE,13.0,48.0,4.0,3.0,0.0,16933.0,5,Alemanha
+9   SCHÜRRLE,13.0,48.0,4.0,3.0,0.0,16933.0,5,Alemanha
+9   SCHÜRRLE,13.0,48.0,4.0,3.0,0.0,16933.0,5,Alemanha
+9   SCHÜRRLE,13.0,48.0,4.0,3.0,0.0,16933.0,5,Alemanha
+9   SCHÜRRLE,13.0,48.0,4.0,3.0,0.0,16933.0,5,Alemanha
 9   SEFEROVIC,4.0,29.0,2.0,1.0,0.0,18154.0,4,Suíça
 9   SEFEROVIC,4.0,29.0,2.0,1.0,0.0,18154.0,4,Suíça
 9   SEFEROVIC,4.0,29.0,2.0,1.0,0.0,18154.0,4,Suíça
@@ -1572,15 +1709,18 @@ nome,chutes,passes_completados,bolas_recuperadas,desarmes,defesas,distancia,jogo
 9   STURRIDGE,12.0,53.0,4.0,1.0,0.0,26864.0,3,Inglaterra
 9   TAGGART,0.0,4.0,0.0,0.0,0.0,6936.0,2,Austrália
 9   TAGGART,0.0,4.0,0.0,0.0,0.0,6936.0,2,Austrália
-9   TEO,5.0,48.0,1.0,1.0,0.0,25422.0,3,Colômbia
-9   TEO,5.0,48.0,1.0,1.0,0.0,25422.0,3,Colômbia
-9   TEO,5.0,48.0,1.0,1.0,0.0,25422.0,3,Colômbia
+9   TEO,5.0,58.0,2.0,2.0,0.0,32178.0,4,Colômbia
+9   TEO,5.0,58.0,2.0,2.0,0.0,32178.0,4,Colômbia
+9   TEO,5.0,58.0,2.0,2.0,0.0,32178.0,4,Colômbia
+9   TEO,5.0,58.0,2.0,2.0,0.0,32178.0,4,Colômbia
 9   TIOTE,3.0,155.0,17.0,9.0,0.0,27426.0,3,Costa do Marfim
 9   TIOTE,3.0,155.0,17.0,9.0,0.0,27426.0,3,Costa do Marfim
 9   TIOTE,3.0,155.0,17.0,9.0,0.0,27426.0,3,Costa do Marfim
 9   TORRES,2.0,29.0,0.0,0.0,0.0,17208.0,3,Espanha
 9   TORRES,2.0,29.0,0.0,0.0,0.0,17208.0,3,Espanha
 9   TORRES,2.0,29.0,0.0,0.0,0.0,17208.0,3,Espanha
-9   V. PERSIE,9.0,39.0,2.0,1.0,0.0,27219.0,3,Holanda
-9   V. PERSIE,9.0,39.0,2.0,1.0,0.0,27219.0,3,Holanda
-9   V. PERSIE,9.0,39.0,2.0,1.0,0.0,27219.0,3,Holanda
+9   V. PERSIE,14.0,68.0,3.0,1.0,0.0,51805.0,5,Holanda
+9   V. PERSIE,14.0,68.0,3.0,1.0,0.0,51805.0,5,Holanda
+9   V. PERSIE,14.0,68.0,3.0,1.0,0.0,51805.0,5,Holanda
+9   V. PERSIE,14.0,68.0,3.0,1.0,0.0,51805.0,5,Holanda
+9   V. PERSIE,14.0,68.0,3.0,1.0,0.0,51805.0,5,Holanda

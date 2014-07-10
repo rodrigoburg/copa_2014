@@ -13,7 +13,7 @@ function desenhaGraficoSelecoes(recorte)    {
       var svg = dimple.newSvg("#selecoes", 950, 700);
       data = window.complete_dataSelecoes
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(80, 30, 600, 600);
+      myChart.setBounds(110, 30, 600, 600);
       var x = myChart.addMeasureAxis("x", recorte);
       
       var y = myChart.addCategoryAxis("y", "time");
@@ -96,7 +96,7 @@ function inicializa_selecoes() {
 //    d3.csv("grafico_times.csv", function (data) {
         window.complete_dataSelecoes = data
       var myChart = new dimple.chart(svg, data);
-      myChart.setBounds(80, 30, 600, 600);
+      myChart.setBounds(110, 30, 600, 600);
       myChart.addMeasureAxis("x", recorte);
       var y = myChart.addCategoryAxis("y", "time");
       //retira o título do eixo Y
