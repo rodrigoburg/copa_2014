@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    <script type="text/javascript" src ="jogos.js"></script>
+    <style>
+      .seletor-time {
+        padding-left: 80px;
+      }
+      .seletor-posicao, .seletor-ordem_jogo {
+        padding-left: 10px;
+      }
+    </style>
+</head>
+<body>
+  <div id="filtro_dado">
+    <b>Escolha:</b> <select id="recorteJogo" onchange="mudaRecorteJogo()">
+<option value="Gols">Gols</option>
+<option value="Chutes a gol - Total">Chutes a gol - Total</option>
+<option value="Chutes certos">Chutes certos</option>
+<option value="Chutes na trave">Chutes na trave</option>
+<option value="Chutes para fora">Chutes para fora</option>
+<option value="Chutes bloqueados">Chutes bloqueados</option>
+<option value="Chutes defendidos">Chutes defendidos</option>
+<option value="Passes - Total">Passes - Total</option>
+<option value="Passes completados">Passes completados</option>
+<option value="Passes longos">Passes longos</option>
+<option value="Passes médios">Passes médios</option>
+<option value="Passes curtos">Passes curtos</option>
+<option value="Passes dentro da área">Passes dentro da área</option>
+<option value="Bolas perdidas">Bolas perdidas</option>
+<option value="Bolas recuperadas">Bolas recuperadas</option>
+<option value="Distância corrida - Total">Distância corrida - Total</option>
+<option value="Distância corrida com bola">Distância corrida com bola</option>
+<option value="Distância corrida sem bola">Distância corrida sem bola</option>
+<option value="Faltas">Faltas</option>
+<option value="Defesas">Defesas</option>
+<option value="Escanteios">Escanteios</option>
+<option value="Impedimentos">Impedimentos</option>
+<option value="Ataques">Ataques</option>
+<option value="Jogadas de bola parada">Jogadas de bola parada</option>
+<option value="Cruzamentos">Cruzamentos</option>
+<option value="Carrinhos">Carrinhos</option>
+<option value="Desarmes">Desarmes</option>
+<option value="Cartões amarelos">Cartões amarelos</option>
+<option value="Cartões vermelhos">Cartões vermelhos</option>
+      </select></div><span class="seletor-ordem_jogo">Ordem: <input type="radio" name="ordem_jogo" value="Decrescente" checked onChange="mudaOrdemJogo(this)"> Maiores  |  <input type="radio" name="ordem_jogo" value="Crescente" onChange="mudaOrdemJogo(this)"> Menores
+      </span>
+    <div id="jogos"></div>
+    <script>inicializaJogos();</script>
+</body>
+</html>
